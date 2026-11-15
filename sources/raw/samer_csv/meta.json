@@ -1,0 +1,25 @@
+{
+ "doc_id": "samer_csv",
+ "title": "PSI-101 Experimental table_SAME-R.csv (run and aging index)",
+ "year": null,
+ "authors": [
+  "NASA PSI repository (SAME-R team)"
+ ],
+ "url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Experimental%20table_SAME-R.csv&version=4&redirect=false",
+ "retrieved_utc": "2026-11-15T10:33:44Z",
+ "sha256": "87164b7dc9168a4273c159f7a9f23699afbd06ad97b77974377e79b9bf8a3bef",
+ "bytes": 5674,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.60555/2np7-jv14 (investigation)",
+  "ntrs": null,
+  "psi": "PSI-101",
+  "pmc": null
+ },
+ "license_note": "PSI investigation metadata reports licenseIdentifier CC0-1.0 (Creative Commons Zero v1.0).",
+ "accessible": true,
+ "access_note": "5,674-byte CSV from the audited Model C snapshot; text copy in sources/text/samer_csv.txt. Location = file + row. Manifest sha256 check: MATCH.",
+ "local_path": "external/model_c/data/raw/PSI-101_Experimental table_SAME-R.csv",
+ "text_path": "sources/text/samer_csv.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

@@ -1,0 +1,16 @@
+{
+  "camera_id": "C1",
+  "image_width_px": 1702,
+  "image_height_px": 1226,
+  "nominal_square_mm": 30.0,
+  "square_size_provenance": "source_reported_filename_30mmBlock",
+  "median_square_width_px": 66.0,
+  "mm_per_px_x": 0.45454545454545453,
+  "spacing_count": 92,
+  "spacing_std_px": 2.534237606943596,
+  "value_kind": "derived",
+  "label_provenance": "derived",
+  "procedure": "green-channel threshold crossings on six fixed grid scanlines; retain 45-85px spacings; median",
+  "source_sha256": "520d6c96261e34445cd33d1a19d12bc8c816bc537718b85722a100dde54adc6d",
+  "uncertainty_note": "Spacing scatter is a repeatability diagnostic, not a full physical calibration uncertainty. Nominal grid square tolerance and mapping systematic error unavailable."
+}

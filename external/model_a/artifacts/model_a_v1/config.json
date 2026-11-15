@@ -1,0 +1,297 @@
+{
+  "model_version": "model_a_v1",
+  "algorithm": "random_forest",
+  "material": "PMMA_slab",
+  "features": [
+    "thickness_mm",
+    "width_cm",
+    "velocity_cm_s",
+    "initial_o2_vol_pct"
+  ],
+  "input_units": {
+    "thickness_mm": "mm",
+    "width_cm": "cm",
+    "velocity_cm_s": "cm/s",
+    "initial_o2_vol_pct": "vol%"
+  },
+  "target": "spread_rate_mm_s",
+  "output_unit": "mm/s",
+  "domain": {
+    "thickness_mm": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0
+    },
+    "width_cm": {
+      "type": "numeric",
+      "min": 1.2,
+      "max": 2.2
+    },
+    "velocity_cm_s": {
+      "type": "numeric",
+      "min": 2.0,
+      "max": 21.0
+    },
+    "initial_o2_vol_pct": {
+      "type": "numeric",
+      "min": 17.9,
+      "max": 22.2
+    }
+  },
+  "observed_conditions": [
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 9.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 20.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 15.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 20.8
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 20.0,
+      "initial_o2_vol_pct": 20.8
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 21.8
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 3.0,
+      "initial_o2_vol_pct": 21.8
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 18.9
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 6.0,
+      "initial_o2_vol_pct": 18.9
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 18.9
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 3.0,
+      "initial_o2_vol_pct": 18.9
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 19.1
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 6.0,
+      "initial_o2_vol_pct": 19.1
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 19.1
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 14.0,
+      "initial_o2_vol_pct": 18.0
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 15.0,
+      "initial_o2_vol_pct": 20.1
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 20.1
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 21.0,
+      "initial_o2_vol_pct": 20.0
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 15.0,
+      "initial_o2_vol_pct": 20.0
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 1.2,
+      "velocity_cm_s": 13.0,
+      "initial_o2_vol_pct": 20.0
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 6.0,
+      "initial_o2_vol_pct": 20.8
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 20.8
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 4.0,
+      "initial_o2_vol_pct": 20.8
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 15.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 14.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 22.2
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 20.0,
+      "initial_o2_vol_pct": 21.0
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 19.2
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 3.0,
+      "initial_o2_vol_pct": 19.2
+    },
+    {
+      "thickness_mm": 1.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 2.0,
+      "initial_o2_vol_pct": 19.2
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 5.0,
+      "initial_o2_vol_pct": 18.8
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 4.0,
+      "initial_o2_vol_pct": 18.8
+    },
+    {
+      "thickness_mm": 2.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 3.0,
+      "initial_o2_vol_pct": 18.8
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 17.9
+    },
+    {
+      "thickness_mm": 3.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 8.0,
+      "initial_o2_vol_pct": 17.9
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 19.0
+    },
+    {
+      "thickness_mm": 4.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 6.0,
+      "initial_o2_vol_pct": 19.0
+    },
+    {
+      "thickness_mm": 5.0,
+      "width_cm": 2.2,
+      "velocity_cm_s": 10.0,
+      "initial_o2_vol_pct": 18.0
+    }
+  ],
+  "scientific_warnings": [
+    "Exploratory BASS-II PMMA slab estimate from18 independent samples; not a spacecraft fire-safety certification.",
+    "Initial oxygen is a pre-burn proxy; oxygen and thermal history change within each burn. Uncertainty intervals are not calibrated.",
+    "Burning-side count is excluded because its pre-run availability is not established; unmodeled geometry may confound predictions."
+  ],
+  "source_pdf_sha256": "5ffa911fd9b6356f204646003fb9342e341810dcdfdf5cb15756e7f01ec5f770",
+  "metrics_file": "metrics.json",
+  "environment": {
+    "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.15.3",
+      "joblib": "1.5.1",
+      "matplotlib": "3.10.3",
+      "pdfplumber": "0.11.6"
+    }
+  }
+}

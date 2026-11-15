@@ -1,0 +1,467 @@
+    Properties of Smoke from Overheated Materials in Low-
+                           Gravity
+
+                               David L. Urban1, Gary A. Ruff2 and William Sheredy3,
+                               NASA Glenn Research Center, Cleveland, Ohio 44135
+
+                                           Thomas Cleary4 and Jiann Yang5
+                  National Institute of Standards and Technology, Gaithersburg, Maryland 20899
+
+                                                George Mulholland6
+                             The University of Maryland, College Park, Maryland 20742
+
+                                                          and
+
+                                                Zeng-guang Yuan7
+                      National Center for Space Exploration Research, Cleveland, Ohio 44135
+
+
+             Smoke particle size measurements were obtained under low-gravity conditions by
+         overheating several materials typical of those found in spacecraft. The measurements
+         included integral measurements of the smoke particles and physical sample of the particles
+         for Transmission Electron Microscope analysis. The integral moments were combined to
+         obtain geometric mean particle sizes and geometric standard deviations. These results are
+         presented with the details of the instrument calibrations. The experimental results show
+         that, for the materials tested, a substantial portion of the smoke particles are below 500 nm
+         in diameter.
+
+
+                                                 I. Introduction
+
+A     ppropriate design of fire detection systems requires knowledge of both the expected signature of the events to
+      be detected and the background levels of the measured parameters. Terrestrial fire detection systems have been
+developed based on extensive study of terrestrial fires.1, 2 Unfortunately there is no corresponding data set for
+spacecraft fires and consequently the fire detectors in current spacecraft were developed based upon terrestrial
+designs. There are a number of factors that can be expected to affect the particle size distribution of the smoke from
+spacecraft fires. The absence of buoyant flow in low-gravity increases the residence time in microgravity fires and
+increases the transit time from the reaction zone to the detector.3 Microgravity fires have been found to have
+radically different structure from their 1-g counterparts. The limited options available to respond to a spacecraft fire
+increase the importance of early detection. Finally the materials used in spacecraft are different from typical
+terrestrial applications where smoke properties were previously evaluated. All of these effects can be expected to
+change the smoke particle size distribution. The objective of this work was to make sufficient measurements of
+smoke from spacecraft fires to enable improved design of future detectors.
+
+Smoke Background
+
+
+
+1
+  Branch Chief, Combustion and Reacting Systems Branch, 21000 Brookpark Road, MS 77-5, Senior Member.
+2
+  Advanced Capabilities Project Office, 21000 Brookpark Road, MS 77-7, Associate Fellow.
+3
+  ISS Projects Office, 21000 Brookpark Road, MS 77-5.
+4
+  Engineered Fire Safety Group, 100 Bureau Drive, Stop 8664.
+5
+  Fire Measurements Group Leader, 100 Bureau Drive, Stop 8662.
+6
+  Visiting Professor of Mechanical Engineering, Glenn L. Martin Hall.
+7
+  Staff Scientist, 21000 Brookpark Road, MS 77-5.
+
+                                                         1
+                                 American Institute of Aeronautics and Astronautics
+    Smoke is a general term that encompasses aerosol materials produced by a number of processes. In particular it
+can include unburned, recondensed, original polymer or pyrolysis products that can be either liquid or solid,
+hydrocarbon soot, condensed water vapor, and ash particles. Soot particles dominate the smoke particulate in
+established flaming fires while unburned pyrolysis products and recondensed polymer fragments are produced by
+smoldering and pyrolysis in the early stage of fire growth. Given the constrained space on any spacecraft, the target
+for the fire detection system is necessarily the early phase and not established flaming fires; consequently, the
+primary target for detection is the pyrolysis products and not the soot.
+    Prior spacecraft systems are summarized in more detail in papers by Friedman and Urban.4, 5 In the Mercury,
+Gemini and Apollo missions, the crew quarters were limited and mission durations were short, consequently it was
+considered reasonable that the astronauts would rapidly detect any fire. The Skylab module, however, included
+approximately 30 UV-sensing fire detector.4 These devices were limited to line-of-sight and were reported to have
+difficulties with false alarms. The Space Shuttle Detectors were based upon ionization fire detector technology, the
+most advanced technology available at the time and used an inertial separator designed to eliminate particles larger
+than 1-2 micrometers. The International Space Station (ISS) smoke detectors use near-IR forward scattering,
+rendering them most sensitive to particles larger than a micrometer, outside of the range of sensitivity of the shuttle
+detector. As described by Friedman4 there have been six overheat and failed component failures in the NASA
+Orbiter fleet in addition to several similar incidents that have occurred on the ISS. None of these events spread into a
+real fire but as mission durations increase, the likelihood of failures increases. The experience on Mir in 1997 has
+shown that failure of oxygen generation systems can have significant consequences. As a result, improved
+understanding of spacecraft fire detection is critically needed.6
+    Previous work on smoke particles from low-gravity sources by Urban et al.5 found that the particulate produced
+by low-gravity flames (soot or unburned fuel particles) tends to have larger size particles than in normal gravity.
+Results from the CSD (Comparative Soot Diagnostics) Experiment5 which studied smoke properties in low-gravity
+from several spacecraft materials suggested that liquid smoke particles could achieve sizes larger than 1 µm while
+solid particulate remained in the sub-micrometer range. However, the CSD experiment did not produce sufficient
+data concerning the size of the liquid smoke particles to guide detector design. The combined impact of these limited
+results and theoretical predictions is that, as opposed to extrapolation from 1-g data, direct knowledge of low-g
+combustion particulate is needed for more confident design of smoke detectors for spacecraft.
+
+                                            II. SAME Experiment
+    To address the limited data from the CSD experiment concerning the likely size of spacecraft smoke particulate,
+another experiment the Smoke Aerosol Measurement Experiment (SAME) was developed. The SAME experiment
+sought to avoid the problems experienced by the CSD experiment by obtaining the particulate size statistics on-orbit
+with a reduced dependence upon sample return to Earth. This is a challenging endeavor because existing aerosol
+instrumentation is typically large, incompatible with spacecraft experiment constraints, and may require substantial
+sample return to Earth. As will be described below, an alternative approach was employed that used three discrete
+instruments to measure separate moments of the size distribution. When combined, these moments provide useful
+aggregate statistics of the size distribution. The measurements were made using smoke generated by overheated
+spacecraft materials in much the same manner as the CSD experiment however the sample temperature, flow field,
+and particle aging time were more rigorously controlled.
+
+A. Moment Method
+   The approach used by the SAME experiment is termed the ‘moment method’ for convenience.7 As will be
+described below, the approach consists of measuring three moments of the size distribution (zeroth, first and third)
+and using the properties of the log-normal distribution to estimate the geometric mean diameter and the standard
+deviation.
+   The average particle size and an estimate of the width of the size distribution will be estimated from various
+moments of the size distribution. The number distribution, fN(D), is defined as
+
+                                                                 dN
+                                                    f N ( D)                                                       (1)
+                                                                 dD
+where dN is the number of particles per cm3 with diameter between D and D + dD. The moments of interest consist
+of the number concentration, M0, the first moment M1, and the volume or mass concentration moment, M3 and are
+defined as
+
+                                                         2
+                                 American Institute of Aeronautics and Astronautics
+                                            M i   D i f N ( D )dD i  0,1,3                                       (2)
+
+    When i=0, the zeroth moment of the distribution, M0, equation (2) is simply the number of particles per unit
+volume. In the SAME experiment, this was measured using a condensation nuclei counter. The first moment, i=1,
+can also be thought of as the “diameter concentration” or integrated diameter per unit volume and is approximately
+proportional to the ionization detector moment (signal). For particles in the Mie scattering regime, particles sizes
+from 0.3 to about 3 (~0.2 μm to 2.0 μm for a red laser), the light scattering signal is approximately proportional to
+the third moment, i=3. From these moments, and a measurement of M0 using a condensation particle counter, two
+mean diameters can be computed: the count (arithmetic) mean diameter D0.5 or d , which is equal to M1/M0 and the
+diameter of average mass D1.5 or d m , which is equal to (M3/M0)1/3. The basis for the subscript naming convention
+for D0.5 and D1.5 will be discussed later). The log-normal size distribution is widely used for describing the size
+distribution of aerosols including non-flaming smoke because for most aerosols; the bulk of the number
+concentration is associated with smaller particles.8, 9 The number distribution fN(D) for the lognormal distribution is
+expressed as follows:
+
+                                                     Nt             ln D  ln Dg 2 
+                                 f N ( D)                      exp                                              (3)
+                                            (2 )1 / 2 D ln  g         2 ln 2
+                                                                                     
+                                                                                 g   
+
+where Nt is the total number concentration of the aerosol (=M0), and Dg and g are the geometric mean diameter and
+geometric standard deviation defined by
+
+                                                                          
+                                        ln Dg   ln Df N ( D)dD /  f N dD                                         (4)
+                                                    0                      0
+
+
+                                                                                              1/ 2
+                                                                           
+                                                                                          
+                               ln  g    (ln D  ln D g ) 2 f N ( D )dD /  f N ( D)dD 
+                                        0                                   0                                     (5)
+
+   For the log-normal distribution, one finds that the various diameter definitions given above are related to the
+geometric mean number diameter, Dg, via the equation:8 9
+
+                                               D p  Dg exp( p ln 2  g )                                           (6)
+
+    For the count mean diameter, D0.5, and the diameter of average mass, D1.5, the corresponding values of p are 0.5
+and 1.5. Fig. 1 shows a typical log-normal distribution for a Dg=1.0 and g= 1.6. For this distribution, the
+corresponding values of D0.5 and D1.5 are1.17 m and 1.39 m, respectively. Using equation (6), one can relate g to
+the ratio of D1.5 and D0.5 via the equation:
+
+                                             g  expln( D1.5 / D0.5 ) 1 / 2                                      (7)
+
+
+
+
+                                                         3
+                                 American Institute of Aeronautics and Astronautics
+    By combining these three moments it is possible
+to compute three mean diameters of the size
+distribution and the geometric standard deviation.
+Validation of this approach is discussed in Cleary,
+Weinert and Mulholland.7 These statistics provide a
+strong basis for design of spacecraft smoke
+detectors.
+
+B. Instruments
+    These measurements were made using an
+assembly of three separate instruments. Two are
+industrial hygiene instruments manufactured by TSI
+and one is a modified residential smoke detector.
+    The zeroth-moment instrument is a condensation         Figure 1: Diameters for a log-normal distribution with
+nuclei counter P-Trak™ (TSI Inc.). This device             Dg=1.0 and g= 1.6.
+operates by passing the aerosol-laden particle stream
+through a region saturated with isopropanol vapor
+and then into a cooler region where the vapor
+condenses onto the particles increasing their diameter such that they can be readily counted by a light scattering
+device. This instrument is very robust and operates over a range of 0 to 105 particles/cm3 and 20 nm to 1 μm
+diameter. Some dilution is required, since the smoke concentration ranges from about 0.5 × 106 to 5 × 106 particles /
+cm3 There was also a concern that the isopropanol condensate would not return to the wick in low-gravity.5 To
+mitigate this issue, the condensing section of the device was modified with very small grooves to improve
+conductance of the condensate back to the wick. These changes were tested in a separate space experiment with
+good results indicating the modified device could be used successfully in low gravity.5
+    The first-moment instrument is the ionization chamber from a residential smoke detector. This device uses an
+alpha-particle emitter to generate ions in a region within a DC electric field. The drift of the ions in the electric field
+results in a current. The presence of particulate reduces the current as a result of the attachment of the ions to the
+particulate. The mobility of the charged aerosol is too small for it to be collected on the ionization chamber
+electrode. The required particle concentrations are on the order of 105 particles/cm3 and no sample dilution was
+required.
+    The third-moment instrument is a light scattering device DustTrak™ (TSI Inc.). The device uses a 90 degree
+light scattering signal to quantify the aerosol mass density. For terrestrial dust particulate this signal correlates well
+with the mass concentration, however additional compensation will be needed to account for the range of particle
+sizes that will be seen in the SAME experiment. The device’s operating range is from 0.001 mg/m3 to 100 mg /m3.
+These devices are equipped with an aerodynamic impactor at the inlet which captures particles larger than the
+selected size. The SAME experiment included 2 DustTraks™ one with a 1 μm impactor and one with a 10 μm
+impactor. The difference in the signal from these two devices provided a measure of the fraction of the particulate
+that was larger than 1 μm. In some cases dilution was required owing to the high smoke concentration levels.
+    A schematic of the assembled hardware
+appears in Fig. 2. The system was installed
+in the Microgravity Science Glovebox, an
+ISS facility that provides many resources
+including: containment, power, data, video
+and uplink commanding. Smoke was
+generated by overheating a small sample of
+material in the smoke generation duct for
+approximately 60 seconds. During this
+interval, controlled flow was induced by a
+moving piston in the aging chamber which
+drew the smoke into the chamber. The
+smoke was held in the chamber for a
+predetermined time, allowing the particles
+to coagulate. After a specified aging time,       Figure 2. Schematic of the SAME hardware.
+the smoke was then pushed by the piston
+into the diagnostics duct where the moment instruments made their measurements. Also installed in the diagnostics
+
+                                                          4
+                                  American Institute of Aeronautics and Astronautics
+duct were space shuttle and ISS smoke                                                                               600000
+
+detectors. As the smoke was monitored
+by the moment instruments, a sample of                                                                              500000
+
+the smoke particles was deposited on
+
+
+
+
+                                                                           TSI 3022A reference (number count/ cc)
+Transmission Electron Microscope (TEM)                                                                              400000
+
+grid via a thermal precipitator which uses
+thermophoresis to deposit the particles on                                                                          300000
+                                                                                                                                                                                                                                    100 nm
+                                                                                                                                                                                                                                    600 nm
+the grids.                                                                                                                                                                                                                          1200 nm
+
+
+    Calibration of these instruments was                                                                            200000
+essential to properly interpret the flight
+data and was performed on the ground
+                                                                                                                    100000
+before the flight. Calibration was
+accomplished using two different aerosol
+generators one using mono-disperse
+                                                                                                                              0
+                                                                                                                                  0    50000   100000           150000         200000            250000          300000   350000
+
+particle generation using dioctyl phthalate                                                                                                                Ptrak output (number count/cc)
+
+
+(DOP) according to the approach by           Figure 3: Ptrak Calibration results with Mono disperse DOP
+Mulholland and Liu10 and the other using     droplets.
+polystyrene spheres. The monodisperse
+droplet generator functioned by producing a spray of DOP diluted with isopropanol which is then evaporated and
+recondensed producing monodisperse droplets. The droplet size is controlled by the DOP dilution level. The
+generator will operate stably for tens of                                  500
+minutes. The aerosol from the generator
+was sampled simultaneously by the                                          450
+
+
+SAME instrument under test and a                                           400
+
+reference standard. For the number
+count, the reference instrument was a                                      350
+
+
+
+
+                                            EA D Output (first m om ent)
+TSI 3022 particle counter, for the Mass                                    300                                                                                                                                                     100 nm
+
+Concentration, a Tapered Element                                           250
+                                                                                                                                                                                                                                   150 nm
+                                                                                                                                                                                                                                   300 nm
+
+Oscillating Microbalance and for the                                                                                                                                                                                               600 nm
+                                                                                                                                                                                                                                   750 nm
+
+first moment a TSI Electrical Aerosol                                      200                                                                                                                                                     1200 nm
+
+
+Detector was used. The results for the P-                                  150
+
+Trak are shown in Fig. 3. As the number
+concentration increased, the effect of the                                 100
+
+
+
+particle diameter became more evident.                                                     50
+
+Separate correlations were developed for                                                                            0
+each particle size and the closest                                                                                      4.5                5              5.5                     6                       6.5               7
+
+
+correlation was used to analyze the flight
+                                                                                                                                                       Ionization Chamber output (volts)
+
+
+
+data based on the initial estimates of the  Figure 4: Ion Chamber Calibration results with Mono disperse DOP
+average particle size.                      droplets.
+    The first moment device, the ion                                       180
+
+chamber showed little effect of particle
+size as seen in Fig 4. Consequently a
+                                                                           160
+
+
+
+single correlation was used for all                                        140
+
+particle sizes.
+    The third moment device (TSI-Dust                                      120
+
+
+Trak) is theoretically predicted to show                                                                                                                                                                                           100 nm
+
+
+
+
+                                            TEOM (m g / m3)
+                                                                           100                                                                                                                                                     150 nm
+
+non-monotonic behavior as particle size                                                                                                                                                                                            300 nm
+                                                                                                                                                                                                                                   600 nm
+
+is increased. The calibration results for                                                  80                                                                                                                                      750 nm
+                                                                                                                                                                                                                                   1200 nm
+the DustTrak shown in Fig. 5 was                                                           60
+obtained using monodisperse DOP
+particles and indicates a strong                                                           40
+
+
+dependence on particle size. This
+                                                                                           20
+dependence becomes even more
+complicated when the particle size                                                                                  0
+
+distribution is polydisperse.
+                                                                                                                        0             50         100                 150                   200                  250        300
+                                                                                                                                                           DustTrak output (mg/m3)
+
+
+
+                                          Figure 5: Dust Trak results with Mono disperse DOP droplets.
+                                                      5
+                              American Institute of Aeronautics and Astronautics
+    To address this calibration while minimizing the assumptions required about the particle size distribution, a
+model of the operation of the DustTrak instrument was developed using Mie scattering theory. Using the zeroth and
+first moment data along with the refractive index of the particulate, the third moment was predicted by assuming a
+log-normal distribution and making initial guesses for the geometric mean diameter and the geometric standard
+deviation. The output of the DustTrak was then predicted by the scattering model and the model proceeded in an
+iterative manner until the predicted DustTrak output matched the actual output. The geometric mean diameter and
+geometric standard deviation were those that produced convergence of the predicted and measured DustTrak output.
+In some cases, convergence was not obtained and for these cases, the geometric mean diameter can not be
+determined. This non-convergence is currently under investigation but may be due to the presence of a bimodal
+particle size distribution.
+
+C. Experimental Results
+    Overall 30 sample materials were
+tested. These were comprised of six
+samples each of 5 materials: Teflon™,
+Kapton™, silicone rubber, cellulose
+(lamp wick), and dibutyl-phthalate
+deposited on a porous wick. The TEM
+girds recovered from the thermal
+precipitators     were      unfortunately
+contaminated with extraneous particles
+whose origin is currently under
+investigation. Despite the contamination,
+the lamp wick and Teflon samples
+produced distinct particles consistent
+with ground based experience. Typical       Figure 6: Test point 32 Lamp wick         Test point 26, Teflon
+particles are shown in Fig. 6 Geometric
+Mean, Arithmetic Mean, and Average
+Mass diameter results from the moment instruments for baseline runs are presented in Table 1.
+
+                                 Geometric Mean                Arithmetic Mean
+                                    Diameter                       Diameter               Diameter of Average
+                                  (micro meters)                (micro meters)            Mass (micro meters)
+        Kapton                        0.080                          0.105                       0.172
+       Lamp wick                      0.186                          0.227                       0.420
+         Silicone                      0.189                          N/A                           N/A
+          Teflon                       0.159                         0.205                         0.219
+
+   Table 1:Diameter results from baseline runs. The Silicone results did not converge for these conditions
+
+   Overall, the Teflon and Kapton particles were very small with limited increase in the size from the diameter of
+average mass compared to the arithmetic mean diameter. The Lamp wick results exhibited substantially larger
+diameter of average mass. As reported previously,11 the Dust Trak results for Lamp wick and Silicone demonstrated
+substantial portions of the particle distribution possessed aerodynamic diameters larger than 1 micrometer. The
+small diameters for the Kapton and Teflon will make detection of this smoke challenging for light scattering
+devices, on the other hand the large sizes seen with the Lamp wick and Silicone would generate very large signals
+on a light scattering system, suggesting that detection of these particles against the background environment will
+require a detection system capable of measuring more than one moment of the particle size distribution.
+
+
+                                          III. Acknowledgments
+   The support of the SAME experiment team and the crews of ISS increments 10, 13, and 15 are gratefully
+acknowledged. The SAME project was conducted through the ISS Exploration Research Project of the Exploration
+Technology Development Program. The support of this program is also acknowledged.
+
+
+                                                        6
+                                American Institute of Aeronautics and Astronautics
+    Certain commercial entities, equipment, or materials may be identified in this document in order to describe an
+experimental procedure or concept adequately. Such identification is not intended to imply recommendation or
+endorsement by the National Aeronautics and Space Administration or the National Institute of Standards and
+Technology, nor is it intended to imply that the entities, materials, or equipment are necessarily the best available for
+the purpose.
+
+                                                  IV. References
+   1
+      Bukowski, R.W. and G.W. Mulholland, “Smoke Detector Design and Smoke Properties,” NBS Technical Note 973, 1978.
+   2
+      Bukowski, R. W, R. D. Peacock, J. D. Averill, T. G. Cleary, N. P. Bryner, W. D. Walton, P. A. Reneke, and E. D.
+Kuligowski, “Performance of Home Smoke Alarms, Analysis of the Response of Several Available Technologies in Residential
+Fire Settings,” NIST Technical Note 1455, December 2003.
+    3
+      Brooker, J. E., Urban, D.L., Ruff, G.A., “ISS Destiny Laboratory Smoke Detection Model”, 07ICES-113, 2007
+International Conference on Environmental Systems, Chicago, Ill. July 2007.
+    4
+      Friedman, R., “Fire Safety Practices and Needs in Human-Crew Spacecraft,” Journal of Applied Fire Science, Vol. 2, 1992,
+pp. 243-259.
+    5
+      Urban, D.L., Griffin D., Ruff, G.A., Cleary, T., Yang, J., Mulholland, G., Yuan, Z.G., “Detection of Smoke from
+Microgravity Fires”, 2005 International Conference on Environmental Systems, Rome Italy, Paper # 2005-01-2930 July 2005,
+SAE Transactions, pp 375-384.
+    6
+      Ruff, G.A., D.L. Urban, and M.K. King, “A Research Plan for Fire Prevention Detection and Suppression,” AIAA-2005-
+0341, 43rd Aerospace Sciences Meeting and Exhibit, Reno, NV, January 9-12, 2005.
+    7
+      Cleary, T.G., D W. Weinert, and G.W. Mulholland, ”Moment Method for Obtaining Particle Size Measures of Test
+Smokes", Natl. Inst. Stand. Technol., NISTIR 7050, 2003.
+    8
+      Raabe, O.G., J. Aerosol Sci., Vol. 2, 1971, p. 289.
+    9
+      Reist, P.C., Introduction to Aerosol Science, Macmillan Pub. Co., NY, NY, 1984.
+    10
+       Mulholland, G.W. and Liu, B.Y.H., 1980. Response of Smoke Detectors to Monodisperse Aerosols, J. Research of the
+National Bureau of Standards, 85:223-238.
+    11
+       Urban, D.L. Ruff, G.A., Mulholland, G.W., Cleary, T.G., Yang, J.C., Yuan, Z.G., “Measurement of Smoke Particle Size
+under Low-Gravity Conditions,” 2008 International Conference on Environmental Systems, Chicago, IL, Paper 2008-01-2089.
+
+
+
+
+                                                           7
+                                   American Institute of Aeronautics and Astronautics
+

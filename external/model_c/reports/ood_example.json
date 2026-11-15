@@ -1,0 +1,66 @@
+{
+  "request": {
+    "airflow_cm_s": 0.0,
+    "resistance_ratio": 1.22,
+    "heating_s": 10.0,
+    "aging_s": 1.0,
+    "mixing_s": 0.0,
+    "material": "Kapton",
+    "units": {
+      "airflow_cm_s": "cm/s",
+      "resistance_ratio": "1",
+      "heating_s": "s",
+      "aging_s": "s",
+      "mixing_s": "s"
+    }
+  },
+  "response": {
+    "predicted_alarm_level_reached": true,
+    "value_kind": "predicted",
+    "target": "recorded ISS scatter >= 2.0 V",
+    "units": "boolean",
+    "model_version": "1.0.0",
+    "applicable_domain": {
+      "materials": [
+        "Kapton",
+        "Lampwick",
+        "Pyrell",
+        "Silicone",
+        "Teflon"
+      ],
+      "ranges": {
+        "airflow_cm_s": [
+          0.0,
+          8.1
+        ],
+        "resistance_ratio": [
+          1.22,
+          1.48
+        ],
+        "heating_s": [
+          10.0,
+          120.0
+        ],
+        "aging_s": [
+          1.0,
+          720.0
+        ],
+        "mixing_s": [
+          0.0,
+          8.0
+        ]
+      },
+      "campaigns": [
+        "SAME",
+        "SAME-R"
+      ]
+    },
+    "ood": true,
+    "ood_reason": "Sparse same-material condition coverage",
+    "nearest_distance": 10.029008507411396,
+    "ood_threshold": 9.321957129180975,
+    "nearest_training_test_id": "SAME:47",
+    "uncertainty": null,
+    "interpretation": "Experimental response estimate; no alarm timing or operational safety guarantee."
+  }
+}

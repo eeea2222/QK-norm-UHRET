@@ -1,0 +1,3714 @@
+{
+ "source_key": "meyer2018",
+ "documents": [
+  {
+   "doc_id": "meyer2018",
+   "title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+   "year": 2018,
+   "authors": [
+    "Marit E. Meyer",
+    "David L. Urban",
+    "George W. Mulholland",
+    "Victoria Bryg",
+    "Zeng-Guang Yuan",
+    "Gary A. Ruff",
+    "Thomas Cleary",
+    "Jiann Yang"
+   ],
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+   "local_path": "/home/efeai/Desktop/NasaSpaceApps/sources/raw/meyer2018/PMC7918997.html",
+   "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/meyer2018.txt",
+   "sha256": "65560610521c8db81d9f3c5c6fb99902d0d863521d0050098d4ff65a77fecf60",
+   "page_count": null,
+   "identifiers": {
+    "doi": "10.1016/j.firesaf.2018.04.004",
+    "ntrs": null,
+    "psi": null,
+    "pmc": "PMC7918997",
+    "pmid": "33654340",
+    "nihmsid": "NIHMS1658855",
+    "elsevier_pii": "S0379711216302181"
+   },
+   "accessible": true,
+   "access_note": "Publisher page (sciencedirect) was blocked in the Model C audit; the PMC author manuscript was re-fetched with curl on 2026-11-15 and differs from the Model C snapshot copy (external/model_c/data/references/PMC7918997.html) only in two session-token lines (ncbi_phid meta and csrfmiddlewaretoken). Identity confirmed via citation_* meta tags (title, 8 authors, Fire safety journal, vol 98, DOI 10.1016/j.firesaf.2018.04.004, PMID 33654340) and via Crossref API record saved as crossref.json (title, same 8 authors, Fire Safety Journal 98, pages 74-81, issued 2018-06). The author manuscript may differ in wording from the final published version (the NIST record's abstract wording differs slightly). HTML source: pdf_page is null; locations are section/figure/table names."
+  },
+  {
+   "doc_id": "nist2018_pub",
+   "title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (NIST publication record)",
+   "year": 2018,
+   "authors": [
+    "Jiann C. Yang",
+    "Thomas G. Cleary",
+    "Marit Meyer",
+    "D L. Urban",
+    "George W. Mulholland",
+    "Victoria Bryg",
+    "Zeng-guang Yuan",
+    "Gary A. Ruff"
+   ],
+   "url": "https://www.nist.gov/publications/evaluation-spacecraft-smoke-detector-performance-low-gravity-environment",
+   "local_path": "/home/efeai/Desktop/NasaSpaceApps/sources/raw/nist2018_pub/page.html",
+   "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/nist2018_pub.txt",
+   "sha256": "a922cfa110098a8b7ddc8c461e81b2c287a4635d6210da0a210b2835ddea95ed",
+   "page_count": null,
+   "identifiers": {
+    "doi": "10.1016/j.firesaf.2018.04.004",
+    "ntrs": null,
+    "psi": null,
+    "pmc": null
+   },
+   "accessible": true,
+   "access_note": "Fetched with curl (HTTP 200). Author order on the NIST page lists NIST authors first; the paper's author order (Meyer first) is in meyer2018. The page links only to the DOI (no NIST-hosted PDF found on the page)."
+  },
+  {
+   "doc_id": "nist2018_news",
+   "title": "NIST/NASA Study Shows One Detector Doesn't 'Fit All' for Smoke in Spacecraft (NIST news release)",
+   "year": 2018,
+   "authors": [
+    "NIST Public Affairs (no byline on page)"
+   ],
+   "url": "https://www.nist.gov/news-events/news/2018/05/nistnasa-study-shows-one-detector-doesnt-fit-all-smoke-spacecraft",
+   "local_path": "/home/efeai/Desktop/NasaSpaceApps/sources/raw/nist2018_news/page.html",
+   "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/nist2018_news.txt",
+   "sha256": "e3ff7b0adb920e5a3b2aafeaf3b78ecd01562d0219baa7808fcf8ff48b330ca8",
+   "page_count": null,
+   "identifiers": {
+    "doi": null,
+    "ntrs": null,
+    "psi": null,
+    "pmc": null
+   },
+   "accessible": true,
+   "access_note": "Fetched with curl (HTTP 200). Press release: secondary/interpretive source about the paper."
+  }
+ ],
+ "items": [
+  {
+   "item_id": "meyer2018-01",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "The two spacecraft smoke detectors did not successfully detect every type of smoke",
+   "summary": "Headline finding: neither of the two spacecraft smoke detectors carried in the ISS experiment detected every smoke type produced by overheating common spacecraft materials.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "two spacecraft smoke detectors (Space Shuttle ionization; ISS light-scattering)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Summary statement; the per-detector / per-material breakdown is in Section 3.2 and Figure 9. Refers to signals below alarm thresholds in the SAME duct, not to alarms during real events."
+  },
+  {
+   "item_id": "meyer2018-02",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "next generation of spacecraft fire detectors must be improved and tested against smoke from relevant",
+   "summary": "The authors conclude that the next generation of spacecraft fire detectors needs to be improved and should be tested against smoke from materials actually relevant to spacecraft.",
+   "category": "recommendation",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Authors' recommendation derived from SAME detector results; it does not specify a test protocol, detector technology, or acceptance criteria."
+  },
+  {
+   "item_id": "meyer2018-03",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "not significantly different from smoke particles generated in equivalent experiments performed in normal gravity",
+   "summary": "Smoke particles from the ISS experiment varied in morphology and average diameter by material, but the authors report they were not significantly different from particles made in equivalent normal-gravity tests.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity vs normal gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Equivalence is qualified in Section 3.1 to flow velocities of about 8.1 cm/s or higher; at low or zero flow the authors expect low-g and 1-g smoke to differ."
+  },
+  {
+   "item_id": "meyer2018-04",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.0. Introduction",
+   "anchor_quote": "All existing spacecraft smoke detectors have been designed based on fire data from experiments",
+   "summary": "The authors state that all existing spacecraft smoke detectors were designed from normal-gravity fire data, and that terrestrial detection knowledge (built on UL standard fuels) does not transfer directly to spacecraft because of the closed volume, the need to detect pre-ignition oxidative pyrolysis early, the absence of buoyant smoke transport, and different cabin materials.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Framing statement by the authors (citing Bukowski refs 1-3); not an experimental result."
+  },
+  {
+   "item_id": "meyer2018-05",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.0. Introduction",
+   "anchor_quote": "the latter rapidly reduces the concentration, making detection particularly challenging",
+   "summary": "Without buoyancy, smoke may stay concentrated near its source and grow by coagulation (aging), which changes particle size and hence detector response, or it may be spread through the cabin by ventilation, which quickly dilutes it and makes detection hard.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (general)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Qualitative physical reasoning in the introduction; no measurement attached."
+  },
+  {
+   "item_id": "meyer2018-06",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.0. Introduction",
+   "anchor_quote": "This experiment was flown twice on the International Space Station (ISS), in 2007 and 2010",
+   "summary": "SAME (Smoke Aerosol Measurement Experiment) flew twice on the ISS (2007, 2010); ground tests with identical smoke-generation and measurement hardware were run during and after the flights, and later ground tests with a research-grade aerosol instrument measured full size distributions for the five materials (refs 4, 5).",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2007,
+     "unit": "year",
+     "meaning": "first ISS flight (SAME-1)",
+     "verbatim": "2007"
+    },
+    {
+     "value": 2010,
+     "unit": "year",
+     "meaning": "second ISS flight (SAME-2)",
+     "verbatim": "2010"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS) and normal-gravity ground tests",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Ground-test details (refs 4, 5: Aerosol Sci. Tech. 49(5), 2015) are not reproduced in this paper."
+  },
+  {
+   "item_id": "meyer2018-07",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.1. Spacecraft Fire Detector Background",
+   "anchor_quote": "were reported to have difficulties with false alarms",
+   "summary": "Historical note: Skylab (1970s) used approximately 30 UV-sensing fire detectors that were restricted to line of sight and were reported to suffer from false alarms.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [],
+   "detector": "UV-sensing fire detectors (Skylab)",
+   "numbers": [
+    {
+     "value": 30,
+     "unit": "detectors",
+     "meaning": "UV-sensing fire detectors on Skylab",
+     "verbatim": "approximately 30"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Secondary citation of Friedman [6]; not SAME data; no false-alarm counts given."
+  },
+  {
+   "item_id": "meyer2018-08",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.1. Spacecraft Fire Detector Background",
+   "anchor_quote": "An inertial separator was designed to eliminate particles larger than 1 to 2",
+   "summary": "The Space Shuttle smoke detectors used ionization technology (the most advanced at the time) and had an inertial separator intended to keep particles larger than about 1-2 micrometres out of the sensing volume.",
+   "category": "definition",
+   "investigation": null,
+   "materials": [],
+   "detector": "Space Shuttle detectors (ionization)",
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "um",
+     "meaning": "lower bound of particle size removed by inertial separator",
+     "verbatim": "1 to 2 μm"
+    },
+    {
+     "value": 2,
+     "unit": "um",
+     "meaning": "upper bound of particle size removed by inertial separator",
+     "verbatim": "1 to 2 μm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design description; the paper does not quantify the separator's effect on SAME results."
+  },
+  {
+   "item_id": "meyer2018-09",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.1. Spacecraft Fire Detector Background",
+   "anchor_quote": "The International Space Station (ISS) smoke detectors use near-IR forward light scattering",
+   "summary": "The ISS smoke detectors work by near-infrared forward light scattering, which the authors describe as more sensitive to particles larger than 0.3 micrometres.",
+   "category": "definition",
+   "investigation": null,
+   "materials": [],
+   "detector": "ISS smoke detectors (near-IR forward light scattering)",
+   "numbers": [
+    {
+     "value": 0.3,
+     "unit": "um",
+     "meaning": "particle size above which ISS detector is more sensitive",
+     "verbatim": "larger than 0.3 μm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design description; the news release calls this the photoelectric ISS detector."
+  },
+  {
+   "item_id": "meyer2018-10",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.1. Spacecraft Fire Detector Background",
+   "anchor_quote": "there were six overheat and failed component events in the NASA Space Shuttle fleet",
+   "summary": "Context on incidents: six overheat/failed-component events in the Shuttle fleet (per Friedman), several ISS odor/smoke events (lamp, smoldering polymeric bushing, water recovery system twice, failed pressure-suit micro-pump), none of which became a real fire; the worst was the 1997 Mir oxygen-generator fire.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 6,
+     "unit": "events",
+     "meaning": "Space Shuttle overheat/failed component events",
+     "verbatim": "six"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Secondary sources (refs 6, 8, 9 incl. a personal communication). The paper prints 'ISS Expedition 18, September 2006' for the bushing event; date/expedition not verified here."
+  },
+  {
+   "item_id": "meyer2018-11",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "1.1. Spacecraft Fire Detector Background",
+   "anchor_quote": "there is still a critical need for improved understanding of spacecraft fires and improved detection",
+   "summary": "The authors argue that, as mission durations grow and failures become more likely, better understanding of spacecraft fires and better detection remain critical needs.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "General statement of need (citing Ruff et al. [10]); not tied to a specific experiment."
+  },
+  {
+   "item_id": "meyer2018-12",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.0. Methods",
+   "anchor_quote": "The goal of SAME was to generate repeatable smoke and obtain particle size statistics on-orbit",
+   "summary": "SAME aimed to make repeatable smoke on orbit and get particle-size statistics without relying only on sample return, using three small instruments that each measure a different moment of the size distribution, with controlled sample temperature, flow and aging time. SAME-1 flew in 2007 and SAME-2 in 2010.",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2007,
+     "unit": "year",
+     "meaning": "SAME-1",
+     "verbatim": "2007 (SAME-1)"
+    },
+    {
+     "value": 2010,
+     "unit": "year",
+     "meaning": "SAME-2",
+     "verbatim": "(SAME-2) in 2010"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Describes the experiment design; 'SAME' in the paper means both flights unless a flight number is given."
+  },
+  {
+   "item_id": "meyer2018-13",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.1. Moment Method",
+   "anchor_quote": "the approach consists of measuring three moments of the size distribution (zeroth, first and third)",
+   "summary": "The moment method measures the zeroth (number), first (diameter) and third (volume/mass) moments; count mean diameter (M1/M0) and diameter of average mass ((M3/M0)^1/3) need no distribution assumption, while the geometric mean diameter and geometric standard deviation require assuming a lognormal distribution.",
+   "category": "definition",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Method definition; validation is cited to Cleary et al. NISTIR 7050 [11] and Meyer et al. [4]."
+  },
+  {
+   "item_id": "meyer2018-14",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments",
+   "anchor_quote": "Unfortunately, they all show material or size-dependent behavior.",
+   "summary": "All three commercial instruments used for the moments (hardened/re-packaged for flight, chosen early for simplicity, low power and small size) respond in a material- or size-dependent way.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Authors' stated instrument limitation; it applies to the moment instruments (P-Trak, ionization chamber, DustTrak), not to the two spacecraft smoke detectors."
+  },
+  {
+   "item_id": "meyer2018-15",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments",
+   "anchor_quote": "which is a condensation particle counter that was modified for use in space",
+   "summary": "Zeroth moment: a P-Trak condensation particle counter, modified with small wall grooves because its isopropanol condensate does not drain back to the wick in low gravity; a Dynamic Diluter was added so it would not saturate.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Low-gravity instrument adaptation; the paper says the modification was tested in a separate space experiment with good results."
+  },
+  {
+   "item_id": "meyer2018-16",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments",
+   "anchor_quote": "The first moment instrument is the ionization chamber from a residential smoke detector",
+   "summary": "First moment: an ionization chamber taken from a residential smoke detector (Am-241 source), calibrated to estimate M1; it needs particle concentrations of order 10^5 per cm^3 for adequate signal-to-noise and no dilution.",
+   "category": "definition",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": "ionization chamber from a residential smoke detector (first-moment instrument)",
+   "numbers": [
+    {
+     "value": 100000.0,
+     "unit": "particles/cm^3",
+     "meaning": "minimum concentration for adequate signal-to-noise",
+     "verbatim": "on the order of 10^5 particles/cm^3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "This is a measurement instrument, distinct from the Space Shuttle ionization smoke detector whose alarm performance was evaluated."
+  },
+  {
+   "item_id": "meyer2018-17",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments",
+   "anchor_quote": "Material-specific calibrations and corrections were needed to account for the range of particle sizes",
+   "summary": "Third moment: a DustTrak 90-degree light-scattering nephelometer calibrated on Arizona Test Dust; it needed material-specific calibration factors and particle density to give M3, because its response is not inherently proportional to mass. SAME-1 carried two DustTraks with 1 um and 10 um impactor inlets.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": "DustTrak (third-moment instrument)",
+   "numbers": [
+    {
+     "value": 90,
+     "unit": "degree",
+     "meaning": "scattering angle",
+     "verbatim": "90°"
+    },
+    {
+     "value": 1,
+     "unit": "um",
+     "meaning": "impactor cut size (one DustTrak)",
+     "verbatim": "1 μm impactor"
+    },
+    {
+     "value": 10,
+     "unit": "um",
+     "meaning": "impactor cut size (other DustTrak)",
+     "verbatim": "10 μm impactor"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Calibration factors with uncertainty are in Mulholland et al. [5], not in this paper."
+  },
+  {
+   "item_id": "meyer2018-18",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments (SAME hardware description)",
+   "anchor_quote": "a rising piston drew smoke into a 6 liter aging chamber",
+   "summary": "Sample heated about 60 s in the smoke-generation duct while a rising piston drew smoke into a 6 L aging chamber; half was pushed almost immediately to the instruments (unaged), the rest after a preset aging period.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 6,
+     "unit": "L",
+     "meaning": "aging chamber volume",
+     "verbatim": "6 liter"
+    },
+    {
+     "value": 60,
+     "unit": "s",
+     "meaning": "sample heating duration",
+     "verbatim": "approximately 60 sec"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": 60,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Hardware description for the space experiments; heating duration is approximate."
+  },
+  {
+   "item_id": "meyer2018-19",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments (SAME hardware description)",
+   "anchor_quote": "The SAME hardware system was installed in the Microgravity Science Glovebox (MSG)",
+   "summary": "SAME ran inside the ISS Microgravity Science Glovebox, which supplied power, data, video, commanding and containment of the smoke; software ran the sequence after the crew inserted the sample carousel.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "The paper does not state the gas composition (O2 %) or pressure inside the glovebox during runs (within the examined text); those fields are left null."
+  },
+  {
+   "item_id": "meyer2018-20",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments (SAME hardware description)",
+   "anchor_quote": "A small cylindrical sample of material (approximately 0.5 cm diameter and 1.3 cm long)",
+   "summary": "Samples were small cylinders about 0.5 cm in diameter and 1.3 cm long, heated about 60 s by a wrapped stainless-steel wire held at constant resistance by feedback, keeping wire temperature within a few degrees Celsius of a material-specific target.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 0.5,
+     "unit": "cm",
+     "meaning": "sample diameter",
+     "verbatim": "approximately 0.5 cm"
+    },
+    {
+     "value": 1.3,
+     "unit": "cm",
+     "meaning": "sample length",
+     "verbatim": "1.3 cm"
+    },
+    {
+     "value": 60,
+     "unit": "s",
+     "meaning": "heating duration",
+     "verbatim": "approximately 60 sec"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": 60,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Temperatures are wire temperatures inferred from resistance; per-run values appear only in Table 1 rows."
+  },
+  {
+   "item_id": "meyer2018-21",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "2.2. Instruments (SAME hardware description)",
+   "anchor_quote": "Space shuttle and ISS smoke detectors were exposed to smoke in the duct.",
+   "summary": "Both spacecraft smoke detectors were exposed to the smoke inside the SAME diagnostics duct, alongside the moment instruments.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "Space shuttle and ISS smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Exposure was inside the experiment duct in the glovebox; the paper does not describe testing in the operational cabin-ventilation installation."
+  },
+  {
+   "item_id": "meyer2018-22",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.0. Results and Discussion",
+   "anchor_quote": "Over 100 samples were tested, comprised of 6 materials commonly used in the spacecraft cabin.",
+   "summary": "More than 100 samples were tested across six materials: Teflon, Pyrell polyurethane foam, cotton lamp wick (cellulose), Kapton, silicone rubber, and dibutyl phthalate (DBP) on a porous wick.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick",
+    "dibutyl phthalate (DBP) on porous wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 100,
+     "unit": "samples",
+     "meaning": "samples tested (lower bound)",
+     "verbatim": "Over 100"
+    },
+    {
+     "value": 6,
+     "unit": "materials",
+     "meaning": "materials tested",
+     "verbatim": "6 materials"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Exact count not given. Unaged and aged measurements come from the same sample and are not independent tests. Conclusions speak of five materials (DBP gave no TEM-visible particles). Whether the count includes ground tests is not stated."
+  },
+  {
+   "item_id": "meyer2018-23",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.0. Results and Discussion",
+   "anchor_quote": "The baseline air flow velocity was 8.1 cm/s",
+   "summary": "Baseline duct air flow was 8.1 cm/s; runs went down to 2 cm/s, and a limited set used no forced airflow during heating.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.1,
+     "unit": "cm/s",
+     "meaning": "baseline air flow velocity",
+     "verbatim": "8.1 cm/s"
+    },
+    {
+     "value": 2,
+     "unit": "cm/s",
+     "meaning": "lowest forced flow tested",
+     "verbatim": "down to 2 cm/s"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 8.1,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Zero-flow runs are described in Section 3.3 (eleven tests)."
+  },
+  {
+   "item_id": "meyer2018-24",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.0. Results and Discussion",
+   "anchor_quote": "to produce 1 to 2 mg of sample mass loss in 60 sec",
+   "summary": "Baseline temperatures were chosen per material to give 1-2 mg of mass loss in 60 s of heating with usable signal on the moment instruments; higher-temperature conditions were added that did not saturate the instruments.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "mg",
+     "meaning": "lower target mass loss",
+     "verbatim": "1 to 2 mg"
+    },
+    {
+     "value": 2,
+     "unit": "mg",
+     "meaning": "upper target mass loss",
+     "verbatim": "1 to 2 mg"
+    },
+    {
+     "value": 60,
+     "unit": "s",
+     "meaning": "heating duration",
+     "verbatim": "60 sec"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": 60,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Target temperatures differ by material (examples in Table 1); full list not given in this paper."
+  },
+  {
+   "item_id": "meyer2018-25",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.0. Results and Discussion",
+   "anchor_quote": "particle concentrations were a few million particles per",
+   "summary": "Typical runs had a few million particles per cm^3 and mass concentrations of 2-15 mg/m^3; some runs had fewer particles.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2,
+     "unit": "mg/m^3",
+     "meaning": "lower typical mass concentration",
+     "verbatim": "2 to 15 mg/m^3"
+    },
+    {
+     "value": 15,
+     "unit": "mg/m^3",
+     "meaning": "upper typical mass concentration",
+     "verbatim": "2 to 15 mg/m^3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "'Typical runs' only."
+  },
+  {
+   "item_id": "meyer2018-26",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.0. Results and Discussion",
+   "anchor_quote": "The TEM grids recovered from the thermal precipitators on SAME-1 were found to be contaminated",
+   "summary": "TEM grids from SAME-1 thermal precipitators were contaminated and unusable; with stricter assembly controls, SAME-2 produced many good particle images.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": "thermal precipitator / TEM grids",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Implies all TEM results in the paper come from SAME-2 (inference from this sentence)."
+  },
+  {
+   "item_id": "meyer2018-27",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "reasonably valid for the spherical smoke particles generated from Kapton and lamp wick",
+   "summary": "The lognormal assumption behind the geometric mean and geometric standard deviation was checked in ground tests and found reasonably valid for the spherical smoke from Kapton and lamp wick; for other materials the authors only note Table 1 is somewhat compatible with it.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "normal gravity (ground tests)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Validation is material-specific; agglomerate smokes (Teflon, Pyrell) were not stated as validated."
+  },
+  {
+   "item_id": "meyer2018-28",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "The aging results show a substantial increase in the observed diameters.",
+   "summary": "Aging substantially increased measured diameters; the count mean diameter rose more than the diameter of average mass because coagulation mainly removes the smallest particles; theory predicts a self-preserving geometric standard deviation near 1.32.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1.32,
+     "unit": "-",
+     "meaning": "theoretical self-preserving geometric standard deviation",
+     "verbatim": "1.32"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "1.32 is a theoretical value from Hinds [18], not a SAME measurement."
+  },
+  {
+   "item_id": "meyer2018-29",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "Overall, the Teflon and Kapton smoke particles were smallest.",
+   "summary": "Teflon and Kapton gave the smallest smoke particles; lamp wick, Pyrell and silicone gave substantially larger diameters of average mass, especially after aging.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Ranking across the five materials for SAME test conditions."
+  },
+  {
+   "item_id": "meyer2018-30",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results / Figure 5",
+   "anchor_quote": "exhibit larger portions of the particle distribution (~ 40% of the mass)",
+   "summary": "From the ratio of DustTraks with 10 um and 1 um impactors, lamp wick and silicone smoke had roughly 40% of mass in particles above 1 um, versus about 20% for Teflon and Kapton.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "cellulose lamp wick",
+    "silicone rubber",
+    "Teflon",
+    "Kapton"
+   ],
+   "detector": "DustTrak (1 um and 10 um impactors)",
+   "numbers": [
+    {
+     "value": 40,
+     "unit": "% of mass",
+     "meaning": "fraction above 1 um, lamp wick and silicone",
+     "verbatim": "~ 40% of the mass"
+    },
+    {
+     "value": 20,
+     "unit": "% of mass",
+     "meaning": "fraction above 1 um, Teflon and Kapton",
+     "verbatim": "20% of the mass"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Figure 5 covers unaged conditions over several flows/temperatures; dual-impactor setup is described for SAME-1. Values approximate."
+  },
+  {
+   "item_id": "meyer2018-31",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "will make detection of these smokes challenging for light scattering devices",
+   "summary": "Because Kapton and Teflon particles are comparatively small, the authors expect them to be hard for light-scattering detectors to sense, while large lamp-wick and silicone particles would give very large signals.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "cellulose lamp wick",
+    "silicone rubber"
+   ],
+   "detector": "light scattering devices",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Expectation from particle size; the detector outcome is reported in Section 3.2."
+  },
+  {
+   "item_id": "meyer2018-32",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "without excessive nuisance alarms from large dust particles",
+   "summary": "Citing Urban et al., the authors say some size discrimination is generally needed so that a detector can alarm on the weak signal of small Teflon/Kapton smoke without excessive nuisance alarms from large dust.",
+   "category": "false_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design reasoning (refs 19, 20); SAME did not measure dust or nuisance-alarm rates in this paper."
+  },
+  {
+   "item_id": "meyer2018-33",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "a detection system capable of measuring more than one moment of the particle size distribution",
+   "summary": "The authors suggest that separating these smoke particles from the background environment would be helped by a detection system that measures more than one moment of the size distribution.",
+   "category": "technology_need",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Suggestion ('suggests'); no multi-moment detector was tested in this paper."
+  },
+  {
+   "item_id": "meyer2018-34",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results / Figure 6",
+   "anchor_quote": "a strong trend of increased particle size at low flow rates",
+   "summary": "Across five duct flow velocities (constant temperature per material, no aging), diameter of average mass rose strongly at low flow, most for silicone and Pyrell; the authors infer smoke trapped in avionics enclosures or poorly ventilated areas would be substantially larger than smoke in well-ventilated areas.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 0
+   },
+   "n_independent_tests": null,
+   "scope_notes": "The enclosure statement is an extrapolation, not a measurement inside an avionics box."
+  },
+  {
+   "item_id": "meyer2018-35",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results / Figure 7",
+   "anchor_quote": "producing an increase in the diameter from 55 to 100%",
+   "summary": "To mimic smoke held in poorly ventilated spaces, aging time was varied from 30 s to 2000 s; diameter of average mass grew consistently with aging, by 55% to 100%.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 30,
+     "unit": "s",
+     "meaning": "shortest aging time",
+     "verbatim": "30 sec"
+    },
+    {
+     "value": 2000,
+     "unit": "s",
+     "meaning": "longest aging time",
+     "verbatim": "2000 sec"
+    },
+    {
+     "value": 55,
+     "unit": "%",
+     "meaning": "lower diameter increase with aging",
+     "verbatim": "55 to 100%"
+    },
+    {
+     "value": 100,
+     "unit": "%",
+     "meaning": "upper diameter increase with aging",
+     "verbatim": "55 to 100%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 8.1,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": "30-2000"
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Figure 7: five materials at low temperature and 8.1 cm/s."
+  },
+  {
+   "item_id": "meyer2018-36",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results / Figure 8",
+   "anchor_quote": "Overall the results correlate strongly with a slope of 1.",
+   "summary": "Ground tests duplicating flight baseline (8.1 cm/s, 1-2 mg in 60 s, nominal aging 720 s) gave diameters of average mass that correlate strongly with low-gravity results with slope 1, so at 8.1 cm/s or more, normal-gravity smoke sizes are roughly the same as low-gravity ones.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.1,
+     "unit": "cm/s",
+     "meaning": "flow velocity of comparison",
+     "verbatim": "8.1 cm/s"
+    },
+    {
+     "value": 720,
+     "unit": "s",
+     "meaning": "nominal aging",
+     "verbatim": "720 sec"
+    },
+    {
+     "value": 1,
+     "unit": "-",
+     "meaning": "slope of low-g vs 1-g diameter",
+     "verbatim": "slope of 1"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 8.1,
+    "gravity": "low gravity vs normal gravity",
+    "heating_s": 60,
+    "aging_s": "218-1923 (Fig. 8, all combined)"
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Valid for flows of about 8.1 cm/s or higher (range of current spacecraft ventilation); no correlation coefficient is given in the text."
+  },
+  {
+   "item_id": "meyer2018-37",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "could increase the diameter of average mass by as much as a factor of 2.5",
+   "summary": "Limit of the ground-test analogy: Figure 6 implies lower flow could raise diameter of average mass up to 2.5 times, and at low or zero flow low-g smoke stays concentrated while 1-g smoke rises and dilutes, so sizes would differ.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2.5,
+     "unit": "x",
+     "meaning": "possible increase of diameter of average mass at lower flow",
+     "verbatim": "as much as a factor of 2.5"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity vs normal gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Error estimate for using 1-g tests at low flow; not a measured 1-g vs low-g difference."
+  },
+  {
+   "item_id": "meyer2018-38",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.1. Moment Instrument Results",
+   "anchor_quote": "normal-gravity smoke tests with proper attention to smoke aging time may be an adequate substitute",
+   "summary": "The authors suggest normal-gravity smoke tests that properly account for aging time may adequately replace costly flight experiments.",
+   "category": "recommendation",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "normal gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Hedged ('may'); applies to ventilated conditions (about 8.1 cm/s or more), not to zero-flow low-g cases."
+  },
+  {
+   "item_id": "meyer2018-39",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "Kapton smoke particles are substantially smaller than the other materials",
+   "summary": "Selected ISS runs (Table 1) show Kapton smoke much smaller than other materials, with TEM diameters of average mass below 0.3 um; because the ISS detector is calibrated with 0.6 um particles and uses a laser of about 1 um wavelength, reduced performance is expected for much smaller particles.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton"
+   ],
+   "detector": "ISS smoke detector",
+   "numbers": [
+    {
+     "value": 0.3,
+     "unit": "um",
+     "meaning": "upper bound of Kapton TEM diameter of average mass",
+     "verbatim": "less than 0.3 μm"
+    },
+    {
+     "value": 0.6,
+     "unit": "um",
+     "meaning": "ISS detector calibration particle size",
+     "verbatim": "0.6 μm"
+    },
+    {
+     "value": 1,
+     "unit": "um",
+     "meaning": "ISS detector laser wavelength",
+     "verbatim": "approximately 1 μm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Explains the mechanism; the alarm outcome is in the next items."
+  },
+  {
+   "item_id": "meyer2018-40",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results / Figure 9",
+   "anchor_quote": "cases where the detectors would have failed to alarm",
+   "summary": "In Figure 9, points under the voltage threshold lines are runs in which the detectors would not have alarmed.",
+   "category": "definition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "Space Shuttle smoke detector; ISS smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Missed alarm is inferred from signal below the alarm boundary; threshold values appear only graphically in Figure 9 and are not stated in the text."
+  },
+  {
+   "item_id": "meyer2018-41",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "For the Space Shuttle detector, the materials in this category are Kapton, Teflon,",
+   "summary": "Space Shuttle detector: some runs with Kapton, Teflon and lamp wick smoke fell below the alarm boundary (would have failed to alarm).",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "cellulose lamp wick"
+   ],
+   "detector": "Space Shuttle smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 0
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Shuttle detector data set is small and contains no aged-smoke tests; the text gives no counts or fractions for the Shuttle detector."
+  },
+  {
+   "item_id": "meyer2018-42",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "The ISS detector would not have alarmed for over half of the Kapton smoke tests",
+   "summary": "ISS detector: had difficulty with Kapton and Teflon; it would not have alarmed for more than half of the Kapton smoke tests and about two thirds of the Teflon tests.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "ISS smoke detector",
+   "numbers": [
+    {
+     "value": 0.5,
+     "unit": "fraction of Kapton tests",
+     "meaning": "share of Kapton tests below alarm boundary (lower bound)",
+     "verbatim": "over half"
+    },
+    {
+     "value": 0.667,
+     "unit": "fraction of Teflon tests",
+     "meaning": "share of Teflon tests below alarm boundary",
+     "verbatim": "2/3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Fractions of SAME runs shown in Figure 9 (aged and unaged mixed); the number of Kapton and Teflon runs is not stated in the text. 'Would not have alarmed' = signal below threshold, not an observed alarm event."
+  },
+  {
+   "item_id": "meyer2018-43",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "The Shuttle was somewhat less sensitive than the ISS detector but, for the conditions tested,",
+   "summary": "Overall the Shuttle (ionization) detector was somewhat less sensitive than the ISS detector, but under the tested conditions it did better than the ISS detector on Teflon smoke.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon"
+   ],
+   "detector": "Space Shuttle smoke detector vs ISS smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Qualitative comparison limited to the conditions tested; Shuttle data excludes aging tests."
+  },
+  {
+   "item_id": "meyer2018-44",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "There is a much smaller data set for the Space Shuttle detector",
+   "summary": "The Space Shuttle detector was run only intermittently because its internal pump drew three litres per minute of aerosol, which made aging tests with it impossible; its data set is much smaller.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": "Space Shuttle smoke detector",
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "L/min",
+     "meaning": "Shuttle detector sample flow",
+     "verbatim": "three liters per minute"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Limits any conclusion about the Shuttle detector on aged smoke."
+  },
+  {
+   "item_id": "meyer2018-45",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "The ISS detector signal was frequently saturated mainly by the larger smoke materials",
+   "summary": "The ISS detector signal often saturated, mainly with the larger-particle smokes (silicone, Pyrell, lamp wick).",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "ISS smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Saturation means those smokes exceeded the alarm level; it is a dynamic-range limit, not a missed alarm."
+  },
+  {
+   "item_id": "meyer2018-46",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results",
+   "anchor_quote": "Kapton and Teflon are very commonly used in spacecraft, especially in electrical systems",
+   "summary": "The poor ISS-detector response to Kapton and Teflon matches the known weaker light scattering of particles much smaller than the wavelength, and is a concern because these materials are widespread in spacecraft electrical systems, likely among the first to overheat in a smoke event.",
+   "category": "technology_need",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "ISS smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Priority rationale by the authors; 'likely first to overheat' is an expectation, not measured."
+  },
+  {
+   "item_id": "meyer2018-47",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.2. Spacecraft Smoke Detector Results / Figure 9 caption",
+   "anchor_quote": "In both cases the alarm boundary is indicated with a dashed red line.",
+   "summary": "Figure 9 plots detector signal versus particle number concentration for the Space Shuttle detector (signal as offset from baseline, A/D-scaled) and the ISS detector, by material, with the alarm boundary marked.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "Space Shuttle smoke detector; ISS smoke detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Per-run values, alarm voltages and run counts are only graphical; not extracted (no digitisation done)."
+  },
+  {
+   "item_id": "meyer2018-48",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results",
+   "anchor_quote": "DBP presented no particles that were visible via TEM",
+   "summary": "Particles were collected on 72 TEM grids; DBP showed no visible particles (probably liquid evaporating in the microscope vacuum) and silicone smoke lost its volatile part, leaving only residue.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "dibutyl phthalate (DBP)",
+    "silicone rubber"
+   ],
+   "detector": "thermal precipitator / TEM",
+   "numbers": [
+    {
+     "value": 72,
+     "unit": "TEM grids",
+     "meaning": "grids with collected particles",
+     "verbatim": "72"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Grids are samples, not independent tests. TEM morphology therefore missing/limited for DBP and silicone."
+  },
+  {
+   "item_id": "meyer2018-49",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results",
+   "anchor_quote": "the most visible change is the disappearance of the smallest particles",
+   "summary": "In TEM images aging mainly shows up as the loss of the smallest particles (they coagulate onto larger ones) rather than as a visible growth of particle size.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick",
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Figure 11 shows Pyrell, lamp wick and Kapton."
+  },
+  {
+   "item_id": "meyer2018-50",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results",
+   "anchor_quote": "If the particles are liquid, the colliding particles will coalesce and form larger droplets.",
+   "summary": "Morphology depends on material: liquid-like lamp wick and Kapton smoke coalesces into droplets, while solid Teflon and Pyrell smoke forms low-density fractal-like agglomerates of primary particles.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "cellulose lamp wick",
+    "Kapton",
+    "Teflon",
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Based on TEM images (SAME-2)."
+  },
+  {
+   "item_id": "meyer2018-51",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results",
+   "anchor_quote": "Key parameters affecting the properties of the smoke produced here are the convective flow",
+   "summary": "The authors list convective flow past the heated wire, wire temperature, aging time and the low-gravity condition as key controls of smoke properties; hotter wires give more mass and larger diameter of average mass.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Qualitative summary of controlling parameters."
+  },
+  {
+   "item_id": "meyer2018-52",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results (Impact of flow on particle morphology)",
+   "anchor_quote": "Eleven tests were performed with the zero-flow condition.",
+   "summary": "Zero-flow (no forced flow through the smoke-generation duct) was added late by changing valve operation; it gave very concentrated smoke and enhanced low-g aging. Eleven zero-flow tests were run.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 11,
+     "unit": "tests",
+     "meaning": "zero-flow tests",
+     "verbatim": "Eleven"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 11,
+   "scope_notes": "Zero-flow refers to forced flow; thermal-expansion flow of 0.5-1.5 cm/s was still observed."
+  },
+  {
+   "item_id": "meyer2018-53",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results (Impact of flow on particle morphology)",
+   "anchor_quote": "approximately 2/3 of the smoke was lost from the system",
+   "summary": "Because the hardware was not designed for zero flow, about two thirds of the smoke escaped by diffusion and thermal expansion through the sample carousel into the glovebox, so particle counts were lower and TEM grids had few particles.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 0.667,
+     "unit": "fraction",
+     "meaning": "smoke lost in zero-flow runs",
+     "verbatim": "approximately 2/3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to the eleven zero-flow tests."
+  },
+  {
+   "item_id": "meyer2018-54",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results (Impact of flow on particle morphology)",
+   "anchor_quote": "The diameter of average mass is a factor of 1.7 larger for the zero-flow",
+   "summary": "With zero forced flow, thermal-expansion flow of 0.5-1.5 cm/s was seen on video, vapor concentration was about 8 times the 8.1 cm/s case, and diameter of average mass was on average 1.7 times larger (from 1.3x for Teflon to 2.8x for Kapton).",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 0.5,
+     "unit": "cm/s",
+     "meaning": "lowest thermal-expansion smoke flow",
+     "verbatim": "0.5 cm/s"
+    },
+    {
+     "value": 1.5,
+     "unit": "cm/s",
+     "meaning": "highest thermal-expansion smoke flow (Kapton, Teflon)",
+     "verbatim": "1.5 cm/s"
+    },
+    {
+     "value": 8,
+     "unit": "x",
+     "meaning": "vapor concentration vs 8.1 cm/s case",
+     "verbatim": "about eight times higher"
+    },
+    {
+     "value": 1.7,
+     "unit": "x",
+     "meaning": "average D_m ratio zero-flow / 8.1 cm/s",
+     "verbatim": "a factor of 1.7"
+    },
+    {
+     "value": 1.3,
+     "unit": "x",
+     "meaning": "D_m ratio for Teflon",
+     "verbatim": "1.3 for Teflon"
+    },
+    {
+     "value": 2.8,
+     "unit": "x",
+     "meaning": "D_m ratio for Kapton",
+     "verbatim": "2.8 for Kapton"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "The Conclusions describe the same effect as 'on average, double the size' - inconsistent with 1.7 here."
+  },
+  {
+   "item_id": "meyer2018-55",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results (Impact of flow on particle morphology)",
+   "anchor_quote": "fractal-like clusters with up to 30 primary spheres",
+   "summary": "Pyrell smoke changed from fractal-like clusters (up to 30 primary spheres) at 8.1 cm/s to much larger single spheres at zero flow, likely due to higher gas temperature with conduction-dominated heat transport.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 30,
+     "unit": "primary spheres",
+     "meaning": "max primaries per Pyrell cluster at 8.1 cm/s",
+     "verbatim": "up to 30 primary spheres"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "TEM images (Figure 12) for Pyrell and lamp wick."
+  },
+  {
+   "item_id": "meyer2018-56",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "3.3. TEM Results (Impact of flow on particle morphology)",
+   "anchor_quote": "It is important to recognize that this zero-flow condition is unique to low-gravity scenarios.",
+   "summary": "Zero flow is specific to low gravity (at 1 g buoyancy would widen the mixing zone), so the larger particles seen in zero-flow runs should be considered when developing improved spacecraft fire detection.",
+   "category": "technology_need",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Cannot be reproduced by normal-gravity tests; based on eleven zero-flow runs with smoke loss."
+  },
+  {
+   "item_id": "meyer2018-57",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "all samples produced significant numbers of sub-micron particles that are readily detected using an ionization",
+   "summary": "For SAME conditions, all samples produced many sub-micron particles that the authors say an ionization smoke detector readily detects.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "an ionization smoke detector (unspecified)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "The text does not say which ionization device is meant; Section 3.2 reports Space Shuttle ionization detector runs below the alarm boundary for Kapton, Teflon and lamp wick, so this is not a statement that the Shuttle detector alarmed on all smokes."
+  },
+  {
+   "item_id": "meyer2018-58",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "Particle sizes ranged from 100 to 600 nm",
+   "summary": "Measured particle sizes were 100-600 nm and consistent with a lognormal distribution.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 100,
+     "unit": "nm",
+     "meaning": "smallest particle size",
+     "verbatim": "100 to 600 nm"
+    },
+    {
+     "value": 600,
+     "unit": "nm",
+     "meaning": "largest particle size",
+     "verbatim": "100 to 600 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Size measure (mean type) not specified in the bullet."
+  },
+  {
+   "item_id": "meyer2018-59",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "on average, double the size of those produced at the nominal 8.1 cm/s flow rate",
+   "summary": "Conclusions: lower air flow substantially increased diameter of average mass; zero-flow particles were on average about double the size seen at 8.1 cm/s.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2,
+     "unit": "x",
+     "meaning": "average size ratio zero-flow / 8.1 cm/s",
+     "verbatim": "double"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 0,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Section 3.3 gives the average factor as 1.7 (range 1.3-2.8); internal inconsistency in the paper."
+  },
+  {
+   "item_id": "meyer2018-60",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "Ground based testing at 8.1 cm/s showed particle dimensions very close to the flight results.",
+   "summary": "Ground tests at 8.1 cm/s matched flight particle sizes closely, so low-g smoke at flows of at least 8.1 cm/s is well predicted by ground testing.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.1,
+     "unit": "cm/s",
+     "meaning": "flow velocity",
+     "verbatim": "8.1 cm/s"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 8.1,
+    "gravity": "low gravity vs normal gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Does not apply to low/zero-flow conditions."
+  },
+  {
+   "item_id": "meyer2018-61",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "showed reduced performance for Kapton and Teflon smoke particles",
+   "summary": "Conclusions: the light-scattering ISS detector performed worse on the smaller Kapton and Teflon smoke; the ionization-based Space Shuttle detector did slightly better on Teflon smoke.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "ISS Detector (light scattering); Space Shuttle detector (ionization)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Restates Section 3.2."
+  },
+  {
+   "item_id": "meyer2018-62",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "the detection environment is complicated by spacecraft background aerosols which can be quite large",
+   "summary": "Real spacecraft fire scenarios involve more materials and heating conditions than tested, and detection is complicated by background aerosols in the cabin that can be quite large.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Authors' assessment; background aerosols were not measured in this paper."
+  },
+  {
+   "item_id": "meyer2018-63",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "4.0. Conclusions",
+   "anchor_quote": "improbable that a single-moment device can be sensitive across the smoke particle size spectrum",
+   "summary": "The authors judge it improbable that any single-moment detector can be sensitive across the whole smoke size range while also resisting false alarms.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": "single-moment device",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Statement concerns single-moment devices; the NIST news release broadens it to 'no single smoke detection method currently available'."
+  },
+  {
+   "item_id": "meyer2018-64",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Acknowledgements",
+   "anchor_quote": "the crews of ISS increments 10, 13, 15, and 24 are gratefully acknowledged",
+   "summary": "Acknowledgements thank the SAME team and the crews of ISS increments 10, 13, 15 and 24; SAME was run under the ISS Exploration Research Project of the Exploration Technology Development Program.",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 10,
+     "unit": "increment",
+     "meaning": "ISS increment acknowledged",
+     "verbatim": "10"
+    },
+    {
+     "value": 13,
+     "unit": "increment",
+     "meaning": "ISS increment acknowledged",
+     "verbatim": "13"
+    },
+    {
+     "value": 15,
+     "unit": "increment",
+     "meaning": "ISS increment acknowledged",
+     "verbatim": "15"
+    },
+    {
+     "value": 24,
+     "unit": "increment",
+     "meaning": "ISS increment acknowledged",
+     "verbatim": "24"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Increment list as printed; mapping of increments to SAME-1/SAME-2 or other activities not given."
+  },
+  {
+   "item_id": "meyer2018-65",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "References [4]",
+   "anchor_quote": "Smoke Characterization and Feasibility of the Moment Method for Spacecraft Fire Detection",
+   "summary": "Meyer et al. 2015, Aerosol Sci. Tech. 49(5):299-309 - moment-method feasibility and SAME ground tests (cited for validation and Table 1).",
+   "category": "reference",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Pointer only; not fetched in this step."
+  },
+  {
+   "item_id": "meyer2018-66",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "References [5]",
+   "anchor_quote": "Pyrolysis Smoke Generated under Low-Gravity Conditions",
+   "summary": "Mulholland et al. 2015, Aerosol Sci. Tech. 49(5):310-321 - heating sequence, DustTrak calibration factors, aging effects.",
+   "category": "reference",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Pointer only; not fetched in this step."
+  },
+  {
+   "item_id": "meyer2018-67",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "References [20]",
+   "anchor_quote": "Smoke Particle Sizes in Low-Gravity and Implications for the Design of Spacecraft Smoke Detectors",
+   "summary": "Urban et al. 2009 ICES paper 2009-01-2468 - cited for size discrimination vs nuisance alarms.",
+   "category": "reference",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Pointer only; not fetched in this step."
+  },
+  {
+   "item_id": "meyer2018-68",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "References [21]",
+   "anchor_quote": "Particle Morphology and Elemental Composition of Smoke Generated by Overheating Common Spacecraft Materials",
+   "summary": "Meyer, NASA TM 2015-218891 - TEM morphology/elemental composition of SAME smoke.",
+   "category": "reference",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Pointer only; not fetched in this step."
+  },
+  {
+   "item_id": "meyer2018-69",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Lampwick #54 unaged'",
+   "anchor_quote": "Lampwick #54 unaged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Lampwick #54 unaged, low temperature setting 264.7 C, net aging 56.8 s, 511 particles counted in TEM. Diameter of average mass TEM 0.403 / moment 0.253 um; count mean TEM 0.304 / moment 0.11 um; geometric mean TEM 0.255 / moment 0.072 um; geometric std TEM 1.84 / moment 2.49.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 264.7,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "Low 264.7"
+    },
+    {
+     "value": 56.8,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "56.8"
+    },
+    {
+     "value": 511,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "511"
+    },
+    {
+     "value": 0.403,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.403"
+    },
+    {
+     "value": 0.253,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.253"
+    },
+    {
+     "value": 0.304,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.304"
+    },
+    {
+     "value": 0.11,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.110"
+    },
+    {
+     "value": 0.255,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.255"
+    },
+    {
+     "value": 0.072,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.072"
+    },
+    {
+     "value": 1.84,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.84"
+    },
+    {
+     "value": 2.49,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "2.49"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 56.8
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-70",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Lampwick #55 aged'",
+   "anchor_quote": "Lampwick #55 aged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Lampwick #55 aged, low temperature setting 262.9 C, net aging 218.0 s, 196 particles counted in TEM. Diameter of average mass TEM 0.499 / moment 0.32 um; count mean TEM 0.359 / moment 0.149 um; geometric mean TEM 0.284 / moment 0.102 um; geometric std TEM 2.07 / moment 2.4.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 262.9,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "Low 262.9"
+    },
+    {
+     "value": 218.0,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "218.0"
+    },
+    {
+     "value": 196,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "196"
+    },
+    {
+     "value": 0.499,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.499"
+    },
+    {
+     "value": 0.32,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.320"
+    },
+    {
+     "value": 0.359,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.359"
+    },
+    {
+     "value": 0.149,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.149"
+    },
+    {
+     "value": 0.284,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.284"
+    },
+    {
+     "value": 0.102,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.102"
+    },
+    {
+     "value": 2.07,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "2.07"
+    },
+    {
+     "value": 2.4,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "2.40"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 218.0
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-71",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Kapton #94 aged'",
+   "anchor_quote": "Kapton #94 aged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Kapton #94 aged, low temperature setting 527.3 C, net aging 567.4 s, 1353 particles counted in TEM. Diameter of average mass TEM 0.159 / moment 0.176 um; count mean TEM 0.12 / moment 0.136 um; geometric mean TEM 0.103 / moment 0.119 um; geometric std TEM 1.72 / moment 1.67.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 527.3,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "Low 527.3"
+    },
+    {
+     "value": 567.4,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "567.4"
+    },
+    {
+     "value": 1353,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "1353"
+    },
+    {
+     "value": 0.159,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.159"
+    },
+    {
+     "value": 0.176,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.176"
+    },
+    {
+     "value": 0.12,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.120"
+    },
+    {
+     "value": 0.136,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.136"
+    },
+    {
+     "value": 0.103,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.103"
+    },
+    {
+     "value": 0.119,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.119"
+    },
+    {
+     "value": 1.72,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.72"
+    },
+    {
+     "value": 1.67,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "1.67"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 567.4
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-72",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Kapton #62 unaged'",
+   "anchor_quote": "Kapton #62 unaged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Kapton #62 unaged, high temperature setting 574.3 C, net aging 38.8 s, 1320 particles counted in TEM. Diameter of average mass TEM 0.226 / moment 0.251 um; count mean TEM 0.18 / moment 0.148 um; geometric mean TEM 0.158 / moment 0.114 um; geometric std TEM 1.68 / moment 2.07.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 574.3,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "High 574.3"
+    },
+    {
+     "value": 38.8,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "38.8"
+    },
+    {
+     "value": 1320,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "1320"
+    },
+    {
+     "value": 0.226,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.226"
+    },
+    {
+     "value": 0.251,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.251"
+    },
+    {
+     "value": 0.18,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.180"
+    },
+    {
+     "value": 0.148,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.148"
+    },
+    {
+     "value": 0.158,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.158"
+    },
+    {
+     "value": 0.114,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.114"
+    },
+    {
+     "value": 1.68,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.68"
+    },
+    {
+     "value": 2.07,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "2.07"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 38.8
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-73",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Kapton #62 aged'",
+   "anchor_quote": "Kapton #62 aged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Kapton #62 aged, high temperature setting 574.3 C, net aging 807.6 s, 796 particles counted in TEM. Diameter of average mass TEM 0.289 / moment 0.383 um; count mean TEM 0.235 / moment 0.243 um; geometric mean TEM 0.21 / moment 0.194 um; geometric std TEM 1.63 / moment 1.96.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Kapton"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 574.3,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "High 574.3"
+    },
+    {
+     "value": 807.6,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "807.6"
+    },
+    {
+     "value": 796,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "796"
+    },
+    {
+     "value": 0.289,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.289"
+    },
+    {
+     "value": 0.383,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.383"
+    },
+    {
+     "value": 0.235,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.235"
+    },
+    {
+     "value": 0.243,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.243"
+    },
+    {
+     "value": 0.21,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.210"
+    },
+    {
+     "value": 0.194,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.194"
+    },
+    {
+     "value": 1.63,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.63"
+    },
+    {
+     "value": 1.96,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "1.96"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 807.6
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-74",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Pyrell #63 unaged'",
+   "anchor_quote": "Pyrell #63 unaged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Pyrell #63 unaged, low temperature setting 225.3 C, net aging 55.6 s, 3436 particles counted in TEM. Diameter of average mass TEM 0.394 / moment 0.392 um; count mean TEM 0.29 / moment 0.207 um; geometric mean TEM 0.244 / moment 0.151 um; geometric std TEM 1.81 / moment 2.22.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 225.3,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "Low 225.3"
+    },
+    {
+     "value": 55.6,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "55.6"
+    },
+    {
+     "value": 3436,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "3436"
+    },
+    {
+     "value": 0.394,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.394"
+    },
+    {
+     "value": 0.392,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.392"
+    },
+    {
+     "value": 0.29,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.290"
+    },
+    {
+     "value": 0.207,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.207"
+    },
+    {
+     "value": 0.244,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.244"
+    },
+    {
+     "value": 0.151,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.151"
+    },
+    {
+     "value": 1.81,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.81"
+    },
+    {
+     "value": 2.22,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "2.22"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 55.6
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-75",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Pyrell #63 aged'",
+   "anchor_quote": "Pyrell #63 aged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Pyrell #63 aged, low temperature setting 225.3 C, net aging 839.6 s, 2658 particles counted in TEM. Diameter of average mass TEM 0.468 / moment 0.539 um; count mean TEM 0.354 / moment 0.359 um; geometric mean TEM 0.292 / moment 0.293 um; geometric std TEM 1.92 / moment 1.89.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 225.3,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "Low 225.3"
+    },
+    {
+     "value": 839.6,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "839.6"
+    },
+    {
+     "value": 2658,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "2658"
+    },
+    {
+     "value": 0.468,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.468"
+    },
+    {
+     "value": 0.539,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.539"
+    },
+    {
+     "value": 0.354,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.354"
+    },
+    {
+     "value": 0.359,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.359"
+    },
+    {
+     "value": 0.292,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.292"
+    },
+    {
+     "value": 0.293,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.293"
+    },
+    {
+     "value": 1.92,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.92"
+    },
+    {
+     "value": 1.89,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "1.89"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 839.6
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-76",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Pyrell #64 unaged'",
+   "anchor_quote": "Pyrell #64 unaged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Pyrell #64 unaged, high temperature setting 242.1 C, net aging 47.0 s, 1888 particles counted in TEM. Diameter of average mass TEM 0.411 / moment 0.445 um; count mean TEM 0.298 / moment 0.254 um; geometric mean TEM 0.249 / moment 0.192 um; geometric std TEM 1.84 / moment 2.12.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 242.1,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "High 242.1"
+    },
+    {
+     "value": 47.0,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "47.0"
+    },
+    {
+     "value": 1888,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "1888"
+    },
+    {
+     "value": 0.411,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.411"
+    },
+    {
+     "value": 0.445,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.445"
+    },
+    {
+     "value": 0.298,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.298"
+    },
+    {
+     "value": 0.254,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.254"
+    },
+    {
+     "value": 0.249,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.249"
+    },
+    {
+     "value": 0.192,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.192"
+    },
+    {
+     "value": 1.84,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.84"
+    },
+    {
+     "value": 2.12,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "2.12"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 47.0
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-77",
+   "doc_id": "meyer2018",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Table 1, row 'Pyrell #64 aged'",
+   "anchor_quote": "Pyrell #64 aged",
+   "summary": "Table 1 (selected ISS runs, TEM vs moment method): Pyrell #64 aged, high temperature setting 242.1 C, net aging 842.4 s, 1560 particles counted in TEM. Diameter of average mass TEM 0.54 / moment 0.616 um; count mean TEM 0.403 / moment 0.45 um; geometric mean TEM 0.328 / moment 0.385 um; geometric std TEM 1.98 / moment 1.75.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 242.1,
+     "unit": "degC",
+     "meaning": "sample temperature",
+     "verbatim": "High 242.1"
+    },
+    {
+     "value": 842.4,
+     "unit": "s",
+     "meaning": "net aging duration",
+     "verbatim": "842.4"
+    },
+    {
+     "value": 1560,
+     "unit": "particles",
+     "meaning": "particles counted in TEM",
+     "verbatim": "1560"
+    },
+    {
+     "value": 0.54,
+     "unit": "um",
+     "meaning": "diameter of average mass, TEM",
+     "verbatim": "0.540"
+    },
+    {
+     "value": 0.616,
+     "unit": "um",
+     "meaning": "diameter of average mass, moment",
+     "verbatim": "0.616"
+    },
+    {
+     "value": 0.403,
+     "unit": "um",
+     "meaning": "count mean diameter, TEM",
+     "verbatim": "0.403"
+    },
+    {
+     "value": 0.45,
+     "unit": "um",
+     "meaning": "count mean diameter, moment M1/M0",
+     "verbatim": "0.450"
+    },
+    {
+     "value": 0.328,
+     "unit": "um",
+     "meaning": "geometric mean diameter, TEM (Dgn)",
+     "verbatim": "0.328"
+    },
+    {
+     "value": 0.385,
+     "unit": "um",
+     "meaning": "geometric mean diameter, moment",
+     "verbatim": "0.385"
+    },
+    {
+     "value": 1.98,
+     "unit": "-",
+     "meaning": "geometric std, TEM",
+     "verbatim": "1.98"
+    },
+    {
+     "value": 1.75,
+     "unit": "-",
+     "meaning": "geometric std, moment",
+     "verbatim": "1.75"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": 842.4
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Single run (unaged and aged rows with the same run number share one sample). TEM data must come from SAME-2 because SAME-1 grids were unusable (inference). Flow velocity for these runs is not given in the table. Table 1 has no Teflon or silicone rows. 'Unaged' rows still have tens of seconds of net aging."
+  },
+  {
+   "item_id": "meyer2018-78",
+   "doc_id": "nist2018_pub",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Publication record header / Citation",
+   "anchor_quote": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+   "summary": "NIST publication record for the paper: published 25 April 2018 (online), Fire Safety Journal vol. 98, DOI 10.1016/j.firesaf.2018.04.004; keywords fire detector, microgravity, smoke.",
+   "category": "reference",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 98,
+     "unit": "volume",
+     "meaning": "Fire Safety Journal volume",
+     "verbatim": "98"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Bibliographic record only; NIST lists its own authors first."
+  },
+  {
+   "item_id": "meyer2018-79",
+   "doc_id": "nist2018_pub",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract (NIST record)",
+   "anchor_quote": "characterize smoke particles generated from the oxidative pyrolysis of five common spacecraft materials",
+   "summary": "The abstract on the NIST record (apparently the published wording) says the ISS experiment characterized smoke from oxidative pyrolysis of five common spacecraft materials.",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "The PMC manuscript abstract does not give the count; its Results section says 6 materials including DBP."
+  },
+  {
+   "item_id": "meyer2018-80",
+   "doc_id": "nist2018_pub",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract (NIST record)",
+   "anchor_quote": "The two spacecraft smoke detectors did not successfully detect every type of smoke",
+   "summary": "Same headline as the manuscript: the two spacecraft smoke detectors did not detect every smoke type, so next-generation detectors must be improved and tested against smoke from relevant space materials.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "two spacecraft smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Corroborates meyer2018 abstract wording."
+  },
+  {
+   "item_id": "meyer2018-81",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Headline",
+   "anchor_quote": "One Detector Doesn’t ‘Fit All’ for Smoke in Spacecraft",
+   "summary": "NIST news release (1 May 2018) headline: no single detector suits all spacecraft smoke.",
+   "category": "context",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Press framing of meyer2018."
+  },
+  {
+   "item_id": "meyer2018-82",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, paragraph 2",
+   "anchor_quote": "Working with the National Institute of Standards and Technology (NIST) since 2002",
+   "summary": "The release says NASA has worked with NIST since 2002 studying smoke behaviour in microgravity as a basis for spaceflight smoke detection.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2002,
+     "unit": "year",
+     "meaning": "start of NASA-NIST collaboration",
+     "verbatim": "since 2002"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Programmatic statement by NIST."
+  },
+  {
+   "item_id": "meyer2018-83",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, paragraph on detection in space",
+   "anchor_quote": "are placed within the ventilation system rather than on a compartment wall",
+   "summary": "The release explains that ISS and modern spacecraft smoke detectors sit in the ventilation system rather than on walls, since without buoyancy smoke does not rise.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": "smoke detectors on the ISS",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "General explanatory statement; no data."
+  },
+  {
+   "item_id": "meyer2018-84",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, paragraph on detection in space",
+   "anchor_quote": "with the smoke often aggregating into large particles or long chains",
+   "summary": "The release states that in microgravity flames are spherical and smoke often aggregates into large particles or long chains spreading in all directions.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "General press statement, not a SAME result; not quantified."
+  },
+  {
+   "item_id": "meyer2018-85",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, SAME description",
+   "anchor_quote": "SAME investigated the smoke particles produced by five materials commonly found aboard spacecraft",
+   "summary": "Five materials: cellulose (cotton lamp wick), Kapton (thermal insulation), silicone rubber (seals/gaskets), Teflon (wire insulation) and Pyrell (polyurethane packing foam).",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Uses the name 'Smoke and Aerosol Measurement Experiment'; the paper says 'Smoke Aerosol Measurement Experiment'. DBP is not mentioned."
+  },
+  {
+   "item_id": "meyer2018-86",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, SAME description",
+   "anchor_quote": "the ionization model used during the space shuttle program and the photoelectric system",
+   "summary": "Per the release, samples were loaded into a carousel in an ISS glovebox, heated electrically, aged in a chamber, and the smoke routed to six devices including the Shuttle-era ionization detector and the photoelectric ISS detector.",
+   "category": "investigation_profile",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": "ionization model (space shuttle program); photoelectric system (ISS)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Press description; instrument list wording differs from the paper."
+  },
+  {
+   "item_id": "meyer2018-87",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, quote from T. Cleary (NIST)",
+   "anchor_quote": "the rate of sample heating, the airflow passing around the heated material and the age",
+   "summary": "NIST's Tom Cleary is quoted that three factors were varied - sample heating rate, airflow around the sample and smoke age - to represent a range of fire conditions.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)",
+    "cellulose lamp wick"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Paper describes controlled heating temperature rather than heating rate."
+  },
+  {
+   "item_id": "meyer2018-88",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, quote from M. Meyer (NASA GRC)",
+   "anchor_quote": "it frequently failed to detect the smaller smoke particles from Teflon and Kapton",
+   "summary": "Meyer is quoted that the photoelectric ISS detector easily sensed the large particles from cellulose, silicone and Pyrell but often failed on the smaller Teflon and Kapton particles - a concern since these are used extensively in electronics, called the most likely fire/smoke source in space.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "cellulose lamp wick",
+    "silicone rubber",
+    "Pyrell (polyurethane foam)"
+   ],
+   "detector": "light-scattering photoelectric ISS detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Press quote; quantitative fractions are in meyer2018 Section 3.2. 'Most likely source' is the speaker's claim."
+  },
+  {
+   "item_id": "meyer2018-89",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, after Meyer quote",
+   "anchor_quote": "older ionization detector from the space shuttle era fared only slightly better for Teflon smoke",
+   "summary": "The release says the older Shuttle-era ionization detector did only slightly better for Teflon smoke.",
+   "category": "missed_alarm",
+   "investigation": "SAME",
+   "materials": [
+    "Teflon"
+   ],
+   "detector": "ionization detector from the space shuttle era",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (ISS, SAME flights)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Press paraphrase of the paper's conclusion."
+  },
+  {
+   "item_id": "meyer2018-90",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, quote from M. Meyer",
+   "anchor_quote": "no single smoke detection method currently available is sensitive enough to detect all possible",
+   "summary": "Meyer is quoted that, given the many materials and heating conditions and background aerosols such as dust, the team concluded no currently available single detection method is sensitive enough for all smoke particle sizes.",
+   "category": "technology_need",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Broader than the paper, which says a single-moment device is improbable to cover the size spectrum and resist false alarms. Dust is named here explicitly as background aerosol."
+  },
+  {
+   "item_id": "meyer2018-91",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, quote from M. Meyer",
+   "anchor_quote": "More research is needed to better understand how fires behave in microgravity",
+   "summary": "Meyer calls for more research on how fires behave in microgravity and how to detect them as early as possible from whatever smoke they make.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Press quote; no specific research questions listed."
+  },
+  {
+   "item_id": "meyer2018-92",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, recommendation paragraph",
+   "anchor_quote": "Because not all of the particles were consistently detected, the researchers recommend that",
+   "summary": "The release repeats the paper's recommendation that next-generation spacecraft fire detectors be improved and tested against smoke from relevant space materials.",
+   "category": "recommendation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Quotes meyer2018 abstract."
+  },
+  {
+   "item_id": "meyer2018-93",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, Saffire paragraphs",
+   "anchor_quote": "which also will include smoke particle measurements",
+   "summary": "The release presents Saffire as the follow-on: three tests in 2016-2017 in uncrewed cargo vehicles, and three more burns scheduled for 2019-2020 that would include smoke particle measurements, with NIST calibrating the particle instruments.",
+   "category": "followup_solution",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "tests",
+     "meaning": "Saffire tests 2016-2017",
+     "verbatim": "three tests"
+    },
+    {
+     "value": 3,
+     "unit": "burns",
+     "meaning": "further Saffire burns scheduled 2019-2020",
+     "verbatim": "Three more"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "low gravity (uncrewed cargo vehicle)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Forward-looking as of May 2018; whether these occurred as planned is not verified in this source."
+  },
+  {
+   "item_id": "meyer2018-94",
+   "doc_id": "nist2018_news",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Body, opening paragraph",
+   "anchor_quote": "A lithium-perchlorate canister, designed to generate oxygen via a chemical reaction, suddenly burst into flames",
+   "summary": "The release opens with the February 1997 Mir fire from an oxygen-generating lithium-perchlorate canister, which filled the station with dense smoke.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Historical context; not SAME data."
+  }
+ ],
+ "inaccessible": [
+  {
+   "what": "Publisher version of record, Fire Safety Journal 98 (2018) 74-81 (sciencedirect, PII S0379711216302181)",
+   "why": "Paywalled/blocked in the Model C audit (Meyer2018.blocked.html is a PMC proof-of-work interstitial); not re-attempted. The PMC author manuscript was used instead, so wording may differ slightly from the final article."
+  },
+  {
+   "what": "Per-run values behind Figure 9 (detector signal vs number concentration) and Figures 5-8",
+   "why": "Only available as images; no data table in the paper. Not digitised in this step (no numbers invented)."
+  }
+ ],
+ "search_log": [
+  {
+   "query": "local check of Model C references",
+   "where": "external/model_c/data/references/",
+   "hits": 3,
+   "notes": "Meyer2018.blocked.html (PMC proof-of-work page, no content), PMC7918997.html/.txt (author manuscript), detector_fig9.jpg (figure image)."
+  },
+  {
+   "query": "curl https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+   "where": "PMC",
+   "hits": 1,
+   "notes": "HTTP 200, 175412 bytes; identical to Model C copy except session tokens."
+  },
+  {
+   "query": "curl https://api.crossref.org/works/10.1016/j.firesaf.2018.04.004",
+   "where": "Crossref API",
+   "hits": 1,
+   "notes": "Confirms title, 8 authors, Fire Safety Journal 98, pages 74-81, issued 2018-06; AM license from 2019-04-25."
+  },
+  {
+   "query": "curl NIST publication page",
+   "where": "www.nist.gov/publications",
+   "hits": 1,
+   "notes": "HTTP 200; abstract + citation; only a DOI link, no NIST PDF."
+  },
+  {
+   "query": "curl NIST news release 2018/05",
+   "where": "www.nist.gov/news-events",
+   "hits": 1,
+   "notes": "HTTP 200; full release text."
+  }
+ ],
+ "open_questions": [
+  "How many Kapton, Teflon and other runs did the ISS and Space Shuttle detectors see? The text gives only 'over half' (Kapton) and '2/3' (Teflon) for the ISS detector; counts would need Figure 9 digitisation (an image of it exists at external/model_c/data/references/detector_fig9.jpg).",
+  "Alarm threshold voltages for both detectors are shown only as dashed lines in Figure 9, not in the text.",
+  "Gas composition (O2 %) and pressure inside the Microgravity Science Glovebox during SAME runs are not stated in this paper (within the examined text); presumably cabin-like but unverified.",
+  "The conclusion bullet that sub-micron smoke is 'readily detected using an ionization smoke detector' does not name the device; it may refer to the residential ionization chamber used as first-moment instrument, since the Space Shuttle ionization detector had below-threshold runs for Kapton, Teflon and lamp wick.",
+  "Zero-flow size increase is 1.7x on average in Section 3.3 but 'double' in the Conclusions - which is correct?",
+  "Results say 6 materials (incl. DBP); Conclusions, NIST abstract and news release say five. DBP role (reference aerosol?) is not explained in this paper.",
+  "Which runs belong to SAME-1 vs SAME-2 is not stated for the detector results (Figure 9).",
+  "No dust/nuisance-aerosol tests were reported in this paper; false-alarm concerns are argued, not measured (within the examined sources)."
+ ]
+}

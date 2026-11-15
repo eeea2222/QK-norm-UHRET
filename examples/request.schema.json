@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "analyze_blindspots request",
+  "type": "object",
+  "required": [
+    "question"
+  ],
+  "properties": {
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "filters": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "material": {
+          "type": [
+            "string",
+            "array"
+          ]
+        },
+        "investigation": {
+          "type": [
+            "string",
+            "array"
+          ]
+        },
+        "classification": {
+          "type": [
+            "string",
+            "array"
+          ]
+        },
+        "finding_type": {
+          "type": [
+            "string",
+            "array"
+          ]
+        },
+        "year_range": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "model_c_input": {
+          "type": "object",
+          "description": "Exact Model C input (material + five controls + units). Triggers a predicted similar-condition output."
+        }
+      }
+    },
+    "use_llm": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

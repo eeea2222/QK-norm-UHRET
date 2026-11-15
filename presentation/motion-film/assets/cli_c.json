@@ -1,0 +1,83 @@
+{
+  "created_utc": "2026-11-15T12:49:13.527950+00:00",
+  "model": "c",
+  "purpose": "Model girdisi denemesi",
+  "value_kind": "predicted",
+  "runs": [
+    {
+      "input": {
+        "material": "Teflon",
+        "airflow_cm_s": 4.0,
+        "resistance_ratio": 1.445,
+        "heating_s": 60.0,
+        "aging_s": 11.0,
+        "mixing_s": 8.0,
+        "units": {
+          "airflow_cm_s": "cm/s",
+          "resistance_ratio": "1",
+          "heating_s": "s",
+          "aging_s": "s",
+          "mixing_s": "s"
+        }
+      },
+      "output": {
+        "model": "model_c",
+        "repo": "efe-T/nasa-same-model-c",
+        "revision": "91292a40886564d146dc9e9d496b74c2aefaab5c",
+        "value_kind": "predicted",
+        "quantity": "recorded ISS scatter reaches 2.0 V (derived threshold label)",
+        "predicted_alarm_level_reached": false,
+        "ood": false,
+        "ood_reason": "Within empirical condition-distance threshold",
+        "nearest_distance": 0.0,
+        "ood_threshold": 9.321957129180975,
+        "uncertainty": null,
+        "nearest_measured_experiment": {
+          "test_id": "SAME:25",
+          "campaign": "SAME",
+          "material": "Teflon",
+          "iss_scatter_v": 1.64036565,
+          "signal_kind": "measured",
+          "alarm_level_reached": 0,
+          "label_rule": "ISS scatter >=2.0 V; Meyer et al. 2018 Figure 9",
+          "derived_label_kind": "derived",
+          "airflow_cm_s": 4.0,
+          "resistance_ratio": 1.445,
+          "heating_s": 60.0,
+          "aging_s": 11.0,
+          "mixing_s": 8.0,
+          "group_id": "group-004",
+          "iss_saturation_status": "not_individually_resolved",
+          "iss_scatter_v_value_kind": "measured",
+          "alarm_level_reached_value_kind": "derived",
+          "source": "external/model_c/data/processed/dashboard_table.csv (PSI-101 combined workbook, sheet 'Combined Rslts Copy this sheet')"
+        },
+        "input": {
+          "material": "Teflon",
+          "airflow_cm_s": 4.0,
+          "resistance_ratio": 1.445,
+          "heating_s": 60.0,
+          "aging_s": 11.0,
+          "mixing_s": 8.0,
+          "units": {
+            "airflow_cm_s": "cm/s",
+            "resistance_ratio": "1",
+            "heating_s": "s",
+            "aging_s": "s",
+            "mixing_s": "s"
+          }
+        },
+        "checksums_verified": true,
+        "caveats": [
+          "Target is a derived label (recorded ISS scatter >= 2.0 V), not a recorded operational alarm.",
+          "Material identity explains the headline score (material-majority baseline 0.891 vs forest 0.900 balanced accuracy); no demonstrated extra predictive value from the controlled conditions.",
+          "Weak on difficult materials: Kapton held-out positive recall 0.111, Teflon 0.",
+          "OOD flag is a same-material condition-distance heuristic, not a calibrated safety boundary; uncertainty is null.",
+          "Not an alarm-time prediction, spacecraft risk score, or certification."
+        ],
+        "use_as_evidence": false
+      }
+    }
+  ],
+  "status": "COMPLETED"
+}

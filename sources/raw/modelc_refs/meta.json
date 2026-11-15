@@ -1,0 +1,25 @@
+{
+ "doc_id": "modelc_refs",
+ "title": "Model C research note: 'SAME smoke detector evidence/references.md' (project-internal)",
+ "year": 2026,
+ "authors": [
+  "QK norm project, Model C audit"
+ ],
+ "url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/research_notes/SAME%20smoke%20detector%20evidence/references.md",
+ "retrieved_utc": "2026-11-15T10:34:10Z",
+ "sha256": "a89fad053990786aa343e3e3cf4e57ec0631c99b680fecd9fb174260175f36ee",
+ "bytes": 12138,
+ "page_count": null,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "Project-internal Model C artifact (see LICENSE/NOTICE in the Model C snapshot).",
+ "accessible": true,
+ "access_note": "Project-internal notes summarising Meyer et al. 2018 and NTRS papers (secondhand for those papers; the primary papers are handled by other source groups). Text copy in sources/text/modelc_refs.txt. Not listed in source_manifest.json (project artifact).",
+ "local_path": "external/model_c/research_notes/SAME smoke detector evidence/references.md",
+ "text_path": "sources/text/modelc_refs.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

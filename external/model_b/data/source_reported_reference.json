@@ -1,0 +1,104 @@
+{
+  "dataset": "NASA Saffire-I",
+  "label_provenance": "source_reported",
+  "value_kind": "measured",
+  "measurement_note": "Published aggregate experimental results; raw measurement records were not used to independently reproduce these aggregates. Oxygen values after the initial ISS reading were derived by the source authors from CO2, not measured directly.",
+  "independent_missions": 1,
+  "independent_material_samples": 1,
+  "sequential_test_phases": 2,
+  "dependency_evidence": {
+    "url": "https://ntrs.nasa.gov/api/citations/20170008805/downloads/20170008805.pdf",
+    "title": "Results of Large-Scale Spacecraft Flammability Tests",
+    "pdf_page": 14,
+    "finding": "Opposed-flow test used the unburned approximately 10% remaining after the concurrent-flow test."
+  },
+  "verification": {
+    "procedure": "Compared pdftotext extraction with rendered original PDF pages, visually checked all Saffire-I cells in Table I on page 29 of 20170008805 and corroborated against Table 1 pages 30–31 of 20180005168.",
+    "verification_kind": "agent_visual_check",
+    "date": "2026-11-14",
+    "primary_pdf": "data/raw/publications/20170008805.pdf",
+    "primary_render": "data/raw/publications/original-table-29.png",
+    "corroborating_renders": ["data/raw/publications/table-30.png", "data/raw/publications/table-31.png"]
+  },
+  "units": {
+    "width_cm": "cm",
+    "thickness_mm": "mm",
+    "sample_length_cm": "cm",
+    "flow_speed_cm_s": "cm/s",
+    "burn_duration_s": "s",
+    "burn_length_cm": "cm",
+    "spread_rate_mm_s": "mm/s",
+    "oxygen_percent_initial": "% volume",
+    "oxygen_percent_final": "% volume"
+  },
+  "rows": [
+    {
+      "test_id": "I-1",
+      "source_test_id": "1-1",
+      "mission_id": "Saffire-I",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "dependency_group": "Saffire-I-SIBAL-1",
+      "sequence_index": 1,
+      "material": "cotton-fiberglass",
+      "flow_direction": "concurrent",
+      "width_cm": 40.6,
+      "thickness_mm": 0.37,
+      "sample_length_cm": 94.0,
+      "sample_length_approximate": false,
+      "flow_speed_cm_s": 20.0,
+      "burn_duration_s": 420.0,
+      "burn_length_cm": 84.0,
+      "burn_length_approximate": true,
+      "spread_rate_mm_s": 1.8,
+      "oxygen_percent_initial": 21.7,
+      "oxygen_percent_final": 21.5,
+      "oxygen_value_kind": "source_initial_measured_final_derived",
+      "label_provenance": "source_reported",
+      "source": {
+        "url": "https://ntrs.nasa.gov/api/citations/20170008805/downloads/20170008805.pdf",
+        "title": "Results of Large-Scale Spacecraft Flammability Tests",
+        "table": "Table I. Summary of Samples, Test Conditions, and Selected Results",
+        "pdf_page": 29,
+        "corroborating_url": "https://ntrs.nasa.gov/api/citations/20180005168/downloads/20180005168.pdf",
+        "corroborating_pdf_pages": [30, 31]
+      }
+    },
+    {
+      "test_id": "I-2",
+      "source_test_id": "1-2",
+      "mission_id": "Saffire-I",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "dependency_group": "Saffire-I-SIBAL-1",
+      "sequence_index": 2,
+      "material": "cotton-fiberglass",
+      "flow_direction": "opposed",
+      "width_cm": 40.6,
+      "thickness_mm": 0.37,
+      "sample_length_cm": 10.0,
+      "sample_length_approximate": true,
+      "flow_speed_cm_s": 20.0,
+      "burn_duration_s": 70.0,
+      "burn_length_cm": 10.0,
+      "burn_length_approximate": true,
+      "spread_rate_mm_s": 1.3,
+      "oxygen_percent_initial": 21.5,
+      "oxygen_percent_final": null,
+      "oxygen_approximate": true,
+      "oxygen_value_kind": "source_derived",
+      "label_provenance": "source_reported",
+      "source": {
+        "url": "https://ntrs.nasa.gov/api/citations/20170008805/downloads/20170008805.pdf",
+        "title": "Results of Large-Scale Spacecraft Flammability Tests",
+        "table": "Table I. Summary of Samples, Test Conditions, and Selected Results",
+        "pdf_page": 29,
+        "corroborating_url": "https://ntrs.nasa.gov/api/citations/20180005168/downloads/20180005168.pdf",
+        "corroborating_pdf_pages": [30, 31]
+      }
+    }
+  ],
+  "excluded_conflicts": [
+    "Ignition power is 182 W in the tables but 165 W in presentation prose; do not silently reconcile.",
+    "20180005168 main slide gives Saffire-I 400 s while its backup table gives 420 s. Use the tabulated duration and preserve this conflict.",
+    "20150000894 is a preflight poster and gives planned thermocouple heights that differ from postflight page 22 labels; do not use planned values as observed."
+  ]
+}

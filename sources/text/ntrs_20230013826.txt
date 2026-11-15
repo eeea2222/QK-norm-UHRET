@@ -1,0 +1,123 @@
+The Influence of Smoke Particle Properties and Cabin Characteristics on Smoke Detection in
+Lunar Gravity
+Claire Fortenberry,1,3 Ramaswamy Balasubramaniam,2,3 David Urban3
+1Universities Space Research Association, 2Case Western Reserve University, 3NASA Glenn Research Center
+
+claire.fortenberry@nasa.gov
+
+Background and Motivation
+Earth Gravity (1g)
+
+Results and Discussion
+
+Microgravity (0g)
+
+Lunar gravity (0.165g)
+
+?
+?
+
+• Earth gravity: smoke stratifies
+and preconcentrates at ceiling
+• Microgravity: no buoyancy,
+mixing driven by low-speed
+turbulent flow and high filtration
+rates
+• Some buoyant plume flow
+expected in lunar gravity
+• Plume transport will be governed
+by combination of buoyant flow
+and forced flow, which may be
+similar orders of magnitude
+• How will lunar dust mitigation
+strategy affect smoke transport?
+• Where should smoke detectors
+be placed in a lunar habitat?
+• What should smoke detectors be
+set to? Times to alarm?
+
+Modeling Strategy
+Computations performed using COMSOL Multiphysics:
+Volume boundaries = no slip
+uforced = {0,0,uz}
+z
+
+x
+
+y
+
+2m
+
+Study 1: Calculate flow field
+• Fluid flow model: large eddy simulation (LES)
+• Pambient = 8.2 psia, Tambient = 293.15 K
+• Gravity g = {0,0,gz} where gz = gLunar or gEarth
+• Heat transfer in fluids
+• Walls = open boundaries, T = Tambient
+• Overheating 2 cm circular patch on wall
+• Tfuel ranging from 600-1000K ± 1 K fluctuation
+• Mass and heat transfer coupled through nonisothermal fluid
+flow multiphysics node
+• Forced flow introduced from supply on/near ceiling and
+return on floor
+
+Fraction of
+particles caught
+in downward
+stream
+
+• In lunar gravity, stratified plume
+layer is somewhat retained at
+uforced = 1 cm/s condition, before
+forced flow path develops
+• At uforced = 5 cm/s, particles are
+mixed into volume at 5 minutes
+• US ECLSS velocity requirements
+for intramodule circulation: 5.1-20
+cm/s (3.6-102 cm/s as
+lower/upper limits)
+• In a scenario where an early fire
+occurs near vent flow path, even
+low forced flow velocities (5 cm/s)
+can impede development of smoke
+layer at ceiling
+
+0.5 m
+
+Conclusions and Future Work
+
+uforced = {0,0,uz}
+
+2m
+
+Study 2: Calculate particle trajectories
+• Newtonian formulation: FTotal = FDrag + FBrownian + FGravity
+• Massless formulation: particle velocities are the same as
+velocity of surrounding fluid; dramatically reduces
+computation time
+• Particle assumptions: d < 1 um, spherical, density ~1-2 g/cm3
+• With these assumptions, Rep < 0.5 with external velocities
+of 100 cm/s
+
+Development
+of layer
+around supply
+
+Kapton smoke
+
+Teflon smoke
+
+Meyer et al., Aerosol Sci. Tech., 49, 5, 299-309, 2015.
+
+What does this mean for future Lunar habitats?
+• In Lunar gravity, even very low forced flow velocities can disrupt smoke layer formation
+• Smoke detectors could be placed on ceilings to facilitate earlier smoke detection, but detector
+placement relative to supplies and returns must be carefully considered
+What are the next steps?
+• Evaluate different supply/return placements and range of tested flow velocities
+• How does smoke layer development change?
+• Is there an alternative to ceiling/floor placement?
+• Simplifying assumptions about particle transport must be considered with each scenario
+• Explore different, more realistic early fire scenarios
+
+

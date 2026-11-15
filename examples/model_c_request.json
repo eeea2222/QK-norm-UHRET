@@ -1,0 +1,15 @@
+{
+  "material": "Kapton",
+  "airflow_cm_s": 0.0,
+  "resistance_ratio": 1.22,
+  "heating_s": 10.0,
+  "aging_s": 1.0,
+  "mixing_s": 0.0,
+  "units": {
+    "airflow_cm_s": "cm/s",
+    "resistance_ratio": "1",
+    "heating_s": "s",
+    "aging_s": "s",
+    "mixing_s": "s"
+  }
+}

@@ -1,0 +1,30 @@
+{
+ "doc_id": "ices2025_halo_sd_threshold",
+ "title": "Approach for Defining an Acceptable Threshold Range for Smoke Detection in the HALO Environment",
+ "year": 2025,
+ "authors": [
+  "Robert Van Hassel",
+  "Marit E. Meyer",
+  "Catherine Keen"
+ ],
+ "url": "https://ttu-ir.tdl.org/server/api/core/bitstreams/068487fa-2e03-415d-8151-9326f18ab653/content",
+ "retrieved_utc": "2026-11-15T10:58:00Z",
+ "sha256": "a5b0494f66b504f2eb33080a9a959d3c5935a52043a08495cbfb4d0ead30b012",
+ "bytes": 9804,
+ "page_count": null,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES 2025 (paper number not shown in rendering)",
+   "Approved for Public Release NG25-0826"
+  ]
+ },
+ "license_note": "(c) 2025 Northrop Grumman Systems Corporation; approved for public release NG25-0826. Industry (Northrop Grumman / Paragon) paper with NASA GRC input, not a NASA-authored document. Stored only as verbatim excerpts.",
+ "accessible": true,
+ "access_note": "PDF bitstream blocked for curl (HTTP 202 bot challenge). Text via Exa web_fetch of the bitstream URL; raw/text files are a verbatim EXCERPT ([...] marks omissions; most tables and appendix omitted). sha256/bytes refer to the excerpt file; no PDF page numbers available.",
+ "source_key": "ntrs_followup",
+ "raw_file": "exa_render_excerpt.txt"
+}

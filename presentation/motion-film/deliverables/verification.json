@@ -1,0 +1,286 @@
+{
+  "checks": {
+    "duration_177s": true,
+    "resolution_1080p": true,
+    "h264": true,
+    "24fps": true,
+    "yuv420p": true,
+    "full_decode_clean": true,
+    "4248_frames": true,
+    "seven_pages": true,
+    "continuous_page_timeline": true
+  },
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640028",
+        "width": 1920,
+        "height": 1080,
+        "coded_width": 1920,
+        "coded_height": 1080,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 40,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "24/1",
+        "avg_frame_rate": "24/1",
+        "time_base": "1/12288",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2174976,
+        "duration": "177.000000",
+        "bit_rate": "417268",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "4248",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.101 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/efeai/Desktop/NasaSpaceApps/presentation/motion-film/deliverables/jury_animation.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "177.000000",
+      "size": "9282389",
+      "bit_rate": "419543",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf63.1.101"
+      }
+    }
+  },
+  "pages": [
+    {
+      "page": 1,
+      "start_s": 0,
+      "end_s": 45,
+      "title": "Problem ve 2018\u20132025\u20132026 kronolojisi"
+    },
+    {
+      "page": 2,
+      "start_s": 45,
+      "end_s": 68,
+      "title": "Deney ba\u011flam\u0131 ve Model A"
+    },
+    {
+      "page": 3,
+      "start_s": 68,
+      "end_s": 88,
+      "title": "Model B / g\u00f6r\u00fcnt\u00fcden \u00f6l\u00e7\u00fcm"
+    },
+    {
+      "page": 4,
+      "start_s": 88,
+      "end_s": 108,
+      "title": "Model C / ger\u00e7ek SAME kay\u0131tlar\u0131"
+    },
+    {
+      "page": 5,
+      "start_s": 108,
+      "end_s": 142,
+      "title": "Kaynakl\u0131 analiz ve benchmark"
+    },
+    {
+      "page": 6,
+      "start_s": 142,
+      "end_s": 169,
+      "title": "Dashboard ve CLI"
+    },
+    {
+      "page": 7,
+      "start_s": 169,
+      "end_s": 177,
+      "title": "Ara\u015ft\u0131rma katk\u0131s\u0131 ve kapan\u0131\u015f"
+    }
+  ],
+  "decode_stderr": "",
+  "encoded_samples": [
+    {
+      "seconds": 1,
+      "luma_mean": 56.017725694444444
+    },
+    {
+      "seconds": 6,
+      "luma_mean": 56.47673611111111
+    },
+    {
+      "seconds": 13,
+      "luma_mean": 58.02173611111111
+    },
+    {
+      "seconds": 21,
+      "luma_mean": 62.72907986111111
+    },
+    {
+      "seconds": 27,
+      "luma_mean": 61.77140625
+    },
+    {
+      "seconds": 11.8,
+      "luma_mean": 57.82371527777778
+    },
+    {
+      "seconds": 12.2,
+      "luma_mean": 57.905972222222225
+    },
+    {
+      "seconds": 22,
+      "luma_mean": 62.593663194444446
+    },
+    {
+      "seconds": 29.8,
+      "luma_mean": 61.7265625
+    },
+    {
+      "seconds": 30.2,
+      "luma_mean": 58.287899305555555
+    },
+    {
+      "seconds": 34,
+      "luma_mean": 58.77640625
+    },
+    {
+      "seconds": 39,
+      "luma_mean": 60.486666666666665
+    },
+    {
+      "seconds": 47.8,
+      "luma_mean": 25.131631944444443
+    },
+    {
+      "seconds": 48.2,
+      "luma_mean": 41.55998263888889
+    },
+    {
+      "seconds": 58,
+      "luma_mean": 43.29399305555555
+    },
+    {
+      "seconds": 67.8,
+      "luma_mean": 24.841753472222223
+    },
+    {
+      "seconds": 68.2,
+      "luma_mean": 22.290815972222223
+    },
+    {
+      "seconds": 78,
+      "luma_mean": 29.0690625
+    },
+    {
+      "seconds": 87.8,
+      "luma_mean": 22.24578125
+    },
+    {
+      "seconds": 88.2,
+      "luma_mean": 22.09824652777778
+    },
+    {
+      "seconds": 98,
+      "luma_mean": 28.5390625
+    },
+    {
+      "seconds": 107.8,
+      "luma_mean": 22.00861111111111
+    },
+    {
+      "seconds": 108.2,
+      "luma_mean": 21.844131944444445
+    },
+    {
+      "seconds": 117,
+      "luma_mean": 27.204913194444444
+    },
+    {
+      "seconds": 126.8,
+      "luma_mean": 27.22581597222222
+    },
+    {
+      "seconds": 127.2,
+      "luma_mean": 27.389097222222222
+    },
+    {
+      "seconds": 135,
+      "luma_mean": 28.577065972222222
+    },
+    {
+      "seconds": 141.8,
+      "luma_mean": 22.091909722222223
+    },
+    {
+      "seconds": 142.2,
+      "luma_mean": 32.00920138888889
+    },
+    {
+      "seconds": 150,
+      "luma_mean": 63.929097222222225
+    },
+    {
+      "seconds": 156.8,
+      "luma_mean": 64.86881944444444
+    },
+    {
+      "seconds": 157.2,
+      "luma_mean": 25.550868055555554
+    },
+    {
+      "seconds": 163,
+      "luma_mean": 28.256440972222222
+    },
+    {
+      "seconds": 168.8,
+      "luma_mean": 21.968038194444443
+    },
+    {
+      "seconds": 169.2,
+      "luma_mean": 26.858958333333334
+    },
+    {
+      "seconds": 173,
+      "luma_mean": 45.86864583333333
+    }
+  ]
+}

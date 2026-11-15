@@ -1,0 +1,726 @@
+{
+  "question": "PMMA dumanı için ISS dedektörü yanıtı",
+  "engine": "STRUCTURED_CATALOG",
+  "rag_enabled": false,
+  "scientific_validation_status": "DEFERRED_BY_REQUEST",
+  "filters_applied": {
+    "material": "PMMA"
+  },
+  "intents": [],
+  "answer": {
+    "summary": [
+      {
+        "text": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+        "evidence_ids": [
+          "FU-EV-002"
+        ]
+      }
+    ],
+    "technical_detail": [
+      {
+        "text": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+        "evidence_ids": [
+          "FU-EV-002"
+        ]
+      },
+      {
+        "text": "Urban et al. (2026, NTRS 20260001992), Table 1 and alarm-threshold discussion: Saffire VI PMMA tests at 544 and 550 mbar with O2 mole fractions 0.30 and 0.29 reached 2 mg/m3 at 1037 s and 1603 s, when CO had risen 105 and 283 ppm (24-h SMAC 100 ppm). Flaming fires in an uncrewed Cygnus; the authors conclude a lower threshold or more detectors would be needed for that configuration.",
+        "evidence_ids": [
+          "FU-EV-009"
+        ]
+      },
+      {
+        "text": "Within the examined sources, the SAME/SAME-R atmosphere is inferred from the glovebox facility description (21% O2, 14.7 psi) because the experiment reports state only 'air'. Saffire IV-VI did measure flaming-fire smoke with a commercial ionization sensor and an aerosol monitor at up to 0.31 O2 mole fraction and 541 mbar, so flaming smoke at exploration-like atmospheres is partly covered; pyrolysis smoke and the ISS or Shuttle detectors are not.",
+        "evidence_ids": [
+          "GAP-O2-PYROLYSIS"
+        ]
+      },
+      {
+        "text": "Within the examined sources, an ionization detector's baseline changes at low pressure and must be characterised, and most reference aerosol instruments have limited use below Earth-ambient pressure. Saffire IV-VI flaming tests reached 541 mbar with a commercial ionization sensor.",
+        "evidence_ids": [
+          "GAP-PRESSURE-PYROLYSIS"
+        ]
+      }
+    ],
+    "sources": [
+      "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9), https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols (2020), PDF p. 9, Sec. III.C, Fig. 8, https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf"
+    ]
+  },
+  "catalog_records": [
+    {
+      "evidence_id": "FU-EV-001",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS scatter detector, STS ionization detector, CSP prototype, commercial detectors",
+      "finding_type": "followup_solution",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": null,
+      "statement": "A 2020 ground study tested whether laboratory reference aerosols can serve as transfer standards for spacecraft smoke-detector testing, using smoke from six spacecraft-relevant materials.",
+      "technical_detail": "Wang et al. (2020, NTRS 20205003817): mineral oil and DOS reference aerosols together spanned the detector-response range of the six smokes in a mixed chamber at 1 g; smoke size distributions were not measured during the smoke tests.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 1, Abstract",
+      "limitations": [
+        "Ground (1 g) tests; no alarm evaluation; no microgravity."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-002",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS smoke detector (scatter)",
+      "finding_type": "measurement_limitation",
+      "value": 35,
+      "value_unit": "% coefficient of variation of response slope across aerosols",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+      "technical_detail": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "limitations": [
+        "1 g ground chamber; response slope, not alarm decisions."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-003",
+      "investigation": null,
+      "psi_id": null,
+      "material": "PMMA",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS scatter detector among others",
+      "finding_type": "context",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": null,
+      "statement": "The 2020 ground study included a single PMMA pyrolysis test, so the ISS scatter detector has been exposed to PMMA smoke only once, at 1 g, without an alarm evaluation.",
+      "technical_detail": "Wang et al. (2020), p. 4: tube-furnace oxidative pyrolysis of lamp wick, Kapton, Nomex, Teflon, PMMA and wire insulation; one PMMA test with 2 g of sample.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 1,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 4, Sec. II.C Smoke Aerosol Materials (continues p.5)",
+      "limitations": [
+        "Single 1 g test; detector signal vs mass only."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-009",
+      "investigation": "Saffire IV-VI",
+      "psi_id": null,
+      "material": "PMMA",
+      "materials": [
+        "PMMA",
+        "SIBAL",
+        "cotton"
+      ],
+      "detector": "assumed 2 mg/m3 alarm point applied to DustTrak DRX aerosol mass at the Far Field Diagnostics",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In the 2026 Saffire VI results, an assumed 2 mg/m3 smoke alarm point would have been reached only after carbon monoxide had already exceeded the 24-hour exposure limit in both PMMA fires, which burned at about 30% oxygen and reduced pressure.",
+      "technical_detail": "Urban et al. (2026, NTRS 20260001992), Table 1 and alarm-threshold discussion: Saffire VI PMMA tests at 544 and 550 mbar with O2 mole fractions 0.30 and 0.29 reached 2 mg/m3 at 1037 s and 1603 s, when CO had risen 105 and 283 ppm (24-h SMAC 100 ppm). Flaming fires in an uncrewed Cygnus; the authors conclude a lower threshold or more detectors would be needed for that configuration.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "atmosphere_o2_vol_pct": [
+          29,
+          30
+        ],
+        "pressure_kpa": [
+          54.4,
+          55.0
+        ],
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 2,
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+      "limitations": [
+        "Assumed alarm threshold, not a spacecraft detector's actual alarm.",
+        "Flaming fires in one vehicle geometry; two tests.",
+        "Not pyrolysis smoke."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-010",
+      "investigation": "Saffire IV-VI",
+      "psi_id": null,
+      "material": "PMMA, SIBAL, cotton",
+      "materials": [
+        "PMMA",
+        "SIBAL",
+        "cotton"
+      ],
+      "detector": "ionization sensor from a commercial smoke detector and DustTrak DRX (Far Field Diagnostics)",
+      "finding_type": "context",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": null,
+      "statement": "Saffire IV-VI burned PMMA, SIBAL and cotton samples in seven large low-gravity fires with cabin oxygen and pressure moved toward exploration atmospheres, while measuring smoke aerosol and gases at the Far Field Diagnostics.",
+      "technical_detail": "Urban et al. (2026, NTRS 20260001992): O2 mole fraction 0.22-0.31, pressure 541-1000 mbar; the FFD held CO/CO2/O2 sensors, an ionization sensor from a commercial smoke detector and a DustTrak DRX. These are flaming fires; no spacecraft smoke detector (ISS or Shuttle type) was evaluated.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "atmosphere_o2_vol_pct": [
+          22,
+          31
+        ],
+        "pressure_kpa": [
+          54.1,
+          100.0
+        ],
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 7,
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "PDF p. 1, Abstract (continues p.2)",
+      "limitations": [
+        "Flaming fires; commercial ionization sensor and aerosol monitor only."
+      ]
+    }
+  ],
+  "verified_findings": [
+    {
+      "evidence_id": "FU-EV-002",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS smoke detector (scatter)",
+      "finding_type": "measurement_limitation",
+      "value": 35,
+      "value_unit": "% coefficient of variation of response slope across aerosols",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+      "technical_detail": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "limitations": [
+        "1 g ground chamber; response slope, not alarm decisions."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-009",
+      "investigation": "Saffire IV-VI",
+      "psi_id": null,
+      "material": "PMMA",
+      "materials": [
+        "PMMA",
+        "SIBAL",
+        "cotton"
+      ],
+      "detector": "assumed 2 mg/m3 alarm point applied to DustTrak DRX aerosol mass at the Far Field Diagnostics",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In the 2026 Saffire VI results, an assumed 2 mg/m3 smoke alarm point would have been reached only after carbon monoxide had already exceeded the 24-hour exposure limit in both PMMA fires, which burned at about 30% oxygen and reduced pressure.",
+      "technical_detail": "Urban et al. (2026, NTRS 20260001992), Table 1 and alarm-threshold discussion: Saffire VI PMMA tests at 544 and 550 mbar with O2 mole fractions 0.30 and 0.29 reached 2 mg/m3 at 1037 s and 1603 s, when CO had risen 105 and 283 ppm (24-h SMAC 100 ppm). Flaming fires in an uncrewed Cygnus; the authors conclude a lower threshold or more detectors would be needed for that configuration.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "atmosphere_o2_vol_pct": [
+          29,
+          30
+        ],
+        "pressure_kpa": [
+          54.4,
+          55.0
+        ],
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 2,
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+      "limitations": [
+        "Assumed alarm threshold, not a spacecraft detector's actual alarm.",
+        "Flaming fires in one vehicle geometry; two tests.",
+        "Not pyrolysis smoke."
+      ]
+    }
+  ],
+  "detection_blindspots": [
+    {
+      "gap_id": "GAP-O2-PYROLYSIS",
+      "topic": "Smoke detection with pre-fire (pyrolysis) smoke at elevated oxygen (>= 30% O2)",
+      "dimension": "oxygen",
+      "classification": "EVIDENCE_GAP",
+      "rule": "no detector-evaluating pyrolysis-smoke investigation profile with O2 max >= 30%; any unknown O2 -> INSUFFICIENT_INFORMATION",
+      "rule_result": {
+        "detector_profiles": [
+          "SAME",
+          "SAME-R",
+          "GASP-2020 ground detector characterisation"
+        ],
+        "condition_unknown_in": [],
+        "profiles_matching": [],
+        "tested_conditions": [
+          {
+            "investigation": "SAME",
+            "condition": {
+              "min": 21,
+              "max": 21,
+              "basis": "inferred: SAME report says only 'air' inside the MSG and lists no gas-composition variation; the 2021 white paper (Table 1) gives the MSG atmosphere as 21% O2 at 14.7 psi",
+              "evidence_ids": [
+                "SAME-EV-008",
+                "SAME-EV-009",
+                "WP21-EV-011"
+              ]
+            }
+          },
+          {
+            "investigation": "SAME-R",
+            "condition": {
+              "min": 21,
+              "max": 21,
+              "basis": "inferred: SAME-R report states no O2 or pressure; same MSG facility (21% O2, 14.7 psi per 2021 Table 1)",
+              "evidence_ids": [
+                "WP21-EV-011"
+              ]
+            }
+          },
+          {
+            "investigation": "GASP-2020 ground detector characterisation",
+            "condition": {
+              "min": 21,
+              "max": 21,
+              "basis": "2021 white paper Table 1 lists GASP at 21% O2",
+              "evidence_ids": []
+            }
+          }
+        ],
+        "filter": {
+          "smoke_generation_mode": [
+            "pyrolysis"
+          ]
+        },
+        "excluded_by_filter": [
+          "Saffire IV-VI"
+        ]
+      },
+      "statement": "Within the examined sources, no spacecraft smoke-detector test with pre-fire (pyrolysis) smoke was run at elevated oxygen: SAME, SAME-R and the 2020 ground study used ordinary air at 21% O2, while the planned lunar habitat atmosphere is 34% O2 at 8.2 psi.",
+      "detail": "The SAME/SAME-R atmosphere is inferred from the glovebox facility description (21% O2, 14.7 psi) because the experiment reports state only 'air'. Saffire IV-VI did measure flaming-fire smoke with a commercial ionization sensor and an aerosol monitor at up to 0.31 O2 mole fraction and 541 mbar, so flaming smoke at exploration-like atmospheres is partly covered; pyrolysis smoke and the ISS or Shuttle detectors are not.",
+      "evidence_ids": [
+        "WP21-EV-011",
+        "SAME-EV-008",
+        "SAME-EV-009",
+        "WP21-EV-006",
+        "SBIR25-EV-008",
+        "WP21-EV-009",
+        "FU-EV-010"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "oxygen",
+        "lunar base",
+        "exploration atmosphere",
+        "34%",
+        "30%"
+      ]
+    },
+    {
+      "gap_id": "GAP-PRESSURE-PYROLYSIS",
+      "topic": "Smoke detection with pyrolysis smoke at reduced cabin pressure (<= 10.2 psi / 70.3 kPa)",
+      "dimension": "pressure",
+      "classification": "EVIDENCE_GAP",
+      "rule": "no detector-evaluating pyrolysis-smoke investigation profile with pressure min <= 70.3 kPa; any unknown pressure -> INSUFFICIENT_INFORMATION",
+      "rule_result": {
+        "detector_profiles": [
+          "SAME",
+          "SAME-R",
+          "GASP-2020 ground detector characterisation"
+        ],
+        "condition_unknown_in": [],
+        "profiles_matching": [],
+        "tested_conditions": [
+          {
+            "investigation": "SAME",
+            "condition": {
+              "min": 101.3,
+              "max": 101.3,
+              "as_reported": "14.7 psi (MSG facility, converted)",
+              "basis": "inferred as for O2",
+              "evidence_ids": [
+                "SAME-EV-008",
+                "WP21-EV-011"
+              ]
+            }
+          },
+          {
+            "investigation": "SAME-R",
+            "condition": {
+              "min": 101.3,
+              "max": 101.3,
+              "as_reported": "14.7 psi (MSG facility, converted)",
+              "basis": "inferred as for O2",
+              "evidence_ids": [
+                "WP21-EV-011"
+              ]
+            }
+          },
+          {
+            "investigation": "GASP-2020 ground detector characterisation",
+            "condition": {
+              "min": 101.3,
+              "max": 101.3,
+              "as_reported": "14.7 psi (converted)",
+              "basis": "2021 white paper Table 1"
+            }
+          }
+        ],
+        "filter": {
+          "smoke_generation_mode": [
+            "pyrolysis"
+          ]
+        },
+        "excluded_by_filter": [
+          "Saffire IV-VI"
+        ]
+      },
+      "statement": "Within the examined sources, no smoke-detector test with pyrolysis smoke was run at reduced pressure: the detector-evaluating pyrolysis tests ran at 14.7 psi, while Gateway HALO is nominally 10.2 psi and the planned lunar habitat 8.2 psi.",
+      "detail": "An ionization detector's baseline changes at low pressure and must be characterised, and most reference aerosol instruments have limited use below Earth-ambient pressure. Saffire IV-VI flaming tests reached 541 mbar with a commercial ionization sensor.",
+      "evidence_ids": [
+        "WP21-EV-011",
+        "FU-EV-014",
+        "WP21-EV-006",
+        "SBIR25-EV-005",
+        "FU-EV-010"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "pressure",
+        "10.2 psi",
+        "8.2 psi",
+        "HALO",
+        "lunar habitat"
+      ]
+    },
+    {
+      "gap_id": "GAP-FLAMING-HERITAGE",
+      "topic": "Heritage spacecraft smoke detectors exposed to flaming-fire smoke in microgravity",
+      "dimension": "combustion_mode",
+      "classification": "EVIDENCE_GAP",
+      "rule": "no microgravity detector test with flaming-fire smoke for the ISS or Shuttle smoke detector",
+      "rule_result": {
+        "criteria": {
+          "detector_contains": "smoke detector (",
+          "smoke_mode": "flaming",
+          "gravity": "microgravity"
+        },
+        "matching_tests": [],
+        "related_tests_other_detectors": [
+          {
+            "investigation": "Saffire IV-VI",
+            "detector": "commercial ionization sensor + DustTrak DRX with assumed 2 mg/m3 alarm point",
+            "materials": [
+              "PMMA",
+              "SIBAL",
+              "cotton"
+            ]
+          }
+        ]
+      },
+      "statement": "Within the examined sources, the ISS and Shuttle smoke detectors were evaluated in microgravity only with pre-fire (pyrolysis) smoke, never with smoke from flaming fires; Saffire IV-VI measured flaming-fire smoke with a commercial ionization sensor and an aerosol monitor instead.",
+      "detail": "SAME and SAME-R heated samples below ignition to emulate an overheat event. Saffire IV-VI fires were large flaming burns in an uncrewed Cygnus.",
+      "evidence_ids": [
+        "M18-EV-004",
+        "FU-EV-010",
+        "FU-EV-009"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "flaming",
+        "pyrolysis",
+        "Saffire",
+        "heritage detectors"
+      ]
+    },
+    {
+      "gap_id": "GAP-MATERIAL-PMMA",
+      "topic": "ISS smoke-detector response to PMMA smoke",
+      "dimension": "material",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "rule": "material/detector pair not tested in microgravity with an alarm evaluation",
+      "rule_result": {
+        "material": "PMMA",
+        "detector_filter": "ISS",
+        "related_tests_found": [
+          {
+            "investigation": "GASP-2020 ground detector characterisation",
+            "detector": "ISS smoke detector (scatter)",
+            "gravity": "1 g",
+            "smoke_mode": "pyrolysis",
+            "alarm_evaluated": false,
+            "evidence_ids": [
+              "FU-EV-001",
+              "FU-EV-002",
+              "FU-EV-003"
+            ]
+          }
+        ],
+        "decisive_tests": []
+      },
+      "statement": "Within the examined sources, the ISS smoke detector was never tested with PMMA smoke in microgravity and no alarm decision was evaluated for PMMA smoke; its only exposure was a single 1 g ground test that measured signal against smoke mass.",
+      "detail": "Saffire IV-VI burned PMMA in microgravity but measured smoke with a commercial ionization sensor and an aerosol monitor, not with the ISS detector. Model A (BASS-II PMMA flame spread) says nothing about smoke-detector response.",
+      "evidence_ids": [
+        "FU-EV-003",
+        "FU-EV-001",
+        "FU-EV-009",
+        "FU-EV-010"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "PMMA",
+        "acrylic",
+        "ISS detector",
+        "untested material"
+      ]
+    }
+  ],
+  "research_priorities": [],
+  "scientific_comparisons": [],
+  "evidence_references": [
+    {
+      "evidence_id": "FU-EV-001",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 1, Abstract",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-002",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-003",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 4, Sec. II.C Smoke Aerosol Materials (continues p.5)",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-009",
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+      "ntrs_id": "20260001992"
+    },
+    {
+      "evidence_id": "FU-EV-010",
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "PDF p. 1, Abstract (continues p.2)",
+      "ntrs_id": "20260001992"
+    },
+    {
+      "evidence_id": "FU-EV-014",
+      "source_title": "Towards Dust-tolerant Smoke Detection in Future Space Missions",
+      "source_year": 2025,
+      "source_url": "https://doi.org/10.32865/2346/102771",
+      "source_location": "Sec. IV.A Environment",
+      "doi": "10.32865/2346/102771"
+    },
+    {
+      "evidence_id": "M18-EV-004",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "Abstract",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-102;PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "SAME-EV-008",
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 20, Section 3.B (p.10)",
+      "doi": "10.60555/gd4k-8h62",
+      "psi_id": "PSI-102"
+    },
+    {
+      "evidence_id": "SAME-EV-009",
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 21, Section 3.B (p.11)",
+      "doi": "10.60555/gd4k-8h62",
+      "psi_id": "PSI-102"
+    },
+    {
+      "evidence_id": "SBIR25-EV-005",
+      "source_title": "NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended",
+      "source_year": 2025,
+      "source_url": "https://www.nasa.gov/wp-content/uploads/2024/01/sbir80nsscfy25sbirphaseiamendment4signed.pdf",
+      "source_location": "PDF p. 259, S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 3)"
+    },
+    {
+      "evidence_id": "SBIR25-EV-008",
+      "source_title": "NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended",
+      "source_year": 2025,
+      "source_url": "https://www.nasa.gov/wp-content/uploads/2024/01/sbir80nsscfy25sbirphaseiamendment4signed.pdf",
+      "source_location": "PDF p. 105, H3.13 > Subtopic Introduction"
+    },
+    {
+      "evidence_id": "WP21-EV-006",
+      "source_title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+      "source_year": 2021,
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+      "source_location": "PDF p. 4, Section C"
+    },
+    {
+      "evidence_id": "WP21-EV-009",
+      "source_title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+      "source_year": 2021,
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+      "source_location": "PDF p. 5, Section C"
+    },
+    {
+      "evidence_id": "WP21-EV-011",
+      "source_title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+      "source_year": 2021,
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+      "source_location": "PDF p. 6, Table 1, row 'MSG (ISS)'"
+    }
+  ],
+  "model_outputs": [],
+  "limitations": [
+    "Results describe the cited experiments and documents only; they are not ISS fire-incident statistics or general detector failure rates.",
+    "Outputs are research-prioritisation aids, not a safety certification, alarm setting, or operational instruction.",
+    "Every gap statement is limited to the sources examined by this module ('within the examined sources'); absence in this collection does not mean NASA never studied the topic.",
+    "Model A (BASS-II flame spread) and Model B (Saffire-I ridge position) do not predict detector performance; no detection result is inferred from them.",
+    "Model C outputs are predictions of a derived 2.0 V threshold label (value_kind 'predicted'), never limitation evidence.",
+    "1 g ground chamber; response slope, not alarm decisions.",
+    "Assumed alarm threshold, not a spacecraft detector's actual alarm.",
+    "Flaming fires in one vehicle geometry; two tests.",
+    "Not pyrolysis smoke.",
+    "Model A concerns PMMA flame-spread rate in BASS-II; it gives no information about smoke-detector response to PMMA smoke and was not used to infer one."
+  ],
+  "generation_status": "FALLBACK_TEMPLATE",
+  "analysis_status": "COMPLETED",
+  "validation": {
+    "template_check": {
+      "valid": true,
+      "errors": [],
+      "n_sentences": 5
+    },
+    "attempts": [],
+    "rejected_template_sentences": [],
+    "fallback_reason": "structured catalog mode; RAG removed"
+  }
+}

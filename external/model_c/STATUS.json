@@ -1,0 +1,172 @@
+{
+  "model_id": "model_c",
+  "model_version": "1.0.0",
+  "source": "NASA PSI-102 SAME / PSI-101 SAME-R",
+  "deliverables": {
+    "dataset_audit": {
+      "status": "TESTED_LOCALLY",
+      "path": "reports/SAME smoke detector evidence.md"
+    },
+    "task_selection": {
+      "status": "TESTED_LOCALLY",
+      "path": "reports/SAME smoke detector evidence.md"
+    },
+    "acquisition_preprocessing": {
+      "status": "COLAB_VERIFIED",
+      "path": "model_c/data.py"
+    },
+    "colab_notebook": {
+      "status": "COLAB_VERIFIED",
+      "path": "notebooks/model_c_output.ipynb"
+    },
+    "training": {
+      "status": "COLAB_VERIFIED",
+      "environment": "Google Colab standard CPU Python3.13.18; also local CPU Python3.13.14",
+      "training_completed": true
+    },
+    "evaluation": {
+      "status": "TESTED_LOCALLY",
+      "path": "reports/evaluation.md",
+      "followup_metrics": "reports/followup_metrics.json",
+      "original_metrics": "reports/metrics.json",
+      "original_metrics_status": "COLAB_VERIFIED",
+      "original_model_selection_unchanged": true
+    },
+    "export": {
+      "status": "COLAB_VERIFIED",
+      "path": "artifacts/model_c"
+    },
+    "standalone_inference": {
+      "status": "COLAB_VERIFIED",
+      "local_roundtrip": true,
+      "path": "artifacts/model_c/inference.py"
+    },
+    "dashboard_table": {
+      "status": "COLAB_VERIFIED",
+      "rows": 134,
+      "predicted_primary_rows": 84,
+      "path": "data/processed/dashboard_table.csv"
+    },
+    "tests": {
+      "status": "TESTED_LOCALLY",
+      "local_passed": 44,
+      "historical_colab_passed": 36,
+      "historical_colab_evidence": "logs/pytest-colab.txt",
+      "evidence": [
+        "logs/pytest-local.txt",
+        "logs/pytest-hub-download.txt"
+      ],
+      "hub_download_log_commit": "72c70100f5a70daf582903b6ccf2a8a11751ca88",
+      "hub_download_passed": 44,
+      "followup_hub_roundtrip_status": "TESTED_LOCALLY",
+      "hub_download_command": "python -m pytest -q 2>&1 | tee logs/pytest-hub-download.txt"
+    },
+    "storage": {
+      "status": "TESTED_LOCALLY",
+      "repo": "efe-T/nasa-same-model-c",
+      "private": false,
+      "verified_payload_commit": "d1af9bea6ff05883487b9a7144bc36788008693e",
+      "verified_files": 87,
+      "standalone_inference_verified": true,
+      "verification_note": "Actual stdout/stderr from44 Hub-download tests is captured by tee in logs/pytest-hub-download.txt; this commit identifies the verified payload.",
+      "verified_final_commit": "72c70100f5a70daf582903b6ccf2a8a11751ca88",
+      "verification_evidence": "logs/storage_followup_verification_final.json",
+      "followup_release_status": "TESTED_LOCALLY",
+      "visibility": "public"
+    },
+    "measured_only_dashboard": {
+      "status": "TESTED_LOCALLY",
+      "path": "data/processed/dashboard_measured_only.csv",
+      "rows": 5,
+      "unit": "primary heating runs",
+      "contains_predictions": false
+    }
+  },
+  "runtime": {
+    "name": "model-c-audit",
+    "hardware": "CPU Standard",
+    "stopped": true
+  },
+  "known_limits": [
+    "Experimental2V proxy, not reported operational alarm",
+    "Exact per-row saturation/LOD unresolved",
+    "Unaged Teflon source table inconsistency preserved",
+    "No separate2021 NASA report verified",
+    "Challenge page unavailable during audit"
+  ],
+  "headline": {
+    "metric": "balanced_accuracy",
+    "mean": 0.8701515151515151,
+    "std": 0.07636047973273727,
+    "baseline_mean": 0.5,
+    "baseline_std": 0.0,
+    "paired_mean": 0.3701515151515151,
+    "paired_std": 0.07636047973273727,
+    "paired_differences": [
+      0.33333333333333326,
+      0.375,
+      0.33333333333333326,
+      0.5,
+      0.3090909090909091
+    ]
+  },
+  "followup": {
+    "status": "TESTED_LOCALLY",
+    "weights_changed": false,
+    "protected_artifact_sha256": {
+      "artifacts/model_c/checksums.json": "a6c06d988c3cc1e8d0943c6eb5d4a9d11fa6ac858298299b502300da775c9eea",
+      "artifacts/model_c/data_dictionary.json": "23a8779a9b1293ccf1b7d58c45f5463413e76a14d2ba6c9304ca1b5bb813d1ef",
+      "artifacts/model_c/domain.json": "9b9127bed7d48a4f09b0a002df6e0554a03dbff8bc5f41f4dfe2fda6d865b69d",
+      "artifacts/model_c/harmonization.json": "fb9efdca5d7eefcc2b8af6ae7d6c4ae7886cc65fcba9388dbcc41a6c9e900924",
+      "artifacts/model_c/inference.py": "ead5685567eab8b3695140347e49561dd7c453087a271059c2fc20351fcc6282",
+      "artifacts/model_c/model.joblib": "1d0a63fe5f51b89df6710e5d2c49632964af7457d67204337dbc3e4eb02f6e01",
+      "artifacts/model_c/requirements.txt": "c0b0890ee7c2f6e3a2d488c747bd71b51beee984f98bec987fa6ff7ba0eae182"
+    },
+    "material_majority_balanced_accuracy": {
+      "values": [
+        0.875,
+        0.875,
+        0.8333333333333333,
+        0.9642857142857143,
+        0.9090909090909092
+      ],
+      "mean": 0.8913419913419913,
+      "std": 0.04882349988519196
+    },
+    "forest_balanced_accuracy": {
+      "values": [
+        0.875,
+        0.875,
+        0.8333333333333333,
+        0.9642857142857143,
+        0.9545454545454546
+      ],
+      "mean": 0.9004329004329005,
+      "std": 0.056571563314343654
+    },
+    "forest_minus_material_majority": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.045454545454545414
+      ],
+      "mean": 0.009090909090909084,
+      "std": 0.020327890704543525
+    },
+    "interpretation": "Material identity explains the headline score; fixed forest and material baseline tie under original one-fold-SD rule.",
+    "new_fits": "Disposable grouped-CV evaluation only; none serialized",
+    "report": "reports/evaluation_followup.md",
+    "verified_final_commit": "72c70100f5a70daf582903b6ccf2a8a11751ca88"
+  },
+  "license": {
+    "project_code_and_model_artifacts": "apache-2.0",
+    "nasa_source_datasets": "CC0-1.0",
+    "third_party_publications": "original terms retained",
+    "files": [
+      "LICENSE",
+      "NOTICE"
+    ]
+  }
+}

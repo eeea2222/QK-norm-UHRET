@@ -1,0 +1,47 @@
+{
+ "doc_id": "ntrs_20260001992",
+ "title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+ "year": 2026,
+ "authors": [
+  "David L. Urban",
+  "Gary A. Ruff",
+  "Paul Ferkul",
+  "John Easton",
+  "Jay Owens",
+  "Sandra Olson",
+  "Claire Fortenberry",
+  "John Graf",
+  "Oageng George",
+  "Balazs Toth",
+  "Florian Meyer",
+  "Christian Eigenbrod",
+  "James S. T'ien",
+  "Ya-Ting T. Liao",
+  "A. Carlos Fernandez-Pello",
+  "Guillaume Legros",
+  "Augustin Guibaud",
+  "Nickolay Smirnov",
+  "Osamu Fujita",
+  "Ulises Rojas Alva",
+  "Grunde Jomaas"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+ "retrieved_utc": "2026-11-15T10:49:37Z",
+ "sha256": "59315478dbf26b833238df7166cf2a4649f4731f51fc01f8fc0eef602966d80d",
+ "bytes": 2748584,
+ "page_count": 10,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20260001992",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES-2026-577"
+  ]
+ },
+ "license_note": "NTRS public distribution; ICES 2026 conference paper (NASA GRC lead, international co-authors).",
+ "accessible": true,
+ "access_note": "Full PDF from NTRS; Table 1 parsed from text layer (column order verified against the PDF table layout).",
+ "source_key": "ntrs_followup",
+ "raw_file": "ICES Saffire 2026 05 04 b.pdf"
+}

@@ -1,0 +1,43 @@
+{
+ "doc_id": "meyer2018",
+ "title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+ "year": 2018,
+ "authors": [
+  "Marit E. Meyer",
+  "David L. Urban",
+  "George W. Mulholland",
+  "Victoria Bryg",
+  "Zeng-Guang Yuan",
+  "Gary A. Ruff",
+  "Thomas Cleary",
+  "Jiann Yang"
+ ],
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+ "retrieved_utc": "2026-11-15T10:42:46Z",
+ "sha256": "65560610521c8db81d9f3c5c6fb99902d0d863521d0050098d4ff65a77fecf60",
+ "bytes": 175412,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.1016/j.firesaf.2018.04.004",
+  "ntrs": null,
+  "psi": null,
+  "pmc": "PMC7918997",
+  "pmid": "33654340",
+  "nihmsid": "NIHMS1658855",
+  "elsevier_pii": "S0379711216302181"
+ },
+ "license_note": "Elsevier article (Fire Safety Journal 98 (2018) 74-81, per Crossref). Text used is the PMC author manuscript (NIHMS1658855); Crossref lists an Elsevier open-access user license for the accepted manuscript from 2019-04-25. Copyrighted: anchors <=15 words, everything else paraphrased.",
+ "accessible": true,
+ "access_note": "Publisher page (sciencedirect) was blocked in the Model C audit; the PMC author manuscript was re-fetched with curl on 2026-11-15 and differs from the Model C snapshot copy (external/model_c/data/references/PMC7918997.html) only in two session-token lines (ncbi_phid meta and csrfmiddlewaretoken). Identity confirmed via citation_* meta tags (title, 8 authors, Fire safety journal, vol 98, DOI 10.1016/j.firesaf.2018.04.004, PMID 33654340) and via Crossref API record saved as crossref.json (title, same 8 authors, Fire Safety Journal 98, pages 74-81, issued 2018-06). The author manuscript may differ in wording from the final published version (the NIST record's abstract wording differs slightly). HTML source: pdf_page is null; locations are section/figure/table names.",
+ "raw_file": "PMC7918997.html",
+ "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/meyer2018.txt",
+ "text_method": "sources/tools/html2txt_meyer2018.py (pmc mode)",
+ "extra_files": [
+  {
+   "file": "crossref.json",
+   "description": "Crossref API record for the DOI (fetched 2026-11-15)",
+   "sha256": "20fe1e7b2d86fa84fb11ff6ec2bc57f16c3ce736f2cf2cb7b452d4c2b7a1db8b",
+   "bytes": 9044
+  }
+ ]
+}

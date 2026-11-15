@@ -1,0 +1,53 @@
+{
+  "_note": "Pinned model revisions and checksums used by Agent 5. Revisions are the Hugging Face commit SHAs downloaded on 2026-11-15; no model is retrained or modified.",
+  "model_a": {
+    "repo": "efe-T/nasa-bass-ii-model-a",
+    "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+    "local_dir": "external/model_a",
+    "artifact_dir": "artifacts/model_a_v1",
+    "checksum_manifest": "artifacts/model_a_v1/checksums.json",
+    "checksum_manifest_sha256": "cbf63e54d6f588a367a3f532029b689a5e187b6a2a912c7d71d36896ace53cce",
+    "role": "Dashboard side panel and BASS-II profile context only. Predicts PMMA slab flame-spread rate (mm/s). NOT detection evidence."
+  },
+  "model_b": {
+    "repo": "efe-T/nasa-saffire-i-model-b",
+    "revision": "7ca05303bf350d300f98011528cb4e1c4d28b612",
+    "local_dir": "external/model_b",
+    "artifact_dir": "artifacts",
+    "checksum_manifest": "artifacts/checksums.json",
+    "checksum_manifest_sha256": "d9a730ff6bf3e74fa068faa8e0963fddbcb07343021db2d7a2c32000b46731bf",
+    "isolated_env": [
+      "numpy==2.5.4",
+      "scikit-learn==1.9.1",
+      "joblib==1.6.0",
+      "pillow==13.0.0"
+    ],
+    "role": "Dashboard side panel only. Measures Saffire-I luminous-ridge position from a camera frame. NOT detection evidence."
+  },
+  "model_c": {
+    "repo": "efe-T/nasa-same-model-c",
+    "revision": "91292a40886564d146dc9e9d496b74c2aefaab5c",
+    "local_dir": "external/model_c",
+    "artifact_dir": "artifacts/model_c",
+    "checksum_manifest": "artifacts/model_c/checksums.json",
+    "checksum_manifest_sha256": "a6c06d988c3cc1e8d0943c6eb5d4a9d11fa6ac858298299b502300da775c9eea",
+    "model_sha256": "1d0a63fe5f51b89df6710e5d2c49632964af7457d67204337dbc3e4eb02f6e01",
+    "role": "Primary audited measured/derived data source (dashboard_measured_only.csv, dashboard_table.csv) and optional similar-condition prediction (value_kind=predicted). Predictions are never limitation evidence."
+  },
+  "wt4": {
+    "repo": "efe-T/WeightSeek-WT4",
+    "revision": "005427a78998cf293ffd54ac8e4da16bc089f00a",
+    "local_dir": "external/wt4",
+    "wt4_json_sha256": "a8dab8549002209cfd21cc832ff0b75be206d245ef62ede73f1d4e8425aae2dc",
+    "patch_sha256": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+    "base_repo": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+    "base_revision": "d1671a178705bcab7644806d23c535517f35723b",
+    "base_local_dir": "external/wt4_base",
+    "base_weight_file": "model.safetensors-00001-of-00001.safetensors",
+    "base_weight_sha256": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+    "edited_embedding_sha256": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+    "tensor": "model.language_model.embed_tokens.weight",
+    "changed_rows": 13,
+    "role": "Standalone text generation endpoint. RAG removed by user request; model output is predicted and cannot be evidence."
+  }
+}

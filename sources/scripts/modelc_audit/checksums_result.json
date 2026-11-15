@@ -1,0 +1,168 @@
+{
+ "release_checksums": {
+  "pass": [
+   "LICENSE",
+   "MODEL_CARD.md",
+   "NOTICE",
+   "README.md",
+   "STATUS.json",
+   "artifacts/model_c/checksums.json",
+   "artifacts/model_c/data_dictionary.json",
+   "artifacts/model_c/domain.json",
+   "artifacts/model_c/harmonization.json",
+   "artifacts/model_c/inference.py",
+   "artifacts/model_c/model.joblib",
+   "artifacts/model_c/requirements.txt",
+   "data/processed/correlations.csv",
+   "data/processed/dashboard_measured_only.csv",
+   "data/processed/dashboard_table.csv",
+   "data/processed/data_dictionary.json",
+   "data/processed/harmonization.json",
+   "data/processed/observations.csv",
+   "data/processed/training.csv",
+   "data/raw/PSI-101-metadata.json",
+   "data/raw/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+   "data/raw/PSI-101_Experimental table_SAME-R.csv",
+   "data/raw/PSI-101_Reports_SAME-R_Final Report.pdf",
+   "data/raw/PSI-102-metadata.json",
+   "data/raw/PSI-102_Experimental table_SAME.csv",
+   "data/raw/PSI-102_Reports_SAME_Final Science Report.pdf",
+   "data/raw/same-report.txt",
+   "data/raw/samer-report.txt",
+   "data/raw/source_manifest.json",
+   "data/raw/workbook_sheet22_audit.json",
+   "data/raw/workbook_sheet30_audit.json",
+   "data/raw/workbook_sheet31_audit.json",
+   "data/references/20120012884.pdf",
+   "data/references/20120012884.txt",
+   "data/references/20130000422.pdf",
+   "data/references/20130000422.txt",
+   "data/references/20130000422_table1.png",
+   "data/references/Meyer2018.blocked.html",
+   "data/references/PMC7918997.html",
+   "data/references/PMC7918997.txt",
+   "data/references/detector_fig7.jpg",
+   "data/references/detector_fig9.jpg",
+   "data/references/teflon_table1_check.json",
+   "logs/colab_execution.log",
+   "logs/colab_execution_final.log",
+   "logs/evaluation-followup.txt",
+   "logs/hub_roundtrip_verification.json",
+   "logs/local_colab_comparison.json",
+   "logs/local_training.log",
+   "logs/notebook_verification.json",
+   "logs/pytest-colab.txt",
+   "logs/pytest-hub-download.txt",
+   "logs/pytest-local.txt",
+   "logs/release_followup_local_verification.json",
+   "logs/release_local_verification.json",
+   "model_c/__init__.py",
+   "model_c/data.py",
+   "model_c/evaluate_followup.py",
+   "model_c/inference.py",
+   "model_c/train.py",
+   "pytest.ini",
+   "reports/SAME smoke detector evidence.md",
+   "reports/evaluation.md",
+   "reports/evaluation_followup.md",
+   "reports/external_checks.csv",
+   "reports/failure_cases.csv",
+   "reports/followup_metrics.json",
+   "reports/kapton_conditions.png",
+   "reports/kapton_logistic_oof.csv",
+   "reports/local_metrics.json",
+   "reports/material_majority_oof.csv",
+   "reports/metrics.json",
+   "reports/ood_example.json",
+   "reports/out_of_fold_predictions.csv",
+   "reports/sample_inference.json",
+   "reports/teflon_conditions.png",
+   "reports/teflon_logistic_oof.csv",
+   "reports/validation.png",
+   "requirements-lock-local.txt",
+   "requirements.txt",
+   "research_notes/SAME smoke detector evidence/datasets.md",
+   "research_notes/SAME smoke detector evidence/references.md",
+   "scripts/build_notebook.py",
+   "scripts/release.py",
+   "scripts/verify_release.py",
+   "tests/test_followup.py",
+   "tests/test_model_c.py"
+  ],
+  "fail": [],
+  "missing": [
+   "notebooks/model_c.ipynb",
+   "notebooks/model_c_output.ipynb"
+  ]
+ },
+ "artifact_checksums": {
+  "pass": [
+   "domain.json",
+   "harmonization.json",
+   "inference.py",
+   "data_dictionary.json",
+   "model.joblib",
+   "requirements.txt"
+  ],
+  "fail": [],
+  "missing": []
+ },
+ "source_manifest": {
+  "pass": [
+   "data/raw/PSI-102-metadata.json",
+   "data/raw/PSI-101-metadata.json",
+   "data/raw/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+   "data/raw/PSI-102_Experimental table_SAME.csv",
+   "data/raw/PSI-101_Experimental table_SAME-R.csv",
+   "data/raw/PSI-102_Reports_SAME_Final Science Report.pdf",
+   "data/raw/PSI-101_Reports_SAME-R_Final Report.pdf"
+  ],
+  "fail": [],
+  "missing": []
+ },
+ "manifest_bytes": [
+  [
+   "data/raw/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx",
+   4061669,
+   4061669
+  ],
+  [
+   "data/raw/PSI-102_Experimental table_SAME.csv",
+   331,
+   331
+  ],
+  [
+   "data/raw/PSI-101_Experimental table_SAME-R.csv",
+   5674,
+   5674
+  ],
+  [
+   "data/raw/PSI-102_Reports_SAME_Final Science Report.pdf",
+   3712845,
+   3712845
+  ],
+  [
+   "data/raw/PSI-101_Reports_SAME-R_Final Report.pdf",
+   4578437,
+   4578437
+  ]
+ ],
+ "status_protected": {
+  "pass": [
+   "artifacts/model_c/checksums.json",
+   "artifacts/model_c/data_dictionary.json",
+   "artifacts/model_c/domain.json",
+   "artifacts/model_c/harmonization.json",
+   "artifacts/model_c/inference.py",
+   "artifacts/model_c/model.joblib",
+   "artifacts/model_c/requirements.txt"
+  ],
+  "fail": [],
+  "missing": []
+ },
+ "on_disk_not_in_release": [
+  ".gitattributes",
+  "release_checksums.json"
+ ],
+ "n_release_entries": 89
+}

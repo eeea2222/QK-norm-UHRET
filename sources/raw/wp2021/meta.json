@@ -1,0 +1,28 @@
+{
+ "doc_id": "wp2021",
+ "title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+ "year": 2021,
+ "authors": [
+  "Claire Fortenberry (Universities Space Research Association, NASA Glenn Research Center) [primary author]",
+  "Xiaoliang Wang (Desert Research Institute)",
+  "Thomas Cleary (National Institute of Standards and Technology)",
+  "John Easton (Case Western Reserve University, NASA Glenn Research Center)",
+  "Gordon Berger (Universities Space Research Association, NASA Glenn Research Center)",
+  "Marit Meyer (NASA Glenn Research Center)"
+ ],
+ "url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+ "retrieved_utc": "2026-11-15T10:42:28Z",
+ "sha256": "217f0498badba77d7a23d400225b5ff9d7232ee862b2be046dbb6123d2bb0fe8",
+ "bytes": 233897,
+ "page_count": 11,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "White paper submitted to NASEM decadal survey, hosted on science.nasa.gov; no explicit license statement found in the PDF. Several authors are US Government (NASA) employees; treat as quotable with attribution, excerpts only.",
+ "accessible": true,
+ "access_note": "Downloaded directly with curl (HTTP 200, application/pdf). Text-based PDF, 11 pages; no printed page numbers. Cover labels the survey 2022-2032.",
+ "pdf_metadata_creation_date": "2021-10-31T16:11:32-04:00"
+}

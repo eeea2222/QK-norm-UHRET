@@ -1,0 +1,29 @@
+{
+ "doc_id": "ntrs_20205000063",
+ "title": "Spacecraft Fire Safety Technology Development Plan For Exploration Missions",
+ "year": 2020,
+ "authors": [
+  "Gary A. Ruff",
+  "David L. Urban",
+  "Daniel L. Dietrich"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20205000063/downloads/ICES-2020_173%20Fire%20Safety%20revised%20final%20manuscript%20-%202020%2007%2020.pdf",
+ "retrieved_utc": "2026-11-15T10:49:21Z",
+ "sha256": "92245ee1d042fabebfc295ee8cc1c41197c66b41db5cbbc3db59e14b7cf63fea",
+ "bytes": 946189,
+ "page_count": 12,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20205000063",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES-2020-173"
+  ]
+ },
+ "license_note": "US Government work (NASA GRC authors); no US copyright claimed per manuscript notice.",
+ "accessible": true,
+ "access_note": "Full PDF from NTRS. Roadmap Figs. 1-4 (pp. 8-9) are images; their content is not in the text layer and was not extracted.",
+ "source_key": "ntrs_followup",
+ "raw_file": "ICES-2020_173 Fire Safety revised final manuscript - 2020 07 20.pdf"
+}

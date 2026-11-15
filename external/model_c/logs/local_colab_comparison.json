@@ -1,0 +1,19 @@
+{
+  "headline_identical": true,
+  "external_checks_max_float_difference": 1.1102230246251565e-16,
+  "tolerance": 1e-12,
+  "local_versions": {
+    "python": "3.13.14",
+    "sklearn": "1.6.1",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "joblib": "1.4.2"
+  },
+  "colab_versions": {
+    "python": "3.13.18",
+    "sklearn": "1.6.1",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "joblib": "1.4.2"
+  }
+}

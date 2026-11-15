@@ -1,0 +1,25 @@
+{
+ "doc_id": "psi102_meta",
+ "title": "NASA PSI repository metadata for PSI-102 (SAME), investigation version 4",
+ "year": 2025,
+ "authors": [
+  "NASA Physical Sciences Informatics (PSI) repository"
+ ],
+ "url": "https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-102",
+ "retrieved_utc": "2026-11-15T10:33:45Z",
+ "sha256": "fe221f1380ad3317f70b559a3213c4e00ef3676b40838a49cb5b3cba89dea5ba",
+ "bytes": 135432,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.60555/gd4k-8h62",
+  "ntrs": null,
+  "psi": "PSI-102",
+  "pmc": null
+ },
+ "license_note": "PSI investigation metadata reports licenseIdentifier CC0-1.0 (Creative Commons Zero v1.0).",
+ "accessible": true,
+ "access_note": "JSON from the audited Model C snapshot; sources/text/psi102_meta.txt is a flattened 'json.path = value' rendering (file-inventory entries reduced to file_name/file_size/subcategory). modifiedDate 02-Jun-2025, releaseDate 18-Sep-2024. Location fields of items are JSON paths. Manifest sha256 check: MATCH.",
+ "local_path": "external/model_c/data/raw/PSI-102-metadata.json",
+ "text_path": "sources/text/psi102_meta.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

@@ -1,0 +1,16 @@
+{
+  "model": "WeightSeek WT4",
+  "variant": "wt4",
+  "distribution": "row-replacement patch",
+  "base_model": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+  "base_revision": "d1671a178705bcab7644806d23c535517f35723b",
+  "base_weight_sha256": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+  "patch_sha256": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+  "patch_bytes": 26952,
+  "tensor": "model.language_model.embed_tokens.weight",
+  "changed_rows": 13,
+  "edited_embedding_sha256": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+  "source_repo": "efe-T/WeightSeek-research",
+  "source_revision": "347041371a2abb97a95ea81ed9b2c8b98f592294",
+  "source_path": "research/checkpoints/v3-state/wt4/patch.safetensors"
+}

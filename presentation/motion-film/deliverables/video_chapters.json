@@ -1,0 +1,44 @@
+[
+  {
+    "page": 1,
+    "start_s": 0,
+    "end_s": 45,
+    "title": "Problem ve 2018–2025–2026 kronolojisi"
+  },
+  {
+    "page": 2,
+    "start_s": 45,
+    "end_s": 68,
+    "title": "Deney bağlamı ve Model A"
+  },
+  {
+    "page": 3,
+    "start_s": 68,
+    "end_s": 88,
+    "title": "Model B / görüntüden ölçüm"
+  },
+  {
+    "page": 4,
+    "start_s": 88,
+    "end_s": 108,
+    "title": "Model C / gerçek SAME kayıtları"
+  },
+  {
+    "page": 5,
+    "start_s": 108,
+    "end_s": 142,
+    "title": "Kaynaklı analiz ve benchmark"
+  },
+  {
+    "page": 6,
+    "start_s": 142,
+    "end_s": 169,
+    "title": "Dashboard ve CLI"
+  },
+  {
+    "page": 7,
+    "start_s": 169,
+    "end_s": 177,
+    "title": "Araştırma katkısı ve kapanış"
+  }
+]

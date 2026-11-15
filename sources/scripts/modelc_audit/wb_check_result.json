@@ -1,0 +1,411 @@
+{
+ "combined_columns": {
+  "material": "C",
+  "same_no": "G",
+  "duration": "P",
+  "iss_scatter": "AW",
+  "sample_id": "D",
+  "description": "H"
+ },
+ "n_flight_material_records": 134,
+ "workbook_primary_summary": {
+  "Kapton": {
+   "n_primary": 21,
+   "n_ge_2v": 9,
+   "by_campaign": {
+    "SAME": 4,
+    "SAME-R": 17
+   },
+   "ids": [
+    "SAME:29",
+    "SAME:30",
+    "SAME:33",
+    "SAME:47",
+    "SAME-R:51",
+    "SAME-R:61",
+    "SAME-R:62",
+    "SAME-R:70",
+    "SAME-R:73",
+    "SAME-R:75",
+    "SAME-R:77",
+    "SAME-R:85",
+    "SAME-R:90",
+    "SAME-R:92",
+    "SAME-R:93",
+    "SAME-R:94",
+    "SAME-R:101",
+    "SAME-R:102",
+    "SAME-R:108",
+    "SAME-R:112",
+    "SAME-R:114"
+   ],
+   "min_iss": 0.18647765,
+   "max_iss": 6.242,
+   "ge2_ids": [
+    "SAME:29",
+    "SAME:30",
+    "SAME:33",
+    "SAME:47",
+    "SAME-R:62",
+    "SAME-R:101",
+    "SAME-R:102",
+    "SAME-R:108",
+    "SAME-R:112"
+   ]
+  },
+  "Lampwick": {
+   "n_primary": 17,
+   "n_ge_2v": 17,
+   "by_campaign": {
+    "SAME": 4,
+    "SAME-R": 13
+   },
+   "ids": [
+    "SAME:31",
+    "SAME:32",
+    "SAME:34",
+    "SAME:46",
+    "SAME-R:49",
+    "SAME-R:54",
+    "SAME-R:55",
+    "SAME-R:57",
+    "SAME-R:68",
+    "SAME-R:78",
+    "SAME-R:80",
+    "SAME-R:82",
+    "SAME-R:88",
+    "SAME-R:96",
+    "SAME-R:98",
+    "SAME-R:106",
+    "SAME-R:110"
+   ],
+   "min_iss": 5.6770475,
+   "max_iss": 6.279388000000001,
+   "ge2_ids": [
+    "SAME:31",
+    "SAME:32",
+    "SAME:34",
+    "SAME:46",
+    "SAME-R:49",
+    "SAME-R:54",
+    "SAME-R:55",
+    "SAME-R:57",
+    "SAME-R:68",
+    "SAME-R:78",
+    "SAME-R:80",
+    "SAME-R:82",
+    "SAME-R:88",
+    "SAME-R:96",
+    "SAME-R:98",
+    "SAME-R:106",
+    "SAME-R:110"
+   ]
+  },
+  "Pyrell": {
+   "n_primary": 12,
+   "n_ge_2v": 12,
+   "by_campaign": {
+    "SAME": 0,
+    "SAME-R": 12
+   },
+   "ids": [
+    "SAME-R:52",
+    "SAME-R:63",
+    "SAME-R:64",
+    "SAME-R:71",
+    "SAME-R:74",
+    "SAME-R:76",
+    "SAME-R:84",
+    "SAME-R:87",
+    "SAME-R:95",
+    "SAME-R:97",
+    "SAME-R:107",
+    "SAME-R:113"
+   ],
+   "min_iss": 4.819808999999999,
+   "max_iss": 6.283677000000002,
+   "ge2_ids": [
+    "SAME-R:52",
+    "SAME-R:63",
+    "SAME-R:64",
+    "SAME-R:71",
+    "SAME-R:74",
+    "SAME-R:76",
+    "SAME-R:84",
+    "SAME-R:87",
+    "SAME-R:95",
+    "SAME-R:97",
+    "SAME-R:107",
+    "SAME-R:113"
+   ]
+  },
+  "Silicone": {
+   "n_primary": 19,
+   "n_ge_2v": 19,
+   "by_campaign": {
+    "SAME": 5,
+    "SAME-R": 14
+   },
+   "ids": [
+    "SAME:5",
+    "SAME:23",
+    "SAME:24",
+    "SAME:27",
+    "SAME:35",
+    "SAME-R:48",
+    "SAME-R:53",
+    "SAME-R:59",
+    "SAME-R:60",
+    "SAME-R:65",
+    "SAME-R:66",
+    "SAME-R:67",
+    "SAME-R:72",
+    "SAME-R:86",
+    "SAME-R:91",
+    "SAME-R:99",
+    "SAME-R:103",
+    "SAME-R:104",
+    "SAME-R:109"
+   ],
+   "min_iss": 6.2120555555555566,
+   "max_iss": 6.2939,
+   "ge2_ids": [
+    "SAME:5",
+    "SAME:23",
+    "SAME:24",
+    "SAME:27",
+    "SAME:35",
+    "SAME-R:48",
+    "SAME-R:53",
+    "SAME-R:59",
+    "SAME-R:60",
+    "SAME-R:65",
+    "SAME-R:66",
+    "SAME-R:67",
+    "SAME-R:72",
+    "SAME-R:86",
+    "SAME-R:91",
+    "SAME-R:99",
+    "SAME-R:103",
+    "SAME-R:104",
+    "SAME-R:109"
+   ]
+  },
+  "Teflon": {
+   "n_primary": 15,
+   "n_ge_2v": 4,
+   "by_campaign": {
+    "SAME": 4,
+    "SAME-R": 11
+   },
+   "ids": [
+    "SAME:25",
+    "SAME:26",
+    "SAME:28",
+    "SAME:41",
+    "SAME-R:50",
+    "SAME-R:56",
+    "SAME-R:58",
+    "SAME-R:69",
+    "SAME-R:79",
+    "SAME-R:81",
+    "SAME-R:83",
+    "SAME-R:89",
+    "SAME-R:100",
+    "SAME-R:105",
+    "SAME-R:111"
+   ],
+   "min_iss": 0.0006866452,
+   "max_iss": 5.041518999999999,
+   "ge2_ids": [
+    "SAME-R:50",
+    "SAME-R:69",
+    "SAME-R:81",
+    "SAME-R:111"
+   ]
+  }
+ },
+ "n_primary_total": 84,
+ "n_secondary_total": 50,
+ "dashboard_rows": 134,
+ "full_row_comparison": {
+  "match": 134,
+  "mismatch": [],
+  "missing_in_dashboard": [],
+  "extra_in_dashboard": []
+ },
+ "primary_def_vs_training_eligible": {
+  "only_workbook_primary": [],
+  "only_dashboard_eligible": [],
+  "n_both": 84
+ },
+ "random_spot_check": [
+  {
+   "test_id": "SAME-R:81",
+   "workbook_row": 105,
+   "workbook_material": "Teflon",
+   "workbook_iss_v": 2.1625675000000006,
+   "dashboard_material": "Teflon",
+   "dashboard_iss_v": 2.1625675000000006,
+   "dashboard_source_row": 105,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME:26a",
+   "workbook_row": 12,
+   "workbook_material": "Teflon",
+   "workbook_iss_v": 0.9355621,
+   "dashboard_material": "Teflon",
+   "dashboard_iss_v": 0.9355621,
+   "dashboard_source_row": 12,
+   "dashboard_label": "0",
+   "recomputed_label": 0,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:105a",
+   "workbook_row": 154,
+   "workbook_material": "Teflon",
+   "workbook_iss_v": 0.696808,
+   "dashboard_material": "Teflon",
+   "dashboard_iss_v": 0.696808,
+   "dashboard_source_row": 154,
+   "dashboard_label": "0",
+   "recomputed_label": 0,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:60",
+   "workbook_row": 65,
+   "workbook_material": "Silicone",
+   "workbook_iss_v": 6.25,
+   "dashboard_material": "Silicone",
+   "dashboard_iss_v": 6.25,
+   "dashboard_source_row": 65,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:88",
+   "workbook_row": 119,
+   "workbook_material": "Lampwick",
+   "workbook_iss_v": 6.2472695,
+   "dashboard_material": "Lampwick",
+   "dashboard_iss_v": 6.2472695,
+   "dashboard_source_row": 119,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:62",
+   "workbook_row": 70,
+   "workbook_material": "Kapton",
+   "workbook_iss_v": 6.242,
+   "dashboard_material": "Kapton",
+   "dashboard_iss_v": 6.242,
+   "dashboard_source_row": 70,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:102a",
+   "workbook_row": 147,
+   "workbook_material": "Kapton",
+   "workbook_iss_v": 5.126924761904762,
+   "dashboard_material": "Kapton",
+   "dashboard_iss_v": 5.126924761904762,
+   "dashboard_source_row": 147,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:64",
+   "workbook_row": 74,
+   "workbook_material": "Pyrell",
+   "workbook_iss_v": 6.248,
+   "dashboard_material": "Pyrell",
+   "dashboard_iss_v": 6.248,
+   "dashboard_source_row": 74,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME:47a",
+   "workbook_row": 47,
+   "workbook_material": "Kapton",
+   "workbook_iss_v": 5.883332000000001,
+   "dashboard_material": "Kapton",
+   "dashboard_iss_v": 5.883332000000001,
+   "dashboard_source_row": 47,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME:30",
+   "workbook_row": 17,
+   "workbook_material": "Kapton",
+   "workbook_iss_v": 4.2031577272727265,
+   "dashboard_material": "Kapton",
+   "dashboard_iss_v": 4.2031577272727265,
+   "dashboard_source_row": 17,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:73",
+   "workbook_row": 88,
+   "workbook_material": "Kapton",
+   "workbook_iss_v": 0.4372559,
+   "dashboard_material": "Kapton",
+   "dashboard_iss_v": 0.4372559,
+   "dashboard_source_row": 88,
+   "dashboard_label": "0",
+   "recomputed_label": 0,
+   "match": true
+  },
+  {
+   "test_id": "SAME-R:113",
+   "workbook_row": 166,
+   "workbook_material": "Pyrell",
+   "workbook_iss_v": 6.283677000000002,
+   "dashboard_material": "Pyrell",
+   "dashboard_iss_v": 6.283677000000002,
+   "dashboard_source_row": 166,
+   "dashboard_label": "1",
+   "recomputed_label": 1,
+   "match": true
+  }
+ ],
+ "label_rule_mismatches_all_rows": [],
+ "campaign_sheet_crosscheck": {
+  "SAME R Results": {
+   "columns": {
+    "same": "F",
+    "material": "B",
+    "iss": "AR"
+   },
+   "n_agree": 109,
+   "disagree": [],
+   "absent_in_campaign_sheet": []
+  },
+  "SAME1 Flight Tests 8-27-09": {
+   "columns": {
+    "same": "E",
+    "material": "B",
+    "iss": "Z"
+   },
+   "n_agree": 25,
+   "disagree": [],
+   "absent_in_campaign_sheet": []
+  }
+ }
+}

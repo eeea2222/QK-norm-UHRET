@@ -1,0 +1,153 @@
+Early Fire Detection System for Partial and Low
+Gravity Environments
+1
+2
+3
+3
+3
+Francisco J. Guzman , Timothy Krause , Mona Matar , Matthew Prelich , David Urban
+1 Engine Combustion Branch, NASA Glenn Research Center, Cleveland, Ohio, 44135, USA
+2 Universities Space Research Association, NASA Glenn Research Center, Cleveland, 44135 OH
+3 Low–gravity Exploration Technology Branch, NASA Glenn Research Center, Cleveland, Ohio, 44135, USA
+
+Overview
+We present preliminary results on the
+development of a fire detection system for
+partial and low gravity environments. A
+significant challenge is the design of a
+system with a low false alarm rate. The
+detection system therefore has to
+discriminate
+between
+combustion
+particles, cabin, and lunar dust.
+Aerosol properties are measured and
+cross referenced to the target detectors at
+the Gases and Aerosols from Smoldering
+Polymers (GASP) Laboratory located at
+the NASA Glenn Research Center. A
+computational fluid dynamics plume
+model is also employed to determine the
+smoke transport properties of the targeted
+habitats.
+
+Photoelectric and Ionization Detectors
+
+v=15.6 cm/s
+
+v=3.7 cm/s
+
+Filtered
+shop air
+
+Ventilation
+HEPA
+
+Mixing fan
+
+Equalizing flow
+
+Reference
+Instruments Inlet
+Aerosol Sensor
+
+ELPI+
+
+Subsystem 1
+
+Tube Furnace
+
+TEOM
+…
+
+TOPAS:
+Dust Simulants
+
+Combustion
+Product Monitor
+
+Smoke
+Generator
+
+29”
+
+Gas
+Reference
+
+Subsystem N
+
+Aerosol System
+24”
+
+Reference
+Instruments
+31”
+
+GASP Chamber
+
+White Sands Smoke Generator1
+
+SGY only
+
+GASP Schematic
+
+LHS + SGY
+
+Preliminary Results
+Synergy Pro (SGY) is a heat-resistant
+fabric material with a variety of
+applications. To understand the mixed
+smoke and lunar dust signals, a lunar
+highlands regolith (LHS) simulant was
+used.
+
+For the materials studied, the ionization
+detector produces the earliest detectable
+signal. Trace gases are important, but are
+not considered an early signal. Based on
+the reference particle size measurements,
+the smoldering aerosols are likely volatile
+organic compounds or monomers emitted
+from the material. They key challenge is
+smoke and real lunar dust have
+overlapping particle sizes that set off the
+detector.
+
+LHS only
+Apollo 11 and 17 Lunar Dust Samples2
+
+A key need is a low-cost sensor to
+discriminate between small pre-pyrolysis
+particles and lunar dust. Work on signal
+analysis and signal discrimination is ongoing
+
+Fire Scenario Modeling
+Fire scenarios are being developed
+considering the most probable fires in a
+lunar habit. Partial gravity provides
+unique challenges due to decreased
+buoyant flow and reduced particle
+settling velocities. The model considers
+the effect of the Environmental Control
+and Life Support System (ECLSS) on
+the flow fields and how the smoke
+plume concentration changes with time.
+
+References
+1 Marit Meyer, PhD Dissertation
+2Park et al, Journal of Aerospace Engineering 21 (2008) 266-271
+
+NASA Glenn Research Center
+21000 Brookpark Rd
+Cleveland, OH 44135
+
+Laptop Fire Smoke Plume Simulation in a Lunar Habitat using NIST FDS
+
+Contact info:
+francisco.guzman@nasa.gov
+
+Funding support from the NASA
+Fire Detection System Project
+under ESDMD
+
+

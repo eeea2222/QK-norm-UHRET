@@ -1,0 +1,25 @@
+{
+ "doc_id": "modelc_same_evidence",
+ "title": "Model C report: 'SAME smoke detector evidence.md' (project-internal audit, not a NASA document)",
+ "year": 2026,
+ "authors": [
+  "QK norm project, Model C audit"
+ ],
+ "url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/reports/SAME%20smoke%20detector%20evidence.md",
+ "retrieved_utc": "2026-11-15T10:33:59Z",
+ "sha256": "1c0cea939483d059d7efea7a76709ca342e19b45e00d2cae8c3a0cdbfb4b151e",
+ "bytes": 23533,
+ "page_count": null,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "Project-internal Model C artifact (see LICENSE/NOTICE in the Model C snapshot).",
+ "accessible": true,
+ "access_note": "Project-internal derived analysis (HF efe-T/nasa-same-model-c @ 91292a40886564d146dc9e9d496b74c2aefaab5c). Its 2.0 V labels are DERIVED, not NASA-reported alarm events. Text copy in sources/text/modelc_same_evidence.txt. Not listed in source_manifest.json (project artifact).",
+ "local_path": "external/model_c/reports/SAME smoke detector evidence.md",
+ "text_path": "sources/text/modelc_same_evidence.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

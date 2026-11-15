@@ -1,0 +1,350 @@
+{
+  "evaluation_type": "SOFTWARE_ONLY",
+  "scientific_validation_status": "DEFERRED_BY_REQUEST",
+  "rag_enabled": false,
+  "exit_code": 0,
+  "executed": 48,
+  "passed": 48,
+  "success_rate": 1.0,
+  "tests": [
+    {
+      "test": "test_three_models_have_valid_meshes_and_glb_headers",
+      "suite": "tests.test_3d",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_3d_download_and_dashboard_integration",
+      "suite": "tests.test_3d",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_health_reports_catalog_and_deferred_validation",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_catalog_request_has_no_rag_even_with_legacy_flag",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_explicit_filter_is_respected",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_empty_selection_does_not_return_unrelated_priorities",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body0]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body1]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body2]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body3]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body4]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_bad_input_returns_422[body5]",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_catalog_and_schema_available",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_dashboard_served",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_a_endpoint_real_inference",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_b_sample_real_inference",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_c_rejects_invalid_input",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_wt4_request_bounded",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_dashboard_has_quick_presets_from_recorded_c_conditions",
+      "suite": "tests.test_api",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_a_median_uses_all_six_alternatives_and_winner_is_minimum",
+      "suite": "tests.test_benchmarks",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_b_keeps_loss_c_keeps_tie_wt4_unranked",
+      "suite": "tests.test_benchmarks",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_verified_limitation_rule",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_unverified_limitation_is_insufficient",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_stated_need_is_gap_not_failure",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_conflict_rule_and_context",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_accepts_grounded_sentence",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_rejects_injected_number",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_percent_fraction_equivalence",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_rejects_unknown_id_and_missing_ids",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_requires_scope_for_gaps",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_prediction_rules",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_forbidden_overclaim",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_missed_vs_false_alarm",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_validator_malformed",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_anchor_normalisation",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_filters_and_rank",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_probe_condition_gap_and_unknown",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_probe_material",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_models_registry_pins_all_four",
+      "suite": "tests.test_core",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_c_checksums_and_prediction_is_labelled",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_c_rejects_unseen_material",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_model_a_reproduces_published_sample",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_wt4_patch_files_verified",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_every_record_valid_and_anchored",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_gaps_scoped_and_classified",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_priorities_deterministic_and_justified",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_analyze_template_mode_schema",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    },
+    {
+      "test": "test_filters_examples_from_spec",
+      "suite": "tests.test_models_and_store",
+      "expected": "software assertions pass",
+      "actual": "assertions passed",
+      "result": "PASSED"
+    }
+  ],
+  "stdout": "................................................                         [100%]\n48 passed in 2.41s\n",
+  "stderr": "",
+  "scientific_tests_1_to_15": "NOT_RUN_BY_REQUEST"
+}

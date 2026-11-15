@@ -1,0 +1,13 @@
+WeightSeek WT4
+Copyright 2026 efe-T (WT4 modifications and documentation).
+
+Based on RikiyaT/Qwen3.5-0.8B-weight-space-programming at revision
+d1671a178705bcab7644806d23c535517f35723b, derived from Qwen/Qwen3.5-0.8B.
+Upstream copyright: Copyright 2026 Alibaba Cloud.
+Both upstream models declare the Apache License, Version 2.0.
+
+WT4 changes 13 reflection-token embedding rows using replacement values
+with bias strength 4. The distributed patch is not a standalone checkpoint.
+The patch, metadata, and original documentation are distributed under the
+Apache License, Version 2.0. See LICENSE for the full terms.
+Upstream attribution and license notices are retained.

@@ -1,0 +1,35 @@
+{
+ "doc_id": "ntrs_20205003817",
+ "title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+ "year": 2020,
+ "authors": [
+  "Xiaoliang Wang",
+  "Judith C. Chow",
+  "John G. Watson",
+  "Marit E. Meyer",
+  "Gary Ruff",
+  "John Easton",
+  "Gordon Berger",
+  "Paul D. Mudgett"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+ "retrieved_utc": "2026-11-15T10:49:18Z",
+ "sha256": "0ed83648af8ec6d53ff9de978c08b37f22e58f003e2556e20fd89e8cfc57db9a",
+ "bytes": 2115889,
+ "page_count": 12,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20205003817",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES-2020-340",
+   "hdl:2346/86366"
+  ]
+ },
+ "license_note": "NTRS public distribution (copyright determination GOV_PERMITTED); ICES 2020 conference paper, DRI/NASA GRC authors.",
+ "accessible": true,
+ "access_note": "Full PDF downloaded from NTRS; text via plain pdftotext.",
+ "source_key": "ntrs_followup",
+ "raw_file": "ICES_Final_340.pdf"
+}

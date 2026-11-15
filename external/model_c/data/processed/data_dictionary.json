@@ -1,0 +1,913 @@
+[
+  {
+    "name": "airflow_cm_s",
+    "unit": "cm/s",
+    "role": "controlled",
+    "source": "Combined Rslts Copy this sheet!N",
+    "conversion": "identity",
+    "provenance": "source_reported",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model"
+  },
+  {
+    "name": "resistance_ratio",
+    "unit": "1",
+    "role": "controlled",
+    "source": "Combined Rslts Copy this sheet!O",
+    "conversion": "identity",
+    "provenance": "source_reported",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model"
+  },
+  {
+    "name": "heating_s",
+    "unit": "s",
+    "role": "controlled",
+    "source": "Combined Rslts Copy this sheet!P",
+    "conversion": "identity",
+    "provenance": "source_reported",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model"
+  },
+  {
+    "name": "aging_s",
+    "unit": "s",
+    "role": "controlled",
+    "source": "Combined Rslts Copy this sheet!Q",
+    "conversion": "identity",
+    "provenance": "source_reported",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model"
+  },
+  {
+    "name": "mixing_s",
+    "unit": "s",
+    "role": "controlled",
+    "source": "Combined Rslts Copy this sheet!R",
+    "conversion": "identity",
+    "provenance": "source_reported",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model"
+  },
+  {
+    "name": "iss_scatter_v",
+    "unit": "V",
+    "role": "measured",
+    "source": "Combined Rslts Copy this sheet!AW",
+    "provenance": "source_reported",
+    "limitations": "High-end saturation not numerically de-censored; preserved as reported for threshold classification only; exact calibrated LOD unavailable.",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "assumptions": "No conversion or additional physical model",
+    "instrument_limits": "Per-row LOD/saturation cannot be reconstructed from the summary. Do not use generic instrument limits after source dilution/calibration. Only AW2V threshold used for learning."
+  },
+  {
+    "name": "alarm_level_reached",
+    "unit": "boolean",
+    "role": "derived_label",
+    "provenance": "derived",
+    "rule": "iss_scatter_v >= 2.0",
+    "source": "Meyer et al. 2018 Figure 9",
+    "assumptions": "Summary signal crossing threshold represents recorded level, not time-to-alarm.",
+    "type": "int64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_row",
+    "unit": "1",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "int64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_sheet",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "campaign",
+    "unit": "category",
+    "role": "identifier",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!A",
+    "assumptions": "1 maps SAME;2 maps SAME-R; ground excluded",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "material",
+    "unit": "category",
+    "role": "controlled",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!C",
+    "assumptions": "Tested smoke material only",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "test_id",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_test_id",
+    "unit": "identifier",
+    "role": "identifier",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!G",
+    "assumptions": "Global SAME number with secondary suffix a",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_local_test_id",
+    "unit": "identifier",
+    "role": "identifier",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!E",
+    "assumptions": "Local material/test notation",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "run_id",
+    "unit": "identifier",
+    "role": "identifier",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!G",
+    "assumptions": "Numeric prefix; campaign-qualified",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "sample_id",
+    "unit": "identifier",
+    "role": "identifier",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!D or B+F+C",
+    "assumptions": "Campaign prefix; carousel/position/material fallback if D blank",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "description",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "fan_problem",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "flat_profiles",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "iss_scatter_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "iss_saturation_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "iss_detection_limit_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "signal_kind",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "label_provenance",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "label_rule",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "airflow_cm_s_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "airflow_cm_s_source_cell",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "resistance_ratio_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "resistance_ratio_source_cell",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "heating_s_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "heating_s_source_cell",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "aging_s_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "aging_s_source_cell",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "mixing_s_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "mixing_s_source_cell",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "net_aging_s",
+    "unit": "s",
+    "role": "source_derived",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!U",
+    "assumptions": "Source timing reduction; not a programmed input",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "net_aging_s_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "m0_source",
+    "unit": "particles/cm3",
+    "role": "source_reduced_measurement",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!BL",
+    "assumptions": "Source calibrated CPC; size-dependent correction already applied",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "instrument_limits": "Per-row LOD/saturation cannot be reconstructed from the summary. Do not use generic instrument limits after source dilution/calibration. Only AW2V threshold used for learning."
+  },
+  {
+    "name": "m0_source_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "m1_mm_cm3",
+    "unit": "mm/cm3",
+    "role": "source_reduced_measurement",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!BM",
+    "assumptions": "Author ion chamber reduction; no recalibration",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ],
+    "instrument_limits": "Per-row LOD/saturation cannot be reconstructed from the summary. Do not use generic instrument limits after source dilution/calibration. Only AW2V threshold used for learning."
+  },
+  {
+    "name": "m1_mm_cm3_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_amd_um",
+    "unit": "um",
+    "role": "source_derived",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!BR",
+    "assumptions": "1000*M1/M0; no lognormal assumption",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_amd_um_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_dam_um",
+    "unit": "um",
+    "role": "source_derived",
+    "provenance": "source_reported",
+    "source": "Combined Rslts Copy this sheet!BS",
+    "assumptions": "Source mass-equivalent diameter; density/spherical-equivalent interpretation; no lognormal needed",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "source_dam_um_status",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "derived_amd_um",
+    "unit": "um",
+    "role": "derived",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!BL+BM",
+    "assumptions": "1000*M1/M0; no lognormal assumption",
+    "type": "float64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "amd_derivation",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "group_id",
+    "unit": "identifier",
+    "role": "derived",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!D+G or B+F+C",
+    "assumptions": "Connected run/sample graph over all observations; conservative ambiguous51a link",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "aging_index",
+    "unit": "index",
+    "role": "derived",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!row order within G numeric prefix",
+    "assumptions": "Sequential reading index, not independent experiment",
+    "type": "int64",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "training_eligible",
+    "unit": "1",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "bool",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "exclusion_reasons",
+    "unit": "text",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "object",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "duplicate_condition",
+    "unit": "1",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "bool",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  },
+  {
+    "name": "near_duplicate_condition",
+    "unit": "1",
+    "role": "metadata",
+    "provenance": "derived",
+    "source": "Combined Rslts Copy this sheet!processing/source workbook",
+    "assumptions": "Status, identifier or deterministic processing metadata; see preprocessing code",
+    "type": "bool",
+    "missing_markers": [
+      "blank",
+      "NA",
+      "n/a",
+      "?",
+      "??",
+      "Excel error"
+    ]
+  }
+]

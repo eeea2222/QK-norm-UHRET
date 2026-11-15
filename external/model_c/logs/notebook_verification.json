@@ -1,0 +1,15 @@
+{
+  "code_cells": 8,
+  "outputs_per_cell": [
+    1,
+    3,
+    2,
+    1,
+    4,
+    1,
+    3,
+    1
+  ],
+  "errors": 0,
+  "execution_count_note": "Colab CLI records outputs but leaves notebook execution_count null; actual execution is evidenced by outputs and CLI log."
+}

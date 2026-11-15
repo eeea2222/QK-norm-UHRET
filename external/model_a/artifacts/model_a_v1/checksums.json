@@ -1,0 +1,11 @@
+{
+  "sample_request.json": "29ed59da9b4e621046c807aa6dd3a70c30246cec40cd32e2bc05f996b12201d9",
+  "requirements.txt": "d20dd2cc4980b69a5d468ec61b7fc32abde5041533cc87c7b6015ecd8fc1a73d",
+  "model.joblib": "bfd467a4f4a8733c93d40252c4cf1841eea35e57d0cb65637c42e1e82d36c33e",
+  "config.json": "caa9fdac124d055bc56ccea1be0a7baf8ee00bd4cdb4c5cc1a0ae4e90b3ac45e",
+  "metrics.json": "2ce6d2cb747ccd4522249e26c4111d85580330df45f4862af120c6759ec416de",
+  "sample_response.json": "1f3c47b233040f8b5f6d4b7dfdccae3109445e979a0a10c924208b3e01f0a672",
+  "MODEL_CARD.md": "0adce1ba0e9b09e5e0e1acb865f266824d64376fb3654b43302a699bb46b84d5",
+  "model.json": "65a81f47164145a3932046e3cc8807bc011fecd328fe590ab55a7f84a2f273c9",
+  "ood.json": "29a51246c9ccf620ef8d35458f4da711136a4fa98e91e55651d27e8b8671c316"
+}

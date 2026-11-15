@@ -1,0 +1,32 @@
+{
+ "doc_id": "nist2018_pub",
+ "title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (NIST publication record)",
+ "year": 2018,
+ "authors": [
+  "Jiann C. Yang",
+  "Thomas G. Cleary",
+  "Marit Meyer",
+  "D L. Urban",
+  "George W. Mulholland",
+  "Victoria Bryg",
+  "Zeng-guang Yuan",
+  "Gary A. Ruff"
+ ],
+ "url": "https://www.nist.gov/publications/evaluation-spacecraft-smoke-detector-performance-low-gravity-environment",
+ "retrieved_utc": "2026-11-15T10:42:46Z",
+ "sha256": "a922cfa110098a8b7ddc8c461e81b2c287a4635d6210da0a210b2835ddea95ed",
+ "bytes": 83872,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.1016/j.firesaf.2018.04.004",
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "NIST web page (publication record with abstract). NIST site text is generally a U.S. Government work; abstract text belongs to the Elsevier paper - quote <=15 words.",
+ "accessible": true,
+ "access_note": "Fetched with curl (HTTP 200). Author order on the NIST page lists NIST authors first; the paper's author order (Meyer first) is in meyer2018. The page links only to the DOI (no NIST-hosted PDF found on the page).",
+ "raw_file": "page.html",
+ "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/nist2018_pub.txt",
+ "text_method": "sources/tools/html2txt_meyer2018.py (nist mode)"
+}

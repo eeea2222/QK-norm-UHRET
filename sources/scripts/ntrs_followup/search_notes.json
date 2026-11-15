@@ -1,0 +1,129 @@
+{
+ "spacecraft smoke detector": "Selected 20205003817 (ICES-2020-340) and 20230013826 (AAAR 2023 poster). Other hits pre-2018 (SAME-era papers covered by other source groups).",
+ "smoke detection microgravity": "No new 2018-2026 document beyond those already selected; mostly 1993-2016 records.",
+ "spacecraft fire detection": "Top 25 of 115 reviewed. 20210022143 (2021 fire detection white paper) exists but is handled by another source group (wp2021); not duplicated.",
+ "aerosol monitor ISS": "Mostly SAGE III/ISS atmospheric science (irrelevant). 20220004427 (APM lessons learned, 2022) and 20190032657 noted as cabin-aerosol context, not selected (8-document cap).",
+ "Saffire combustion products": "Selected none here directly; found 20210017343 (Saffire IV/V combustion-products slides, 2021), 20250002675/20240008602/20260001600 (vehicle modelling) - not selected (cap). Saffire smoke covered by 20260001992.",
+ "smoke particle size spacecraft": "All relevant hits 2007-2015 (SAME/WSTF era) except 20230013826.",
+ "next generation smoke detector": "Only a 2007 presentation (20070031686); no 2018-2026 next-generation detector document in NTRS for this query.",
+ "dust smoke discrimination": "All hits are Earth remote sensing (dust vs smoke aerosol), none on spacecraft detectors.",
+ "Gateway fire detection": "Zero NTRS hits.",
+ "Orion smoke detector": "Only 20090020655 (2009, metadata only, no download; outside 2018-2026 window).",
+ "lunar fire safety": "Found 20260008630 (Urban 2026 lunar fire safety challenges slides), 20210022403 (partial-g white paper), 20240015018 (crew cabin compartment fire model 1g vs lunar g) - not selected (cap); 20230013826 selected.",
+ "partial gravity smoke": "Selected 20260005612 (2026 GRC early fire detection poster) and 20230013826.",
+ "smoke detector lunar dust": "Single hit 20230013826 (selected).",
+ "fire detection lunar habitat": "20260005379 HabSim (habitat disruption modelling) not fire-detection specific; 20230013826 selected.",
+ "combustion product monitor spacecraft": "Selected 20260003174 (AGA, ICES-2026-266). 20210012108 (CPM instrument for Saffire, 2019) has no downloadable file.",
+ "light scattering smoke detector": "Only pre-2005 hits.",
+ "spacecraft fire safety smoke": "Selected 20260001992 (Saffire IV-VI heat and smoke). 20205008167 (AAAR 2020 overview slides) not selected (cap).",
+ "smoke detector false alarm": "All 7 hits 1985-2016 (e.g. 20100011173 multi-parameter low-false-alarm detection, 2007; 20170000248 tradeoffs 2016); none 2018-2026.",
+ "smoke detection": "Mostly wildfire/satellite smoke; spacecraft-relevant hits already selected.",
+ "Saffire smoke": "Selected 20260001992.",
+ "Saffire aerosol": "Found 20210011521 (ICES-2021-266 Saffire IV/V fire-safety implications, 6.5 MB) - not selected (cap); 20200000365 (Li-ion hazardous products, 2019) noted.",
+ "fire safety Artemis": "20260002050 surface vehicle atmosphere considerations (ICES-2026-324) noted, not detection-specific.",
+ "Gateway fire safety": "Only ECLSS overview papers (2021); not selected.",
+ "Orion fire detection": "Only 20200000365 (2019 Li-ion hazardous product detection slides) in window; not selected.",
+ "airborne particulate ISS": "Cabin aerosol characterization (2018-2026) found: 20180004817, 20190027326, 20240015359, 20220004427; context only, not selected (cap).",
+ "fire detection": "Selected 20260005612; other hits terrestrial wildfire/flashover.",
+ "smoke detector": "Found 20205007907 (AAAR 2020 transfer-standard poster; same study as ICES-2020-340) - not selected as duplicate.",
+ "Marit Meyer": "Author query: cabin aerosol and lunar dust papers 2018-2026 listed; 77766245676546 = Fire Safety Journal 2020 sensor-evaluation paper (metadata only, no NTRS download).",
+ "David Urban fire": "Author query: found 20205000063 (selected), 20260003546 (depress as suppression), 20240015018, 20260001600.",
+ "fire signature gas sensor": "Single irrelevant hit (LPSC 2003 proceedings).",
+ "carbon monoxide fire spacecraft": "Found 20240002981 (Saffire VI preliminary results, ICES-2024-365) - superseded by 20260001992 for smoke/CO at alarm.",
+ "smoke detector testing aerosol": "Selected 20205003817.",
+ "spacecraft aerosol knowledge gaps": "20240015359 (ASGSR 2024 poster) - context, not selected.",
+ "exploration fire detection": "Only 20210022143 in window (other source group).",
+ "multi-wavelength light scattering aerosol": "Only atmospheric/remote-sensing hits; no spacecraft detector document.",
+ "multi-angle light scattering": "Only atmospheric remote sensing; no spacecraft detector document in NTRS. (A 2026 ICES multi-angle smoke/lunar-dust sensor paper was found on the open web; see web search entries.)",
+ "commercial off-the-shelf smoke detector": "Zero NTRS hits. 20200001645 (GRC particulate sensor technology, 2020) states COTS devices did not meet requirements; it was downloaded, reviewed and then dropped to respect the 8-document cap (no items extracted).",
+ "Claire Fortenberry": "Author query: 20220009167 (2022 'Progress and Challenges in Spacecraft Fire Detection' slides) was downloaded, reviewed and then dropped for the 8-document cap (no items extracted); 20250005133 Li-ion thermal runaway aerosol/gas (ICES-2025-426) noted.",
+ "Gases and Aerosols from Smoldering Polymers": "Selected 20260005612.",
+ "aerosol monitors payload": "Cabin aerosol payload context only.",
+ "smoke transport lunar habitat": "Selected 20230013826.",
+ "spacecraft fire safety technology development": "Selected 20205000063; 20210021318 (2021 roadmap slides listing Orion/Gateway/lunar lander smoke detector lines) noted, not selected (cap).",
+ "Kapton smoke": "All hits 2012-2015 (SAME-era/WSTF); no 2018-2026 NTRS document specifically on Kapton smoke detection.",
+ "Teflon smoke": "All hits 1988-2015; no 2018-2026 NTRS document specifically on Teflon smoke detection.",
+ "Evaluation of Combustion Products Saffire": "Only slides 20210017343; the ICES-2021-244 paper itself not found on NTRS.",
+ "lithium ion battery thermal runaway aerosol": "20250005133 (ICES-2025-426) noted; not selected.",
+ "particulate sensor technology": "20200001645 (see 'commercial off-the-shelf smoke detector' note).",
+ "ISS smoke detector": "All hits 1997-2016.",
+ "dust-tolerant smoke detection": "No relevant NTRS hit (paper exists on open web, ICES-2025-361).",
+ "smoke dust discrimination lunar": "Zero NTRS hits.",
+ "smoke detector false alarms lunar missions": "Zero NTRS hits (ICES-2020-125 exists on open web).",
+ "polarimetric smoke detector": "Zero NTRS hits.",
+ "Towards Dust-tolerant Smoke Detection in Future Space Missions": "Zero NTRS hits for exact title.",
+ "_web": [
+  {
+   "query": "Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions Fire Safety Journal 2020 Wang Meyer",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 6,
+   "notes": "Located the Fire Safety Journal 2020 article (doi 10.1016/j.firesaf.2020.102977) on ScienceDirect; full text not retrieved (see inaccessible)."
+  },
+  {
+   "query": "NASA next generation spacecraft smoke detector lunar habitat dust discrimination fire detection system project",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 8,
+   "notes": "Found ICES-2025-361 dust-tolerant smoke detection (selected), ICES-2026 multi-angle (40/130 deg) smoke vs lunar dust sensor (Dohi et al., doi 10.32865/2346/109003; abstract only seen), ICES-2020-125 smoke-dust discrimination (Schultze, Sichma, Meyer; abstract only seen), an SBIR award for optical CO fire sensing (Vista Photonics), and the 2013 FPDS final report (pre-window)."
+  },
+  {
+   "query": "Orion spacecraft smoke detector Artemis fire detection system design HALO Gateway smoke detection",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 8,
+   "notes": "Found the HALO smoke detection threshold paper (selected), HALO ECLSS ConOps ICES-2025 (Stepanyuk et al., doi 10.32865/2346/102786; abstract/highlights only: smoke detector needs forced airflow during dormant transit), NTRS 20210021318 roadmap slides, and the 2009 Orion smoke detector abstract (adapted commercial aircraft design)."
+  },
+  {
+   "query": "https://doi.org/10.32865/2346/102771",
+   "where": "Exa web_fetch_exa (after curl got HTTP 403 / 202 bot challenge)",
+   "hits": 1,
+   "notes": "Full rendered text obtained; stored as verbatim excerpt (ices2025_361_dusttolerant)."
+  },
+  {
+   "query": "https://ttu-ir.tdl.org/server/api/core/bitstreams/068487fa-2e03-415d-8151-9326f18ab653/content",
+   "where": "Exa web_fetch_exa (curl got HTTP 202 empty)",
+   "hits": 1,
+   "notes": "Full rendered text obtained; stored as verbatim excerpt (ices2025_halo_sd_threshold)."
+  }
+ ],
+ "_inaccessible": [
+  {
+   "what": "Wang X. et al. (2020) 'Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions', Fire Safety Journal 113:102977, doi 10.1016/j.firesaf.2020.102977 (NTRS record 77766245676546)",
+   "why": "NTRS record has no downloadable file; publisher full text not retrieved and open-access status could not be verified (Unpaywall query returned no usable result). Highly relevant (gas vs particle sensors on spacecraft-relevant smokes) - content NOT reconstructed."
+  },
+  {
+   "what": "Fortenberry C. et al. ICES-2021-244 'Evaluation of Combustion Products from Large-Scale Spacecraft Fires during the Saffire-IV and Saffire-V Experiments' (full paper)",
+   "why": "Only the slide deck (NTRS 20210017343) is on NTRS; the paper was not located there and the TTU repository blocks scripted download. Slides not downloaded because of the 8-document cap."
+  },
+  {
+   "what": "Original PDFs of ICES-2025-361 (dust-tolerant smoke detection) and the HALO smoke-detection threshold paper (TTU repository)",
+   "why": "ttu-ir.tdl.org returned HTTP 403/202 bot challenges to curl; only Exa-rendered text was obtainable, stored as verbatim excerpts without PDF page numbers or PDF checksums."
+  },
+  {
+   "what": "ICES-2020-125 (Schultze, Sichma, Meyer) smoke detector to prevent false alarms in lunar missions; ICES-2026 multi-angle scattering smoke sensor (Dohi et al.)",
+   "why": "Hosted on the TTU repository (scripted download blocked); only search-result abstracts were seen; not fetched because of the 8-document cap. No items extracted from them."
+  },
+  {
+   "what": "NTRS 20210012108 (2019) 'The Combustion Product Monitor instrument for the spacecraft fire safety demonstration project'",
+   "why": "Metadata-only NTRS record (no download)."
+  },
+  {
+   "what": "ICES-2020-173 roadmap Figures 1-4 (Oct 2019 Spacecraft Fire Safety Roadmap)",
+   "why": "Image-only in the PDF; not OCR'd, so roadmap swim-lane dates/entries were not extracted."
+  },
+  {
+   "what": "Plot data on the two posters (20230013826, 20260005612)",
+   "why": "Figures are raster images; values were not digitised. Only text-layer statements are used."
+  }
+ ],
+ "_open_questions": [
+  "SAFFIRE IV-VI: the 2020 plan (ICES-2020-173) promised low-g smoke size-distribution and transport measurements, but within the examined sources only DustTrak DRX mass concentration (PM fractions) and an ionization-chamber signal are reported; whether size distributions were published (e.g. ICES-2021-244) was not verified.",
+  "ICES-2026-577 Table 1 'time to alarm' values (92-1603 s) do not state the reference time point explicitly (the text says figures use a timeline starting ~10 min before ignition, and PMMA ignition durations differ); these values should not be compared across tests without clarifying the reference.",
+  "The 2 mg/m3 'alarm' in ICES-2026-577 is a surrogate threshold applied to a reference aerosol monitor, not a flight smoke detector; how a real ionization or photoelectric spacecraft detector would have responded in SAFFIRE IV-VI is not reported in the examined sources (the FFD ionization chamber signal is shown only as a figure).",
+  "HALO uses an ionization-style smoke detector (HALO threshold paper), while ICES-2025-361 notes ionization baseline current changes at low pressure; whether the HALO detector baseline was characterised across 9.5-10.2 psia (or at proposed lunar-surface ~8.2 psia atmospheres) is not documented in the examined sources.",
+  "Kapton/Teflon: post-SAME ground work (ICES-2020-340) quantified response slopes of ISS/STS/CSP detectors to Kapton and Teflon smoke but reported no alarm-time or missed-alarm outcomes; no post-2018 flight test of detectors with these smokes was found within the search log.",
+  "Smoke-vs-dust discrimination remains at prototype/preliminary stage within the examined sources (GRC 2026 poster with one fabric and LHS simulant; UDE polarimetric proof-of-principle with JSC-1AF; multi-angle 40/130 deg concept only seen as an abstract). No flight-qualified discriminating detector was found.",
+  "Partial-gravity smoke transport evidence found is computational only (COMSOL LES 2023 poster; NIST FDS laptop-fire plume 2026 poster); no partial-gravity smoke transport or detector experiment was found within the search log.",
+  "Role of gas sensing in early detection is unresolved across sources: the AGA is fielded as a contingency monitor, the GRC 2026 poster says trace gases are not considered an early signal, while modelling-based papers stress toxic gas accumulation before smoke alarm (ICES-2020-173, HALO paper).",
+  "The final HALO smoke-detector alarm threshold value is not stated in the examined excerpt; only the 3/5/7 mg/m3 exceedance analysis is shown.",
+  "Operational false-alarm frequency: the Shuttle figure (14 events) mixes BIT failures and false alarms, and ISS counts are stated to be unpublished; a quantitative false-alarm rate could not be established within the examined sources."
+ ]
+}

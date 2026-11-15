@@ -1,0 +1,73 @@
+Approach for Defining an Acceptable Threshold Range for
+
+Smoke Detection in the HALO Environment
+
+Robert Van Hassel 1, Marit E. Meyer, Ph.D 2 Northrop Grumman Systems Corporation, Sterling, VA, 20166
+
+and
+
+Catherine Keen. 3 Paragon Space Development Corporation, Tucson, AZ, 85706
+
+In the pursuit of human space exploration, the safety of the crew is paramount. Environmental Control and Life Support (ECLS) Systems are a unique aspect of human spaceflight that keep humans alive and comfortable on missions. Properly bounding the myriads of potential scenarios and contingencies is the first step to solving them with complex ECLS hardware and concepts of operations. While low-Earth orbit (LEO) missions are becoming commonplace, the lunar orbiter Habitation and Logistics Outpost (HALO) has different mission safety challenges. Fire detection was identified early in the program as an area requiring special focus. Though there are multiple ways to approach fire detection, sensing smoke particles is the most common technique both in terrestrial and space environments. However, smoke detection in microgravity is not simple. It is a multi-faceted problem dependent on numerous variables, and consequently there is no “one size fits all” answer to the problem. Unfortunately, there was no official guidance or published standard from the National Aeronautical and Space Administration (NASA) to reference for the development of HALO’s smoke detection solution. The NASA Glenn Research Center (GRC) has performed experiments overheating common spacecraft materials, and the published data provided a path to analyze and shape the HALO smoke detector performance parameters. In particular, an alarm threshold analysis process was established in cooperation with GRC that considers the vehicle characteristics in conjunction with the smoke particle and toxic gas data. NASA standards do exist for human exposure to combustion products, and the Spacecraft Maximum Allowable Concentration (SMAC) tables were the criteria for determining when toxic gases and accompanying smoke particle concentrations were unsafe. The HALO smoke detection analysis approach can be adapted and applied to other space vehicles and habitats. Future NASA smoke experiment campaigns can augment and update the spacecraft smoke data sets and contribute to an official smoke alarm threshold standard but this paper documents an acceptable approach to use in the interim.
+
+[...]
+
+I. Introduction
+rior to the Artemis program, smoke detection has largely been achieved through the adaptation of terrestrial smoke
+detectors (SD) to the Low-Earth Orbit space environment. However, as habitats depart the protection of Earth’s
+magnetic field, this approach becomes less viable as radiation intensity and mission duration increase. Novel
+technologies and validation techniques are necessary to accommodate the difficulties posed by the Cislunar
+environment. At this time, there is no National Aeronautics and Space Administration (NASA) standard governing
+smoke detector performance, specifically for mass-concentration detectors, or expectations for their application in
+space, yet a means for setting SD performance parameters is required. [...]
+
+Approved for Public Release: NG25-0826 @ 2025 Northrop Grumman Systems Corporation [...] To this end, Northrop Grumman (NG), Paragon, and NASA Glenn Research Center (GRC) worked together to identify the following method to determine a reasonable smoke detection limit that was both feasible to achieve in the Cislunar environment and would also accomplish the necessary goal of detecting smoke before crew health is at risk. Without an industry standard, this analysis is one approach to requirements development for smoke detectors, ionization style in this case. This analysis was used in conjunction with heritage guidance, other analyses, and development testing to derive the smoke detector threshold requirements for HALO.
+
+II. Method Approach Northrop Grumman, Paragon, and NASA identified an approach to determine a smoke alarm threshold using published tabulated data from testing performed at White Sands Test Facility (WSTF) by GRC in 2012. 1 The paper combines data from two test campaigns in which 0.5 g samples of commonly used spacecraft materials were overheated in a chamber and the resulting toxic gases were measured with a suite of commercial and research prototype gas sensors and smoke particle mass concentrations were measured with a reference aerosol instrument. [...] Table 1 shows the 1-hour SMAC limits for gases relevant to the HALO mission. [...]
+
+| | CO (ppm) | HCN (ppm) | HF (ppm) |
+| --- | --- | --- | --- |
+| 1 hr SMAC | 425 | 8 | 3 |
+| 24 hr SMAC | 100 | 4 | 3 |
+
+only relevant materials for HALO were considered. This includes circuit board material (FR-4 substrate), 3 to 5 mm Nomex strips, wire insulation, Kapton®, and Teflon®. [...]
+
+III. Assumptions Several major assumptions were made to apply the smoke data from GRC chamber experiments to the HALO vehicle. First, it was necessary to assume that all smoke particles and toxic gases are introduced into the environment
+[...]
+instantaneously. In reality there is a competition between smoke aerosol generation rates and vehicle air filtration rates
+that results in particles being scrubbed as they are generated. If the generation rate does not exceed air filtration, the
+SD will not alarm because the mass concentration of smoke particles can never build up to a detectable concentration.
+At the same time, toxic gases in the smoke will continually increase in concentration if they are not actively removed.
+This problem has been explored in the literature. 3-5 Instantaneous detection is assumed and there is no accounting for
+smoke transport time. [...]
+Other significant assumptions are that smoke and hazardous gas generation is the same for all fuel types in the data
+and that there is a linear relationship between mass overheated and smoke generated. [...] Smoke generation in laboratory experiments is notoriously
+unrepeatable, so similar runs are averaged.
+The results from this alarm threshold approach are not hard rules but serve as a guideline to infer reasonable SD
+detection limits. It is worth noting that the 2012 test campaign was intended to assess gas sensor performance, meaning
+there is substantial variation in gas concentration results between instruments. Tunable diode laser spectroscopy
+(TDLS) and photoacoustic spectroscopy (PAS) were the most reliable sensor technologies in the test campaign and
+the resulting data were used in this analysis. [...] Finally, it is assumed that the material preparation
+techniques in the WSTF experiments are representative of materials in the spacecraft cabin. For example, PCB
+material will have different properties depending on configuration and how they are populated. Similarly, spacecraft
+Kapton is present in thin sheets or tape rather than ground or cut in small pieces. These are limitations of the data set,
+which is a product of the test objectives at the time. [...]
+
+[...]
+
+V. Results As expected, the results show that the higher the smoke detection threshold, the more SMAC exceedances that exist, leading to a higher risk of crew harm. Starting at 3 mg/m 3, there are relatively few exceedances. As seen in Table 8, SMAC exceedances were observed for the wire insulation at 540 °C and Kapton squares for HF and HCN respectively.
+
+[...]
+
+When increasing the threshold factor up to 5 mg/m 3, more SMAC exceedances arise. Though there are no new SMAC exceedances for HCN or any for CO, the prior exceedances grow in severity and there are now more exceedances in HF. All the wire insulation data sets show SMAC exceedances and the worst-case test run for 100% tetrafluoroethylene (TFE) is now over the limit. [...]
+
+[...] For HCN, 100% Kapton is now in exceedance of the SMAC limits in addition to the Kapton squares. Finally, CO showed its first exceedances as well with the Kapton squares exceeding the SMAC allowances for the 7 mg/m [...]
+
+[...]
+It is worth recognizing that the test results from the test campaigns are not perfectly applicable to the space
+environment. For example, the way that many of the fuels were prepared for smoke generation are not realistic
+applications of the material, such as granulated PTFE or 2 mm Kapton squares. [...]
+
+VI. Conclusion In the absence of a NASA standard governing smoke detection, Northrop Grumman and Paragon derived the HALO smoke detector alarm threshold requirements using the method outlined in this paper with NASA input. Though it is
+[...]
+based on many assumptions that cannot be substantiated, it does achieve the goal of reasonably determining an alarm threshold tailored to the HALO vehicle. As this approach is not perfect, there are several areas for future improvements. Future smoke test campaigns with newer spacecraft materials, incorporating newer processes and material finishes, should include multiple test points in low-pressure environments relevant for long-duration missions. Published reports of these experiments should include time-based variations in smoke particle and toxic gas concentrations. A large gap in the currently available data is the absence of space vehicle filtration, which has a significant impact on smoke detection. A larger-scale experiment campaign incorporating filtration as a variable will provide the opportunity to advance the current state of knowledge for spacecraft fire detection. These data would enable future commercial space developers to more accurately model the complexities that exist in detecting smoke in a human habitat, such as airflow and filtration rates. Resulting models can not only guide smoke detector threshold analyses but also inform optimal SD placement within the cabin.

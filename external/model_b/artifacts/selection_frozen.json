@@ -1,0 +1,13 @@
+{
+  "selection_sha256": "18ddbc55b0fa04c7efbe3948973ffd2416674a28cd49fe37b5543088a71382da",
+  "model_config_sha256": "9879fbcec9d3490ef9b910986fc0dcc371c6c5c443f7cf1a89ea4d510b71d81e",
+  "frozen_before_test_label_access": true,
+  "test_ids": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ]
+}

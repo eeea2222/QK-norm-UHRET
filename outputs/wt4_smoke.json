@@ -1,0 +1,92 @@
+{
+  "status": "PASSED",
+  "report": {
+    "repo": "efe-T/WeightSeek-WT4",
+    "revision": "005427a78998cf293ffd54ac8e4da16bc089f00a",
+    "base_repo": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+    "base_revision": "d1671a178705bcab7644806d23c535517f35723b",
+    "checks": {
+      "wt4.json": {
+        "sha256": "a8dab8549002209cfd21cc832ff0b75be206d245ef62ede73f1d4e8425aae2dc",
+        "expected": "a8dab8549002209cfd21cc832ff0b75be206d245ef62ede73f1d4e8425aae2dc",
+        "ok": true
+      },
+      "patch.safetensors": {
+        "sha256": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+        "expected": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+        "ok": true
+      },
+      "wt4.json:base_model": {
+        "value": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+        "expected": "RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+        "ok": true
+      },
+      "wt4.json:base_revision": {
+        "value": "d1671a178705bcab7644806d23c535517f35723b",
+        "expected": "d1671a178705bcab7644806d23c535517f35723b",
+        "ok": true
+      },
+      "wt4.json:patch_sha256": {
+        "value": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+        "expected": "70abb104212bd93ef7616b4cfd77d15a67ffb715be9a7d74b002b31a92a9082d",
+        "ok": true
+      },
+      "wt4.json:base_weight_sha256": {
+        "value": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+        "expected": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+        "ok": true
+      },
+      "wt4.json:edited_embedding_sha256": {
+        "value": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+        "expected": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+        "ok": true
+      },
+      "wt4.json:changed_rows": {
+        "value": 13,
+        "expected": 13,
+        "ok": true
+      },
+      "base_weights": {
+        "sha256": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+        "expected": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+        "ok": true
+      }
+    },
+    "edited_embedding": {
+      "expected": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+      "computed": {
+        "raw_row_major_bytes": "16b4758e14f3bc1631de549b966b1bb0a727f21374573ba67d42f065dc40e4b6",
+        "safetensors_single_tensor": "ff8666a7fa925b89fe8f0a11cb45941bb9d952724679b7660d4125e8180905cd"
+      },
+      "matched_definition": [
+        "raw_row_major_bytes"
+      ]
+    },
+    "changed_rows": [
+      3655,
+      11158,
+      13428,
+      13784,
+      37201,
+      47120,
+      52565,
+      66073,
+      68620,
+      77264,
+      84485,
+      85152,
+      88842
+    ],
+    "tied_embeddings_preserved": true,
+    "device": "cpu",
+    "dtype": "bfloat16",
+    "load_seconds": 7.1,
+    "variant": "WT4 (patched)"
+  },
+  "generation": {
+    "text": "Hello! How can I help you today?\n",
+    "new_tokens": 12,
+    "seconds": 1.33,
+    "prompt_tokens": 23
+  }
+}

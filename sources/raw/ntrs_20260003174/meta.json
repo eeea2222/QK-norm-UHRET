@@ -1,0 +1,29 @@
+{
+ "doc_id": "ntrs_20260003174",
+ "title": "The Operational NASA Anomaly Gas Analyzer and Exploration Follow-Ons",
+ "year": 2026,
+ "authors": [
+  "Nicholas R. Wymore",
+  "Brian P. Rodrigue",
+  "Jeffrey S. Pilgrim"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20260003174/downloads/AGA%20Paper%20with%20ICES%20Header%20post%20Review.pdf",
+ "retrieved_utc": "2026-11-15T10:49:56Z",
+ "sha256": "a9c1df2b9f71127a2eadd0feeef20052f711826818178dfe5c21ca37f97326e5",
+ "bytes": 2053415,
+ "page_count": 12,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20260003174",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES-2026-266"
+  ]
+ },
+ "license_note": "NTRS public distribution; NASA JSC / Vista Photonics authors.",
+ "accessible": true,
+ "access_note": "Full PDF from NTRS. Table 1 limit-of-quantitation column is scrambled in the text layer; only accuracy and range columns are used.",
+ "source_key": "ntrs_followup",
+ "raw_file": "AGA Paper with ICES Header post Review.pdf"
+}

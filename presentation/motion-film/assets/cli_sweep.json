@@ -1,0 +1,291 @@
+{
+  "created_utc": "2026-11-15T12:49:13.467668+00:00",
+  "model": "a",
+  "purpose": "Model girdisi denemesi",
+  "value_kind": "predicted",
+  "runs": [
+    {
+      "input": {
+        "thickness_mm": 1.0,
+        "width_cm": 2.2,
+        "velocity_cm_s": 6.0,
+        "initial_o2_vol_pct": 22.2,
+        "material": "PMMA_slab",
+        "units": {
+          "thickness_mm": "mm",
+          "width_cm": "cm",
+          "velocity_cm_s": "cm/s",
+          "initial_o2_vol_pct": "vol%"
+        }
+      },
+      "output": {
+        "model": "model_a",
+        "repo": "efe-T/nasa-bass-ii-model-a",
+        "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+        "verified": {
+          "repo": "efe-T/nasa-bass-ii-model-a",
+          "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+          "files": {
+            "sample_request.json": "ok",
+            "requirements.txt": "ok",
+            "model.joblib": "ok",
+            "config.json": "ok",
+            "metrics.json": "ok",
+            "sample_response.json": "ok",
+            "MODEL_CARD.md": "ok",
+            "model.json": "ok",
+            "ood.json": "ok"
+          }
+        },
+        "request": {
+          "thickness_mm": 1.0,
+          "width_cm": 2.2,
+          "velocity_cm_s": 6.0,
+          "initial_o2_vol_pct": 22.2,
+          "material": "PMMA_slab",
+          "units": {
+            "thickness_mm": "mm",
+            "width_cm": "cm",
+            "velocity_cm_s": "cm/s",
+            "initial_o2_vol_pct": "vol%"
+          }
+        },
+        "response": {
+          "predicted_flame_spread_rate": 0.09549096353800912,
+          "unit": "mm/s",
+          "value_kind": "predicted",
+          "model_version": "model_a_v1",
+          "algorithm": "random_forest",
+          "applicable_domain": {
+            "thickness_mm": {
+              "type": "numeric",
+              "min": 1.0,
+              "max": 5.0
+            },
+            "width_cm": {
+              "type": "numeric",
+              "min": 1.2,
+              "max": 2.2
+            },
+            "velocity_cm_s": {
+              "type": "numeric",
+              "min": 2.0,
+              "max": 21.0
+            },
+            "initial_o2_vol_pct": {
+              "type": "numeric",
+              "min": 17.9,
+              "max": 22.2
+            }
+          },
+          "out_of_distribution": false,
+          "nearest_distance": 0.5656598057558858,
+          "ood_threshold": 1.3291313857961067,
+          "nearest_experiment_id": "M1",
+          "ood_check": "standardized_nearest_condition_distance",
+          "warnings": [
+            "Exploratory BASS-II PMMA slab estimate from18 independent samples; not a spacecraft fire-safety certification.",
+            "Initial oxygen is a pre-burn proxy; oxygen and thermal history change within each burn. Uncertainty intervals are not calibrated.",
+            "Burning-side count is excluded because its pre-run availability is not established; unmodeled geometry may confound predictions."
+          ]
+        },
+        "value_kind": "predicted",
+        "role": "Dashboard side panel and BASS-II profile context only. Predicts PMMA slab flame-spread rate (mm/s). NOT detection evidence.",
+        "note": "Side-panel context only: this model does not predict smoke-detector performance; no detection result is inferred from it.",
+        "card_limitations": [
+          "18 physical samples / 39 airflow segments; nested CV R^2 negative; exploratory only.",
+          "No calibrated uncertainty; no generalisation to other materials, gravity levels or geometries."
+        ]
+      }
+    },
+    {
+      "input": {
+        "thickness_mm": 1.0,
+        "width_cm": 2.2,
+        "velocity_cm_s": 8.0,
+        "initial_o2_vol_pct": 22.2,
+        "material": "PMMA_slab",
+        "units": {
+          "thickness_mm": "mm",
+          "width_cm": "cm",
+          "velocity_cm_s": "cm/s",
+          "initial_o2_vol_pct": "vol%"
+        }
+      },
+      "output": {
+        "model": "model_a",
+        "repo": "efe-T/nasa-bass-ii-model-a",
+        "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+        "verified": {
+          "repo": "efe-T/nasa-bass-ii-model-a",
+          "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+          "files": {
+            "sample_request.json": "ok",
+            "requirements.txt": "ok",
+            "model.joblib": "ok",
+            "config.json": "ok",
+            "metrics.json": "ok",
+            "sample_response.json": "ok",
+            "MODEL_CARD.md": "ok",
+            "model.json": "ok",
+            "ood.json": "ok"
+          }
+        },
+        "request": {
+          "thickness_mm": 1.0,
+          "width_cm": 2.2,
+          "velocity_cm_s": 8.0,
+          "initial_o2_vol_pct": 22.2,
+          "material": "PMMA_slab",
+          "units": {
+            "thickness_mm": "mm",
+            "width_cm": "cm",
+            "velocity_cm_s": "cm/s",
+            "initial_o2_vol_pct": "vol%"
+          }
+        },
+        "response": {
+          "predicted_flame_spread_rate": 0.09521850347391446,
+          "unit": "mm/s",
+          "value_kind": "predicted",
+          "model_version": "model_a_v1",
+          "algorithm": "random_forest",
+          "applicable_domain": {
+            "thickness_mm": {
+              "type": "numeric",
+              "min": 1.0,
+              "max": 5.0
+            },
+            "width_cm": {
+              "type": "numeric",
+              "min": 1.2,
+              "max": 2.2
+            },
+            "velocity_cm_s": {
+              "type": "numeric",
+              "min": 2.0,
+              "max": 21.0
+            },
+            "initial_o2_vol_pct": {
+              "type": "numeric",
+              "min": 17.9,
+              "max": 22.2
+            }
+          },
+          "out_of_distribution": false,
+          "nearest_distance": 0.18855326858529528,
+          "ood_threshold": 1.3291313857961067,
+          "nearest_experiment_id": "M1",
+          "ood_check": "standardized_nearest_condition_distance",
+          "warnings": [
+            "Exploratory BASS-II PMMA slab estimate from18 independent samples; not a spacecraft fire-safety certification.",
+            "Initial oxygen is a pre-burn proxy; oxygen and thermal history change within each burn. Uncertainty intervals are not calibrated.",
+            "Burning-side count is excluded because its pre-run availability is not established; unmodeled geometry may confound predictions."
+          ]
+        },
+        "value_kind": "predicted",
+        "role": "Dashboard side panel and BASS-II profile context only. Predicts PMMA slab flame-spread rate (mm/s). NOT detection evidence.",
+        "note": "Side-panel context only: this model does not predict smoke-detector performance; no detection result is inferred from it.",
+        "card_limitations": [
+          "18 physical samples / 39 airflow segments; nested CV R^2 negative; exploratory only.",
+          "No calibrated uncertainty; no generalisation to other materials, gravity levels or geometries."
+        ]
+      }
+    },
+    {
+      "input": {
+        "thickness_mm": 1.0,
+        "width_cm": 2.2,
+        "velocity_cm_s": 9.0,
+        "initial_o2_vol_pct": 22.2,
+        "material": "PMMA_slab",
+        "units": {
+          "thickness_mm": "mm",
+          "width_cm": "cm",
+          "velocity_cm_s": "cm/s",
+          "initial_o2_vol_pct": "vol%"
+        }
+      },
+      "output": {
+        "model": "model_a",
+        "repo": "efe-T/nasa-bass-ii-model-a",
+        "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+        "verified": {
+          "repo": "efe-T/nasa-bass-ii-model-a",
+          "revision": "0096ac5a4959c13e0f7d1561160844db5f873ba3",
+          "files": {
+            "sample_request.json": "ok",
+            "requirements.txt": "ok",
+            "model.joblib": "ok",
+            "config.json": "ok",
+            "metrics.json": "ok",
+            "sample_response.json": "ok",
+            "MODEL_CARD.md": "ok",
+            "model.json": "ok",
+            "ood.json": "ok"
+          }
+        },
+        "request": {
+          "thickness_mm": 1.0,
+          "width_cm": 2.2,
+          "velocity_cm_s": 9.0,
+          "initial_o2_vol_pct": 22.2,
+          "material": "PMMA_slab",
+          "units": {
+            "thickness_mm": "mm",
+            "width_cm": "cm",
+            "velocity_cm_s": "cm/s",
+            "initial_o2_vol_pct": "vol%"
+          }
+        },
+        "response": {
+          "predicted_flame_spread_rate": 0.09521850347391446,
+          "unit": "mm/s",
+          "value_kind": "predicted",
+          "model_version": "model_a_v1",
+          "algorithm": "random_forest",
+          "applicable_domain": {
+            "thickness_mm": {
+              "type": "numeric",
+              "min": 1.0,
+              "max": 5.0
+            },
+            "width_cm": {
+              "type": "numeric",
+              "min": 1.2,
+              "max": 2.2
+            },
+            "velocity_cm_s": {
+              "type": "numeric",
+              "min": 2.0,
+              "max": 21.0
+            },
+            "initial_o2_vol_pct": {
+              "type": "numeric",
+              "min": 17.9,
+              "max": 22.2
+            }
+          },
+          "out_of_distribution": false,
+          "nearest_distance": 0.0,
+          "ood_threshold": 1.3291313857961067,
+          "nearest_experiment_id": "M1",
+          "ood_check": "standardized_nearest_condition_distance",
+          "warnings": [
+            "Exploratory BASS-II PMMA slab estimate from18 independent samples; not a spacecraft fire-safety certification.",
+            "Initial oxygen is a pre-burn proxy; oxygen and thermal history change within each burn. Uncertainty intervals are not calibrated.",
+            "Burning-side count is excluded because its pre-run availability is not established; unmodeled geometry may confound predictions."
+          ]
+        },
+        "value_kind": "predicted",
+        "role": "Dashboard side panel and BASS-II profile context only. Predicts PMMA slab flame-spread rate (mm/s). NOT detection evidence.",
+        "note": "Side-panel context only: this model does not predict smoke-detector performance; no detection result is inferred from it.",
+        "card_limitations": [
+          "18 physical samples / 39 airflow segments; nested CV R^2 negative; exploratory only.",
+          "No calibrated uncertainty; no generalisation to other materials, gravity levels or geometries."
+        ]
+      }
+    }
+  ],
+  "status": "COMPLETED"
+}

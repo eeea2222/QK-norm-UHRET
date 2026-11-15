@@ -1,0 +1,1385 @@
+{
+  "question": "Show the Teflon catalog",
+  "engine": "STRUCTURED_CATALOG",
+  "rag_enabled": false,
+  "scientific_validation_status": "DEFERRED_BY_REQUEST",
+  "filters_applied": {
+    "material": "Teflon"
+  },
+  "intents": [],
+  "answer": {
+    "summary": [
+      {
+        "text": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+        "evidence_ids": [
+          "FU-EV-002"
+        ]
+      }
+    ],
+    "technical_detail": [
+      {
+        "text": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+        "evidence_ids": [
+          "FU-EV-002"
+        ]
+      },
+      {
+        "text": "Derived descriptive fraction 4/15 over 15 primary runs in 15 conservative sample groups (campaigns SAME, SAME-R); airflow 0.0-8.1 cm/s, heater resistance ratio 1.44-1.4524143054229013, heating 60.0-60.0 s, programmed aging 11.0-720.0 s, mixing 8.0-8.0 s; measured ISS scatter 0.001-5.042 V. The 2.0 V label is a derived threshold (Meyer et al. 2018 Figure 9), not a recorded operational alarm, and the fraction is not an alarm probability.",
+        "evidence_ids": [
+          "MODELC-EV-TEFLON"
+        ]
+      },
+      {
+        "text": "Runs SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89: airflow 8.1 cm/s, heater resistance ratio 1.445, heating 60.0 s, aging 11.0 s, mixing 8.0 s, microgravity (ISS). These are the runs averaged in the 2012 Table 1 particle-size row. Measured voltages; the 2.0 V comparison level is a derived threshold, not an alarm record.",
+        "evidence_ids": [
+          "MODELC-EV-TEFLON-BASELINE"
+        ]
+      },
+      {
+        "text": "SAME final report (2010), detector signal traces: flow design range 2-8 cm/s, about 60 s heating below ignition, aging 10-1800 s, microgravity in the MSG. Signals digitised at 1 Hz with an 8-bit converter.",
+        "evidence_ids": [
+          "SAME-EV-001"
+        ]
+      },
+      {
+        "text": "SAME final report (2010), Table 1 discussion (moment-method diameters, baseline unaged vs 720 s aged). Kapton and Teflon smokes had narrow size distributions with little mass above 1 um (Table 1).",
+        "evidence_ids": [
+          "SAME-EV-003"
+        ]
+      }
+    ],
+    "sources": [
+      "Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions) (2026), external/model_c/data/processed/dashboard_measured_only.csv, row material=Teflon, https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_measured_only.csv",
+      "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label) (2026), external/model_c/data/processed/dashboard_table.csv, rows SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89 (unaged baseline runs averaged in the 2012 Table 1), https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E) (2010), PDF p. 25, Section 5, Figure 12 discussion (Teflon Test 25, GMT 268), https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E) (2010), PDF p. 27, Section 5 (p.17), https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols (2020), PDF p. 9, Sec. III.C, Fig. 8, https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf"
+    ]
+  },
+  "catalog_records": [
+    {
+      "evidence_id": "FU-EV-001",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS scatter detector, STS ionization detector, CSP prototype, commercial detectors",
+      "finding_type": "followup_solution",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": null,
+      "statement": "A 2020 ground study tested whether laboratory reference aerosols can serve as transfer standards for spacecraft smoke-detector testing, using smoke from six spacecraft-relevant materials.",
+      "technical_detail": "Wang et al. (2020, NTRS 20205003817): mineral oil and DOS reference aerosols together spanned the detector-response range of the six smokes in a mixed chamber at 1 g; smoke size distributions were not measured during the smoke tests.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 1, Abstract",
+      "limitations": [
+        "Ground (1 g) tests; no alarm evaluation; no microgravity."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-002",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS smoke detector (scatter)",
+      "finding_type": "measurement_limitation",
+      "value": 35,
+      "value_unit": "% coefficient of variation of response slope across aerosols",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+      "technical_detail": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "limitations": [
+        "1 g ground chamber; response slope, not alarm decisions."
+      ]
+    },
+    {
+      "evidence_id": "FU-EV-003",
+      "investigation": null,
+      "psi_id": null,
+      "material": "PMMA",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS scatter detector among others",
+      "finding_type": "context",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": null,
+      "statement": "The 2020 ground study included a single PMMA pyrolysis test, so the ISS scatter detector has been exposed to PMMA smoke only once, at 1 g, without an alarm evaluation.",
+      "technical_detail": "Wang et al. (2020), p. 4: tube-furnace oxidative pyrolysis of lamp wick, Kapton, Nomex, Teflon, PMMA and wire insulation; one PMMA test with 2 g of sample.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 1,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 4, Sec. II.C Smoke Aerosol Materials (continues p.5)",
+      "limitations": [
+        "Single 1 g test; detector signal vs mass only."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-002",
+      "investigation": "SAME",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (near-infrared forward light scattering)",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": "share of Teflon flight tests without alarm (no denominator published)",
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "In the same ISS experiments, the ISS smoke detector would not have alarmed for about two thirds of the Teflon smoke tests.",
+      "technical_detail": "Meyer et al. (2018), Section 3.2 and Figure 9; same conditions as the Kapton result (microgravity, MSG, about 60 s pyrolysis heating, 8.1 cm/s baseline flow). Teflon smoke is mostly sub-micron, where forward light scattering is weak. No denominators are published; O2 and pressure are not stated.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          0,
+          8.1
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          30,
+          2000
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.2. Spacecraft Smoke Detector Results",
+      "limitations": [
+        "Applies only to the SAME flight runs analysed in Meyer et al. 2018.",
+        "'About two thirds' is the authors' wording; no denominator published.",
+        "Not an ISS fire-incident statistic."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-003",
+      "investigation": "SAME",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Kapton, Teflon, Lampwick",
+      "materials": [
+        "Kapton",
+        "Teflon",
+        "Lampwick"
+      ],
+      "detector": "Space Shuttle smoke detector (ionization)",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "The older Space Shuttle ionization detector also stayed below its alarm boundary in some Kapton, Teflon and lamp wick smoke runs.",
+      "technical_detail": "Meyer et al. (2018), Section 3.2 / Figure 9. The Shuttle detector was run only intermittently (its internal pump drew aerosol at three liters per minute, which ruled out aging tests), so its data set is much smaller than the ISS detector's. Overall it was somewhat less sensitive than the ISS detector but did better on Teflon smoke.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          0,
+          8.1
+        ],
+        "heating_s": 60,
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.2. Spacecraft Smoke Detector Results",
+      "limitations": [
+        "Small, intermittent data set for this detector.",
+        "No run counts published.",
+        "Contrasts with the 2010 SAME report statement that all SAME tests gave strong Shuttle-detector signals (see SAME-EV-002)."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-004",
+      "investigation": "SAME",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Kapton, Teflon, Lampwick, Silicone, Pyrell",
+      "materials": [
+        "Kapton",
+        "Teflon",
+        "Lampwick",
+        "Silicone",
+        "Pyrell"
+      ],
+      "detector": "ISS smoke detector and Space Shuttle smoke detector",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "Neither of the two spacecraft smoke detectors flown in the ISS experiment detected every type of smoke produced by overheating common spacecraft materials.",
+      "technical_detail": "Headline result of Meyer et al. (2018), abstract; based on the SAME flight runs with smoke from five spacecraft materials (Kapton, Teflon, cotton lamp wick, silicone rubber, Pyrell foam) generated by non-flaming pyrolysis in microgravity.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          0,
+          8.1
+        ],
+        "heating_s": 60,
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "aging_s": [
+          30,
+          2000
+        ]
+      },
+      "n_independent_tests": null,
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "Abstract",
+      "limitations": [
+        "Pyrolysis (pre-fire overheat) smoke only; no flaming fires.",
+        "Five materials only.",
+        "Detector performance judged against threshold lines in Figure 9, not recorded alarms."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-009",
+      "investigation": "SAME",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Kapton, Teflon",
+      "materials": [
+        "Kapton",
+        "Teflon"
+      ],
+      "detector": "light-scattering smoke detectors",
+      "finding_type": "technology_need",
+      "value": null,
+      "value_unit": null,
+      "value_kind": null,
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "Some size discrimination is needed so that a detector can alarm on the weak signal of small Teflon or Kapton smoke without excessive nuisance alarms from large dust particles.",
+      "technical_detail": "Meyer et al. (2018), Section 3.1, citing Urban et al.; a design need inferred from the measured smoke sizes, not a measured false-alarm result.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "gravity": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.1. Moment Instrument Results",
+      "limitations": [
+        "Nuisance-alarm behaviour argued, not measured, in this paper."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-010",
+      "investigation": "SAME-R",
+      "psi_id": "PSI-101",
+      "material": "Kapton, Teflon, Lampwick, Silicone, Pyrell",
+      "materials": [
+        "Kapton",
+        "Teflon",
+        "Lampwick",
+        "Silicone",
+        "Pyrell"
+      ],
+      "detector": null,
+      "finding_type": "measurement_limitation",
+      "value": 1.7,
+      "value_unit": "ratio of diameter of average mass, zero flow vs 8.1 cm/s",
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "With no forced airflow in microgravity, smoke particles were on average 1.7 times larger (from 1.3 times for Teflon to 2.8 times for Kapton) than at 8.1 cm/s, a low-gravity effect that normal-gravity detector tests do not reproduce.",
+      "technical_detail": "Meyer et al. (2018), Section 3.3: eleven zero-flow tests; thermal-expansion flow of 0.5-1.5 cm/s; vapour concentration about eight times higher than at 8.1 cm/s. At 1 g buoyancy would widen the mixing zone, so this condition is unique to low gravity. About two thirds of the smoke escaped into the glovebox in these tests, lowering particle counts.",
+      "experimental_conditions": {
+        "gravity": "microgravity (vs 1 g)",
+        "airflow_cm_s": 0,
+        "heating_s": 60,
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "aging_s": null
+      },
+      "n_independent_tests": 11,
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.3. TEM Results (Impact of flow on particle morphology)",
+      "limitations": [
+        "Eleven tests; hardware not designed for zero flow.",
+        "Size ratio reported differently elsewhere in the SAME-R report (see SAMER-EV-002)."
+      ]
+    },
+    {
+      "evidence_id": "M18-EV-013",
+      "investigation": "SAME",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Teflon, Kapton",
+      "materials": [
+        "Teflon",
+        "Kapton",
+        "Lampwick",
+        "Silicone",
+        "Pyrell"
+      ],
+      "detector": "ISS smoke detector (photoelectric)",
+      "finding_type": "context",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": null,
+      "statement": "NIST's 2018 news release quotes the NASA lead author: the ISS detector easily sensed the large cellulose, silicone and Pyrell smoke particles but often failed on the smaller Teflon and Kapton particles.",
+      "technical_detail": "Press-release coverage of the 2018 paper (secondary source); the primary result comes from the paper itself.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "gravity": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "NIST/NASA Study Shows One Detector Doesn't 'Fit All' for Smoke in Spacecraft (NIST news release)",
+      "source_year": 2018,
+      "source_url": "https://www.nist.gov/news-events/news/2018/05/nistnasa-study-shows-one-detector-doesnt-fit-all-smoke-spacecraft",
+      "source_location": "Body, quote from M. Meyer (NASA GRC)",
+      "limitations": [
+        "Secondary source (news release)."
+      ]
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON",
+      "investigation": "SAME;SAME-R",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering), scatter channel",
+      "finding_type": "missed_alarm",
+      "value": 0.26666666666666666,
+      "value_unit": "fraction of primary runs reaching 2.0 V ISS scatter",
+      "value_kind": "derived",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In the SAME and SAME-R primary heating runs, Teflon smoke pushed the ISS smoke-detector scatter signal to the 2.0 V level in 4 of 15 runs, so in 11 runs it stayed below that level.",
+      "technical_detail": "Derived descriptive fraction 4/15 over 15 primary runs in 15 conservative sample groups (campaigns SAME, SAME-R); airflow 0.0-8.1 cm/s, heater resistance ratio 1.44-1.4524143054229013, heating 60.0-60.0 s, programmed aging 11.0-720.0 s, mixing 8.0-8.0 s; measured ISS scatter 0.001-5.042 V. The 2.0 V label is a derived threshold (Meyer et al. 2018 Figure 9), not a recorded operational alarm, and the fraction is not an alarm probability.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": [
+          0.0,
+          8.1
+        ],
+        "gravity": "microgravity",
+        "heating_s": [
+          60.0,
+          60.0
+        ],
+        "aging_s": [
+          11.0,
+          720.0
+        ]
+      },
+      "n_independent_tests": 15,
+      "source_title": "Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_measured_only.csv",
+      "source_location": "external/model_c/data/processed/dashboard_measured_only.csv, row material=Teflon",
+      "limitations": [
+        "Derived 2.0 V threshold label, not a recorded operational alarm.",
+        "Descriptive fraction of observed primary runs, not a detection probability for new fires.",
+        "Different definition and test set from the 2021 white paper's no-alarm fractions; do not combine.",
+        "Sample groups, not runs, are the conservative independent unit (reburns share samples)."
+      ]
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON-BASELINE",
+      "investigation": "SAME-R",
+      "psi_id": "PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering), scatter channel",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": "V (measured ISS scatter)",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "At the SAME-R baseline setting, all 4 unaged Teflon runs kept the ISS detector scatter signal below 2.0 V (0.184-1.104 V measured).",
+      "technical_detail": "Runs SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89: airflow 8.1 cm/s, heater resistance ratio 1.445, heating 60.0 s, aging 11.0 s, mixing 8.0 s, microgravity (ISS). These are the runs averaged in the 2012 Table 1 particle-size row. Measured voltages; the 2.0 V comparison level is a derived threshold, not an alarm record.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": 8.1,
+        "gravity": "microgravity",
+        "heating_s": 60.0,
+        "aging_s": 11.0
+      },
+      "n_independent_tests": 4,
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, rows SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89 (unaged baseline runs averaged in the 2012 Table 1)",
+      "limitations": [
+        "Four runs at one setting; not a detection probability.",
+        "2.0 V is a derived threshold from Meyer et al. 2018 Figure 9."
+      ]
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON-CAMPAIGNS",
+      "investigation": "SAME;SAME-R",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering), scatter channel",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": "runs reaching 2.0 V per campaign",
+      "value_kind": "derived",
+      "audit_status": "VERIFIED",
+      "classification": "CONFLICTING_EVIDENCE",
+      "statement": "The ISS detector's response to Teflon smoke differed between campaigns: Teflon reached the 2.0 V level in 0 of 4 SAME runs but in 4 of 11 SAME-R runs.",
+      "technical_detail": "Measured ISS scatter: SAME 0.001-1.64 V, SAME-R 0.184-5.042 V. The cause (campaign hardware state, sample batch, temperature control or other) is not resolved within the examined sources; the 2.0 V label is derived, not an alarm record.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "gravity": "microgravity",
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, primary rows material=Teflon grouped by campaign",
+      "limitations": [
+        "Derived 2.0 V threshold label, not a recorded alarm.",
+        "Small per-campaign counts; cause of the difference unresolved."
+      ]
+    },
+    {
+      "evidence_id": "SAME-EV-001",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (light scattering) vs Space Shuttle smoke detector (ionization)",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In a typical SAME Teflon run, the Shuttle ionization detector gave a strong signal while the ISS light-scattering detector signal was erratic, because Teflon smoke is mostly smaller than 1 um.",
+      "technical_detail": "SAME final report (2010), detector signal traces: flow design range 2-8 cm/s, about 60 s heating below ignition, aging 10-1800 s, microgravity in the MSG. Signals digitised at 1 Hz with an 8-bit converter.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          2,
+          8
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          10,
+          1800
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 25, Section 5, Figure 12 discussion (Teflon Test 25, GMT 268)",
+      "limitations": [
+        "Example run; not a count of failures.",
+        "SAME-1 only."
+      ]
+    },
+    {
+      "evidence_id": "SAME-EV-002",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Kapton, Teflon, Lampwick, Silicone",
+      "materials": [
+        "Kapton",
+        "Teflon",
+        "Lampwick",
+        "Silicone"
+      ],
+      "detector": "Space Shuttle smoke detector (ionization)",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "source_reported",
+      "audit_status": "VERIFIED",
+      "classification": "CONFLICTING_EVIDENCE",
+      "statement": "The 2010 SAME report says all SAME tests gave strong Space Shuttle ionization-detector signals, whereas the 2018 paper reports some Shuttle-detector runs below the alarm boundary.",
+      "technical_detail": "SAME final report (2010) versus Meyer et al. (2018), Section 3.2. The two statements describe different test sets and use different criteria, so they are kept as conflicting evidence rather than merged.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          2,
+          8
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          10,
+          1800
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 28, Section 5 (p.18)",
+      "limitations": [
+        "Different campaigns and criteria; cause of the difference unresolved."
+      ]
+    },
+    {
+      "evidence_id": "SAME-EV-003",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Kapton, Teflon",
+      "materials": [
+        "Kapton",
+        "Teflon"
+      ],
+      "detector": "light-scattering detectors (ISS type)",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "SAME measured small particle sizes for Kapton and Teflon smoke, which makes them hard for light-scattering detectors to sense, while large lamp wick and silicone particles give very large scattering signals.",
+      "technical_detail": "SAME final report (2010), Table 1 discussion (moment-method diameters, baseline unaged vs 720 s aged). Kapton and Teflon smokes had narrow size distributions with little mass above 1 um (Table 1).",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          2,
+          8
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          10,
+          1800
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 27, Section 5 (p.17)",
+      "limitations": [
+        "Moment-method sizes rely on a lognormal assumption that holds well for Kapton and lamp wick only."
+      ]
+    },
+    {
+      "evidence_id": "SAMER-EV-003",
+      "investigation": "SAME-R",
+      "psi_id": "PSI-101",
+      "material": "Kapton, Teflon",
+      "materials": [
+        "Kapton",
+        "Teflon"
+      ],
+      "detector": "light-scattering smoke detectors",
+      "finding_type": "technology_need",
+      "value": null,
+      "value_unit": null,
+      "value_kind": null,
+      "audit_status": "VERIFIED",
+      "classification": "EVIDENCE_GAP",
+      "statement": "SAME-R states a design trade-off: a scattering detector with enough gain to alarm on weak small-particle Teflon or Kapton smoke risks excessive nuisance alarms from large dust.",
+      "technical_detail": "SAME-R final report (2014), results discussion.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "gravity": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment Re-flight (SAMER) - Final Report, June 2, 2014 (with Appendices A-F)",
+      "source_year": 2014,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Reports_SAME-R_Final%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 5, A. Moment Instrument Results (p.5)",
+      "limitations": [
+        "Design trade-off; nuisance-alarm rate not measured."
+      ]
+    },
+    {
+      "evidence_id": "UR12-EV-001",
+      "investigation": "SAME-R",
+      "psi_id": "PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": null,
+      "finding_type": "particle_property",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "source_reported",
+      "audit_status": "VERIFIED",
+      "classification": "CONFLICTING_EVIDENCE",
+      "statement": "In the 2012 SAME-2 particle-size table, the unaged Teflon row is internally inconsistent: its printed geometric mean and spread imply larger count-mean and mass diameters than the printed ones.",
+      "technical_detail": "Urban et al. 2012 (AIAA 2012-3536, NTRS 20130000422), Table 1, PDF p. 7: printed 0.081 um geometric mean, 2.198 geometric SD, 0.101 um count mean, 0.17 um mass diameter; recomputed 0.110 and 0.205 um. Nine other rows agree within rounding. The row averages four SAME-R baseline runs.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": 8.1,
+        "heating_s": 60,
+        "aging_s": 11,
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": 4,
+      "source_title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+      "source_year": 2012,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20130000422/downloads/20130000422.pdf",
+      "source_location": "Urban et al. 2012 (AIAA 2012-3536, NTRS 20130000422), Table 1, PDF p. 7",
+      "limitations": [
+        "Source-table inconsistency; it does not affect the detector-response records."
+      ]
+    },
+    {
+      "evidence_id": "WP21-EV-002",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering)",
+      "finding_type": "missed_alarm",
+      "value": 0.667,
+      "value_unit": "fraction of SAME Teflon tests without ISS-detector alarm",
+      "value_kind": "source_reported",
+      "audit_status": "NOT_VERIFIED",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "statement": "The same 2021 white paper reports that the ISS smoke detector did not alarm for Teflon smoke in two-thirds of the SAME tests.",
+      "technical_detail": "Fortenberry et al. (2021), p. 2, citing SAME papers (refs. 3-5); the authors call this troubling because Kapton and Teflon are abundant in spacecraft electrical systems, where a fire is likely to begin.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+      "source_year": 2021,
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+      "source_location": "PDF p. 2, Introduction, para 2",
+      "limitations": [
+        "Applies only to the tests described in the cited SAME studies.",
+        "Not an ISS fire-incident statistic."
+      ]
+    }
+  ],
+  "verified_findings": [
+    {
+      "evidence_id": "FU-EV-002",
+      "investigation": null,
+      "psi_id": null,
+      "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+      "materials": [
+        "Lampwick",
+        "Kapton",
+        "Nomex",
+        "Teflon",
+        "PMMA",
+        "wire insulation"
+      ],
+      "detector": "ISS smoke detector (scatter)",
+      "finding_type": "measurement_limitation",
+      "value": 35,
+      "value_unit": "% coefficient of variation of response slope across aerosols",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+      "technical_detail": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+      "experimental_conditions": {
+        "gravity": "1 g",
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": null,
+        "heating_s": null,
+        "aging_s": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "limitations": [
+        "1 g ground chamber; response slope, not alarm decisions."
+      ]
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON",
+      "investigation": "SAME;SAME-R",
+      "psi_id": "PSI-102;PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering), scatter channel",
+      "finding_type": "missed_alarm",
+      "value": 0.26666666666666666,
+      "value_unit": "fraction of primary runs reaching 2.0 V ISS scatter",
+      "value_kind": "derived",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In the SAME and SAME-R primary heating runs, Teflon smoke pushed the ISS smoke-detector scatter signal to the 2.0 V level in 4 of 15 runs, so in 11 runs it stayed below that level.",
+      "technical_detail": "Derived descriptive fraction 4/15 over 15 primary runs in 15 conservative sample groups (campaigns SAME, SAME-R); airflow 0.0-8.1 cm/s, heater resistance ratio 1.44-1.4524143054229013, heating 60.0-60.0 s, programmed aging 11.0-720.0 s, mixing 8.0-8.0 s; measured ISS scatter 0.001-5.042 V. The 2.0 V label is a derived threshold (Meyer et al. 2018 Figure 9), not a recorded operational alarm, and the fraction is not an alarm probability.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": [
+          0.0,
+          8.1
+        ],
+        "gravity": "microgravity",
+        "heating_s": [
+          60.0,
+          60.0
+        ],
+        "aging_s": [
+          11.0,
+          720.0
+        ]
+      },
+      "n_independent_tests": 15,
+      "source_title": "Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_measured_only.csv",
+      "source_location": "external/model_c/data/processed/dashboard_measured_only.csv, row material=Teflon",
+      "limitations": [
+        "Derived 2.0 V threshold label, not a recorded operational alarm.",
+        "Descriptive fraction of observed primary runs, not a detection probability for new fires.",
+        "Different definition and test set from the 2021 white paper's no-alarm fractions; do not combine.",
+        "Sample groups, not runs, are the conservative independent unit (reburns share samples)."
+      ]
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON-BASELINE",
+      "investigation": "SAME-R",
+      "psi_id": "PSI-101",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (forward light scattering), scatter channel",
+      "finding_type": "missed_alarm",
+      "value": null,
+      "value_unit": "V (measured ISS scatter)",
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "At the SAME-R baseline setting, all 4 unaged Teflon runs kept the ISS detector scatter signal below 2.0 V (0.184-1.104 V measured).",
+      "technical_detail": "Runs SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89: airflow 8.1 cm/s, heater resistance ratio 1.445, heating 60.0 s, aging 11.0 s, mixing 8.0 s, microgravity (ISS). These are the runs averaged in the 2012 Table 1 particle-size row. Measured voltages; the 2.0 V comparison level is a derived threshold, not an alarm record.",
+      "experimental_conditions": {
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null,
+        "airflow_cm_s": 8.1,
+        "gravity": "microgravity",
+        "heating_s": 60.0,
+        "aging_s": 11.0
+      },
+      "n_independent_tests": 4,
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, rows SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89 (unaged baseline runs averaged in the 2012 Table 1)",
+      "limitations": [
+        "Four runs at one setting; not a detection probability.",
+        "2.0 V is a derived threshold from Meyer et al. 2018 Figure 9."
+      ]
+    },
+    {
+      "evidence_id": "SAME-EV-001",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Teflon",
+      "materials": [
+        "Teflon"
+      ],
+      "detector": "ISS smoke detector (light scattering) vs Space Shuttle smoke detector (ionization)",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "In a typical SAME Teflon run, the Shuttle ionization detector gave a strong signal while the ISS light-scattering detector signal was erratic, because Teflon smoke is mostly smaller than 1 um.",
+      "technical_detail": "SAME final report (2010), detector signal traces: flow design range 2-8 cm/s, about 60 s heating below ignition, aging 10-1800 s, microgravity in the MSG. Signals digitised at 1 Hz with an 8-bit converter.",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          2,
+          8
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          10,
+          1800
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 25, Section 5, Figure 12 discussion (Teflon Test 25, GMT 268)",
+      "limitations": [
+        "Example run; not a count of failures.",
+        "SAME-1 only."
+      ]
+    },
+    {
+      "evidence_id": "SAME-EV-003",
+      "investigation": "SAME",
+      "psi_id": "PSI-102",
+      "material": "Kapton, Teflon",
+      "materials": [
+        "Kapton",
+        "Teflon"
+      ],
+      "detector": "light-scattering detectors (ISS type)",
+      "finding_type": "measurement_limitation",
+      "value": null,
+      "value_unit": null,
+      "value_kind": "measured",
+      "audit_status": "VERIFIED",
+      "classification": "VERIFIED_LIMITATION",
+      "statement": "SAME measured small particle sizes for Kapton and Teflon smoke, which makes them hard for light-scattering detectors to sense, while large lamp wick and silicone particles give very large scattering signals.",
+      "technical_detail": "SAME final report (2010), Table 1 discussion (moment-method diameters, baseline unaged vs 720 s aged). Kapton and Teflon smokes had narrow size distributions with little mass above 1 um (Table 1).",
+      "experimental_conditions": {
+        "gravity": "microgravity",
+        "airflow_cm_s": [
+          2,
+          8
+        ],
+        "heating_s": 60,
+        "aging_s": [
+          10,
+          1800
+        ],
+        "atmosphere_o2_vol_pct": null,
+        "pressure_kpa": null
+      },
+      "n_independent_tests": null,
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 27, Section 5 (p.17)",
+      "limitations": [
+        "Moment-method sizes rely on a lognormal assumption that holds well for Kapton and lamp wick only."
+      ]
+    }
+  ],
+  "detection_blindspots": [
+    {
+      "gap_id": "GAP-FLAMING-HERITAGE",
+      "topic": "Heritage spacecraft smoke detectors exposed to flaming-fire smoke in microgravity",
+      "dimension": "combustion_mode",
+      "classification": "EVIDENCE_GAP",
+      "rule": "no microgravity detector test with flaming-fire smoke for the ISS or Shuttle smoke detector",
+      "rule_result": {
+        "criteria": {
+          "detector_contains": "smoke detector (",
+          "smoke_mode": "flaming",
+          "gravity": "microgravity"
+        },
+        "matching_tests": [],
+        "related_tests_other_detectors": [
+          {
+            "investigation": "Saffire IV-VI",
+            "detector": "commercial ionization sensor + DustTrak DRX with assumed 2 mg/m3 alarm point",
+            "materials": [
+              "PMMA",
+              "SIBAL",
+              "cotton"
+            ]
+          }
+        ]
+      },
+      "statement": "Within the examined sources, the ISS and Shuttle smoke detectors were evaluated in microgravity only with pre-fire (pyrolysis) smoke, never with smoke from flaming fires; Saffire IV-VI measured flaming-fire smoke with a commercial ionization sensor and an aerosol monitor instead.",
+      "detail": "SAME and SAME-R heated samples below ignition to emulate an overheat event. Saffire IV-VI fires were large flaming burns in an uncrewed Cygnus.",
+      "evidence_ids": [
+        "M18-EV-004",
+        "FU-EV-010",
+        "FU-EV-009"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "flaming",
+        "pyrolysis",
+        "Saffire",
+        "heritage detectors"
+      ]
+    },
+    {
+      "gap_id": "GAP-MATERIAL-PMMA",
+      "topic": "ISS smoke-detector response to PMMA smoke",
+      "dimension": "material",
+      "classification": "INSUFFICIENT_INFORMATION",
+      "rule": "material/detector pair not tested in microgravity with an alarm evaluation",
+      "rule_result": {
+        "material": "PMMA",
+        "detector_filter": "ISS",
+        "related_tests_found": [
+          {
+            "investigation": "GASP-2020 ground detector characterisation",
+            "detector": "ISS smoke detector (scatter)",
+            "gravity": "1 g",
+            "smoke_mode": "pyrolysis",
+            "alarm_evaluated": false,
+            "evidence_ids": [
+              "FU-EV-001",
+              "FU-EV-002",
+              "FU-EV-003"
+            ]
+          }
+        ],
+        "decisive_tests": []
+      },
+      "statement": "Within the examined sources, the ISS smoke detector was never tested with PMMA smoke in microgravity and no alarm decision was evaluated for PMMA smoke; its only exposure was a single 1 g ground test that measured signal against smoke mass.",
+      "detail": "Saffire IV-VI burned PMMA in microgravity but measured smoke with a commercial ionization sensor and an aerosol monitor, not with the ISS detector. Model A (BASS-II PMMA flame spread) says nothing about smoke-detector response.",
+      "evidence_ids": [
+        "FU-EV-003",
+        "FU-EV-001",
+        "FU-EV-009",
+        "FU-EV-010"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": true,
+      "keywords": [
+        "PMMA",
+        "acrylic",
+        "ISS detector",
+        "untested material"
+      ]
+    },
+    {
+      "gap_id": "GAP-CONFLICT-CAMPAIGNS",
+      "topic": "Kapton and Teflon detector response differs between SAME (2007) and SAME-R (2010)",
+      "dimension": "conflict",
+      "classification": "CONFLICTING_EVIDENCE",
+      "rule": "records classified CONFLICTING_EVIDENCE (between campaigns)",
+      "rule_result": {
+        "conflicting_records": [
+          "MODELC-EV-KAPTON-CAMPAIGNS",
+          "MODELC-EV-TEFLON-CAMPAIGNS"
+        ]
+      },
+      "statement": "Within the examined sources, the ISS detector's response to Kapton and Teflon smoke differs strongly between the 2007 SAME and 2010 SAME-R campaigns, and no source explains why.",
+      "detail": "Kapton reached 2.0 V in every SAME run but in a minority of SAME-R runs, while Teflon went the other way; the measured counts are in the cited records.",
+      "evidence_ids": [
+        "MODELC-EV-KAPTON-CAMPAIGNS",
+        "MODELC-EV-TEFLON-CAMPAIGNS"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": false,
+      "keywords": [
+        "campaign",
+        "Kapton",
+        "Teflon",
+        "conflict"
+      ]
+    },
+    {
+      "gap_id": "GAP-CONFLICT-SHUTTLE",
+      "topic": "Shuttle detector: 'strong signal in all tests' vs 'some runs below alarm boundary'",
+      "dimension": "conflict",
+      "classification": "CONFLICTING_EVIDENCE",
+      "rule": "records classified CONFLICTING_EVIDENCE (between sources)",
+      "rule_result": {
+        "conflicting_records": [
+          "SAME-EV-002"
+        ]
+      },
+      "statement": "Within the examined sources, the 2010 SAME report and the 2018 paper disagree on whether the Space Shuttle ionization detector responded to all SAME smokes; the difference may come from test sets and criteria and is unresolved.",
+      "detail": null,
+      "evidence_ids": [
+        "M18-EV-003",
+        "SAME-EV-002"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": false,
+      "keywords": [
+        "Shuttle detector",
+        "conflict"
+      ]
+    },
+    {
+      "gap_id": "GAP-CONFLICT-ZEROFLOW",
+      "topic": "Size increase of zero-flow smoke reported with different magnitudes",
+      "dimension": "conflict",
+      "classification": "CONFLICTING_EVIDENCE",
+      "rule": "records classified CONFLICTING_EVIDENCE (source internal)",
+      "rule_result": {
+        "conflicting_records": [
+          "SAMER-EV-002"
+        ]
+      },
+      "statement": "Within the examined sources, the zero-flow particle-size increase is reported as 30 % to 40 %, as 2 to 3 times and as 1.7 times on average; the direction agrees but the magnitude is unresolved.",
+      "detail": null,
+      "evidence_ids": [
+        "M18-EV-010",
+        "SAMER-EV-002"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": false,
+      "keywords": [
+        "zero flow",
+        "conflict"
+      ]
+    },
+    {
+      "gap_id": "GAP-CONFLICT-TEFLON-TABLE",
+      "topic": "Unaged Teflon row of the 2012 SAME-2 particle-size table is internally inconsistent",
+      "dimension": "conflict",
+      "classification": "CONFLICTING_EVIDENCE",
+      "rule": "records classified CONFLICTING_EVIDENCE (source internal)",
+      "rule_result": {
+        "conflicting_records": [
+          "UR12-EV-001"
+        ]
+      },
+      "statement": "Within the examined sources, the unaged Teflon row of the 2012 particle-size table cannot be reproduced from its own geometric values; separate averaging of each statistic is a likely but undocumented cause.",
+      "detail": null,
+      "evidence_ids": [
+        "UR12-EV-001"
+      ],
+      "expected_future_sources": [],
+      "scope": "within the examined sources",
+      "not_a_detector_failure": false,
+      "keywords": [
+        "Teflon",
+        "Table 1",
+        "conflict"
+      ]
+    }
+  ],
+  "research_priorities": [],
+  "scientific_comparisons": [],
+  "evidence_references": [
+    {
+      "evidence_id": "FU-EV-001",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 1, Abstract",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-002",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 9, Sec. III.C, Fig. 8",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-003",
+      "source_title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+      "source_year": 2020,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+      "source_location": "PDF p. 4, Sec. II.C Smoke Aerosol Materials (continues p.5)",
+      "ntrs_id": "20205003817"
+    },
+    {
+      "evidence_id": "FU-EV-009",
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+      "ntrs_id": "20260001992"
+    },
+    {
+      "evidence_id": "FU-EV-010",
+      "source_title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+      "source_year": 2026,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+      "source_location": "PDF p. 1, Abstract (continues p.2)",
+      "ntrs_id": "20260001992"
+    },
+    {
+      "evidence_id": "M18-EV-002",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.2. Spacecraft Smoke Detector Results",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-102;PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "M18-EV-003",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.2. Spacecraft Smoke Detector Results",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-102;PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "M18-EV-004",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "Abstract",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-102;PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "M18-EV-009",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.1. Moment Instrument Results",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-102;PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "M18-EV-010",
+      "source_title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment",
+      "source_year": 2018,
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+      "source_location": "3.3. TEM Results (Impact of flow on particle morphology)",
+      "doi": "10.1016/j.firesaf.2018.04.004",
+      "psi_id": "PSI-101",
+      "pmc_id": "PMC7918997"
+    },
+    {
+      "evidence_id": "M18-EV-013",
+      "source_title": "NIST/NASA Study Shows One Detector Doesn't 'Fit All' for Smoke in Spacecraft (NIST news release)",
+      "source_year": 2018,
+      "source_url": "https://www.nist.gov/news-events/news/2018/05/nistnasa-study-shows-one-detector-doesnt-fit-all-smoke-spacecraft",
+      "source_location": "Body, quote from M. Meyer (NASA GRC)",
+      "psi_id": "PSI-102;PSI-101"
+    },
+    {
+      "evidence_id": "MODELC-EV-KAPTON-CAMPAIGNS",
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, primary rows material=Kapton grouped by campaign",
+      "psi_id": "PSI-102;PSI-101"
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON",
+      "source_title": "Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_measured_only.csv",
+      "source_location": "external/model_c/data/processed/dashboard_measured_only.csv, row material=Teflon",
+      "psi_id": "PSI-102;PSI-101"
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON-BASELINE",
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, rows SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89 (unaged baseline runs averaged in the 2012 Table 1)",
+      "psi_id": "PSI-101"
+    },
+    {
+      "evidence_id": "MODELC-EV-TEFLON-CAMPAIGNS",
+      "source_title": "Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label)",
+      "source_year": 2026,
+      "source_url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/data/processed/dashboard_table.csv",
+      "source_location": "external/model_c/data/processed/dashboard_table.csv, primary rows material=Teflon grouped by campaign",
+      "psi_id": "PSI-102;PSI-101"
+    },
+    {
+      "evidence_id": "SAME-EV-001",
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 25, Section 5, Figure 12 discussion (Teflon Test 25, GMT 268)",
+      "doi": "10.60555/gd4k-8h62",
+      "psi_id": "PSI-102"
+    },
+    {
+      "evidence_id": "SAME-EV-002",
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 28, Section 5 (p.18)",
+      "doi": "10.60555/gd4k-8h62",
+      "psi_id": "PSI-102"
+    },
+    {
+      "evidence_id": "SAME-EV-003",
+      "source_title": "Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E)",
+      "source_year": 2010,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Reports_SAME_Final%20Science%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 27, Section 5 (p.17)",
+      "doi": "10.60555/gd4k-8h62",
+      "psi_id": "PSI-102"
+    },
+    {
+      "evidence_id": "SAMER-EV-002",
+      "source_title": "Smoke Aerosol Measurement Experiment Re-flight (SAMER) - Final Report, June 2, 2014 (with Appendices A-F)",
+      "source_year": 2014,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Reports_SAME-R_Final%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 9, D. Impact of flow (zero-flow)",
+      "doi": "10.60555/2np7-jv14",
+      "psi_id": "PSI-101"
+    },
+    {
+      "evidence_id": "SAMER-EV-003",
+      "source_title": "Smoke Aerosol Measurement Experiment Re-flight (SAMER) - Final Report, June 2, 2014 (with Appendices A-F)",
+      "source_year": 2014,
+      "source_url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Reports_SAME-R_Final%20Report.pdf&version=4&redirect=false",
+      "source_location": "PDF p. 5, A. Moment Instrument Results (p.5)",
+      "doi": "10.60555/2np7-jv14",
+      "psi_id": "PSI-101"
+    },
+    {
+      "evidence_id": "UR12-EV-001",
+      "source_title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+      "source_year": 2012,
+      "source_url": "https://ntrs.nasa.gov/api/citations/20130000422/downloads/20130000422.pdf",
+      "source_location": "Urban et al. 2012 (AIAA 2012-3536, NTRS 20130000422), Table 1, PDF p. 7",
+      "doi": "10.2514/6.2012-3536",
+      "ntrs_id": "20130000422",
+      "psi_id": "PSI-101"
+    },
+    {
+      "evidence_id": "WP21-EV-002",
+      "source_title": "Research Questions and Challenges for Improved Spacecraft Fire Detection",
+      "source_year": 2021,
+      "source_url": "https://science.nasa.gov/wp-content/uploads/2023/05/154_33f28c6ef0c27b92cf1f526cef0c44b4_Fire_detection_white_paper_final_211031.pdf",
+      "source_location": "PDF p. 2, Introduction, para 2",
+      "psi_id": "PSI-102"
+    }
+  ],
+  "model_outputs": [],
+  "limitations": [
+    "Results describe the cited experiments and documents only; they are not ISS fire-incident statistics or general detector failure rates.",
+    "Outputs are research-prioritisation aids, not a safety certification, alarm setting, or operational instruction.",
+    "Every gap statement is limited to the sources examined by this module ('within the examined sources'); absence in this collection does not mean NASA never studied the topic.",
+    "Model A (BASS-II flame spread) and Model B (Saffire-I ridge position) do not predict detector performance; no detection result is inferred from them.",
+    "Model C outputs are predictions of a derived 2.0 V threshold label (value_kind 'predicted'), never limitation evidence.",
+    "1 g ground chamber; response slope, not alarm decisions.",
+    "Derived 2.0 V threshold label, not a recorded operational alarm.",
+    "Descriptive fraction of observed primary runs, not a detection probability for new fires.",
+    "Different definition and test set from the 2021 white paper's no-alarm fractions; do not combine.",
+    "Sample groups, not runs, are the conservative independent unit (reburns share samples).",
+    "Four runs at one setting; not a detection probability.",
+    "2.0 V is a derived threshold from Meyer et al. 2018 Figure 9.",
+    "Example run; not a count of failures.",
+    "SAME-1 only.",
+    "Moment-method sizes rely on a lognormal assumption that holds well for Kapton and lamp wick only."
+  ],
+  "generation_status": "FALLBACK_TEMPLATE",
+  "analysis_status": "COMPLETED",
+  "validation": {
+    "template_check": {
+      "valid": true,
+      "errors": [],
+      "n_sentences": 6
+    },
+    "attempts": [],
+    "rejected_template_sentences": [],
+    "fallback_reason": "structured catalog mode; RAG removed"
+  }
+}

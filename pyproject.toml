@@ -1,0 +1,41 @@
+[project]
+name = "qk-norm-blindspot"
+version = "0.2.0"
+description = "QK norm Agent 5 - BlindSpot Evidence Agent: documented spacecraft fire-detection limitations and research priorities from NASA/NIST sources"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  # Model C pinned inference environment (artifacts/model_c/requirements.txt)
+  "numpy==2.2.6",
+  "pandas==2.2.3",
+  "scikit-learn==1.6.1",
+  "scipy==1.15.3",
+  "joblib==1.4.2",
+  # WT4 language model
+  "torch==2.15.0",  # CPU wheel from https://download.pytorch.org/whl/cpu (disk-constrained host)
+  "transformers==5.21.0",
+  "safetensors==0.8.0",
+  "huggingface-hub==2.4.0",
+  # API
+  "fastapi==0.162.2",
+  "uvicorn==0.54.0",
+  # source extraction
+  "pypdf==7.1.0",
+  "pdfplumber==0.11.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: loads the WT4 language model (GPU/CPU heavy)"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["qk_norm_blindspot*"]
+
+[tool.setuptools.package-data]
+qk_norm_blindspot = ["*.json", "*.html", "*.js", "curation/*.json"]

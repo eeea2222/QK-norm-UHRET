@@ -1,0 +1,32 @@
+{
+ "doc_id": "samer_report",
+ "title": "Smoke Aerosol Measurement Experiment Re-flight (SAMER) - Final Report, June 2, 2014 (with Appendices A-F)",
+ "year": 2014,
+ "authors": [
+  "David L. Urban",
+  "Gary A. Ruff",
+  "William Sheredy",
+  "Marit Meyer",
+  "Thomas Cleary",
+  "Jiann Yang",
+  "George Mulholland",
+  "Zeng-Guang Yuan"
+ ],
+ "url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-101/download?file=PSI-101_Reports_SAME-R_Final%20Report.pdf&version=4&redirect=false",
+ "retrieved_utc": "2026-11-15T10:34:28Z",
+ "sha256": "65381e2715eb7379113dd1b9c550baaa5fa5a247dba00419123143aa98ef80d6",
+ "bytes": 4578437,
+ "page_count": 89,
+ "identifiers": {
+  "doi": "10.60555/2np7-jv14 (PSI-101 investigation DOI, not a DOI of this PDF)",
+  "ntrs": null,
+  "psi": "PSI-101",
+  "pmc": null
+ },
+ "license_note": "PSI investigation metadata reports licenseIdentifier CC0-1.0 (Creative Commons Zero v1.0).",
+ "accessible": true,
+ "access_note": "Read from the audited Model C read-only snapshot (not copied). sha256 matches Model C source_manifest.json. 89 pages; PDF page 50 (Appendix B) is blank apart from its heading; PDF page 85 contains only the text 'SAMER flowdiagram' (figure not extractable as text). Appendix F (PDF pp72-84) is the paper 'Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2'. Text made with plain pdftotext. Manifest sha256 check: MATCH.",
+ "local_path": "external/model_c/data/raw/PSI-101_Reports_SAME-R_Final Report.pdf",
+ "text_path": "sources/text/samer_report.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

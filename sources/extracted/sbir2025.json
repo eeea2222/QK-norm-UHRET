@@ -1,0 +1,1781 @@
+{
+ "source_key": "sbir2025",
+ "documents": [
+  {
+   "doc_id": "sbir2025",
+   "title": "NASA SBIR Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI) with signed Amendment P00004",
+   "year": 2025,
+   "authors": [
+    "NASA SBIR/STTR Program; Amendment P00004 issued by NASA Shared Services Center (Contracting Officer Charles Bridges)"
+   ],
+   "url": "https://www.nasa.gov/wp-content/uploads/2024/01/sbir80nsscfy25sbirphaseiamendment4signed.pdf",
+   "local_path": "/home/efeai/Desktop/NasaSpaceApps/sources/raw/sbir2025/sbir80nsscfy25sbirphaseiamendment4signed.pdf",
+   "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/sbir2025.txt",
+   "sha256": "6fabb0fc29176065cef4f532528e9868f6d9ea5524b5db67883dc6b254dd1442",
+   "page_count": 456,
+   "identifiers": {
+    "doi": null,
+    "ntrs": null,
+    "psi": null,
+    "pmc": null,
+    "solicitation_number": "80NSSCFY25SBIRPhaseI",
+    "amendment": "P00004"
+   },
+   "accessible": true,
+   "access_note": "Full PDF retrieved 2026-11-15T10:42:55Z (4,024,249 bytes, 456 pages). PDF pp. 1-3 = signed SF-30 Amendment P00004; p. 4 = solicitation cover; printed page = PDF page - 8 in the solicitation body. PDF contains JavaScript/AcroForm; only pdftotext was used."
+  }
+ ],
+ "items": [
+  {
+   "item_id": "sbir2025-01",
+   "doc_id": "sbir2025",
+   "pdf_page": 1,
+   "printed_page": "Amendment P00004 page 1 of 3",
+   "location": "Amendment P00004 (Standard Form 30), block 14 Description of Amendment",
+   "anchor_quote": "The proposal period is hereby extended to 5:00 p.m. EDT, May 21, 2025.",
+   "summary": "Amendment P00004 to solicitation 80NSSCFY25SBIRPhaseI (solicitation dated 1/08/2025 in block 9B) changes the NAICS 541713/541715 registration requirement from time of proposal submission to time of contract award, states that no acknowledgment is required, and extends the proposal period to 5:00 p.m. EDT on May 21, 2025. The SF-30 is digitally signed by Contracting Officer Charles \"Chris\" Bridges, dated 5/19/2025 (block 16C).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2025,
+     "unit": "date",
+     "meaning": "new proposal deadline (May 21, 2025, 5:00 p.m. EDT)",
+     "verbatim": "May 21, 2025"
+    },
+    {
+     "value": 2025,
+     "unit": "date",
+     "meaning": "date amendment signed by Contracting Officer (5/19/2025)",
+     "verbatim": "5/19/2025"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Administrative/procurement information only; says nothing about fire detection science. Cover-page dates are needed to date the solicitation text (FY2025 Phase I)."
+  },
+  {
+   "item_id": "sbir2025-02",
+   "doc_id": "sbir2025",
+   "pdf_page": 2,
+   "printed_page": "Amendment P00004 page 2 of 3",
+   "location": "Amendment P00004 page 2 of 3, change to Cover Page",
+   "anchor_quote": "Proposal Package Due Date and Time changed,",
+   "summary": "The amendment changes the cover-page proposal package due date from March 10, 2025 (5:00 p.m. ET) to May 21, 2025 (5:00 p.m. ET); it also moves the Help Desk question cut-off from March 3, 2025 to May 20, 2025 and replaces the protest contracting officer (Kenneth Albright to Charles Bridges, per page 3).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2025,
+     "unit": "date",
+     "meaning": "original due date (March 10, 2025)",
+     "verbatim": "March 10, 2025"
+    },
+    {
+     "value": 2025,
+     "unit": "date",
+     "meaning": "amended due date (May 21, 2025)",
+     "verbatim": "May 21, 2025"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Administrative change history of the solicitation; no technical content."
+  },
+  {
+   "item_id": "sbir2025-03",
+   "doc_id": "sbir2025",
+   "pdf_page": 10,
+   "printed_page": "2",
+   "location": "Section 1.2 Purpose and Priorities (printed page 2)",
+   "anchor_quote": "NASA will release its FY 2025 Phase I SBIR solicitation on January 7, 2025.",
+   "summary": "The solicitation body states that NASA would release the FY 2025 Phase I SBIR solicitation on January 7, 2025, with completed proposal packages due Wednesday, May 21, 2025, 5:00 p.m. Eastern (as amended). Note the SF-30 block 9B gives the solicitation date as 1/08/2025, one day later than the release date stated here.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2025,
+     "unit": "date",
+     "meaning": "stated release date of the solicitation (January 7, 2025)",
+     "verbatim": "January 7, 2025"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Dating information. The one-day difference (Jan 7 vs 1/08/2025) is reported as printed; the extractor did not resolve it."
+  },
+  {
+   "item_id": "sbir2025-04",
+   "doc_id": "sbir2025",
+   "pdf_page": 254,
+   "printed_page": "246",
+   "location": "S15.03 subtopic header (PDF pp. 254-260; printed pp. 246-252)",
+   "anchor_quote": "S15.03: Environmental Monitoring for Micro-G and Partial-G Experiments",
+   "summary": "Subtopic S15.03 \"Environmental Monitoring for Micro-G and Partial-G Experiments (SBIR)\" (Science Mission Directorate, Biological and Physical Sciences division) is led by ARC with GRC as participating center; related subtopic pointers are S15.02 and S17.03. It spans PDF pages 254-260 and contains two scopes, listed as not in priority order: (1) Continuous Environmental Sensing to Monitor the Space-Built Environment and Its Microbiome (PDF pp. 254-257) and (2) Fire Detection Sensing for Space Research (PDF pp. 257-260).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "This is the only subtopic in the FY2025 Phase I solicitation whose scope is spacecraft fire detection / smoke sensing (within this document). Lead/participating centers as printed: \"Lead Center: ARC\", \"Participating Center(s): GRC\"."
+  },
+  {
+   "item_id": "sbir2025-05",
+   "doc_id": "sbir2025",
+   "pdf_page": 254,
+   "printed_page": "246",
+   "location": "S15.03 > Subtopic Introduction",
+   "anchor_quote": "the spaceflight research environment is constrained by high launch costs, restricted amounts of crew time,",
+   "summary": "The S15.03 introduction says that interpreting space experiments requires high-quality environmental measurements, ideally reference quality with high temporal and spatial resolution, but that spaceflight research is constrained by high launch costs, limited crew time and the need for tight physical packaging; technologies are therefore sought to measure and report environmental parameters of experiments in space.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "General framing for both S15.03 scopes; not specific to smoke detectors."
+  },
+  {
+   "item_id": "sbir2025-06",
+   "doc_id": "sbir2025",
+   "pdf_page": 257,
+   "printed_page": "249",
+   "location": "S15.03 > Scope 2 title (PDF pp. 257-260; printed pp. 249-252)",
+   "anchor_quote": "Scope Title: Fire Detection Sensing for Space Research",
+   "summary": "Scope 2 of S15.03, \"Fire Detection Sensing for Space Research\", runs from PDF page 257 (scope description) through PDF page 260 (relevance and references), lead center ARC, participating center GRC. Expected TRL at completion 2 to 6; primary taxonomy TX 08 Sensors and Instruments / TX 08.3 In-Situ Instruments/Sensor; desired deliverables research, analysis and prototype.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Scope-level metadata. TRL/taxonomy details appear on PDF page 258."
+  },
+  {
+   "item_id": "sbir2025-07",
+   "doc_id": "sbir2025",
+   "pdf_page": 257,
+   "printed_page": "249",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+   "anchor_quote": "Material combustion in reduced gravity or microgravity differs compared to combustion in Earth gravity",
+   "summary": "The scope describes a spacecraft fire as one of the most dangerous scenarios for a crewed mission and states that combustion in reduced gravity or microgravity differs from combustion in Earth gravity because buoyant flow is reduced or absent, which changes heat and mass transfer and thereby affects material ignitability and flame-spread rates.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "reduced gravity / microgravity (qualitative)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Background physics statement for the scope; no specific test, material or detector data given."
+  },
+  {
+   "item_id": "sbir2025-08",
+   "doc_id": "sbir2025",
+   "pdf_page": 257,
+   "printed_page": "249",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+   "anchor_quote": "The influence of gravity on fundamental combustion physics must be determined for relevant materials",
+   "summary": "The scope states that the effect of gravity on fundamental combustion physics still has to be determined for relevant materials in order to understand how a fire may start and/or spread in space.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "gravity dependence (unspecified levels)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Stated as an open need in the solicitation; no materials are named and no gravity levels are quantified."
+  },
+  {
+   "item_id": "sbir2025-09",
+   "doc_id": "sbir2025",
+   "pdf_page": 257,
+   "printed_page": "249",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+   "anchor_quote": "These experiments will require combustion product sensors that can operate autonomously with minimal power",
+   "summary": "With NASA planning a return to the Moon, BPS targets fundamental combustion experiments for future lunar landers; these will need combustion product sensors that run autonomously with minimal power consumption and a small physical footprint. The scope says this need for science-enabling sensors aligns with the need for improved fire detection systems for future missions.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar (partial gravity) lander experiments",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to future lunar-lander combustion experiments and, by stated alignment, to future fire detection systems; no performance numbers given in this sentence."
+  },
+  {
+   "item_id": "sbir2025-10",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description (sentence begins on PDF p. 257)",
+   "anchor_quote": "selectively detect smoke at concentrations low enough and within relevant particle size ranges",
+   "summary": "Technology improvements are needed so that smoke is selectively detected at sufficiently low concentrations and within the relevant particle size ranges for the detector to alarm in a potential slow-moving spacecraft fire scenario.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "A stated requirement implying concern that current detection may not alarm early enough for slowly developing fires; the solicitation does NOT document a specific missed-alarm event, test or detector failure here. Do not recode as missed_alarm."
+  },
+  {
+   "item_id": "sbir2025-11",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+   "anchor_quote": "do not rely on a priori knowledge of combustion product concentrations or properties",
+   "summary": "Proposals should address combustion product monitoring (smoke particles, gases, or both) for both combustion experiments and fire detection systems, specifically sensing strategies that selectively detect smoke and/or work without prior knowledge of combustion product concentrations or properties such as smoke particle sizes or morphologies.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to both science experiments and fire detection systems. Implies that current approaches depend on assumed smoke properties (see SoA items); no specific detector named in this sentence."
+  },
+  {
+   "item_id": "sbir2025-12",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+   "anchor_quote": "should be suitable for applications in desired experimental and/or habitat atmospheres, including reduced pressures",
+   "summary": "Sensors should run autonomously and continuously, be suitable for experimental and habitat atmospheres including reduced pressures and elevated O2 concentrations, and provide data in real time with little or no crew time for download and transfer.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Atmosphere conditions are qualitative in this scope (no O2 percentage or pressure value given). For numeric exploration-cabin values see the H3.13 items (8.2 psia, >33.7 vol% O2, up to 38 vol%), which belong to a different subtopic."
+  },
+  {
+   "item_id": "sbir2025-13",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description > hardware requirements list",
+   "anchor_quote": "Measurement of two or more parameters is highly desired.",
+   "summary": "The hardware must measure at least one particulate-phase parameter relevant to fire detection and/or reduced-gravity combustion (examples: particle mass concentration, number concentration, size distribution, charge distribution); measuring two or more parameters is highly desired, complementary gas-phase measurements in parallel are allowed, and any parameter not on the list must be justified.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Requirement list for proposals; this is NASA stating a desired multi-parameter capability, not a test result."
+  },
+  {
+   "item_id": "sbir2025-14",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description > hardware requirements list",
+   "anchor_quote": "Capability of measuring aerosol concentrations over 1 mg/m3 is desired.",
+   "summary": "The hardware should operate over a wide dynamic concentration range; the ability to measure aerosol concentrations above 1 mg/m3 is desired.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "mg/m3",
+     "meaning": "desired measurable aerosol mass concentration (capability over this value)",
+     "verbatim": "over 1 mg/m3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Desired upper concentration capability; no lower detection limit is specified in the text."
+  },
+  {
+   "item_id": "sbir2025-15",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description > hardware requirements list",
+   "anchor_quote": "Capability of measuring particles with diameters from 10 to 300 nm is highly desired.",
+   "summary": "The hardware should measure aerosol concentrations over a broad size range; measuring particles with diameters from 10 to 300 nm is highly desired, and size distribution capability is desired.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 10,
+     "unit": "nm",
+     "meaning": "lower end of highly desired particle diameter range",
+     "verbatim": "10 to 300 nm"
+    },
+    {
+     "value": 300,
+     "unit": "nm",
+     "meaning": "upper end of highly desired particle diameter range",
+     "verbatim": "10 to 300 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Desired size coverage. Compare with the SoA statement (PDF p. 259) that light-scattering techniques do not detect particles smaller than ~300 nm; the solicitation itself juxtaposes these only implicitly."
+  },
+  {
+   "item_id": "sbir2025-16",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description > hardware requirements list",
+   "anchor_quote": "Target habitats for operation include the International Space Station (ISS), commercial low-Earth-orbit (LEO) destinations,",
+   "summary": "The hardware should work across space-habitat environments (non-standard atmosphere composition, reduced pressure, different airflow rates and gravity levels); target habitats are the ISS, commercial LEO destinations, Gateway, a future lunar surface habitat, pressurized rovers, and vehicles in transit to the Moon or Mars.",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (ISS, LEO, Gateway, transit) and lunar partial gravity (surface habitat, rovers)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Lists required operating environments qualitatively; no numeric airflow, pressure or gravity values are given."
+  },
+  {
+   "item_id": "sbir2025-17",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description > hardware requirements list",
+   "anchor_quote": "Have reasonable mass, volume, and power requirements in light of typical requirements for space habitats.",
+   "summary": "The hardware should take continuous measurements at a cadence suited to the parameter, minimise crew time for operation and data transfer, and have reasonable mass, volume and power for space habitats.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "No numeric mass/volume/power limits are specified for proposals."
+  },
+  {
+   "item_id": "sbir2025-18",
+   "doc_id": "sbir2025",
+   "pdf_page": 258,
+   "printed_page": "250",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Expected TRL / taxonomy",
+   "anchor_quote": "Expected TRL or TRL Range at completion of the Project: 2 to 6",
+   "summary": "Expected TRL range at completion of the project is 2 to 6; primary technology taxonomy TX 08 Sensors and Instruments, level 2 TX 08.3 In-Situ Instruments/Sensor; desired deliverables are research, analysis and prototype.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2,
+     "unit": "TRL",
+     "meaning": "lower expected TRL at completion",
+     "verbatim": "2 to 6"
+    },
+    {
+     "value": 6,
+     "unit": "TRL",
+     "meaning": "upper expected TRL at completion",
+     "verbatim": "2 to 6"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Programmatic metadata for the fire detection scope (scope 1 of S15.03 lists TRL 3 to 5 instead)."
+  },
+  {
+   "item_id": "sbir2025-19",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Desired Deliverables Description",
+   "anchor_quote": "Concepts that can achieve flight demonstration on a suborbital flight or on the ISS",
+   "summary": "Phase I should deliver a feasibility study with proof of concept and a path toward an in-orbit hardware demonstration, optionally bench-top prototype components, plus a preliminary business case; Phase II should deliver a preliminary design, concept of operations, an engineering development unit and test report, with concepts able to fly on a suborbital flight or the ISS during Phase II described as especially valuable.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Deliverable expectations; identical wording is also used for S15.03 scope 1 (PDF p. 256)."
+  },
+  {
+   "item_id": "sbir2025-20",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 1)",
+   "anchor_quote": "they often are limited in their applicability across relevant aerosol size/concentration ranges",
+   "summary": "Commercial aerosol measurement technologies, including smoke detectors, are widely available but were generally designed for terrestrial use. Surrogate aerosol measurements such as optical particle counters offer size, mass and cost benefits, yet they often cover only part of the relevant aerosol size/concentration ranges and/or need prior knowledge of analyte properties to operate and interpret data.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "optical particle counters (surrogate aerosol measurements); commercial smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Generic statement about commercial/surrogate aerosol sensors (optical particle counters named as example); no specific test data or reference is cited in the text for this claim."
+  },
+  {
+   "item_id": "sbir2025-21",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 1)",
+   "anchor_quote": "where particle properties and concentrations may not be fully known.",
+   "summary": "The solicitation states that these gaps restrict NASA from simply choosing currently available COTS sensors for a lunar-gravity combustion experiment or a fire detection system in which particle properties and concentrations may not be fully known.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar gravity (lunar-g combustion experiment)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to COTS sensor selection for lunar-g combustion experiments and fire detection systems; does not quantify the gap."
+  },
+  {
+   "item_id": "sbir2025-22",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)",
+   "anchor_quote": "The ISS smoke detector represents the state of the art (SOA) for spacecraft fire detection.",
+   "summary": "The solicitation identifies the ISS smoke detector as the state of the art for spacecraft fire detection and describes it as a forward-light-scattering detector.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": "ISS smoke detector (forward-light-scattering detector)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Detector identification only. The text does not name the detector model, does not mention SAME or any flight experiment, and gives no sensitivity data."
+  },
+  {
+   "item_id": "sbir2025-23",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)",
+   "anchor_quote": "subject to frequent false alarms due to the overlap of smoke particle and nuisance dust",
+   "summary": "The ISS smoke detector is described as subject to frequent false alarms because smoke particles and nuisance dust particles have overlapping properties.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "nuisance dust (unspecified)"
+   ],
+   "detector": "ISS smoke detector (forward-light-scattering detector)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "FALSE alarm (alarm without fire, from nuisance dust), not a missed alarm. \"Frequent\" is not quantified (no alarm counts, rates or dates) and no reference is attached to the claim in the text. Applies to the ISS forward-light-scattering smoke detector only."
+  },
+  {
+   "item_id": "sbir2025-24",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)",
+   "anchor_quote": "False alarms are avoided on the ISS by turning off smoke detectors during dust-generating activities",
+   "summary": "On the ISS, false alarms are avoided by switching smoke detectors off during dust-generating activities, with vacuuming given as an example.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "dust from dust-generating activities (e.g., vacuuming)"
+   ],
+   "detector": "ISS smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Operational workaround for FALSE alarms. The text does not say how often or how long detectors are off, nor does it discuss fire-detection coverage during those periods; any inference about reduced coverage is the reader's, not the solicitation's."
+  },
+  {
+   "item_id": "sbir2025-25",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)",
+   "anchor_quote": "a sensor system integrating multiple orthogonal properties is desired to positively identify early fires",
+   "summary": "Because potential spacecraft smoke and nuisance pollutants vary widely in properties (both particulate and gas phase), NASA states it wants a sensor system that combines multiple orthogonal properties so that early fires are positively identified while false alarms from nuisance airborne pollutants are avoided.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Desire for multi-property (orthogonal) sensing to separate fire signatures from nuisance aerosols; no specific property set is prescribed here (the hardware list on PDF p. 258 gives particle mass, number, size and charge plus optional gas-phase parameters)."
+  },
+  {
+   "item_id": "sbir2025-26",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 3)",
+   "anchor_quote": "mass of the instrument (83 lbs) prohibits its use in a spacecraft.",
+   "summary": "The current state of the art for scientific reference-quality particle mass concentration measurement is the tapered element oscillating microbalance (TEOM; Thermo Fisher Scientific), whose footprint (43.2 x 48.3 x 139.7 cm) and 83 lb mass rule it out for spacecraft use.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "tapered element oscillating microbalance (TEOM; Thermo Fisher Scientific)",
+   "numbers": [
+    {
+     "value": 43.2,
+     "unit": "cm",
+     "meaning": "TEOM footprint dimension",
+     "verbatim": "43.2 x 48.3 x 139.7 cm"
+    },
+    {
+     "value": 48.3,
+     "unit": "cm",
+     "meaning": "TEOM footprint dimension",
+     "verbatim": "43.2 x 48.3 x 139.7 cm"
+    },
+    {
+     "value": 139.7,
+     "unit": "cm",
+     "meaning": "TEOM footprint dimension",
+     "verbatim": "43.2 x 48.3 x 139.7 cm"
+    },
+    {
+     "value": 83,
+     "unit": "lb",
+     "meaning": "TEOM instrument mass",
+     "verbatim": "83 lbs"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Reference-quality laboratory instrument, not a fire detector; size/mass values as printed (lbs not converted by source)."
+  },
+  {
+   "item_id": "sbir2025-27",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 3)",
+   "anchor_quote": "also features a physical footprint prohibitive to space flight",
+   "summary": "The Electrical Low Pressure Impactor (ELPI; Dekati) is cited as a reference-quality instrument giving 1-10 s time-resolved particle number and charge concentrations across 6 nm to 10 um, but its footprint (40.7 x 45.4 x 24.2 cm and 48.5 lbs, excluding the specialised vacuum pump) is too large for spaceflight.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "Electrical Low Pressure Impactor (ELPI; Dekati Technologies)",
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "s",
+     "meaning": "lower end of ELPI time resolution",
+     "verbatim": "1-10 second resolution"
+    },
+    {
+     "value": 10,
+     "unit": "s",
+     "meaning": "upper end of ELPI time resolution",
+     "verbatim": "1-10 second resolution"
+    },
+    {
+     "value": 6,
+     "unit": "nm",
+     "meaning": "lower end of ELPI particle size range",
+     "verbatim": "6 nm to 10 um"
+    },
+    {
+     "value": 10,
+     "unit": "um",
+     "meaning": "upper end of ELPI particle size range",
+     "verbatim": "6 nm to 10 um"
+    },
+    {
+     "value": 40.7,
+     "unit": "cm",
+     "meaning": "ELPI footprint dimension",
+     "verbatim": "40.7 x 45.4 x 24.2 cm"
+    },
+    {
+     "value": 45.4,
+     "unit": "cm",
+     "meaning": "ELPI footprint dimension",
+     "verbatim": "40.7 x 45.4 x 24.2 cm"
+    },
+    {
+     "value": 24.2,
+     "unit": "cm",
+     "meaning": "ELPI footprint dimension",
+     "verbatim": "40.7 x 45.4 x 24.2 cm"
+    },
+    {
+     "value": 48.5,
+     "unit": "lb",
+     "meaning": "ELPI mass, not including the vacuum pump",
+     "verbatim": "48.5 lbs"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Reference-quality laboratory instrument, not a fire detector; mass excludes the vacuum pump per the text. \"um\" printed as such (micrometre)."
+  },
+  {
+   "item_id": "sbir2025-28",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 4)",
+   "anchor_quote": "light scattering techniques that do not detect particles smaller than ~300 nm",
+   "summary": "Other commercial aerosol devices such as optical aerosol counters either require assumptions about particle properties (e.g., density) or have a limited range because of scattering physics; the example given is light-scattering techniques that do not detect particles smaller than approximately 300 nm.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "optical aerosol counters / light scattering techniques (generic)",
+   "numbers": [
+    {
+     "value": 300,
+     "unit": "nm",
+     "meaning": "approximate lower size limit below which light-scattering techniques do not detect particles",
+     "verbatim": "~300 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Generic statement about light-scattering aerosol instruments; the text does NOT explicitly apply the ~300 nm limit to the ISS smoke detector or to any named flight detector, and no reference is attached. Keep the approximation (~300 nm)."
+  },
+  {
+   "item_id": "sbir2025-29",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 4)",
+   "anchor_quote": "Most reference-quality instruments available commercially have limited applicability at pressures below Earth ambient.",
+   "summary": "Most commercially available reference-quality aerosol instruments have limited applicability at pressures below Earth ambient.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Qualitative; no pressure values or instrument list given. Relevant to reduced-pressure habitats (see H3.13 8.2 psia items for exploration cabin pressure, different subtopic)."
+  },
+  {
+   "item_id": "sbir2025-30",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 4)",
+   "anchor_quote": "while maintaining a low physical footprint to enable inclusion in future combustion experiment rigs",
+   "summary": "NASA states a need for technologies that close one or more of these measurement gaps while keeping a small physical footprint, so they can be built into future combustion experiment rigs and/or a future fire detection sensor network.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Summary need statement of the SoA section."
+  },
+  {
+   "item_id": "sbir2025-31",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Civil Space Shortfall Ranking",
+   "anchor_quote": "[Ranked 10th] ID 1520: Fire Safety for Habitation",
+   "summary": "The fire detection scope is tied to Civil Space Shortfall ID 1520 \"Fire Safety for Habitation\", ranked 10th.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 10,
+     "unit": "rank",
+     "meaning": "Civil Space Shortfall ranking of ID 1520 Fire Safety for Habitation",
+     "verbatim": "Ranked 10th"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Same shortfall (ID 1520, 10th) is also cited by H3.13 (PDF pp. 106-107), there with a 2024 Integrated Ranking attribution."
+  },
+  {
+   "item_id": "sbir2025-32",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Relevance / Science Traceability",
+   "anchor_quote": "including potential follow-ons to the Flammability of Materials on the Moon (FM2) lunar lander payload",
+   "summary": "The scope supports fundamental combustion science under the 2023 BPS Decadal Survey theme on phenomena hidden by gravity (KSQ #10) and BPS combustion experiments, including possible follow-ons to the Flammability of Materials on the Moon (FM2) lunar lander payload; it may also interest the Mars Campaign Office for Spacecraft Fire Safety experiments and Life Support Systems particulate-monitoring flight demonstrations.",
+   "category": "context",
+   "investigation": "FM2",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Programmatic traceability; FM2 and Spacecraft Fire Safety experiments are named but no results from them are given."
+  },
+  {
+   "item_id": "sbir2025-33",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > References, item 1",
+   "anchor_quote": "Pyrolysis Smoke Generated Under Low-Gravity Conditions,",
+   "summary": "Reference 1 of the fire detection scope: Mulholland, Meyer, Urban, Ruff, Yuan, Bryg, Cleary, Yang, \"Pyrolysis Smoke Generated Under Low-Gravity Conditions,\" Aerosol Science and Technology 2015, vol. 49, issue 5, pp. 310-321, doi 10.1080/02786826.2015.1025125.",
+   "category": "reference",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Citation only; the solicitation does not summarise this paper's results."
+  },
+  {
+   "item_id": "sbir2025-34",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > References, item 2",
+   "anchor_quote": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment,",
+   "summary": "Reference 2 of the fire detection scope: Meyer, Urban, Mulholland, Bryg, Yuan, Ruff, Cleary, Yang, \"Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment,\" Fire Safety Journal 2018, vol. 98, pp. 74-81, doi 10.1016/j.firesaf.2018.04.004.",
+   "category": "reference",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Citation only; the solicitation does not summarise this paper's results and does not list author affiliations."
+  },
+  {
+   "item_id": "sbir2025-35",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > References, item 3",
+   "anchor_quote": "Fire Detection Tradeoffs as a Function of Vehicle Parameters,",
+   "summary": "Reference 3 of the fire detection scope: Urban, Dietrich, Brooker, Meyer, Ruff, \"Fire Detection Tradeoffs as a Function of Vehicle Parameters,\" ICES 2016, NTRS 20170000248. References 4-5 are the 2023-2032 BPS Decadal Survey and the NASA Civil Space Shortfalls page.",
+   "category": "reference",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Citation only; no findings summarised in the solicitation."
+  },
+  {
+   "item_id": "sbir2025-36",
+   "doc_id": "sbir2025",
+   "pdf_page": 259,
+   "printed_page": "251",
+   "location": "S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (absence check over full S15.03 text, PDF pp. 254-260, and whole document)",
+   "anchor_quote": "The ISS smoke detector represents the state of the art (SOA) for spacecraft fire detection.",
+   "summary": "Mentions SAME? NO. The S15.03 text discusses the ISS smoke detector and cites low-gravity smoke papers but never names SAME or the Smoke Aerosol Measurement Experiment; a case-sensitive whole-word search for \"SAME\" and a search for \"Smoke Aerosol\" return 0 hits in the entire 456-page document (also 0 hits for DAFT and ACME).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Absence holds for this document only (text extracted with pdftotext); it is not evidence about NASA's research record."
+  },
+  {
+   "item_id": "sbir2025-37",
+   "doc_id": "sbir2025",
+   "pdf_page": 282,
+   "printed_page": "274",
+   "location": "S16.07 Cryogenic Systems for Sensors and Detectors > References (only Kapton hit in the document)",
+   "anchor_quote": "Thermal Properties of Double-Aluminized Kapton at Low Temperatures",
+   "summary": "Mentions Kapton? NO within S15.03. The only occurrence of \"Kapton\" in the whole document is a reference title on cryogenic thermal properties of double-aluminized Kapton in subtopic S16.07 (PDF p. 282), unrelated to fire detection.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Whole-document search (case-insensitive) for \"Kapton\": 1 hit, on PDF p. 282."
+  },
+  {
+   "item_id": "sbir2025-38",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 Scope 2 references (absence check over S15.03 and whole document)",
+   "anchor_quote": "Pyrolysis Smoke Generated Under Low-Gravity Conditions,",
+   "summary": "Mentions Teflon? NO. \"Teflon\", \"PTFE\" and \"polytetrafluoroethylene\" return 0 hits in the whole document; the fire detection scope names no smoke-source materials at all (only an unrelated \"Ag/FEP thermal control surfaces\" reference title appears in Z-LIVE.02, PDF p. 344).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Absence holds for this document only."
+  },
+  {
+   "item_id": "sbir2025-39",
+   "doc_id": "sbir2025",
+   "pdf_page": 260,
+   "printed_page": "252",
+   "location": "S15.03 Scope 2 references (check for 2018 NASA/NIST findings)",
+   "anchor_quote": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment,",
+   "summary": "Mentions the 2018 NASA/NIST findings? PARTIAL / CITATION ONLY. S15.03 lists the 2018 Fire Safety Journal paper by Meyer et al. (and the 2015 Aerosol Science and Technology paper) as references 1-2, but the scope text neither summarises their findings nor names NIST or any author affiliation, and the SoA statements (frequent false alarms, ~300 nm light-scattering limit, a priori knowledge requirement) carry no in-text reference markers. Whole-word \"NIST\" appears only on PDF p. 19 (a FIPS 201-3 URL) and p. 180 (S11.04, NIST-made detector readout arrays), both unrelated to fire.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Do not attribute specific SoA statements to the 2018 paper on the basis of this solicitation alone; that link would need the paper itself."
+  },
+  {
+   "item_id": "sbir2025-40",
+   "doc_id": "sbir2025",
+   "pdf_page": 255,
+   "printed_page": "247",
+   "location": "S15.03 > Scope 1 \"Continuous Environmental Sensing to Monitor the Space-Built Environment and Its Microbiome\" > hardware requirements (PDF pp. 254-257)",
+   "anchor_quote": "volatile organic compounds, particulate concentrations, and light.",
+   "summary": "Scope 1 of S15.03 (PDF pp. 254-257) seeks continuous, highly automated biomonitoring and physico-chemical monitoring of space habitats; particulate concentrations are listed among example environmental variables (with humidity, temperature, radiation, vibration, major/trace gases, VOCs and light). Hardware should work across habitat environments (non-standard atmosphere, pressure, airflow, gravity), with buffer storage for at least a few weeks desired; expected TRL 3 to 5.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Habitat environmental/microbiome monitoring scope; particulate concentration is one optional variable. Not a fire detection scope."
+  },
+  {
+   "item_id": "sbir2025-41",
+   "doc_id": "sbir2025",
+   "pdf_page": 256,
+   "printed_page": "248",
+   "location": "S15.03 > Scope 1 > State of the Art and Critical Gaps",
+   "anchor_quote": "Consistent monitoring is labor-intensive and captures only some kinds of relevant data",
+   "summary": "Scope 1 SoA notes that ISS habitat-level data streams (e.g., radiation, temperature, humidity) are often not at the temporal/spatial scale relevant to plant and microbial health, that consistent monitoring is labour-intensive and partial, and that the most recent quantification of airborne microbial particulates on the ISS cited is a 2006 publication.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2006,
+     "unit": "year",
+     "meaning": "publication year of the most recent cited quantification of ISS airborne microbial particulates",
+     "verbatim": "2006"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "About airborne microbial particulates and habitat monitoring, not smoke detection."
+  },
+  {
+   "item_id": "sbir2025-42",
+   "doc_id": "sbir2025",
+   "pdf_page": 256,
+   "printed_page": "248",
+   "location": "S15.03 > Scope 1 > State of the Art and Critical Gaps",
+   "anchor_quote": "Much of this technology can be prohibitively large and is not compatible with microgravity",
+   "summary": "Commercial continuous-monitoring tools exist for ground labs (e.g., particle size analyzers, some able to measure biofluorescent particles, used in clean rooms), but much of this technology is prohibitively large and not compatible with microgravity, partial gravity or unusual atmospheric pressures. The scope cites Civil Space Shortfall ID 1519 Environmental Monitoring for Habitation (ranked 7th).",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "commercial particle size analyzers (incl. biofluorescent particle capable)",
+   "numbers": [
+    {
+     "value": 7,
+     "unit": "rank",
+     "meaning": "Civil Space Shortfall ranking of ID 1519 Environmental Monitoring for Habitation",
+     "verbatim": "Ranked 7th"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity / partial gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to commercial particle size analyzers in general (scope 1); no specific instrument or values given."
+  },
+  {
+   "item_id": "sbir2025-43",
+   "doc_id": "sbir2025",
+   "pdf_page": 305,
+   "printed_page": "297",
+   "location": "S17.03 Fault Management Technologies (Lead GRC; participating ARC, JPL, MSFC; PDF pp. 303-308) > excluded areas",
+   "anchor_quote": "Fault management technologies as a specific component to environmental monitoring (including fire",
+   "summary": "Subtopic S17.03 excludes fault management technologies that are a specific component of environmental monitoring, including fire detection, and directs such proposals to S15.03.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Confirms S15.03 is the designated home for fire detection proposals within this solicitation."
+  },
+  {
+   "item_id": "sbir2025-44",
+   "doc_id": "sbir2025",
+   "pdf_page": 104,
+   "printed_page": "96",
+   "location": "H3.13 subtopic header (PDF pp. 104-107; printed pp. 96-99)",
+   "anchor_quote": "H3.13: Oxygen Compatible Habitation Solutions for Exploration",
+   "summary": "Subtopic H3.13 \"Oxygen Compatible Habitation Solutions for Exploration Environments (SBIR)\" (ESDMD/SOMD) is led by MSFC with ARC, GRC, JSC, KSC and LaRC participating; PDF pages 104-107. Scopes: \"Oxygen Compatible Materials\" (PDF pp. 105-106) and \"Alternative Approaches to Habitation and Logistic Challenges in High Oxygen Environments\" (PDF pp. 106-107).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Fire-safety (material flammability) subtopic, not fire detection; included because it gives numeric exploration-cabin atmosphere conditions relevant to where detectors must work."
+  },
+  {
+   "item_id": "sbir2025-45",
+   "doc_id": "sbir2025",
+   "pdf_page": 105,
+   "printed_page": "97",
+   "location": "H3.13 > Subtopic Introduction",
+   "anchor_quote": "The targeted nominal environment for exploration missions is 8.2 psia cabin pressure and >33.7",
+   "summary": "Exploration missions with frequent EVAs benefit from a lower-than-ambient cabin pressure to shorten prebreathe, which requires higher O2 concentration; the targeted nominal environment is 8.2 psia and more than 33.7 vol% O2 (balance nitrogen), and because of control-system limitations O2 may reach as high as 38 vol%, increasing flammability risk.",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.2,
+     "unit": "psia",
+     "meaning": "targeted nominal exploration cabin pressure",
+     "verbatim": "8.2 psia"
+    },
+    {
+     "value": 33.7,
+     "unit": "vol% O2",
+     "meaning": "targeted nominal oxygen concentration (greater than)",
+     "verbatim": ">33.7 volume% oxygen"
+    },
+    {
+     "value": 38,
+     "unit": "vol% O2",
+     "meaning": "possible maximum O2 concentration due to control-system limitations",
+     "verbatim": "as high as 38 vol%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": 33.7,
+    "pressure_kpa": 56.5,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Exploration cabin atmosphere design values (not a test). pressure_kpa is the extractor's conversion of 8.2 psia (x 6.894757 = 56.5 kPa), not printed in the source; atmosphere_o2_vol_pct = nominal lower bound (>33.7), with up to 38 vol% possible."
+  },
+  {
+   "item_id": "sbir2025-46",
+   "doc_id": "sbir2025",
+   "pdf_page": 105,
+   "printed_page": "97",
+   "location": "H3.13 > Subtopic Introduction",
+   "anchor_quote": "particularly challenging for lunar surface missions where partial gravity further exacerbates the risk",
+   "summary": "The increased flammability risk at elevated O2 is described as especially challenging for lunar surface missions, where partial gravity further worsens the risk.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar partial gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Qualitative statement about flammability risk (materials), not detection; no data given."
+  },
+  {
+   "item_id": "sbir2025-47",
+   "doc_id": "sbir2025",
+   "pdf_page": 105,
+   "printed_page": "97",
+   "location": "H3.13 > Subtopic Introduction",
+   "anchor_quote": "Foams used on the International Space Station (ISS) have only been tested to 30% O2",
+   "summary": "Foams used on the ISS have only been tested up to 30% O2 and, in that testing, burned beyond the 6-inch limit (C rating); other life support and habitation materials have similar issues. Plastic storage bags are said to produce molten drips that can ignite other materials.",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [
+    "ISS foams",
+    "plastic storage bags"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 30,
+     "unit": "% O2",
+     "meaning": "highest O2 level to which ISS foams have been tested",
+     "verbatim": "30% O2"
+    },
+    {
+     "value": 6,
+     "unit": "inch",
+     "meaning": "burn-length limit exceeded in testing (C rating)",
+     "verbatim": "6 inches"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": 30,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Material flammability test limitation (NASA-STD-6001B context), not a detector result. Test count not given."
+  },
+  {
+   "item_id": "sbir2025-48",
+   "doc_id": "sbir2025",
+   "pdf_page": 105,
+   "printed_page": "97",
+   "location": "H3.13 > Subtopic Introduction / Scope \"Oxygen Compatible Materials\"",
+   "anchor_quote": "There are very few known materials that are non-flammable at 38% oxygen,",
+   "summary": "Very few known materials are non-flammable at 38% oxygen, so new materials are needed that pass NASA-STD-6001B Test 1 Upward Flame Propagation at 38 vol% O2 (e.g., upholstery fabrics, crew restraints, acoustic barriers, insulation, storage/packaging materials, foams). Expected TRL 3 to 5.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 38,
+     "unit": "vol% O2",
+     "meaning": "O2 level at which NASA-STD-6001B Test 1 must be passed",
+     "verbatim": "38 vol% O2"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": 38,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Material development need for fire prevention; not detection."
+  },
+  {
+   "item_id": "sbir2025-49",
+   "doc_id": "sbir2025",
+   "pdf_page": 106,
+   "printed_page": "98",
+   "location": "H3.13 > Scope \"Alternative Approaches to Habitation and Logistic Challenges in High Oxygen Environments\"",
+   "anchor_quote": "this is not a call for new materials, but rather a call for new techniques",
+   "summary": "For habitats at 8.2 psia and 33.7% oxygen, where most known materials are highly flammable, the second H3.13 scope seeks alternative techniques that avoid flammable materials (e.g., for food packaging, trash containment, tape, labels, clothing dryers/hampers, restraints) rather than new materials. Expected TRL 3 to 6.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.2,
+     "unit": "psia",
+     "meaning": "habitat pressure",
+     "verbatim": "8.2 psia"
+    },
+    {
+     "value": 33.7,
+     "unit": "% O2",
+     "meaning": "habitat oxygen concentration",
+     "verbatim": "33.7% oxygen"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": 33.7,
+    "pressure_kpa": 56.5,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Fire-prevention approach (eliminating flammable materials), not detection."
+  },
+  {
+   "item_id": "sbir2025-50",
+   "doc_id": "sbir2025",
+   "pdf_page": 106,
+   "printed_page": "98",
+   "location": "H3.13 > Scope \"Oxygen Compatible Materials\" > State of the Art and Critical Gaps (repeated on PDF p. 107 for the second scope)",
+   "anchor_quote": "This is a critical gap for the majority of surface habitation applications",
+   "summary": "H3.13 SoA states that very few materials are not extremely flammable in 38% oxygen, a critical gap for most surface habitation applications and for life-support insulation and acoustic barriers, and cites the 2024 Civil Space Shortfall Integrated Ranking listing ID 1520 Fire Safety for Habitation as 10th overall.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 10,
+     "unit": "rank",
+     "meaning": "Civil Space Shortfall Integrated Ranking (2024) position of ID 1520 Fire Safety for Habitation",
+     "verbatim": "10th overall"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Fire-safety materials gap; same shortfall ID as S15.03 scope 2."
+  },
+  {
+   "item_id": "sbir2025-51",
+   "doc_id": "sbir2025",
+   "pdf_page": 73,
+   "printed_page": "65",
+   "location": "A1.11 Health Management and Sensing Technologies for Sustainable Aviation Vehicles (Lead GRC; participating AFRC, ARC, LaRC; PDF pp. 69-77) > Scope \"Health Management and Sensing Technologies for Sustainable Aviation Fuel Systems\" > State of the Art and Critical Gaps (repeated on PDF p. 76)",
+   "anchor_quote": "The is a need for better leak and fire detection methods for hydrogen",
+   "summary": "For hydrogen-fuelled (especially cryogenic hydrogen) aircraft, A1.11 states a need for better leak and fire detection methods wherever hydrogen could accumulate. (Quote reproduces a typo in the source: \"The is\".)",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "AVIATION (hydrogen aircraft), not crewed spacecraft and not smoke detection. Recorded only because it matches \"fire detection\"."
+  },
+  {
+   "item_id": "sbir2025-52",
+   "doc_id": "sbir2025",
+   "pdf_page": 254,
+   "printed_page": "246",
+   "location": "S15.02 In Situ Sample Preparation and Analysis for Biological and Physical Sciences in a Microgravity Environment (Lead GRC; participating ARC, KSC, MSFC; PDF pp. 247-254) > Scope \"Handling Powders\" > References item 1",
+   "anchor_quote": "Characterization and Measurement of Spacecraft Airborne Particulate Matter,",
+   "summary": "The S15.02 \"Handling Powders\" scope (safe handling of powders/granules of 100 microns to 2 mm in ISS microgravity) cites Meyer, M. E., \"Characterization and Measurement of Spacecraft Airborne Particulate Matter,\" IAC 2019, NTRS 20190032657, as its first reference.",
+   "category": "reference",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Powder handling scope, not fire detection; the reference is a potentially useful NASA source on spacecraft airborne particulate matter (not retrieved by this agent)."
+  },
+  {
+   "item_id": "sbir2025-53",
+   "doc_id": "sbir2025",
+   "pdf_page": 227,
+   "printed_page": "219",
+   "location": "S13.05 In Situ Instruments and Instrument Components for Lunar and Planetary Science (Lead JPL; participating ARC, GRC, GSFC, MSFC; PDF pp. 226-229) > scope list (higher-priority bullet)",
+   "anchor_quote": "dust detectors, organic analysis instruments with chiral discrimination,",
+   "summary": "S13.05 lists dust detectors among example instruments for detecting/identifying organics, salts and minerals on Mars, ocean worlds and other bodies.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Planetary-science exterior instruments, not cabin smoke/fire detection. No dust detector performance values given."
+  },
+  {
+   "item_id": "sbir2025-54",
+   "doc_id": "sbir2025",
+   "pdf_page": 329,
+   "printed_page": "321",
+   "location": "Z-LAND.03 Plume-Surface Interaction (PSI) Technologies (Lead LaRC; participating MSFC; PDF pp. 328-330) > Scope \"PSI Instrumentation, Ground Testing, and Analysis\"",
+   "anchor_quote": "in situ measurements of particle size and particle velocity during the landing phase",
+   "summary": "Z-LAND.03 seeks PSI-specific flight instrumentation emphasising time-evolving surface topography and in situ measurement of ejected particle size and velocity during landing.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Exterior regolith ejecta measurement during propulsive landing; not cabin aerosol or fire detection."
+  },
+  {
+   "item_id": "sbir2025-55",
+   "doc_id": "sbir2025",
+   "pdf_page": 355,
+   "printed_page": "347",
+   "location": "Z-LIVE.04 Components for Extreme Environments (Lead KSC; PDF pp. 351-356) > Scope \"Dust-Tolerant Coatings for Lunar and Planetary Environments\" > State of the Art and Critical Gaps",
+   "anchor_quote": "free floating lunar dust particles are typically < 100 micrometers",
+   "summary": "Z-LIVE.04 states that free-floating lunar dust particles in low lunar gravity are typically smaller than 100 micrometres and can accumulate in cracks and crevices that cleaning tools cannot reach.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 100,
+     "unit": "um",
+     "meaning": "typical upper size of free-floating lunar dust particles",
+     "verbatim": "< 100 micrometers (µm)"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Exterior lunar dust affecting coatings/mechanisms. The solicitation does NOT connect lunar dust to habitat smoke-detector false alarms; any such link would be an inference."
+  },
+  {
+   "item_id": "sbir2025-56",
+   "doc_id": "sbir2025",
+   "pdf_page": 222,
+   "printed_page": "214",
+   "location": "S13.04 Contamination Control and Planetary Protection (Lead JPL; participating GSFC; PDF pp. 222-225) > Scope \"CC and PP Implementation and Verification\"",
+   "anchor_quote": "Novel approaches to measuring, managing, and mitigating microbial, particulate, and molecular",
+   "summary": "S13.04 seeks new approaches to measure, manage and mitigate microbial, particulate and molecular contamination of spacecraft and instruments; its list on PDF p. 223 also includes modelling to quantify and validate submicron particulate contamination.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Hardware cleanliness / planetary protection, not airborne smoke or fire detection."
+  }
+ ],
+ "inaccessible": [
+  {
+   "what": "Full texts of the three fire-detection references cited by S15.03 scope 2 (Mulholland et al. 2015 AS&T; Meyer et al. 2018 Fire Safety Journal; Urban et al. ICES 2016, NTRS 20170000248) and Meyer 2019 IAC (NTRS 20190032657) cited by S15.02",
+   "why": "Out of scope for this source group (only the SBIR solicitation was assigned); not downloaded, so none of their content is used here."
+  }
+ ],
+ "search_log": [
+  {
+   "query": "smoke",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 4,
+   "notes": "PDF pages with hits: 94, 258, 259, 260 | Fire-relevant hits only in S15.03 scope 2 (PDF 258-260); p94 is A3.02 aviation wildfire (smoke jumpers), not relevant."
+  },
+  {
+   "query": "aerosol",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 12,
+   "notes": "PDF pages with hits: 161, 162, 164, 182, 183, 184, 185, 211, 224, 258, 259, 260 | Fire-relevant hits only PDF 258-260 (S15.03). Others: S11.01/S11.02 lidar Earth aerosols (161-164), S11.05 Earth-science aerosol sensors incl. discontinued scope \"Sensors and Sensor Systems Targeting Aerosols and Clouds\" planned to return 2027 (182-185), S12.06 aerosol monitoring detectors (211), S13.04 contamination (224) - screened out as not spacecraft fire/cabin aerosol."
+  },
+  {
+   "query": "particulate",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 18,
+   "notes": "PDF pages with hits: 63, 155, 161, 184, 222, 223, 224, 225, 254, 255, 256, 258, 259, 260, 272, 323, 354, 368 | Relevant: S15.03 (255-256 scope 1; 258-260 scope 2), S15.02 reference (254). Screened out: A1.08 wind-tunnel seeding (63), H15.02 regolith modelling (155), S11.x Earth remote sensing (161,184), S13.04 contamination (222-225, recorded as tangential context), S16.05 coatings (272), Z-LAND.02 gas generators (323), Z-LIVE.04 particulate wear (354), Z-EXPAND.01 clean robotics (368)."
+  },
+  {
+   "query": "particle",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 38,
+   "notes": "PDF pages with hits: 46, 63, 66, 157, 163, 165, 167, 195, 213, 223, 224, 225, 227, 233, 234, 235, 238, 242, 243, 244, 245, 246, 247, 253, 255, 256, 258, 259, 285, 329, 348, 352, 354, 355, 381, 406, 446, 447 | Mostly charged-particle heliophysics (S14.x), atomic particles (S16.08), debris; relevant ones recorded (S15.03, Z-LAND.03 PSI ejecta, Z-LIVE.04 lunar dust)."
+  },
+  {
+   "query": "fire detection",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 8,
+   "notes": "PDF pages with hits: 73, 76, 254, 257, 258, 259, 260, 305 | S15.03 (254, 257-259), S17.03 exclusion pointing to S15.03 (305), A1.11 hydrogen aircraft (73, 76)."
+  },
+  {
+   "query": "combustion product",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 2,
+   "notes": "PDF pages with hits: 257, 258"
+  },
+  {
+   "query": "dust (whole word)",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 37,
+   "notes": "PDF pages with hits: 114, 117, 118, 119, 120, 137, 149, 150, 157, 158, 207, 216, 221, 227, 232, 259, 271, 272, 273, 299, 317, 328, 331, 333, 339, 341, 342, 343, 344, 350, 352, 353, 354, 355, 356, 409, 420 | All non-S15.03 hits concern lunar/Martian dust effects on hardware (coatings, mechanisms, radiators, solar arrays, connectors) or planetary instruments; none concern cabin dust measurement for fire detection. Recorded tangential: S13.05 dust detectors, Z-LIVE.04 particle size."
+  },
+  {
+   "query": "false alarm",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 1,
+   "notes": "PDF pages with hits: 259"
+  },
+  {
+   "query": "nuisance",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 1,
+   "notes": "PDF pages with hits: 259"
+  },
+  {
+   "query": "fire safety",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 4,
+   "notes": "PDF pages with hits: 106, 107, 259, 260 | H3.13 (106-107) and S15.03 (259-260)."
+  },
+  {
+   "query": "fire (any)",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 19,
+   "notes": "PDF pages with hits: 73, 76, 81, 82, 83, 94, 96, 106, 107, 184, 185, 254, 257, 258, 259, 260, 292, 305, 413"
+  },
+  {
+   "query": "combustion",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 7,
+   "notes": "PDF pages with hits: 63, 64, 257, 258, 259, 260, 311"
+  },
+  {
+   "query": "flammab",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 6,
+   "notes": "PDF pages with hits: 105, 106, 107, 260, 335, 337"
+  },
+  {
+   "query": "SAME (case-sensitive whole word)",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 0,
+   "notes": "PDF pages with hits: none | No mention of the Smoke Aerosol Measurement Experiment by acronym."
+  },
+  {
+   "query": "Smoke Aerosol",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 0,
+   "notes": "PDF pages with hits: none"
+  },
+  {
+   "query": "Kapton",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 1,
+   "notes": "PDF pages with hits: 282 | Only S16.07 cryogenics reference title."
+  },
+  {
+   "query": "Teflon / PTFE / polytetrafluoroethylene",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 0,
+   "notes": "PDF pages with hits: none"
+  },
+  {
+   "query": "NIST (whole word)",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 2,
+   "notes": "PDF pages with hits: 19, 180 | p19 FIPS URL; p180 S11.04 NIST TES readout arrays - unrelated to fire."
+  },
+  {
+   "query": "National Institute of Standards",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 1,
+   "notes": "PDF pages with hits: 180"
+  },
+  {
+   "query": "DAFT / ACME",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 0,
+   "notes": "PDF pages with hits: none"
+  },
+  {
+   "query": "Saffire / Spacecraft Fire",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 4,
+   "notes": "PDF pages with hits: 257, 258, 259, 260"
+  },
+  {
+   "query": "oxygen concentration / elevated O2",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 4,
+   "notes": "PDF pages with hits: 105, 106, 145, 258"
+  },
+  {
+   "query": "carbon monoxide / HCN / HCl",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 3,
+   "notes": "PDF pages with hits: 140, 142, 183"
+  },
+  {
+   "query": "alarm",
+   "where": "sources/text/sbir2025.txt (all 456 PDF pages, whitespace-normalised regex per page)",
+   "hits": 3,
+   "notes": "PDF pages with hits: 94, 258, 259 | p94 is \"alarming trends\" (wildfire, aviation); fire-detector alarm hits only on PDF 258-259."
+  },
+  {
+   "query": "subtopic header index (regex ^ID: title, incl. Z-* STMD IDs) + 'Scope Title:' lines",
+   "where": "sources/text/sbir2025.txt",
+   "hits": 148,
+   "notes": "148 header-pattern matches (incl. table-of-contents lines) and 149 scope titles used to map each keyword hit to its subtopic/scope; lead/participating centers read from header lines."
+  }
+ ],
+ "open_questions": [
+  "Which instrument/data underlie the solicitation's statements that the ISS forward-light-scattering smoke detector has 'frequent' false alarms and that light-scattering techniques miss particles below ~300 nm? The S15.03 text gives no in-text reference markers; the cited 2015/2018 low-gravity smoke papers would need to be checked directly.",
+  "How often and for how long are ISS smoke detectors switched off during dust-generating activities (e.g., vacuuming)? The solicitation states the practice but gives no frequency, duration, or coverage analysis.",
+  "The solicitation asks for 10-300 nm particle coverage and >1 mg/m3 capability but gives no lower concentration threshold or alarm criterion for a 'slow-moving spacecraft fire'; what concentration/size targets does NASA use for alarm sensitivity?",
+  "Reduced-pressure / elevated-O2 operation is required qualitatively in S15.03; the only numeric exploration-atmosphere values in this document (8.2 psia, >33.7 vol% O2, up to 38 vol%) come from H3.13, a materials subtopic. Are these the target detector test conditions?",
+  "SBIR Phase I awards made under S15.03 scope 2 (FY2025) were not examined; whether any selected proposal addresses multi-parameter (orthogonal) smoke sensing is unknown within the examined source.",
+  "The solicitation's SF-30 dates the solicitation 1/08/2025 while Section 1.2 states release on January 7, 2025; the discrepancy is unresolved (administrative only)."
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "method": "weighted_median",
+  "threshold": 20,
+  "learned_correction": true,
+  "selected_candidate": "weighted_median_linear_correction",
+  "min_x_px": 200,
+  "max_x_px": 1500,
+  "input_statistics_domain": {
+    "max_green_fraction": 0.02,
+    "red_pixel_count_min": 45,
+    "red_pixel_count_max": 43500
+  },
+  "ood_procedure": "Dark-frame green fraction <=2%; luminous count [0.1*development_min,10*development_max]; visible spatial ROI x200:1500px. Fixed margins intentionally allow intensity variation; this is an input-quality envelope, not calibrated novelty probability.",
+  "applicable_domain": {
+    "mission": "Saffire-I",
+    "material": "SIBAL",
+    "camera_id": "C1",
+    "mapping": "NASA mapped",
+    "size_px": [
+      1702,
+      1226
+    ],
+    "illumination": "dark/backlight off",
+    "ridge_band_y_px": [
+      500,
+      720
+    ],
+    "development_time_s": [
+      30,
+      200
+    ],
+    "development_frame_count": 18,
+    "independent_samples": 1,
+    "claim": "within-view measurement agreement with agent visual annotations; no cross-experiment prediction"
+  },
+  "correction_fit_input_range_px": [
+    630.0,
+    1429.0
+  ]
+}

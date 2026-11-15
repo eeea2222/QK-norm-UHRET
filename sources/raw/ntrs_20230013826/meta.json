@@ -1,0 +1,29 @@
+{
+ "doc_id": "ntrs_20230013826",
+ "title": "The Influence of Smoke Particle Properties and Cabin Characteristics on Smoke Detection in Lunar Gravity",
+ "year": 2023,
+ "authors": [
+  "Claire Fortenberry",
+  "Ramaswamy Balasubramaniam",
+  "David Urban"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20230013826/downloads/AAAR%202023%20v1.pdf",
+ "retrieved_utc": "2026-11-15T10:49:24Z",
+ "sha256": "ed2312bdba4230de00df69ee908bf64f086f860b6e901a93701ee013cb1d625a",
+ "bytes": 846342,
+ "page_count": 1,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20230013826",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "AAAR 2023 poster"
+  ]
+ },
+ "license_note": "NTRS public distribution; NASA GRC/USRA/CWRU poster.",
+ "accessible": true,
+ "access_note": "One-page poster PDF from NTRS; plot contents (images) were not quantitatively extracted, only text-layer statements are used.",
+ "source_key": "ntrs_followup",
+ "raw_file": "AAAR 2023 v1.pdf"
+}

@@ -1,0 +1,24 @@
+{
+  "doc_id": "sbir2025",
+  "title": "NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended",
+  "year": 2025,
+  "authors": [
+    "National Aeronautics and Space Administration (NASA) SBIR/STTR Program; amendment issued by NASA Shared Services Center (NSSC), Contracting Officer Charles Bridges"
+  ],
+  "url": "https://www.nasa.gov/wp-content/uploads/2024/01/sbir80nsscfy25sbirphaseiamendment4signed.pdf",
+  "retrieved_utc": "2026-11-15T10:42:55Z",
+  "sha256": "6fabb0fc29176065cef4f532528e9868f6d9ea5524b5db67883dc6b254dd1442",
+  "bytes": 4024249,
+  "page_count": 456,
+  "identifiers": {
+    "doi": null,
+    "ntrs": null,
+    "psi": null,
+    "pmc": null,
+    "solicitation_number": "80NSSCFY25SBIRPhaseI",
+    "amendment": "P00004"
+  },
+  "license_note": "No license statement found in the document. NASA-authored U.S. Government document; presumed not subject to U.S. copyright (17 U.S.C. 105) but this is not stated in the PDF. Cited third-party references (journal papers) are not reproduced here.",
+  "accessible": true,
+  "access_note": "Downloaded with curl (HTTP 200, application/pdf, Last-Modified 2025-05-21). pdfinfo: 456 pages, PDF 1.7, contains AcroForm and JavaScript (file never opened in a viewer; text extracted only with pdftotext, no -layout). PDF pages 1-3 are the signed SF-30 Amendment P00004; PDF page 4 is the solicitation cover; printed page N of the solicitation body = PDF page N+8. Some ligature glyphs (e.g. 'ti') extract as U+FFFD on PDF pages 2-3 only."
+}

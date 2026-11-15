@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+external/*/.cache/
+sources/raw/**/*.pdf
+
+.venv-model-b
+*.egg-info/
+.pytest_cache/
+external/wt4_base/*.safetensors
+
+var/
+
+sources/raw/nist2018_news/page.html
+sources/raw/nist2018_pub/page.html

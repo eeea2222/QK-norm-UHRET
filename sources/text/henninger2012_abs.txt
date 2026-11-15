@@ -1,0 +1,29 @@
+Exploration Atmospheres for Beyond-LEO Human
+Exploration Missions
+Donald L. Henninger, Ph.D.1
+NASA Johnson Space Center, 2101 NASA Parkway, Houston, Texas, 77058
+
+Atmospheric pressure and oxygen concentration of human-occupied space vehicles and
+habitats are an important life support parameter. The atmosphere is critical in terms of not
+only safety but also in terms of maximizing human capabilities at the point of scientific
+discovery. Human exploration missions beyond low earth orbit (LEO) will include
+extravehicular activity (EVA). EVAs are carried out in low pressure (4.3 psi/29.6
+kilopascals) space suits running at 100 percent oxygen. New suits currently in development
+will be capable of running at a range of pressures between approximately 8.2 psi/56.5
+kilopascals and 4.3 psi/29.6 kilopascals. In order to carry out high-frequency EVA phases of
+a mission safely and more efficiently, it is advantageous to have cabin or vehicle atmospheres
+at lower total pressure and higher oxygen concentrations. This allows for much reduced
+pre-breathe times for a fixed risk of decompression sickness and thus more efficient EVAs.
+The recommended oxygen concentration is 32% and represents a trade with respect to
+controlling the risk of decompression sickness and risk of fire. Work carried out by NASA
+in 2006 and continued in 2012 established an atmospheric pressure and oxygen
+concentration to optimize EVA. This paper will review previous work and describe current
+recommendations for beyond-LEO human exploration missions.
+
+1
+
+Division Chief Technologist, Crew & Thermal Systems Division/EC, AIAA Senior Member.
+1
+American Institute of Aeronautics and Astronautics
+
+

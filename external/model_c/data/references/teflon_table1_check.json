@@ -1,0 +1,26 @@
+{
+  "source": "NTRS 20130000422 Table 1 PDF page 7",
+  "values_visually_rechecked": {
+    "geometric_mean_um": 0.081,
+    "geometric_std": 2.198,
+    "count_mean_um": 0.101,
+    "diameter_average_mass_um": 0.17
+  },
+  "recomputed_from_geometric_columns": {
+    "count_mean_um": 0.11045022504616728,
+    "diameter_average_mass_um": 0.20536658318748371
+  },
+  "recomputed_from_count_and_mass_columns": {
+    "geometric_mean_um": 0.0778498177110715,
+    "geometric_std": 2.0576820999219536
+  },
+  "rounding_bounds_for_recomputed_count_mean_um": [
+    0.10974877077239335,
+    0.11115192836639257
+  ],
+  "rounding_bounds_for_recomputed_mass_diameter_um": [
+    0.203989227499317,
+    0.20674536762330673
+  ],
+  "status": "source_internal_inconsistency_unresolved"
+}

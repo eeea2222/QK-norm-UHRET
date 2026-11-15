@@ -1,0 +1,541 @@
+{
+  "format": "model_a_ood_v1",
+  "features": [
+    "thickness_mm",
+    "width_cm",
+    "velocity_cm_s",
+    "initial_o2_vol_pct"
+  ],
+  "mean": [
+    2.9743589743589745,
+    1.8666666666666667,
+    9.35897435897436,
+    20.02307692307692
+  ],
+  "std": [
+    1.4409252634079095,
+    0.47140452079103184,
+    5.303541049714728,
+    1.404107808422339
+  ],
+  "std_ddof": 0,
+  "standardization": "Population mean/std of unique training FEATURES conditions; no outcomes used.",
+  "conditions": [
+    {
+      "condition": [
+        1.0,
+        2.2,
+        9.0,
+        22.2
+      ],
+      "experiment_id": "M1",
+      "group_id": "222",
+      "nearest_other_group_distance": 0.719156645404426,
+      "nearest_other_group_experiment_id": "M14",
+      "nearest_other_group_id": "223"
+    },
+    {
+      "condition": [
+        3.0,
+        2.2,
+        20.0,
+        22.2
+      ],
+      "experiment_id": "M2",
+      "group_id": "224",
+      "nearest_other_group_distance": 1.100924757710923,
+      "nearest_other_group_experiment_id": "M15",
+      "nearest_other_group_id": "225m"
+    },
+    {
+      "condition": [
+        3.0,
+        2.2,
+        15.0,
+        22.2
+      ],
+      "experiment_id": "M2",
+      "group_id": "224",
+      "nearest_other_group_distance": 0.693998519836425,
+      "nearest_other_group_experiment_id": "M14",
+      "nearest_other_group_id": "223"
+    },
+    {
+      "condition": [
+        5.0,
+        2.2,
+        10.0,
+        20.8
+      ],
+      "experiment_id": "M3",
+      "group_id": "226m",
+      "nearest_other_group_distance": 1.024925025083457,
+      "nearest_other_group_experiment_id": "M13",
+      "nearest_other_group_id": "169m"
+    },
+    {
+      "condition": [
+        5.0,
+        2.2,
+        20.0,
+        20.8
+      ],
+      "experiment_id": "M3",
+      "group_id": "226m",
+      "nearest_other_group_distance": 0.7084651527514144,
+      "nearest_other_group_experiment_id": "M15",
+      "nearest_other_group_id": "225m"
+    },
+    {
+      "condition": [
+        5.0,
+        2.2,
+        5.0,
+        21.8
+      ],
+      "experiment_id": "M4",
+      "group_id": "171m",
+      "nearest_other_group_distance": 0.9944129543271025,
+      "nearest_other_group_experiment_id": "M13",
+      "nearest_other_group_id": "169m"
+    },
+    {
+      "condition": [
+        5.0,
+        2.2,
+        3.0,
+        21.8
+      ],
+      "experiment_id": "M4",
+      "group_id": "171m",
+      "nearest_other_group_distance": 1.012131147049509,
+      "nearest_other_group_experiment_id": "M13",
+      "nearest_other_group_id": "169m"
+    },
+    {
+      "condition": [
+        3.0,
+        2.2,
+        10.0,
+        22.2
+      ],
+      "experiment_id": "M5",
+      "group_id": "167",
+      "nearest_other_group_distance": 0.693998519836425,
+      "nearest_other_group_experiment_id": "M14",
+      "nearest_other_group_id": "223"
+    },
+    {
+      "condition": [
+        1.0,
+        1.2,
+        10.0,
+        18.9
+      ],
+      "experiment_id": "M7",
+      "group_id": "177m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M8",
+      "nearest_other_group_id": "178m"
+    },
+    {
+      "condition": [
+        1.0,
+        1.2,
+        6.0,
+        18.9
+      ],
+      "experiment_id": "M7",
+      "group_id": "177m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M8",
+      "nearest_other_group_id": "178m"
+    },
+    {
+      "condition": [
+        1.0,
+        1.2,
+        5.0,
+        18.9
+      ],
+      "experiment_id": "M7",
+      "group_id": "177m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M8",
+      "nearest_other_group_id": "178m"
+    },
+    {
+      "condition": [
+        1.0,
+        1.2,
+        3.0,
+        18.9
+      ],
+      "experiment_id": "M7",
+      "group_id": "177m",
+      "nearest_other_group_distance": 0.8025784778075473,
+      "nearest_other_group_experiment_id": "M8",
+      "nearest_other_group_id": "178m"
+    },
+    {
+      "condition": [
+        2.0,
+        1.2,
+        10.0,
+        19.1
+      ],
+      "experiment_id": "M8",
+      "group_id": "178m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M7",
+      "nearest_other_group_id": "177m"
+    },
+    {
+      "condition": [
+        2.0,
+        1.2,
+        6.0,
+        19.1
+      ],
+      "experiment_id": "M8",
+      "group_id": "178m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M7",
+      "nearest_other_group_id": "177m"
+    },
+    {
+      "condition": [
+        2.0,
+        1.2,
+        5.0,
+        19.1
+      ],
+      "experiment_id": "M8",
+      "group_id": "178m",
+      "nearest_other_group_distance": 0.708465152751415,
+      "nearest_other_group_experiment_id": "M7",
+      "nearest_other_group_id": "177m"
+    },
+    {
+      "condition": [
+        3.0,
+        1.2,
+        14.0,
+        18.0
+      ],
+      "experiment_id": "M9",
+      "group_id": "179m",
+      "nearest_other_group_distance": 1.2900431592246824,
+      "nearest_other_group_experiment_id": "M8",
+      "nearest_other_group_id": "178m"
+    },
+    {
+      "condition": [
+        4.0,
+        1.2,
+        15.0,
+        20.1
+      ],
+      "experiment_id": "M10",
+      "group_id": "180m",
+      "nearest_other_group_distance": 0.697643302352379,
+      "nearest_other_group_experiment_id": "M11",
+      "nearest_other_group_id": "181m"
+    },
+    {
+      "condition": [
+        4.0,
+        1.2,
+        10.0,
+        20.1
+      ],
+      "experiment_id": "M10",
+      "group_id": "180m",
+      "nearest_other_group_distance": 0.8981520991262668,
+      "nearest_other_group_experiment_id": "M11",
+      "nearest_other_group_id": "181m"
+    },
+    {
+      "condition": [
+        5.0,
+        1.2,
+        21.0,
+        20.0
+      ],
+      "experiment_id": "M11",
+      "group_id": "181m",
+      "nearest_other_group_distance": 1.3291313857961067,
+      "nearest_other_group_experiment_id": "M10",
+      "nearest_other_group_id": "180m"
+    },
+    {
+      "condition": [
+        5.0,
+        1.2,
+        15.0,
+        20.0
+      ],
+      "experiment_id": "M11",
+      "group_id": "181m",
+      "nearest_other_group_distance": 0.697643302352379,
+      "nearest_other_group_experiment_id": "M10",
+      "nearest_other_group_id": "180m"
+    },
+    {
+      "condition": [
+        5.0,
+        1.2,
+        13.0,
+        20.0
+      ],
+      "experiment_id": "M11",
+      "group_id": "181m",
+      "nearest_other_group_distance": 0.7930419394293893,
+      "nearest_other_group_experiment_id": "M10",
+      "nearest_other_group_id": "180m"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        6.0,
+        20.8
+      ],
+      "experiment_id": "M13",
+      "group_id": "169m",
+      "nearest_other_group_distance": 1.012131147049509,
+      "nearest_other_group_experiment_id": "M4",
+      "nearest_other_group_id": "171m"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        5.0,
+        20.8
+      ],
+      "experiment_id": "M13",
+      "group_id": "169m",
+      "nearest_other_group_distance": 0.9944129543271025,
+      "nearest_other_group_experiment_id": "M4",
+      "nearest_other_group_id": "171m"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        4.0,
+        20.8
+      ],
+      "experiment_id": "M13",
+      "group_id": "169m",
+      "nearest_other_group_distance": 1.012131147049509,
+      "nearest_other_group_experiment_id": "M4",
+      "nearest_other_group_id": "171m"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        15.0,
+        22.2
+      ],
+      "experiment_id": "M14",
+      "group_id": "223",
+      "nearest_other_group_distance": 0.693998519836425,
+      "nearest_other_group_experiment_id": "M2",
+      "nearest_other_group_id": "224"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        14.0,
+        22.2
+      ],
+      "experiment_id": "M14",
+      "group_id": "223",
+      "nearest_other_group_distance": 0.719156645404426,
+      "nearest_other_group_experiment_id": "M2",
+      "nearest_other_group_id": "224"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        10.0,
+        22.2
+      ],
+      "experiment_id": "M14",
+      "group_id": "223",
+      "nearest_other_group_distance": 0.693998519836425,
+      "nearest_other_group_experiment_id": "M5",
+      "nearest_other_group_id": "167"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        20.0,
+        21.0
+      ],
+      "experiment_id": "M15",
+      "group_id": "225m",
+      "nearest_other_group_distance": 0.7084651527514144,
+      "nearest_other_group_experiment_id": "M3",
+      "nearest_other_group_id": "226m"
+    },
+    {
+      "condition": [
+        1.0,
+        2.2,
+        5.0,
+        19.2
+      ],
+      "experiment_id": "M16",
+      "group_id": "164m",
+      "nearest_other_group_distance": 0.750193077845226,
+      "nearest_other_group_experiment_id": "M17",
+      "nearest_other_group_id": "166m"
+    },
+    {
+      "condition": [
+        1.0,
+        2.2,
+        3.0,
+        19.2
+      ],
+      "experiment_id": "M16",
+      "group_id": "164m",
+      "nearest_other_group_distance": 0.750193077845226,
+      "nearest_other_group_experiment_id": "M17",
+      "nearest_other_group_id": "166m"
+    },
+    {
+      "condition": [
+        1.0,
+        2.2,
+        2.0,
+        19.2
+      ],
+      "experiment_id": "M16",
+      "group_id": "164m",
+      "nearest_other_group_distance": 0.773525687447477,
+      "nearest_other_group_experiment_id": "M17",
+      "nearest_other_group_id": "166m"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        5.0,
+        18.8
+      ],
+      "experiment_id": "M17",
+      "group_id": "166m",
+      "nearest_other_group_distance": 0.750193077845226,
+      "nearest_other_group_experiment_id": "M16",
+      "nearest_other_group_id": "164m"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        4.0,
+        18.8
+      ],
+      "experiment_id": "M17",
+      "group_id": "166m",
+      "nearest_other_group_distance": 0.773525687447477,
+      "nearest_other_group_experiment_id": "M16",
+      "nearest_other_group_id": "164m"
+    },
+    {
+      "condition": [
+        2.0,
+        2.2,
+        3.0,
+        18.8
+      ],
+      "experiment_id": "M17",
+      "group_id": "166m",
+      "nearest_other_group_distance": 0.750193077845226,
+      "nearest_other_group_experiment_id": "M16",
+      "nearest_other_group_id": "164m"
+    },
+    {
+      "condition": [
+        3.0,
+        2.2,
+        10.0,
+        17.9
+      ],
+      "experiment_id": "M18",
+      "group_id": "168m",
+      "nearest_other_group_distance": 1.0466011614532171,
+      "nearest_other_group_experiment_id": "M19",
+      "nearest_other_group_id": "170m"
+    },
+    {
+      "condition": [
+        3.0,
+        2.2,
+        8.0,
+        17.9
+      ],
+      "experiment_id": "M18",
+      "group_id": "168m",
+      "nearest_other_group_distance": 1.1011156777213043,
+      "nearest_other_group_experiment_id": "M17",
+      "nearest_other_group_id": "166m"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        10.0,
+        19.0
+      ],
+      "experiment_id": "M19",
+      "group_id": "170m",
+      "nearest_other_group_distance": 0.9944129543271025,
+      "nearest_other_group_experiment_id": "M20",
+      "nearest_other_group_id": "172m"
+    },
+    {
+      "condition": [
+        4.0,
+        2.2,
+        6.0,
+        19.0
+      ],
+      "experiment_id": "M19",
+      "group_id": "170m",
+      "nearest_other_group_distance": 1.1124672271721163,
+      "nearest_other_group_experiment_id": "M18",
+      "nearest_other_group_id": "168m"
+    },
+    {
+      "condition": [
+        5.0,
+        2.2,
+        10.0,
+        18.0
+      ],
+      "experiment_id": "M20",
+      "group_id": "172m",
+      "nearest_other_group_distance": 0.9944129543271025,
+      "nearest_other_group_experiment_id": "M19",
+      "nearest_other_group_id": "170m"
+    }
+  ],
+  "unique_condition_count": 39,
+  "group_count": 18,
+  "threshold": 1.3291313857961067,
+  "threshold_method": "Maximum nearest-condition Euclidean distance excluding the same group_id.",
+  "distance_space": "standardized FEATURES (dimensionless)",
+  "source": "data/processed/segments.csv",
+  "source_sha256": "ec98bc17ca44e8183a94d2c91d3fe846c8c673fd3e12da515a46de78bc64aa81",
+  "status": "TESTED_LOCALLY",
+  "limitation": "Only 18 groups: rough coverage check, not a calibrated novelty probability."
+}

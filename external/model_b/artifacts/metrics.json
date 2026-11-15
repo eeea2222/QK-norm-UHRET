@@ -1,0 +1,108 @@
+{
+  "headline": "Untouched later time block, not cross-burn generalization",
+  "test_frame_ids": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "test_n": 6,
+  "test_time_s": [
+    229.992,
+    279.985
+  ],
+  "minimum_development_test_gap_s": 29.998999999999995,
+  "label_provenance": "agent_annotated",
+  "value_kind": "derived",
+  "nominal_physical_calibration": true,
+  "selected": {
+    "mae_mm": 4.829083787865807,
+    "rmse_mm": 6.069304417914443
+  },
+  "simple_binary_median": {
+    "mae_mm": 4.545454545454545,
+    "rmse_mm": 5.242073906668543
+  },
+  "trivial_constant": {
+    "mae_mm": 259.54545454545456,
+    "rmse_mm": 261.39630889327856
+  },
+  "per_frame_results": [
+    {
+      "frame_id": 20,
+      "time_s": 229.992,
+      "reference_x_px": 490,
+      "predicted_x_px": 484.63754046259237,
+      "simple_x_px": 500.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 2.4374816079125594
+    },
+    {
+      "frame_id": 21,
+      "time_s": 240.014,
+      "reference_x_px": 450,
+      "predicted_x_px": 430.92186248755934,
+      "simple_x_px": 452.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 8.671880687473028
+    },
+    {
+      "frame_id": 22,
+      "time_s": 250.003,
+      "reference_x_px": 410,
+      "predicted_x_px": 402.074553945412,
+      "simple_x_px": 420.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 3.6024754793581852
+    },
+    {
+      "frame_id": 23,
+      "time_s": 259.987,
+      "reference_x_px": 370,
+      "predicted_x_px": 365.2693671847412,
+      "simple_x_px": 383.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 2.1502876432994484
+    },
+    {
+      "frame_id": 24,
+      "time_s": 269.986,
+      "reference_x_px": 330,
+      "predicted_x_px": 332.44311953333215,
+      "simple_x_px": 350.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 1.1105088787873414
+    },
+    {
+      "frame_id": 25,
+      "time_s": 279.985,
+      "reference_x_px": 290,
+      "predicted_x_px": 265.7958894531986,
+      "simple_x_px": 285.0,
+      "label_provenance": "agent_annotated",
+      "error_mm": 11.00186843036428
+    }
+  ],
+  "selection_sha256": "18ddbc55b0fa04c7efbe3948973ffd2416674a28cd49fe37b5543088a71382da",
+  "test_label_sha256": "e52983e938767dea9ee35afd5646ec7a32b6e68977409205b241bea6465e161b",
+  "uncertainty": null,
+  "r2": null,
+  "limitations": "Six correlated frames in one later 50s block of the same burn. Visual agent labels are not independent human truth. Nominal grid scale has unquantified systematic error; no confidence interval or claim about another experiment.",
+  "paired_mae_difference_vs_simple_mm": 0.2836292424112621,
+  "paired_mae_difference_vs_trivial_mm": -254.71637075758875,
+  "trajectory": {
+    "accepted_frames": 28,
+    "rejected_frames": 12,
+    "time_range_s": [
+      30.014,
+      299.984
+    ],
+    "luminous_ridge_speed_mm_s": 1.9334223068837375,
+    "value_kind": "derived",
+    "source_reported_concurrent_spread_mm_s": 1.8,
+    "signed_consistency_difference_mm_s": 0.13342230688373746,
+    "comparison_note": "Least-squares image ridge velocity over accepted visible-camera interval. Published 1.8mm/s is a burn-level spread quantity, so this difference is a consistency check, not task prediction error or a matched-quantity accuracy metric."
+  }
+}

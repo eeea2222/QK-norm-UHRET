@@ -1,0 +1,14 @@
+{
+  "earlier_run": {
+    "passed": 42,
+    "failed": 1,
+    "failed_test": "test_explicit_filter_is_respected",
+    "failure": "Test assumed every Teflon match has material exactly Teflon; catalog legitimately contains multi-material records.",
+    "resolution": "Expose materials in the response and assert Teflon membership in the matching material list."
+  },
+  "final_run": {
+    "passed": 43,
+    "failed": 0
+  },
+  "scientific_validation_status": "DEFERRED_BY_REQUEST"
+}

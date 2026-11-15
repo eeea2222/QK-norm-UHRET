@@ -1,0 +1,99 @@
+{
+  "created_utc": "2026-11-15T12:52:18.956587+00:00",
+  "model": "b",
+  "purpose": "Model girdisi denemesi",
+  "value_kind": "predicted",
+  "runs": [
+    {
+      "input": {},
+      "output": {
+        "model": "model_b",
+        "repo": "efe-T/nasa-saffire-i-model-b",
+        "revision": "7ca05303bf350d300f98011528cb4e1c4d28b612",
+        "verified": {
+          "repo": "efe-T/nasa-saffire-i-model-b",
+          "revision": "7ca05303bf350d300f98011528cb4e1c4d28b612",
+          "files": {
+            "calibration.json": "ok",
+            "colab_model_b_export.zip": "ok",
+            "domain_shift.json": "ok",
+            "environment.json": "ok",
+            "metrics.json": "ok",
+            "model_config.json": "ok",
+            "ridge_correction.joblib": "ok",
+            "sample_request_response.json": "ok",
+            "selection.json": "ok",
+            "selection_frozen.json": "ok"
+          }
+        },
+        "request": {
+          "frame_path": "/home/efeai/Desktop/NasaSpaceApps/external/model_b/data/frames/Mapped_S1C1-1465937331457.jpeg",
+          "camera_id": "C1",
+          "image_mapping": "NASA_mapped",
+          "material": "SIBAL",
+          "units": "mm",
+          "timestamp_ms": 1465937331457
+        },
+        "response": {
+          "model_id": "model_b",
+          "model_version": "0.1.0",
+          "quantity": "luminous_ridge_x_from_image_left",
+          "value": 220.28979111936016,
+          "unit": "mm",
+          "value_kind": "predicted",
+          "position_px": 484.63754046259237,
+          "raw_extracted_position_px": 505.0,
+          "raw_extracted_value_kind": "derived",
+          "ood": {
+            "flag": false,
+            "reasons": []
+          },
+          "warnings": [
+            "Linear correction uses a coordinate outside its development-fit range; later-block error is reported separately, with no cross-experiment guarantee"
+          ],
+          "applicable_domain": {
+            "mission": "Saffire-I",
+            "material": "SIBAL",
+            "camera_id": "C1",
+            "mapping": "NASA mapped",
+            "size_px": [
+              1702,
+              1226
+            ],
+            "illumination": "dark/backlight off",
+            "ridge_band_y_px": [
+              500,
+              720
+            ],
+            "development_time_s": [
+              30,
+              200
+            ],
+            "development_frame_count": 18,
+            "independent_samples": 1,
+            "claim": "within-view measurement agreement with agent visual annotations; no cross-experiment prediction"
+          },
+          "uncertainty": null,
+          "uncertainty_note": "Spacing scatter is a repeatability diagnostic, not a full physical calibration uncertainty. Nominal grid square tolerance and mapping systematic error unavailable.",
+          "calibration_nominal": true,
+          "interpretation": "Median luminous-ridge position in image rows500:720. This is not a danger score or a prediction for a new burn.",
+          "timestamp_ms": 1465937331457
+        },
+        "value_kind": "predicted",
+        "role": "Dashboard side panel only. Measures Saffire-I luminous-ridge position from a camera frame. NOT detection evidence.",
+        "isolated_env": [
+          "numpy==2.5.4",
+          "scikit-learn==1.9.1",
+          "joblib==1.6.0",
+          "pillow==13.0.0"
+        ],
+        "note": "Side-panel context only: this model does not predict smoke-detector performance; no detection result is inferred from it.",
+        "card_limitations": [
+          "Held-out MAE 4.829 mm vs simple threshold baseline 4.545 mm: the learned correction did not improve on the baseline.",
+          "Single task, single sample; labels are agent annotations, not human."
+        ]
+      }
+    }
+  ],
+  "status": "COMPLETED"
+}

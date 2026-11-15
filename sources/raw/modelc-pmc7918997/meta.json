@@ -1,0 +1,31 @@
+{
+ "doc_id": "modelc-pmc7918997",
+ "title": "Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (author manuscript)",
+ "year": 2018,
+ "authors": [
+  "Marit Meyer",
+  "David Urban",
+  "George Mulholland",
+  "Victoria Bryg",
+  "Zengguang Yuan",
+  "Gary Ruff",
+  "Thomas Cleary",
+  "Jiann Yang"
+ ],
+ "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7918997/",
+ "retrieved_utc": null,
+ "sha256": "a23ac9caab985a10dd355c6010b753f436667e9080e2ee7778142de3a5cb8284",
+ "bytes": 175412,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.1016/j.firesaf.2018.04.004",
+  "ntrs": null,
+  "psi": null,
+  "pmc": "PMC7918997"
+ },
+ "license_note": "PMC author manuscript of a Fire Safety Journal article (vol. 98, 2018); original terms retained.",
+ "accessible": true,
+ "access_note": "Copied from read-only Model C snapshot (HF efe-T/nasa-same-model-c @ 91292a40886564d146dc9e9d496b74c2aefaab5c); not re-downloaded by this agent (disk limit). Original retrieval time not recorded in the snapshot. HTML converted with stdlib html.parser; location = section/figure, pdf_page null. Figure 9 image checked visually from external/model_c/data/references/detector_fig9.jpg.",
+ "local_path": "/home/efeai/Desktop/NasaSpaceApps/external/model_c/data/references/PMC7918997.html",
+ "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/modelc-pmc7918997.txt"
+}

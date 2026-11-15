@@ -1,0 +1,674 @@
+55th International Conference on Environmental Systems
+12-16 July 2026, Rio Grande, Puerto Rico
+
+ICES-2026-266
+
+The Operational NASA Anomaly Gas Analyzer
+and Exploration Follow-Ons
+Nicholas R. Wymore1 and Brian P. Rodrigue2
+NASA Johnson Space Center, Houston, TX, 77058
+and
+Jeffrey S. Pilgrim3
+Vista Photonics, Inc., Las Cruces, NM 880034
+
+The NASA Anomaly Gas Analyzer (AGA) is the culmination of nearly ten years of
+advancement of core technology originally developed by Vista Photonics through the Small
+Business Innovation Research (SBIR) program and expanded using NASA program funding.
+The AGA is a portable, battery operated, optical gas detection instrument for continuous
+monitoring of H2O, CO2, O2, CO, NH3, HCN, HF, HCl in the spacecraft environment. Real
+time, in-situ monitored, gas concentrations are communicated at 1 Hz through a built-in
+display on-orbit and additionally through a serial interface on the ground. The instruments
+function over the typical range of temperatures and pressures required for the spacecraft
+environment. A ten-year operational life is targeted. Seven AGA instruments are currently
+deployed on the International Space Station and two Orion-specific units are manifested for
+Artemis 2. A variation of the operational AGA is under development for lunar Human
+Landing Systems. A wider calibrated operating pressure envelope is required in this
+application. Otherwise, the instruments straightforwardly address lessons learned from the
+original AGA by improving aspects of thermal control, ruggedness, and ease-of-use. A subset
+of AGA-developed sensed gases (H2O, CO2, O2) is the subject of the Primary Constituent
+Monitor (PCM) development for the Habitation and Logistics Outpost (HALO) destined for
+lunar orbit. Two PCMs will be installed in HALO as part of the environmental control loop
+where they will interface with vehicle power and communications. While the basic sensor
+techniques are unchanged from the AGA, these instruments have been radiation hardened to
+survive for many years in the harsh target environment. Current development status for these
+instruments will be presented along with recent developments of a naval submarine variant.
+
+Acronyms and Nomenclature
+AC
+AGA
+cm
+cm3
+CO2
+CPM
+DC
+EDU
+FPGA
+GRC
+1
+
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+
+Alternating Current
+Anomaly Gas Analyzer
+centimeters
+cubic centimeters
+carbon dioxide
+Combustion Product Monitor
+Direct Current
+Engineering Development Unit
+Field Programmable Gate Array
+Glenn Research Center
+
+Project Manager, NASA-Johnson Space Center, M/C EC3, 2101 NASA Parkway, Houston, TX 77058.
+Branch Chief & Project Manager, NASA-Johnson Space Center, M/C EC3, 2101 NASA Parkway, Houston, TX
+77058.
+3
+President, 3655 Research Road, Las Cruces, New Mexico, 88003.
+2
+
+HALO
+ICL
+ISS
+JEM
+JSC
+MGM
+mmHg
+nm
+NH3
+O2
+OLGA
+PAS
+PCM
+ppm
+psi
+psia
+QCL
+RH
+SBIR
+TEC
+VCSEL
+VDC
+VPI
+W
+WMS
+WSTF
+
+= Habitation and Logistics Outpost
+= Interband Cascade Laser
+= International Space Station
+= Japanese Experiment Module (part of ISS)
+= Johnson Space Center
+= Multi-Gas Monitor
+= millimeters of mercury
+= nanometer
+= ammonia
+= oxygen
+= Optical Life Gas Analyzer
+= photoacoustic spectroscopy
+= primary constituent monitor
+= parts per million
+= pounds per square inch
+= pounds per square inch, absolute
+= Quantum Cascade Laser
+= Relative Humidity
+= Small Business Innovation Research
+= Thermoelectric Cooler
+= Vertical Cavity Surface Emitting Laser
+= volts, direct current
+= Vista Photonics, Inc.
+= watts
+= Wavelength Modulation Spectroscopy
+= White Sands Test Facility
+
+I. Introduction
+
+T
+
+he International Space Station (ISS) relies on a variety of both portable and fixed gas monitors. Devices range
+from rack-mounted mass spectrometers to hand-held electrochemical sensors. An optical Multi-Gas Monitor
+(MGM) was developed as an ISS Technology Demonstration to evaluate long-term continuous measurement of four
+gases that are important from both life
+support and environmental health
+perspectives. Figure 1 shows the MGM
+in its fourth, and final, development
+iteration. Based on tunable diode laser
+spectroscopy, this technology offers
+unprecedented selectivity, concentration
+range, precision, and calibration stability.
+Successful technology demonstration
+with MGM led to the effort to incorporate
+combustion evolved products into a
+combined sensor platform called the
+Anomaly Gas Analyzer (AGA).
+MGM utilizes the combination of
+high performance laser absorption
+spectroscopy with a rugged optical path
+length enhancement cell that is nearly
+impossible to misalign. The enhancement
+Figure 1. Sensor version 4.0, Multi-Gas Monitor. Flight prototype
+cell simultaneously serves as the
+version 4.0 after assembly and integration. The adaptor plate allows
+measurement sampling cell for multiple
+for mounting to ISS equipment racks. The sensor can be powered
+laser channels operating within a
+through two USB ports or 28 VDC rack power.
+common measurement volume. Four
+laser diode based detection channels
+allow quantitative determination of ISS cabin concentrations of water vapor (humidity), carbon dioxide, ammonia and
+2
+International Conference on Environmental Systems
+
+oxygen. Each channel utilizes a separate vertical cavity surface emitting laser (VCSEL) at a different wavelength. In
+addition to measuring major air constituents in their relevant ranges, the multiple gas monitor provides real time
+quantitative gaseous ammonia measurements between 5 and 20,000 parts-per-million (ppm). A small ventilation fan
+draws air with no pumps or valves into the enclosure in which analysis occurs. Power draw is only about 2.5 W from
+USB sources when installed in NanoRacks, or when connected to 28 VDC source from any EXPRESS rack interface.
+Internal battery power can run the sensor for about 18 hours during portable operation. The sensor stores data internally
+while displaying running average measurements on an LCD screen and interfaces with the rack or laptop via USB.
+Design, construction and certification of the Multi-Gas Monitor were a joint effort between Vista Photonics, Inc.
+(VPI) NanoRacks, LLC and NASA-Johnson Space Center (JSC). Vista Photonics developed the core technology and
+built the sensor. NanoRacks designed, constructed the aluminum enclosure, interfaces, and battery power management
+circuitry, integrated all subsystems into the enclosure, and then managed the certification tests, documentation and
+manifesting. The unit was calibrated in the JSC Environmental Chemistry Laboratory. The Multi-Gas Monitor was
+delivered onboard Soyuz as a technology demonstration to the ISS in November 2013 and activated in February 2014.
+The sensor was scheduled to operate for at least 6 months with data sent to the ground for evaluation. The primary
+goal was to demonstrate long term interference free operation in the real spacecraft environment [1].
+The fundamental detection principle in each version of the sensor is path length enhanced optical absorption
+spectroscopy. Optical absorption spectroscopy provides signal that is linear and quantitative in concentration of the
+absorbing species for small absorbance. Wavelength modulation spectroscopy (WMS) allows measurement of weak
+optical absorbance by shifting the detection band to high frequencies, where noise is reduced, to achieve fractional
+absorption sensitivities a factor between 100 and 1000 better than direct optical absorption spectroscopy. The nearinfrared wavelength range is well suited for sensitive and selective detection of H2O, CO2, NH3 and O2 because many
+isolated suitable absorption features are available for each species. Careful selection of the nominal wavelength range
+can even result in several species being detected with a single laser device. Whereas current modulation and second
+harmonic detection provide the basic absorption signal at a single wavelength, simultaneous current or temperature
+tuning the laser wavelength at a lower rate can produce either a single isolated absorption feature or an entire spectrum.
+In this case, the signal appears qualitatively as the second derivative of the original lineshape.
+The MGM approach, which employs a special type of multi-pass cell, is limited to about 10-4 fractional absorbance.
+The advantages of this cell relative to traditional multi-pass cells are in its compactness, ease of multiplexing and
+elimination of beam collection optics (which give rise to its rigidity/no alignment issues). AGA expands the use of
+this approach to six gases using the WMS photodetection technique. AGA also employs two photoacoustic
+spectroscopy (PAS) detection channels. In PAS, the same type of WMS laser operation is employed, but instead of
+detecting AC photocurrent on an optical detector, sound generated by the modulated absorption/heating of the target
+gas species is detected with a microphone. The PCM employs a subset of the AGA channels in a radiation hardened
+configuration.
+
+II. Multiple Gaseous Species Monitors
+The AGA development builds on the earlier investment towards several multiple species monitors that were
+targeted at detection of various classes of compounds important onboard spacecraft. These parallel developments took
+place over the course of several years with test campaigns and development efforts at NASA JSC, NASA Glenn
+Research Center (GRC), and NASA White Sands Test Facility (WSTF). The purposeful employment of a common
+evolving electronics platform resulted in the capacity to ultimately combine many of the sensed species into the suite
+of gases monitored by the AGA. Major cabin constituents and ammonia were demonstrated with MGM. Detection of
+combustion evolved gases, including the three major acid gases and carbon monoxide, were developed on various
+platforms that together represent a combustion products monitor (CPM). Each of these instrumentation platforms is
+described here.
+A. MGM
+The Multi-Gas Monitor (originally Optical Life Gas Analyzer (OLGA) version 4.0) built on lessons learned from
+earlier versions. Figure 2 shows the device operating during the technology demonstration on ISS. MGM implemented
+laser line locking of each VCSEL channel to eliminate wavelength drift in the sensor. This critical feature was lacking
+in version 3.0 whose lasers were free running. Their wavelengths could drift around slightly and cause the sensor to
+misinterpret the absorption line of interest. The Multi-Gas Monitor scans farther in wavelength space than OLGA 3.0
+for most of the sensor channels so that a sufficient spectral pattern can be obtained to unambiguously identify the line
+of interest for quantitative detection. The sensor continually updates the VCSEL operating temperatures to keep those
+3
+International Conference on Environmental Systems
+
+target lines at the proper locations in the spectrum. A second significant advancement over earlier platforms was the
+introduction of USB data transfer. During development of the basic architecture, it was not too burdensome to simply
+transfer data by physically removing the CompactFlash card and manually transferring data onto a computer. All
+versions up to MGM used this approach.
+The electronics architecture in MGM is comprised of one main electronics board, an FPGA board, a
+microcontroller, the USB communications and power boards. Design of the main analog board was continually
+improved throughout the development process of all the versions. The function of the main analog board is to provide
+current drive capability for the four laser channels and control their associated TECs without cross talk from the digital
+waveform delivered by the FPGA. The main board also routes power to the FPGA and microcontroller boards and
+two small photodetector preamplifiers. The MGM also contains onboard temperature, pressure and humidity sensors.
+Portable power is provided by rechargeable batteries. A strict USB power only port and a combined power/data port
+provide power to the device when plugged in and also keep the batteries charged. The device can also be powered by
+28 VDC EXPRESS rack power, so that it could be semi-permanently operated anywhere on ISS that such power is
+available. The various power sources can be connected and disconnected while the sensor is operating. The sensor
+front panel LCD presents measurement updates every second. A user will immediately see changes registered on the
+display in real time. The display can be temporarily backlit by the user for several seconds during low light conditions.
+Data is appended to a log file as it is acquired onto a redundant, synchronized set of microSD cards inside the MGM.
+
+Figure 2. MGM On-orbit. MGM being operated in battery powered mode in the JEM during Increment 42.
+Tunable diode laser spectroscopy, as demonstrated on MGM, holds promise of high selectivity—the ability to
+distinguish, for example, between different contaminant gases such as ammonia in parts-per-million (ppm)
+concentrations while also measuring percent levels of oxygen, carbon dioxide, and water vapor in the International
+Space Station cabin atmosphere. Another potential advantage, which is being confirmed, is the ability to hold
+calibration for long periods (years). In 2013, the MGM was built, calibrated and certified as a payload under the ISS
+Technology Demonstration project at NASA-JSC, with a primary motivation of developing continuous ammonia
+monitoring capability. MGM was installed in the Nanoracks Frame 2 in the Japanese Experiment Module (JEM) and
+activated on February 3, 2014, making continuous measurements of the air for several years. MGM was returned to
+Earth in 2017 and verified to still be in calibration. The history of the development of MGM, preparation, calibration,
+operation and results from the ISS technology demonstration were reported at the 2014 and 2015 ICES Conferences
+[1].
+4
+International Conference on Environmental Systems
+
+B. Combustion Product Monitor & AGA Prototype
+Figure 3 shows the state of Vista Photonics’ combustion gas detection in 2015 and the challenge presented to
+produce a compact, portable, monitor for combustion products. In 2010, each of the four most sought combustion
+evolved products was monitored with a stand alone, line-powered, single gas instrument. In most of the cases a
+microcomputer was required to run the instrument and acquire data, further limiting portability. Additionally
+confounding the incorporation onto a single platform was the use of photoacoustic spectroscopy to detect several of
+the combustion gases. The MGM electronics had not been designed to incorporate PAS based sensors. Between 2010
+and 2015 various detection platforms based on both PAS and enhanced path length WMS were tested at JSC, GRC,
+and WSTF for the four target combustion products (HF, HCl, HCN, CO) [2-4].
+
+AGA prototype
+
+7-gas CPM
+
+Figure 3. Multiple Species Sensors. The AGA prototype evolved from the 7-gas CPM but is much smaller, detects
+9 gases and runs on batteries.
+By 2015, the preferred multiple gas detection strategy used enhanced path WMS for the four combustion gases
+and was then able to take advantage of the baseline electronics platform used on MGM [5]. The four combustion gases
+were combined with the three major constituent gases in a single enclosure as shown in Figure 4. The instrument
+consisted of two independently operating, but co-located, multi-gas sensors capable of combined sensing of seven
+species. The 7-Gas CPM was tested at NASA Glenn Research Center in June, 2015. The CPM was configured to
+utilize water vapor spectral signal as a means for wavelength determination in several of the gas channels (HF, HCl,
+HCN). Water vapor is a wavelength reference for determining the spectral location for the target gas of interest. It is
+also the means for implementing laser wavelength locking so as to eliminate/mitigate wavelength drift in the
+instrument over the span of years.
+The 7-Gas CPM saw implementation in 2015 of a newly commercially available mid-infrared optical source in
+the form of an interband cascade laser (ICL) for carbon monoxide. The baseline MGM electronics were upgraded for
+compatibility with these devices. The advent of readily available mid-infrared, relatively low-power draw, laser
+devices ultimately led to an upgrade of the CPM platform after 2015 resulting in the current platform for the AGA.
+The AGA prototype is a combination of sensors for the four MGM gases, the four combustion product monitor
+gases and chemical hydrazine [6-7]. A total of nine gases are monitored using eight lasers. The laser for HCN was
+also set up to measure hydrazine. Selection was accomplished by a mode switch function of the main power switch.
+In “on-orbit mode” all gases but hydrazine were measured. In “post-landing mode” hydrazine, ammonia and carbon
+dioxide were measured. Thus, the laser for HCN/hydrazine was only ever required to measure one gas in any given
+mode.
+Figure 3 also shows the great reduction in size achieved relative to the 7-gas CPM sensor with the AGA by
+switching to PAS detection of CO and HCN. The other six gases were detected using the proven enhanced path length
+5
+International Conference on Environmental Systems
+
+WMS approach. The AGA prototype is powered by 4 BP-955 camcorder batteries and can run for over 24 hours on a
+fully charged set. In situ gas sampling was accomplished by a pair of 5 volt fans.
+Several design considerations dictated the change from all optical to optical plus PAS for the AGA prototype.
+Significant drivers included the size/portability requirement, operation on batteries and laser alignment stability. The
+single digit ppm sensitivity required for hydrazine could not be achieved by a path length enhancement approach that
+could also result in a portable instrument. Simultaneously, the alignment stability requirements for the optical CO
+channel were difficult to maintain and were unlikely to survive vibration testing. Once both of those channels were
+selected/switched to PAS, the HCN was switched as well for size and convenience since it could share the CO sensor
+transducer. The alignment requirements for PAS are less restrictive relative to an optical open path because the path
+itself is shorter and there is no need to control impingement on a small area detector.
+
+III. AGA, HLS-AGA, and PCM
+A. AGA
+The transition from prototype to flight hardware for the AGA proceeded through an engineering development unit
+stage for many practical reasons [8]. Figure 4 shows the device operating in the Orion mock-up at NASA JSC. From
+a fundamental sensor standpoint, the
+hydrazine sensor in the prototype was
+upgraded to a dedicated QCL-based
+channel. The laser is no longer shared
+with the HCN channel. The nine sensed
+gases utilize nine separate lasers. This
+required PAS sensor redesign to
+accommodate three lasers instead of two,
+electronics redesign to drive nine lasers,
+and extensive hydrazine testing. Other
+features added to the AGA EDU that were
+not in the AGA prototype include:
+1) audible and visible alarms
+2) separate mode and power switches
+3) audible alarm mute button
+4) built-in-test button
+5) battery low indicator
+6) low flow indicator
+7) error code display
+8) a larger sample cell.
+The instrument was also made more
+rugged to accommodate kick-load and gforce requirements. The operational
+temperature range was increased to 2 °C
+– 50 °C whereas the prototype basically
+operated around room temperature. Unit
+conversions for several of the gases were
+Figure 4. AGA EDU. The 9-gas EDU included a hydrazine channel
+implemented to be more useful to the
+that was ultimately removed in the flight units. The flight version also
+crew. The capacity to set separate alarm
+has much more substantial mounting of the unit to the Orion bulkhead.
+limits for ISS and Orion was added.
+The unit is shown running in the Orion mock-up at NASA JSC.
+Electronics redesign to expand the
+operating temperature range and to meet NASA de-rating requirements resulted in growth of the board footprints.
+Likewise, ruggedizing the internal sensor components for shock loads increased their size as well. The use of larger
+BP-975 camcorder batteries and the requirement for them to be fully enclosed further increased the instrument size
+over the prototype. Even after accommodation of these requirements, the 9-gas EDUs are about 65 % the size of the
+7-gas CPM. The AGA EDUs seek to meet other NASA requirements including rounded edges, vehicle mounting to
+Orion, EMI emission and susceptibility, radiation tolerance, and variable ambient pressures. Three AGA EDUs were
+built and delivered to NASA JSC in August, 2018 and underwent extensive testing since that time including vibration
+and shock.
+6
+International Conference on Environmental Systems
+
+Lessons learned from the AGA EDUs were applied to the flight hardware design [9]. Most design improvements
+over the EDU involved better suppression of EMI intrusion and adding ruggedness for shock. A major change to
+function was the removal of the hydrazine channel. While the channel had sufficient sensitivity for chemical
+hydrazine, better than 1 ppm, the channel was too slow to respond to meet requirements for an off-nominal landing.
+It was determined that the AGA post-landing mode consist of the CO2 and NH3 channels only.
+Fifteen flight AGAs were built, and calibrated, between April-2020 and May-2022 [9]. One unit was designated
+as a qualification unit and another as a fleet leader. Three of the AGAs are designated for Orion use and implement
+gas alarm limit values unique to the spacecraft, but are otherwise the same from a Vista Photonics deliverable
+viewpoint. There are additions to the exterior made by NASA for mounting the Orion units to the spacecraft. Two of
+those instruments flew aboard Artemis 2. Ten AGAs belong to the ISS program of which seven are currently deployed
+on-orbit and three are spares.
+
+Figure 5. AGA Calibration. AGA calibration is a several week activity given the variation in gases,
+concentrations and environmental conditions required to characterize the AGA response behavior. However, most
+of the time is spent in setting up the blended gas. It is not much more difficult to calibrated multiple AGAs pointby-point sequentially. Nine AGAs were calibrated during the last campaign.
+AGA calibration occurred at the JSC Environmental Chemistry Laboratory in B21. Calibration is an intensive
+process for an 8 gas sensor where cross sensitivity has to be addressed and dynamic concentration ranges can span
+several orders of magnitude for some gases. Further, because of the use of PAS sensing for carbon monoxide and
+hydrogen cyanide, one has to accommodate gross changes to the bulk speed of sound brought on by changing levels
+of ambient oxygen and carbon dioxide. The speed of sound is inversely proportional to the square root of the average
+gas mass and those two gases can vary sufficiently onboard spacecraft to affect the PAS cell resonance. That effect
+has to be accounted in the calibration. Consequently, corrections have to be obtained to standard calibrations under
+changing environmental compositions. Additional corrections have to be empirically determined for changing
+absolute pressure over the operating span of the unit. Temperature corrections are applied to some of the gases using
+fundamental spectroscopic determinations. The time consuming aspect of the calibration is in developing the suite of
+gas mixtures to be presented to the AGA and then blending the mixtures. The actual calibration data is obtained in
+minutes for each point making it efficient to calibrate multiple AGAs together. Since data is being streamed at 1 Hz
+and logged to computer for each AGA, the blended gases can be introduced to each device under test in sequence.
+The AGAs were built, and delivered, in lots of three. The first two lots were each calibrated independently during
+different campaigns at JSC. Figure 5 shows the last three lots all being calibrated together in a single campaign. The
+lessons learned in calibrating the first two lots made it feasible to calibrate nine AGAs in a single calibration campaign.
+Even so, the final calibration activity required about three weeks. Table 1 below shows the nominal performance
+characteristics of the AGA. Limit-of-Quantitation (LOQ) is defined as ten times the standard deviation of the gas
+7
+International Conference on Environmental Systems
+
+measurement at concentrations near the detection limit. Accuracies are the values defined by technical requirements,
+as are the ranges and display resolution.. The Table shows the actual determined LOQs for the respective gases.
+Table 1. Physical and analytical characteristics of the flight AGA
+Mass
+4.3 kg
+Volume
+6.0 L
+Power
+6.5 W
+Channel
+Accuracy
+Concentration
+Range
+Ammonia
+2 ppm
+10 – 30,000 ppm
+Carbon
+0.2 mmHg
+0.3 – 21 mmHg
+Dioxide
+Oxygen
+1%
+14 – 50 %
+Water vapor
+N/A
+1.9 – 40 mmHg
+Carbon
+5 ppm
+5 – 1,000 ppm
+Monoxide
+HF
+1 ppm
+2 – 50 ppm
+HCl
+1 ppm
+2 – 50 ppm
+HCN
+1 ppm
+2 – 50 ppm
+
+Display Resolution
+1 ppm
+0.1 mmHg
+
+Limit of
+Quantitation
+3 ppm
+0.1 mmHg
+
+0.1 %
+N/A
+1 ppm
+
+0.3 %
+2 ppm
+
+1 ppm
+1 ppm
+1 ppm
+
+0.6 ppm
+2.7 ppm
+2.1 ppm
+
+B. HLS-AGA
+Current NASA Artemis program objectives are predicated on a commercial human landing system. As a flight
+certified multi-gas contingency monitor the AGA has been called on to support HLS missions. A modestly modified
+version of the flight AGA is being developed called the HLS AGA, or AGA 1.5 version [10]. Two HLS AGA EDUs
+were built and delivered in mid-2025 and are presently being tested at NASA JSC. Four flight units are currently
+scheduled for delivery in 2026. The HLS AGA makes some changes to the standard AGA that makes ground operation
+more convenient and, additionally, provide better function.
+
+Figure 6. HLS AGA EDU. The HLS variation on the original AGA provides for programming of the FPGA and
+microcontroller without having to open a panel on the enclosure. A secondary on/off remote activation feature is
+also provided by the higher capacity front panel connector. Additional mounting ruggedness was added to the
+photoacoustic spectrometer along with better thermal control efficiency.
+8
+International Conference on Environmental Systems
+
+A significant change is the ability to program the digital control architecture, both FPGA and microcontroller,
+from outside the enclosure through the front panel connector. The original AGA has an access cover that must be
+removed to program these devices. As a result, the AGA has to be in an ESD protected area for programming. The
+HLS AGA has a larger front panel connector with more conductors to allow programming and system
+parameterization. The HLS AGA does not have to be in an ESD protected area for programming. The same front panel
+connector also now provides for a remote on/off capability. Thus, when the instrument is in a thermal or vacuum
+chamber it can be powered on/off through a remote switch cabled across bulkhead connectors. Physical contact with
+the HLS AGA enclosure is not required. The front panel connector also maintains the real time data streaming ability
+provided by in the original AGA. The mounting of the ICLs for CO and HCN have been upgraded to provide for more
+fasteners and helical coils. A change of material for protective spacers around the PAS cell TEC allows for more
+efficient thermal control of the cell. This reduces power draw while increasing temperature control range. Several of
+the gas detection concentration ranges are reduced compared to the original AGA which reflect the different nominal
+operating environment for the HLS cabin. Notably, the maximum oxygen, carbon dioxide and ammonia limits have
+all been reduced. This should make calibration somewhat easier and more accurate since the fits have to span less
+concentration space.
+C. PCM
+A subset of AGA-developed sensed gases (H2O, CO2, O2) is the subject of the Primary Constituent Monitor (PCM)
+development for the Habitation and Logistics Outpost (HALO) destined for lunar orbit [11]. Two PCMs will be
+installed in HALO as part of the environmental control loop where they will interface with vehicle power and
+communications. While the basic sensor techniques are unchanged from the AGA, these instruments have been
+radiation hardened to survive for many years in the harsh target environment. The HALO target lifetime is fifteen
+
+Gas outlet
+data
+
+Programming port
+
+Gas inlet
+
+power
+
+Figure 7. PCM. The 3-gas PCM utilizes two redundant oxygen channels. Redundant photodetectors provide risk
+reduction for all the sensed gases should a photodetector fail. Forced gas flow comes from the HALO
+environmental control system and traverses across the enclosure from inlet to outlet. Power and communication
+are provided by separate connectors. A third connector provides for on-orbit programming of the microcontroller.
+years. Operating procedures for the PCM are being developed to allow for that amount of calendar time although the
+instrument is not designed to run continuously for the whole program duration. The PCM is designed to be
+9
+International Conference on Environmental Systems
+
+reprogrammable on-orbit through a programming bulkhead interface connection, Figure 7. Both of the digital control
+elements are programmable through this interface. The instrument is powered through a 28 VDC bulkhead interface.
+Instrument commanding and communication is through an RS-485 inteface served by a separate bulkhead connector.
+There is no built in display like that on the AGA. Gas concentrations are communicated over the serial interface to the
+HALO control module. Gas inlets and outlets, along with mounting features, complete the instrument interfaces. The
+PCM employs two redundant oxygen channels and backup photodetectors for all the channels.
+Table 2. Physical and analytical characteristics of the HALO PCM
+Mass
+4.54 kg
+Volume
+5.35 L
+Power
+3–4W
+Temperature
+4 – 27 C
+Pressure
+9.5–15.2 psia
+Channel
+Accuracy
+Concentration Range
+Carbon Dioxide
+10 %
+1 – 16 mmHg
+Oxygen
+0.5 %
+97.5 – 190.5 mmHg
+Water vapor
+5%
+0.5 – 25.7 mmHg
+
+Display Resolution
+0.1 mmHg
+1 mmHg
+0.1 mmHg
+
+IV. Submarine Sea Trial Sensor Version
+A device similar to the MGM was tested by the US Navy on a submarine and results reported at ICES 2018 [1214]. A sea trial of a more capable AGA-style device has been accomplished in 2025 on a Royal Navy nuclear
+submarine. The British and U.S. Navies’ interest in testing NASA equipment is in a planned update to submarine
+environmental monitoring equipment. A Navy submarine-AGA prototype was developed by Vista Photonics on an
+SBIR Phase II and delivered in 2022 [15]. The instrument shown in Figure 8 represents a modular, scalable, AGAbased architecture for the Navy. The four modules used in the prototype allow detection of methane, ammonia, water
+vapor, carbon dioxide, carbon monoxide, oxygen, formaldehyde, nitrogen dioxide, nitric oxide, R12, R114 and R134a
+Freon, and acrolein. Further, there are two sensors each for carbon monoxide and ammonia. One sensor is used for
+high-performance low-concentration detection (ppm to ppb) and the others are for hundreds of ppm quantitation. Each
+
+Figure 8. AGA and submarine AGA. The flight certified AGA is shown beside the submarine AGA prototype.
+The submarine AGA is comprised of four modules. Three of the modules are dedicated PAS and provide ppb to
+ppm level detection of multiple gases. Data is logged independently by each module as well as streamed over an
+RS-485 interface. The submarine AGA weighs about 10 kg.
+10
+International Conference on Environmental Systems
+
+module has a front mounted LCD for displaying concentration and environmental data. Data is streamed over RS-485
+interfaces and logged internally to secure digital cards.
+
+V. Conclusion
+An integrated optical architecture utilizing lessons learned and techniques advanced on several NASA SBIR
+projects has been developed for use in the now-operational Anomaly Gas Analyzer for ISS and Orion contingency
+monitoring. The first version of the sensors, called MGM, proved the value of the optical approaches employed and
+resulted in a compact, rugged design which flew on ISS. Combustion monitoring evolved through several instrument
+platforms providing Vista Photonics with experience in the pros and cons of various detection techniques, culminating
+in the 7-gas CPM demonstrator. Availability of new mid-wavelength infrared laser sources allowed significant
+reduction in CPM size without loss of performance. The AGA went through an EDU development stage that provided
+detection for chemical hydrazine. The flight versions eliminated the hydrazine channel due to a slow response time.
+Fifteen AGAs were built, calibrated and delivered. Three belong to the Orion program. Four HLS AGAs are being
+built this year for lunar lander contingency monitoring. A PCM EDU and three flight PCMs are, likewise, being built
+this year for development and use on the HALO portion of Gateway. The Gateway mission is scheduled to last fifteen
+years. Concurrently, a modular, scalable, arrangement of the AGA-style sensors has resulted in a prototype for the US
+Navy that provides detection of thirteen gases, including NOx. That prototype underwent a sea trial with the British
+Navy in 2025.
+
+Acknowledgments
+The authors wish to acknowledge the contributions of participants at NASA GRC (Gary Ruff, Marit Meyer,
+Michael Kulis, Gordon Berger); NASA WSTF (Steve Hornung); NASA JSC (Paul Mudgett, Steve Beck, William
+Wallace, Jeff Doi, Chris Meesseman); KBRwyle (Greg Moroney, Chris Kelley, Maria Flores-Daley) and Vista
+Photonics, Inc. (Bill Wood, Miguel Casias). The authors wish to acknowledge support from the National Aeronautics
+and Space Administration through contracts NNX10RA08C, NNC11CA19C, NNJ12HE76P, NNJ13HB90C,
+NNJ14HD13P, NNX15CJ53C, NNJ16HD82P, NNJ17HD05P, 80JSC018P0002, 80JSC019P0029, 80NSSC25CA015 and
+80NSSC25CA075 ; and the US Navy through contracts N6833518C0653 and N6833519C0721.
+
+References
+[1]
+
+[2]
+[3]
+
+[4]
+
+[5]
+
+[6]
+[7]
+
+[8]
+
+[9]
+
+Mudgett, P.D., Pilgrim, J.S. and Wood, W.R. “Laser Spectroscopy Multi-Gas Monitor: Results of a Year Long Tech Demo
+on ISS”, 45th International Conference on Environmental Systems, Bellevue, WA, July 2015, Paper # ICES- 2015-243.
+Pilgrim, J.S., Wood, W.R., Casias, M.E., Vakhtin, A.B., Johnson, M.D., and Mudgett, P.D. “Optical Multi-Gas Monitor
+Technology Demonstration on the International Space Station,” 44th International Conference on Environmental Systems,
+Tucson, AZ, July 2014, Paper ICES-2014-058.
+Pilgrim, J.S., Kutzner, J. and Wood, W.R. “High-Performance Optical Contaminant Monitor for Spacecraft and Habitats
+37th International Conference on Environmental Systems, Chicago, IL, July 2007, Paper 2007-01-3152.
+Gary A. Ruff, Paul S. Greenberg, Paul D. Mudgett, Steven D. Hornung, Jeffrey S. Pilgrim and Adrei B. Vakhtin “Towards
+the Identification of Chemical Markers for Spacecraft Post-fire Cleanup”,41st International Conference on Environmental
+Systems, AIAA 2011-5052, 2011.
+D Marit E. Meyer, Paul Mudgett, Steven Hornung, Mark McClure, Jeffrey S. Pilgrim, Victoria Bryg, Darby Makel, Gary
+A. Ruff and Gary Hunter “Material Combustion Testing and Combustion Product Sensor Evaluations in FY12”,43rd
+International Conference on Environmental Systems, AIAA 2013-3432, 2013.
+Michael J. Kulis, Marit E. Meyer, Paul D. Mudgett, Gordon M. Berger, Jeffrey S. Pilgrim and Gary A. Ruff“Heating of
+Printed Circuit Board Wire Insulation and Electronic Components for Fire Signature Sensor Evaluation”, 44th International
+Conference on Environmental Systems, ICES 2014-087, 2014.
+NASA contract NNJ16HD82P, “Design, Manufacture, and Delivery of a Compact, Battery Powered, Fast Response Method
+for Detecting Hydrazine and Ammonia”, Pilgrim, J.S. PI, 2016.
+NASA contract NNJ17HD05P, “Design, Manufacture, and Delivery of a Compact, Battery Powered, Optical Sensor
+Prototype for Detecting Combustion Products, Hydrazine, and Ammonia known as the Anomaly Gas Analyzer (AGA)”,
+Pilgrim, J.S. PI, 2017.
+NASA contract 80JSC018P0002, “Design, Manufacture, and Delivery of Compact, Battery Powered,Optical Sensor
+Engineering Design Units (EDUs) for Detecting Combustion Products, Hydrazine, and Ammonia known as the Anomaly
+Gas Analyzer (AGA)”, Pilgrim, J.S. PI, 2018.
+NASA contract 80JSC019P0029, “Manufacture, and Delivery of Compact, Battery Powered, Optical Sensor Flight Units
+for Detecting Combustion Products, Hydrazine, and Ammonia known as the Anomaly Gas Analyzer (AGA)”, Pilgrim, J.S.
+PI, 2019.
+
+11
+International Conference on Environmental Systems
+
+[10]
+[11]
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+NASA contract 80NSSC25CA015, “Manufacture and Delivery of Compact, Battery Powered, Optical Sensor Flight Units
+for Detecting Combustion Products and Ammonia, known as the Anomaly Gas Analyzer (AGA)”, Pilgrim, J.S. PI, 2025.
+NASA contract 80NSSC25CA075, “Manufacture and Delivery of Habitation and Logistics Outpost (HALO) Primary
+Constituent Monitor (PCM)”, Pilgrim, J.S. PI, 2025.
+Mudgett, P.D., Manney, J.A., Smith, M.J., O’Connor, S.J., and Pilgrim, J.S. “Preparation of the Multi-Gas Monitor for US
+Navy Submarine Sea Trial,” 47th International Conference on Environmental Systems, Charleston, South Carolina, July
+2017, Paper # ICES-2017-167.
+Mudgett, P.D., Manney, J.A., Smith, M.J., O’Connor, S.J., and Pilgrim, J.S. “US Navy Submarine Sea Trial of a NASA
+Developed Multi-Gas Monitor” 48th International Conference on Environmental Systems, Albuquerque, New Mexico, July
+2018, Paper # ICES-2018-093.
+Manney, J.A., Smith, J.J., Mudgett, P.D., Pilgrim, J.S., and Bowman, J.D. “Preparations for 2nd US Navy Submarine Sea
+Trial Utilizing NASA and US Navy Analyzers”, 51st International Conference on Environmental Systems, Saint Paul,
+Minnesota, July 2022, Paper # ICES-2022-230.
+NAVY contract N68335-19-C-0721, “Advanced Analyzers for Monitoring Submarine Atmosphere”, Pilgrim, J.S.
+PI, 2019.
+
+Disclaimer: This brief is provided for information only. Certain commercial entities, equipment, or materials are identified in
+this document in order to describe an experimental procedure or concept adequately. Such identification is not intended to imply
+recommendation or endorsement or future procurement either by the National Aeronautics and Space Administration (NASA) or
+by the United States Navy.
+
+12
+International Conference on Environmental Systems
+
+

@@ -1,0 +1,26 @@
+[
+  {
+    "model": "a",
+    "state": "Tamamlandı",
+    "result": "Model tahmini · predicted\n0,09522 mm/s\n\nModel, seçilen PMMA levhada alevin bu hız sabit kalırsa 10 saniyede yaklaşık 0,952 mm ilerleyeceğini tahmin ediyor.",
+    "passed": true
+  },
+  {
+    "model": "b",
+    "state": "Tamamlandı",
+    "result": "Model tahmini · predicted\n220,29 mm\n\nÇizgi, modelin bu karede alevin parlak sırtını görüntünün sol kenarından ne kadar uzakta bulduğunu gösteriyor.",
+    "passed": true
+  },
+  {
+    "model": "c",
+    "state": "Tamamlandı",
+    "result": "Eşik tahmini · predicted · Gerçek alarm kaydı içermez\n2,0 V eşiğine ulaşmaz\n\nModel Kapton dumanı için ışık saçılma sinyalini sınıflandırıyor. En yakın testte (SAME:29) 3,664 V ölçüldü. Ölçüm eşiğin üzerinde ve tahminle uyumsuz.",
+    "passed": true
+  },
+  {
+    "model": "wt4",
+    "state": "Tamamlandı",
+    "result": "Üretilen metin\nHello! How can I assist you today?\n\n\nWT4, yazdığınız isteğe bir yanıt üretti. Bilimsel iddialar ayrıca kaynak kontrolü gerektirir.",
+    "passed": true
+  }
+]

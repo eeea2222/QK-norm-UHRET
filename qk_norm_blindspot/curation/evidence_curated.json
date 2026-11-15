@@ -1,0 +1,2324 @@
+{
+ "_note": "Curated evidence records. doc_id / pdf_page / source_location / anchor_quote are auto-filled from the verified extraction item (sources/extracted/*.final.json) unless given here. Build re-locates every anchor in the source text, checks that every number in statement/technical_detail traces to structured fields or the source item, and assigns audit_status and classification by rule. Model C derived records are generated programmatically (build.py).",
+ "records": [
+  {
+   "evidence_id": "M18-EV-001",
+   "extraction_item": "meyer2018-42",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton",
+   "detector": "ISS smoke detector (near-infrared forward light scattering)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": null,
+   "value_verbatim": "over half",
+   "value_unit": "share of Kapton flight tests without alarm (no denominator published)",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     0,
+     8.1
+    ],
+    "heating_s": 60,
+    "aging_s": [
+     30,
+     2000
+    ],
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "airflow_tested_cm_s": [
+    0,
+    2,
+    8.1
+   ],
+   "n_independent_tests": null,
+   "test_set": "SAME flight runs (SAME-1 2007, SAME-2/SAME-R 2010) plotted in Figure 9",
+   "statement": "In the SAME experiments on the ISS, the ISS smoke detector would not have alarmed for more than half of the Kapton smoke tests.",
+   "technical_detail": "Meyer et al. (2018), Section 3.2 and Figure 9: runs below the alarm-threshold line are runs in which the detector would not have alarmed. Conditions: microgravity inside the ISS Microgravity Science Glovebox, non-flaming pyrolysis with about 60 s heating, duct flow 8.1 cm/s baseline down to 2 cm/s plus zero-flow runs, aging up to 2000 s. The paper publishes no run denominators and shows the threshold only as a dashed line; O2 and pressure are not stated.",
+   "limitations": [
+    "Applies only to the SAME flight runs analysed in Meyer et al. 2018.",
+    "No denominators published: 'over half' is not an exact fraction.",
+    "Not an ISS fire-incident statistic or a general detector failure rate.",
+    "Test-gas O2 and pressure not stated in the paper."
+   ],
+   "keywords": [
+    "Kapton",
+    "ISS detector",
+    "missed alarm",
+    "Figure 9",
+    "light scattering",
+    "SAME"
+   ],
+   "related_evidence": [
+    "WP21-EV-001",
+    "MODELC-EV-KAPTON"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-002",
+   "extraction_item": "meyer2018-42",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Teflon",
+   "detector": "ISS smoke detector (near-infrared forward light scattering)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": null,
+   "value_verbatim": "2/3",
+   "value_unit": "share of Teflon flight tests without alarm (no denominator published)",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     0,
+     8.1
+    ],
+    "heating_s": 60,
+    "aging_s": [
+     30,
+     2000
+    ],
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": null,
+   "test_set": "SAME flight runs (SAME-1 2007, SAME-2/SAME-R 2010) plotted in Figure 9",
+   "statement": "In the same ISS experiments, the ISS smoke detector would not have alarmed for about two thirds of the Teflon smoke tests.",
+   "technical_detail": "Meyer et al. (2018), Section 3.2 and Figure 9; same conditions as the Kapton result (microgravity, MSG, about 60 s pyrolysis heating, 8.1 cm/s baseline flow). Teflon smoke is mostly sub-micron, where forward light scattering is weak. No denominators are published; O2 and pressure are not stated.",
+   "limitations": [
+    "Applies only to the SAME flight runs analysed in Meyer et al. 2018.",
+    "'About two thirds' is the authors' wording; no denominator published.",
+    "Not an ISS fire-incident statistic."
+   ],
+   "keywords": [
+    "Teflon",
+    "ISS detector",
+    "missed alarm",
+    "Figure 9",
+    "SAME"
+   ],
+   "related_evidence": [
+    "WP21-EV-002",
+    "MODELC-EV-TEFLON"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-003",
+   "extraction_item": "meyer2018-41",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton, Teflon, Lampwick",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "Lampwick"
+   ],
+   "detector": "Space Shuttle smoke detector (ionization)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     0,
+     8.1
+    ],
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "statement": "The older Space Shuttle ionization detector also stayed below its alarm boundary in some Kapton, Teflon and lamp wick smoke runs.",
+   "technical_detail": "Meyer et al. (2018), Section 3.2 / Figure 9. The Shuttle detector was run only intermittently (its internal pump drew aerosol at three liters per minute, which ruled out aging tests), so its data set is much smaller than the ISS detector's. Overall it was somewhat less sensitive than the ISS detector but did better on Teflon smoke.",
+   "limitations": [
+    "Small, intermittent data set for this detector.",
+    "No run counts published.",
+    "Contrasts with the 2010 SAME report statement that all SAME tests gave strong Shuttle-detector signals (see SAME-EV-002)."
+   ],
+   "keywords": [
+    "Space Shuttle",
+    "ionization",
+    "missed alarm",
+    "Kapton",
+    "Teflon",
+    "lamp wick"
+   ],
+   "related_evidence": [
+    "SAME-EV-002",
+    "M18-EV-004"
+   ],
+   "test_set": "SAME flight runs plotted in Figure 9"
+  },
+  {
+   "evidence_id": "M18-EV-004",
+   "extraction_item": "meyer2018-01",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton, Teflon, Lampwick, Silicone, Pyrell",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "Lampwick",
+    "Silicone",
+    "Pyrell"
+   ],
+   "detector": "ISS smoke detector and Space Shuttle smoke detector",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     0,
+     8.1
+    ],
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": [
+     30,
+     2000
+    ]
+   },
+   "n_independent_tests": null,
+   "statement": "Neither of the two spacecraft smoke detectors flown in the ISS experiment detected every type of smoke produced by overheating common spacecraft materials.",
+   "technical_detail": "Headline result of Meyer et al. (2018), abstract; based on the SAME flight runs with smoke from five spacecraft materials (Kapton, Teflon, cotton lamp wick, silicone rubber, Pyrell foam) generated by non-flaming pyrolysis in microgravity.",
+   "limitations": [
+    "Pyrolysis (pre-fire overheat) smoke only; no flaming fires.",
+    "Five materials only.",
+    "Detector performance judged against threshold lines in Figure 9, not recorded alarms."
+   ],
+   "keywords": [
+    "headline",
+    "two detectors",
+    "not all smokes",
+    "SAME",
+    "2018"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-005",
+   "extraction_item": "meyer2018-39",
+   "investigation": "SAME-R",
+   "investigations": [
+    "SAME-R"
+   ],
+   "psi_id": "PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton",
+   "detector": "ISS smoke detector (near-infrared forward light scattering)",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": 0.3,
+   "value_unit": "um (upper bound of TEM diameter of average mass)",
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": 8.1,
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "statement": "Kapton smoke particles from selected ISS runs were smaller than 0.3 um, while the ISS detector is calibrated with 0.6 um particles and uses an approximately 1 um laser, so weaker detector response is expected for this smoke.",
+   "technical_detail": "Meyer et al. (2018), Section 3.2 and Table 1 (selected ISS runs, TEM vs moment method). Small particles scatter much less light at near-infrared wavelengths than particles near the calibration size.",
+   "limitations": [
+    "Selected runs only (Table 1).",
+    "Explains the mechanism; it does not by itself give a failure rate."
+   ],
+   "keywords": [
+    "particle size",
+    "calibration",
+    "0.6 um",
+    "Kapton",
+    "light scattering"
+   ],
+   "related_evidence": [
+    "M18-EV-001"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-006",
+   "extraction_item": "meyer2018-45",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Silicone, Pyrell, Lampwick",
+   "materials": [
+    "Silicone",
+    "Pyrell",
+    "Lampwick"
+   ],
+   "detector": "ISS smoke detector (near-infrared forward light scattering)",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     0,
+     8.1
+    ],
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "statement": "For large-particle smokes (silicone, Pyrell, lamp wick) the ISS detector signal often saturated, so its high-end response could not be resolved.",
+   "technical_detail": "Meyer et al. (2018), Section 3.2. The Model C audit likewise leaves per-row saturation of the reduced ISS scatter channel unresolved, so high scatter voltages are not precise concentration measures.",
+   "limitations": [
+    "Saturation limits quantitative use of the signal; it is not a missed alarm."
+   ],
+   "keywords": [
+    "saturation",
+    "silicone",
+    "Pyrell",
+    "lamp wick",
+    "ISS detector"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-007",
+   "extraction_item": "meyer2018-02",
+   "investigation": "SAME",
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": null,
+   "detector": "next-generation spacecraft fire detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2018 NASA/NIST authors recommend that next-generation spacecraft fire detectors be improved and tested with smoke from materials actually used in spacecraft.",
+   "technical_detail": "Meyer et al. (2018), abstract and conclusions; repeated in the NIST news release. This is a recommendation, not an experimental result.",
+   "limitations": [
+    "Recommendation; no test protocol specified."
+   ],
+   "keywords": [
+    "recommendation",
+    "test with real spacecraft materials",
+    "next generation"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-008",
+   "extraction_item": "meyer2018-63",
+   "investigation": "SAME",
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": null,
+   "detector": "single-moment smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2018 authors judge it improbable that any detector measuring a single moment of the particle size distribution can cover the whole smoke size range while also resisting false alarms.",
+   "technical_detail": "Meyer et al. (2018), conclusions; the paper also suggests measuring more than one moment and size discrimination so that weak small-particle smoke (Teflon, Kapton) can be detected without nuisance alarms from large dust.",
+   "limitations": [
+    "Authors' judgement from the SAME results; false-alarm behaviour itself was not tested."
+   ],
+   "keywords": [
+    "single moment",
+    "multi-moment",
+    "false alarm",
+    "size discrimination"
+   ],
+   "related_evidence": [
+    "M18-EV-009"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-009",
+   "extraction_item": "meyer2018-32",
+   "investigation": "SAME",
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": "Kapton, Teflon",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "light-scattering smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Some size discrimination is needed so that a detector can alarm on the weak signal of small Teflon or Kapton smoke without excessive nuisance alarms from large dust particles.",
+   "technical_detail": "Meyer et al. (2018), Section 3.1, citing Urban et al.; a design need inferred from the measured smoke sizes, not a measured false-alarm result.",
+   "limitations": [
+    "Nuisance-alarm behaviour argued, not measured, in this paper."
+   ],
+   "keywords": [
+    "size discrimination",
+    "dust",
+    "nuisance alarm",
+    "Kapton",
+    "Teflon"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-010",
+   "extraction_item": "meyer2018-54",
+   "investigation": "SAME-R",
+   "investigations": [
+    "SAME-R"
+   ],
+   "psi_id": "PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton, Teflon, Lampwick, Silicone, Pyrell",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "Lampwick",
+    "Silicone",
+    "Pyrell"
+   ],
+   "detector": null,
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": 1.7,
+   "value_unit": "ratio of diameter of average mass, zero flow vs 8.1 cm/s",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity (vs 1 g)",
+    "airflow_cm_s": 0,
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 11,
+   "statement": "With no forced airflow in microgravity, smoke particles were on average 1.7 times larger (from 1.3 times for Teflon to 2.8 times for Kapton) than at 8.1 cm/s, a low-gravity effect that normal-gravity detector tests do not reproduce.",
+   "technical_detail": "Meyer et al. (2018), Section 3.3: eleven zero-flow tests; thermal-expansion flow of 0.5-1.5 cm/s; vapour concentration about eight times higher than at 8.1 cm/s. At 1 g buoyancy would widen the mixing zone, so this condition is unique to low gravity. About two thirds of the smoke escaped into the glovebox in these tests, lowering particle counts.",
+   "limitations": [
+    "Eleven tests; hardware not designed for zero flow.",
+    "Size ratio reported differently elsewhere in the SAME-R report (see SAMER-EV-002)."
+   ],
+   "keywords": [
+    "zero flow",
+    "particle size",
+    "ground testing",
+    "low gravity",
+    "1.7"
+   ],
+   "related_evidence": [
+    "SAMER-EV-002",
+    "M18-EV-011"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-011",
+   "extraction_item": "meyer2018-36",
+   "investigation": "SAME",
+   "investigations": [
+    "SAME",
+    "SAME-R"
+   ],
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": true,
+   "value": 1,
+   "value_unit": "slope of ground vs low-gravity diameter of average mass",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity vs 1 g",
+    "airflow_cm_s": 8.1,
+    "aging_s": 720,
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": null,
+   "statement": "At airflow of 8.1 cm/s or more, normal-gravity smoke tests reproduced the low-gravity particle sizes closely, so ground testing can stand in for flight tests in that regime.",
+   "technical_detail": "Meyer et al. (2018), Section 3.1 / Figure 8: ground duplicates of the flight baseline (8.1 cm/s, 1-2 mg mass loss in 60 s, nominal aging 720 s) correlate with slope 1 against flight results.",
+   "limitations": [
+    "Valid only at 8.1 cm/s or higher flow; fails at low or zero flow (M18-EV-010)."
+   ],
+   "keywords": [
+    "ground test",
+    "flight",
+    "slope 1",
+    "8.1 cm/s"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-012",
+   "extraction_item": "meyer2018-62",
+   "investigation": "SAME",
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Real spacecraft fires involve more materials and heating conditions than SAME tested, and detection is further complicated by background cabin aerosols that can be quite large.",
+   "technical_detail": "Meyer et al. (2018), conclusions: a statement of the scope limits of the experiment.",
+   "limitations": [
+    "Scope statement; untested conditions are not characterised."
+   ],
+   "keywords": [
+    "scope",
+    "background aerosol",
+    "more materials"
+   ]
+  },
+  {
+   "evidence_id": "M18-EV-013",
+   "extraction_item": "meyer2018-88",
+   "investigation": "SAME",
+   "psi_id": "PSI-102;PSI-101",
+   "hardware_family": null,
+   "material": "Teflon, Kapton",
+   "materials": [
+    "Teflon",
+    "Kapton",
+    "Lampwick",
+    "Silicone",
+    "Pyrell"
+   ],
+   "detector": "ISS smoke detector (photoelectric)",
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "NIST's 2018 news release quotes the NASA lead author: the ISS detector easily sensed the large cellulose, silicone and Pyrell smoke particles but often failed on the smaller Teflon and Kapton particles.",
+   "technical_detail": "Press-release coverage of the 2018 paper (secondary source); the primary result comes from the paper itself.",
+   "limitations": [
+    "Secondary source (news release)."
+   ],
+   "keywords": [
+    "NIST news",
+    "one detector doesn't fit all"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-001",
+   "extraction_item": "same_profiles-039",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Teflon",
+   "detector": "ISS smoke detector (light scattering) vs Space Shuttle smoke detector (ionization)",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     2,
+     8
+    ],
+    "heating_s": 60,
+    "aging_s": [
+     10,
+     1800
+    ],
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": null,
+   "test_set": "SAME-1 (ISS Expedition 15, September-October 2007)",
+   "statement": "In a typical SAME Teflon run, the Shuttle ionization detector gave a strong signal while the ISS light-scattering detector signal was erratic, because Teflon smoke is mostly smaller than 1 um.",
+   "technical_detail": "SAME final report (2010), detector signal traces: flow design range 2-8 cm/s, about 60 s heating below ignition, aging 10-1800 s, microgravity in the MSG. Signals digitised at 1 Hz with an 8-bit converter.",
+   "limitations": [
+    "Example run; not a count of failures.",
+    "SAME-1 only."
+   ],
+   "keywords": [
+    "Teflon",
+    "erratic",
+    "ISS detector",
+    "ionization",
+    "SAME"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-002",
+   "extraction_item": "same_profiles-042",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton, Teflon, Lampwick, Silicone",
+   "materials": [
+    "Kapton",
+    "Teflon",
+    "Lampwick",
+    "Silicone"
+   ],
+   "detector": "Space Shuttle smoke detector (ionization)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     2,
+     8
+    ],
+    "heating_s": 60,
+    "aging_s": [
+     10,
+     1800
+    ],
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": null,
+   "test_set": "SAME-1 (2007)",
+   "conflict": {
+    "kind": "between_sources",
+    "with": [
+     "M18-EV-003"
+    ],
+    "with_source": "Meyer et al. 2018, Fire Safety Journal 98, Section 3.2",
+    "note": "Not resolved within the examined sources. Possible reasons: the 2010 report covers SAME-1 (2007) only, while the 2018 paper also uses SAME-R (2010) runs at higher temperatures and zero flow; and a 'strong signal' is not the same criterion as 'above the alarm boundary'."
+   },
+   "statement": "The 2010 SAME report says all SAME tests gave strong Space Shuttle ionization-detector signals, whereas the 2018 paper reports some Shuttle-detector runs below the alarm boundary.",
+   "technical_detail": "SAME final report (2010) versus Meyer et al. (2018), Section 3.2. The two statements describe different test sets and use different criteria, so they are kept as conflicting evidence rather than merged.",
+   "limitations": [
+    "Different campaigns and criteria; cause of the difference unresolved."
+   ],
+   "keywords": [
+    "conflict",
+    "Space Shuttle detector",
+    "strong signal",
+    "alarm boundary"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-003",
+   "extraction_item": "same_profiles-047",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton, Teflon",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "light-scattering detectors (ISS type)",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": [
+     2,
+     8
+    ],
+    "heating_s": 60,
+    "aging_s": [
+     10,
+     1800
+    ],
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": null,
+   "statement": "SAME measured small particle sizes for Kapton and Teflon smoke, which makes them hard for light-scattering detectors to sense, while large lamp wick and silicone particles give very large scattering signals.",
+   "technical_detail": "SAME final report (2010), Table 1 discussion (moment-method diameters, baseline unaged vs 720 s aged). Kapton and Teflon smokes had narrow size distributions with little mass above 1 um (Table 1).",
+   "limitations": [
+    "Moment-method sizes rely on a lognormal assumption that holds well for Kapton and lamp wick only."
+   ],
+   "keywords": [
+    "particle size",
+    "Kapton",
+    "Teflon",
+    "light scattering",
+    "SAME Table 1"
+   ],
+   "table_reference": "SAME final report Table 1 (baseline unaged vs 720 s aged)"
+  },
+  {
+   "evidence_id": "SAME-EV-004",
+   "extraction_item": "same_profiles-035",
+   "investigation": null,
+   "psi_id": "PSI-102",
+   "hardware_family": null,
+   "material": null,
+   "detector": "ISS smoke detector",
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The ISS smoke detector uses a near-infrared laser with forward scattering; its sensitivity reaches down to about 0.3 um but is greatest for particles above 1 um.",
+   "technical_detail": "SAME final report (2010), detector background section. The ISS detector alarm point was set to 1% obscuration per foot in a UL smoke box (same report).",
+   "limitations": [
+    "Design description, not a test result."
+   ],
+   "keywords": [
+    "ISS detector",
+    "design",
+    "forward scatter",
+    "0.3 um"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-005",
+   "extraction_item": "same_profiles-063",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": null,
+   "material": null,
+   "detector": "future spacecraft fire detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Already in 2010 the SAME team stated that extended lunar-surface missions will need fire detection that is not influenced by lunar dust or other nuisance dust.",
+   "technical_detail": "SAME final report (2010), introduction; the same section states that missions beyond low Earth orbit need more reliable detection together with robust false-alarm resistance.",
+   "limitations": [
+    "Stated need, not a test result."
+   ],
+   "keywords": [
+    "lunar dust",
+    "nuisance dust",
+    "false alarm",
+    "2010",
+    "need"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-006",
+   "extraction_item": "same_profiles-060",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": null,
+   "material": null,
+   "detector": "future spacecraft smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The SAME report concludes that detecting smoke across the observed size range while rejecting large dust will probably need a detector with at least limited size discrimination.",
+   "technical_detail": "SAME final report (2010), closing conclusion; the report also proposes alarm criteria at several particle sizes instead of a single size specification.",
+   "limitations": [
+    "Design recommendation."
+   ],
+   "keywords": [
+    "size discrimination",
+    "dust",
+    "recommendation"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-007",
+   "extraction_item": "same_profiles-068",
+   "investigation": "DAFT",
+   "investigations": [
+    "DAFT",
+    "SAME"
+   ],
+   "psi_id": null,
+   "hardware_family": "ISS US Lab (Increment 10)",
+   "material": null,
+   "detector": "aerosol particle counter (DAFT)",
+   "finding_type": "context",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "The SAME report notes that the only earlier ISS background-aerosol data came from DAFT, a feasibility experiment that validated an aerosol particle counter in low gravity; the measured particle counts were at the instrument noise level.",
+   "technical_detail": "SAME final report (2010), background-aerosol section: DAFT ran in the US Lab during Increment 10 and measured counts below 5 particles/cm3. This links the smoke-detection question to ambient (dust) aerosol measurements.",
+   "limitations": [
+    "Background counts only; no smoke-detector false-alarm test."
+   ],
+   "keywords": [
+    "DAFT",
+    "background aerosol",
+    "dust",
+    "particle counter",
+    "P-Trak"
+   ],
+   "background_count_upper_per_cm3": 5
+  },
+  {
+   "evidence_id": "SAME-EV-008",
+   "extraction_item": "same_profiles-030",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "The SAME report places the hardware inside the ISS Microgravity Science Glovebox and describes the smoke carrier only as air; it gives no O2 concentration or pressure for the test gas.",
+   "technical_detail": "SAME final report (2010), hardware description. The test atmosphere therefore has to be inferred from the glovebox facility description (see the glovebox facility record).",
+   "limitations": [
+    "Atmosphere not stated in the experiment report."
+   ],
+   "keywords": [
+    "test atmosphere",
+    "MSG",
+    "air",
+    "oxygen",
+    "pressure"
+   ]
+  },
+  {
+   "evidence_id": "SAME-EV-009",
+   "extraction_item": "same_profiles-019",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "SAME varied the sample temperature, the airflow over the sample and the smoke aging time (and the material); gas composition and pressure were not among the varied test parameters.",
+   "technical_detail": "SAME final report (2010), test-matrix description.",
+   "limitations": [],
+   "keywords": [
+    "variables",
+    "test matrix",
+    "held constant"
+   ]
+  },
+  {
+   "evidence_id": "SAMER-EV-001",
+   "extraction_item": "same_profiles-077",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Pyrell",
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "SAME-R reused the SAME hardware but extended the tests to higher heating temperatures and no-flow heating, replaced the DBP reference with Pyrell foam, and added the two-moment MPASS instrument.",
+   "technical_detail": "SAME-R final report (2014), introduction (flights July-September 2010).",
+   "limitations": [],
+   "keywords": [
+    "SAME-R",
+    "differences",
+    "Pyrell",
+    "zero flow",
+    "MPASS"
+   ],
+   "flight_dates": "July 16 - September 9, 2010"
+  },
+  {
+   "evidence_id": "SAMER-EV-002",
+   "extraction_item": "same_profiles-104",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": null,
+   "detector": null,
+   "finding_type": "particle_property",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "size_factor_statements": {
+    "samer_report_p9": "30 % to 40 % larger (diameter of average mass)",
+    "samer_report_p84_appendix_F": "2 to 3 times larger",
+    "meyer2018_section_3_3": "1.7 times on average (1.3 to 2.8)"
+   },
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": 0,
+    "heating_s": 60,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 11,
+   "conflict": {
+    "kind": "source_internal",
+    "with": [
+     "M18-EV-010"
+    ],
+    "note": "The SAME-R report states the zero-flow size increase as 30-40% on p. 9 and as 2-3 times on p. 84 (Appendix F); the 2018 paper gives 1.7 times on average. The metric or test subset behind each number is not reconciled within the examined sources."
+   },
+   "statement": "Sources disagree on how much larger zero-flow smoke particles were: the SAME-R report gives 30 % to 40 % larger on one page and 2 to 3 times larger in an appendix, while the 2018 paper gives 1.7 times on average.",
+   "technical_detail": "Eleven zero-flow tests in SAME-R. The direction (larger particles without forced flow) is consistent across all three statements; the magnitude is not.",
+   "limitations": [
+    "Magnitude unresolved; direction consistent."
+   ],
+   "keywords": [
+    "zero flow",
+    "conflict",
+    "particle size",
+    "SAME-R"
+   ]
+  },
+  {
+   "evidence_id": "SAMER-EV-003",
+   "extraction_item": "same_profiles-110",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": null,
+   "material": "Kapton, Teflon",
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "light-scattering smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "SAME-R states a design trade-off: a scattering detector with enough gain to alarm on weak small-particle Teflon or Kapton smoke risks excessive nuisance alarms from large dust.",
+   "technical_detail": "SAME-R final report (2014), results discussion.",
+   "limitations": [
+    "Design trade-off; nuisance-alarm rate not measured."
+   ],
+   "keywords": [
+    "trade-off",
+    "gain",
+    "nuisance alarm",
+    "dust"
+   ]
+  },
+  {
+   "evidence_id": "SAMER-EV-004",
+   "extraction_item": "same_profiles-113",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": null,
+   "detector": "MPASS two-moment light-scattering prototype",
+   "finding_type": "followup_solution",
+   "observed_directly": true,
+   "value": 2,
+   "value_unit": "minimum factor of reduction in relative variance vs a single-output sensor",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "SAME-R flew a two-moment smoke-detector prototype (MPASS); a single correlation reduced the relative variance of concentration estimates by at least about a factor of 2 compared with a single-output sensor.",
+   "technical_detail": "SAME-R final report (2014), MPASS section: one least-squares correlation for all materials, heating and aging conditions with signal-to-noise above 2. A demonstration of a known partial solution, not an operational detector.",
+   "limitations": [
+    "Prototype demonstration in the SAME duct; not tested against dust or as an alarming detector."
+   ],
+   "keywords": [
+    "MPASS",
+    "two-moment",
+    "prototype",
+    "solution"
+   ]
+  },
+  {
+   "evidence_id": "SAMER-EV-005",
+   "extraction_item": "same_profiles-088",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "conflict": {
+    "kind": "source_internal",
+    "with": [],
+    "note": "Abstract (66 test points) vs main text and Appendix A (67 runs, run numbers 48-114). Model C uses 67 heating runs."
+   },
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "The SAME-R report gives two different run counts: 66 test points in the abstract and 67 runs in the main text and appendix.",
+   "technical_detail": "SAME-R final report (2014). Model C counts 67 heating runs from the PSI workbook; the discrepancy does not change any detection statement here.",
+   "limitations": [
+    "Bookkeeping inconsistency."
+   ],
+   "keywords": [
+    "run count",
+    "66",
+    "67",
+    "inconsistency"
+   ]
+  },
+  {
+   "evidence_id": "UR12-EV-001",
+   "extraction_item": "modelc_audit-42",
+   "investigation": "SAME-R",
+   "psi_id": "PSI-101",
+   "hardware_family": null,
+   "material": "Teflon",
+   "detector": null,
+   "finding_type": "particle_property",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "printed_values_um": {
+    "geometric_mean": 0.081,
+    "count_mean": 0.101,
+    "diameter_average_mass": 0.17,
+    "sigma_g": 2.198
+   },
+   "recomputed_from_geometric_um": {
+    "count_mean": 0.11,
+    "diameter_average_mass": 0.205
+   },
+   "conflict": {
+    "kind": "source_internal",
+    "with": [],
+    "note": "The printed geometric pair implies a count mean of 0.110 um and a mass diameter of 0.205 um, outside rounding of the printed 0.101 / 0.170 um. The PSI workbook shows each statistic was averaged separately over runs, which is a likely explanation, but the publication does not document it."
+   },
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "airflow_cm_s": 8.1,
+    "heating_s": 60,
+    "aging_s": 11,
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "n_independent_tests": 4,
+   "statement": "In the 2012 SAME-2 particle-size table, the unaged Teflon row is internally inconsistent: its printed geometric mean and spread imply larger count-mean and mass diameters than the printed ones.",
+   "technical_detail": "Urban et al. 2012 (AIAA 2012-3536, NTRS 20130000422), Table 1, PDF p. 7: printed 0.081 um geometric mean, 2.198 geometric SD, 0.101 um count mean, 0.17 um mass diameter; recomputed 0.110 and 0.205 um. Nine other rows agree within rounding. The row averages four SAME-R baseline runs.",
+   "limitations": [
+    "Source-table inconsistency; it does not affect the detector-response records."
+   ],
+   "keywords": [
+    "Teflon",
+    "Table 1",
+    "inconsistency",
+    "2012",
+    "particle size"
+   ],
+   "doc_id": "modelc-ntrs20130000422",
+   "pdf_page": 7,
+   "anchor_quote": "Table 1: Diameter results",
+   "source_location": "Urban et al. 2012 (AIAA 2012-3536, NTRS 20130000422), Table 1, PDF p. 7",
+   "supporting_audit": "Model C external check (reports/external_checks.csv, data/references/teflon_table1_check.json) and modelc_audit workbook trace"
+  },
+  {
+   "evidence_id": "WP21-EV-001",
+   "extraction_item": "wp2021-020",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Kapton",
+   "detector": "ISS smoke detector (forward light scattering)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": 0.5,
+   "value_verbatim": "half of the tests",
+   "value_unit": "fraction of SAME Kapton tests without ISS-detector alarm",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "test_set": "SAME tests as summarised in 2021 (refs. 3-5); denominator not stated",
+   "statement": "The 2021 NASA white paper reports that in SAME the ISS smoke detector did not alarm for Kapton smoke in half of the tests.",
+   "technical_detail": "Fortenberry et al. (2021), p. 2, citing SAME papers (refs. 3-5). A summary of the 2018 finding ('over half' in Meyer et al. 2018); it applies to those controlled pyrolysis tests, not to ISS fires.",
+   "limitations": [
+    "Applies only to the tests described in the cited SAME studies.",
+    "Not an ISS fire-incident statistic.",
+    "Rounded summary of a published result; no denominator."
+   ],
+   "keywords": [
+    "Kapton",
+    "half",
+    "white paper",
+    "2021",
+    "ISS detector"
+   ],
+   "related_evidence": [
+    "M18-EV-001"
+   ],
+   "summarises": "Meyer et al. 2018 ('over half')"
+  },
+  {
+   "evidence_id": "WP21-EV-002",
+   "extraction_item": "wp2021-021",
+   "investigation": "SAME",
+   "psi_id": "PSI-102",
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG) - SAME hardware",
+   "material": "Teflon",
+   "detector": "ISS smoke detector (forward light scattering)",
+   "finding_type": "missed_alarm",
+   "observed_directly": true,
+   "value": 0.667,
+   "value_verbatim": "two-thirds of the tests",
+   "value_unit": "fraction of SAME Teflon tests without ISS-detector alarm",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "test_set": "SAME tests as summarised in 2021 (refs. 3-5); denominator not stated",
+   "statement": "The same 2021 white paper reports that the ISS smoke detector did not alarm for Teflon smoke in two-thirds of the SAME tests.",
+   "technical_detail": "Fortenberry et al. (2021), p. 2, citing SAME papers (refs. 3-5); the authors call this troubling because Kapton and Teflon are abundant in spacecraft electrical systems, where a fire is likely to begin.",
+   "limitations": [
+    "Applies only to the tests described in the cited SAME studies.",
+    "Not an ISS fire-incident statistic."
+   ],
+   "keywords": [
+    "Teflon",
+    "two-thirds",
+    "white paper",
+    "2021"
+   ],
+   "related_evidence": [
+    "M18-EV-002"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-003",
+   "extraction_item": "wp2021-023",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "cabin smoke detectors behind ECLSS filtration",
+   "finding_type": "measurement_limitation",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2021 white paper cites an analysis showing that cabin air filtration can remove smoke faster than a small or early fire builds it up, so detection may fail or be delayed.",
+   "technical_detail": "Fortenberry et al. (2021), p. 2, citing Urban et al. (2016). A modelling/analysis result; the cited primary study was not examined here. Later HALO-threshold and fire-safety-plan documents make the same point.",
+   "limitations": [
+    "Analytical result reported second-hand; no experiment within the examined sources."
+   ],
+   "keywords": [
+    "filtration",
+    "ECLSS",
+    "dilution",
+    "delayed detection"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-004",
+   "extraction_item": "wp2021-024",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "ISS cabin (operational)",
+   "material": "dust",
+   "detector": "ISS smoke detector",
+   "finding_type": "false_alarm",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "The 2021 white paper states that the ISS smoke detector is not selective for smoke and is prone to nuisance (false) alarms from suspended dust; crews typically switch detectors off while vacuuming.",
+   "technical_detail": "Fortenberry et al. (2021), p. 2. An operational observation by NASA authors; no false-alarm counts or controlled dust tests are given. A false alarm (alarm without fire) is a different event from a missed alarm.",
+   "limitations": [
+    "Operational report; no rate or controlled test within the examined sources."
+   ],
+   "keywords": [
+    "false alarm",
+    "nuisance alarm",
+    "dust",
+    "vacuuming",
+    "ISS"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-005",
+   "extraction_item": "wp2021-026",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "single-property detectors (e.g. ISS forward light scattering)",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2021 authors conclude that a detection system relying on a single fire property, such as the ISS light-scattering detector, is unlikely to achieve early detection in all relevant scenarios.",
+   "technical_detail": "Fortenberry et al. (2021), p. 2; their proposed answer is a network of sensors for temperature, radiation, gases and particle properties.",
+   "limitations": [
+    "Authors' conclusion."
+   ],
+   "keywords": [
+    "single property",
+    "sensor network",
+    "need"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-006",
+   "extraction_item": "wp2021-065",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": 34,
+   "value_unit": "% O2 (planned lunar habitat; 8.2 psi)",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "atmosphere_o2_vol_pct": 34,
+    "pressure_kpa": null,
+    "gravity": "lunar (planned habitat)"
+   },
+   "pressure_psi": 8.2,
+   "n_independent_tests": null,
+   "statement": "The planned lunar habitat atmosphere is 34% O2 at 8.2 psi, which is expected to change material flammability and smoke emission.",
+   "technical_detail": "Fortenberry et al. (2021), p. 4 (ref. 23).",
+   "limitations": [
+    "Planning value, not a test condition."
+   ],
+   "keywords": [
+    "lunar habitat",
+    "34%",
+    "8.2 psi",
+    "exploration atmosphere"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-007",
+   "extraction_item": "wp2021-052",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "lunar"
+   },
+   "n_independent_tests": null,
+   "statement": "The 2021 white paper states that it is not known how smoke particle size depends on airflow in lunar gravity.",
+   "technical_detail": "Fortenberry et al. (2021), p. 4; to choose a lunar-habitat detector, particle sizes must be measured in reduced gravity at relevant air velocities and over relevant timescales.",
+   "limitations": [
+    "Open question as of 2021."
+   ],
+   "keywords": [
+    "lunar gravity",
+    "particle size",
+    "airflow",
+    "open question"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-008",
+   "extraction_item": "wp2021-057",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "lunar"
+   },
+   "n_independent_tests": null,
+   "statement": "Where to place smoke detectors in a lunar vehicle cabin must still be determined by research; the 2021 authors make modelling smoke transport in lunar gravity a priority.",
+   "technical_detail": "Fortenberry et al. (2021), p. 4: floor-level air returns for lunar dust removal may compete with buoyant smoke rise, so ceiling-mounted detectors may help if buoyancy wins.",
+   "limitations": [
+    "Open question as of 2021; a 2023 model addresses part of it (FU-EV-007)."
+   ],
+   "keywords": [
+    "detector placement",
+    "lunar gravity",
+    "smoke transport",
+    "modelling"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-009",
+   "extraction_item": "wp2021-072",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "How oxygen concentration and pressure affect particles from overheating (oxidative pyrolysis) is unclear and must be investigated.",
+   "technical_detail": "Fortenberry et al. (2021), p. 5; the soot studies they cite used gaseous fuels, and O2 and pressure must be studied separately in ground and reduced-gravity experiments.",
+   "limitations": [
+    "Open question as of 2021."
+   ],
+   "keywords": [
+    "oxygen",
+    "pressure",
+    "pyrolysis",
+    "open question"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-010",
+   "extraction_item": "wp2021-080",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": "lunar dust",
+   "detector": "future detector measuring particle chemistry or charge",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "A future detector that measures particle chemical composition or charge could tell smoke particles from lunar dust, greatly improving fire safety in lunar spacecraft.",
+   "technical_detail": "Fortenberry et al. (2021), p. 5; a combined particle-and-gas system is expected to increase detectable fires and cut nuisance alarms from cabin and lunar dust.",
+   "limitations": [
+    "Concept; no prototype in this source."
+   ],
+   "keywords": [
+    "lunar dust",
+    "discrimination",
+    "chemistry",
+    "charge",
+    "nuisance alarm"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-011",
+   "extraction_item": "wp2021-099",
+   "investigation": "SAME",
+   "psi_id": null,
+   "hardware_family": "ISS Microgravity Science Glovebox (MSG)",
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": 21,
+   "value_unit": "% O2 at 14.7 psi, 0 g (MSG facility)",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "atmosphere_o2_vol_pct": 21,
+    "pressure_kpa": null,
+    "gravity": "microgravity"
+   },
+   "pressure_psi": 14.7,
+   "n_independent_tests": null,
+   "statement": "The ISS Microgravity Science Glovebox, where SAME and SAME-R ran, provides 0 g at 21% O2 and 14.7 psi.",
+   "technical_detail": "Fortenberry et al. (2021), Table 1, p. 6 (facility list). Combined with the SAME reports (glovebox, smoke carried by air; no gas composition varied), this is the basis for treating the SAME/SAME-R test atmosphere as ordinary cabin air.",
+   "limitations": [
+    "Facility description, not an experiment-specific measurement of the SAME test gas."
+   ],
+   "keywords": [
+    "MSG",
+    "21%",
+    "14.7 psi",
+    "test atmosphere"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-012",
+   "extraction_item": "wp2021-100",
+   "investigation": "ACME",
+   "psi_id": null,
+   "hardware_family": "ISS Combustion Integrated Rack (CIR)",
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "o2_range_vol_pct": [
+    10,
+    40
+   ],
+   "pressure_range_psi": [
+    0.29,
+    44
+   ],
+   "experimental_conditions": {
+    "atmosphere_o2_vol_pct": [
+     10,
+     40
+    ],
+    "pressure_kpa": null,
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "The ISS Combustion Integrated Rack can run tests at 10-40% O2 and 0.29-44 psi, so elevated-oxygen and reduced-pressure conditions are reachable on orbit.",
+   "technical_detail": "Fortenberry et al. (2021), Table 1, p. 6. Facility capability; within the examined sources no spacecraft smoke-detector test was run in the CIR.",
+   "limitations": [
+    "Capability statement."
+   ],
+   "keywords": [
+    "CIR",
+    "elevated oxygen",
+    "reduced pressure",
+    "facility"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-013",
+   "extraction_item": "wp2021-036",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": "lithium-ion battery",
+   "materials": [
+    "lithium-ion battery"
+   ],
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Smoke particles from lithium-ion battery fires of laptop scale are almost uncharacterised: the 2021 authors knew of only one such study.",
+   "technical_detail": "Fortenberry et al. (2021), p. 3; laptop battery fires are named among the most likely and most dangerous long-mission fire scenarios, and batteries and the Artemis crew-clothing fabric are prioritised for immediate testing.",
+   "limitations": [
+    "Literature statement as of 2021."
+   ],
+   "keywords": [
+    "lithium-ion",
+    "battery",
+    "laptop",
+    "understudied fuel"
+   ]
+  },
+  {
+   "evidence_id": "WP21-EV-014",
+   "extraction_item": "wp2021-088",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "lunar"
+   },
+   "n_independent_tests": null,
+   "statement": "The 2021 white paper says experiments on lunar vehicles are needed to study thoroughly how partial gravity affects fire emissions.",
+   "technical_detail": "Fortenberry et al. (2021), p. 5; ground facilities give only seconds of lunar gravity (drop-tower centrifuge 5.2 s, parabolic flights about 30 s).",
+   "limitations": [
+    "Recommendation as of 2021."
+   ],
+   "keywords": [
+    "partial gravity",
+    "lunar",
+    "CLPS",
+    "experiments needed"
+   ],
+   "ground_facility_durations_s": {
+    "drop_tower_lunar_g": 5.2,
+    "parabolic_flight": 30
+   }
+  },
+  {
+   "evidence_id": "SBIR25-EV-001",
+   "extraction_item": "sbir2025-23",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "ISS cabin (operational)",
+   "material": "dust",
+   "detector": "ISS smoke detector (forward light scattering)",
+   "finding_type": "false_alarm",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "microgravity"
+   },
+   "n_independent_tests": null,
+   "statement": "NASA's 2025 SBIR solicitation describes the ISS smoke detector as subject to frequent false alarms because smoke and nuisance dust particles have overlapping properties, and says detectors are switched off during dust-generating activities such as vacuuming.",
+   "technical_detail": "FY2025 SBIR Phase I solicitation, subtopic S15.03 scope 'Fire Detection Sensing for Space Research', State of the Art and Critical Gaps (PDF p. 259). No false-alarm counts or in-text references are given.",
+   "limitations": [
+    "Technology-solicitation statement; no rate or test data."
+   ],
+   "keywords": [
+    "false alarm",
+    "dust",
+    "vacuuming",
+    "2025",
+    "SBIR"
+   ],
+   "related_evidence": [
+    "WP21-EV-004"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-002",
+   "extraction_item": "sbir2025-10",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "future smoke sensors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "In 2025 NASA asks for technology that detects smoke selectively, at low enough concentrations and in the relevant particle size ranges, to alarm on a slow-growing spacecraft fire.",
+   "technical_detail": "FY2025 SBIR S15.03 fire-detection scope (PDF p. 258).",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "selective detection",
+    "low concentration",
+    "size range",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-003",
+   "extraction_item": "sbir2025-25",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "multi-property sensor system",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Because smoke and nuisance pollutants vary widely, NASA wants a sensor system that combines several independent physical properties so that early fires are positively identified while false alarms are rejected.",
+   "technical_detail": "FY2025 SBIR S15.03, State of the Art and Critical Gaps (PDF p. 259); the hardware must measure at least one particle parameter, and measuring two or more is preferred.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "multi-property",
+    "orthogonal",
+    "false alarm",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-004",
+   "extraction_item": "sbir2025-15",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "future aerosol sensors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "size_range_nm": [
+    10,
+    300
+   ],
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "NASA's 2025 call highly desires sensors that measure particles from 10 to 300 nm in diameter, preferably with size-distribution capability.",
+   "technical_detail": "FY2025 SBIR S15.03 fire-detection scope (PDF p. 258); the same scope notes light-scattering techniques that do not detect particles smaller than about 300 nm.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "10-300 nm",
+    "size range",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-005",
+   "extraction_item": "sbir2025-26",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "reference aerosol instruments (TEOM, ELPI)",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Reference-quality aerosol instruments are too large and heavy for spacecraft use: NASA cites the TEOM mass monitor (83 lb) as ruled out by its footprint.",
+   "technical_detail": "FY2025 SBIR S15.03, State of the Art and Critical Gaps (PDF p. 259); the ELPI impactor is also cited as too large, and most reference instruments have limited use below Earth-ambient pressure.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "TEOM",
+    "ELPI",
+    "size",
+    "mass",
+    "instrument"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-006",
+   "extraction_item": "sbir2025-12",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "future fire-detection sensors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2025 call requires sensors that work autonomously in experiment and habitat atmospheres, including reduced pressures and elevated oxygen concentrations.",
+   "technical_detail": "FY2025 SBIR S15.03 fire-detection scope (PDF p. 258); target habitats include the ISS, commercial LEO destinations, Gateway and a future lunar surface habitat.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "reduced pressure",
+    "elevated oxygen",
+    "habitat",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-007",
+   "extraction_item": "sbir2025-21",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "commercial off-the-shelf aerosol sensors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "lunar"
+   },
+   "n_independent_tests": null,
+   "statement": "According to the 2025 call, current measurement gaps keep NASA from simply choosing off-the-shelf sensors for a lunar-gravity combustion experiment or a fire detection system.",
+   "technical_detail": "FY2025 SBIR S15.03, State of the Art and Critical Gaps (PDF p. 259).",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "COTS",
+    "lunar gravity",
+    "gap",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-008",
+   "extraction_item": "sbir2025-45",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": 33.7,
+   "value_unit": "vol% O2 (minimum) at 8.2 psia",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "atmosphere_o2_vol_pct": 33.7,
+    "pressure_kpa": null,
+    "gravity": null
+   },
+   "pressure_psia": 8.2,
+   "n_independent_tests": null,
+   "statement": "NASA's targeted exploration habitat environment is 8.2 psia with more than 33.7% oxygen, chosen to shorten prebreathe before spacewalks.",
+   "technical_detail": "FY2025 SBIR subtopic H3.13 (PDF p. 105); the same subtopic notes that very few materials are non-flammable at elevated oxygen and that partial gravity worsens the risk on the lunar surface.",
+   "limitations": [
+    "Planning value."
+   ],
+   "keywords": [
+    "8.2 psia",
+    "33.7%",
+    "exploration atmosphere",
+    "prebreathe"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-009",
+   "extraction_item": "sbir2025-39",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2025 fire-detection call cites the 2018 smoke-detector paper but does not restate its findings and never names SAME, Kapton or Teflon.",
+   "technical_detail": "FY2025 SBIR S15.03 references 1-2 (PDF p. 260). The 2025 needs (selective detection, multi-property sensing, false-alarm rejection) are framed generically rather than as a response to specific materials.",
+   "limitations": [],
+   "keywords": [
+    "citation",
+    "2018 paper",
+    "chronology"
+   ]
+  },
+  {
+   "evidence_id": "SBIR25-EV-010",
+   "extraction_item": "sbir2025-31",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "context",
+   "observed_directly": false,
+   "value": 10,
+   "value_unit": "rank of Civil Space Shortfall 1520 'Fire Safety for Habitation'",
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The 2025 fire-detection scope is tied to NASA Civil Space Shortfall 1520, 'Fire Safety for Habitation', ranked 10th.",
+   "technical_detail": "FY2025 SBIR S15.03 (PDF p. 259).",
+   "limitations": [],
+   "keywords": [
+    "shortfall",
+    "fire safety for habitation",
+    "crewed missions"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-001",
+   "extraction_item": "ntrs_followup-01",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "NASA GRC GASP laboratory (1 g ground)",
+   "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+   "materials": [
+    "Lampwick",
+    "Kapton",
+    "Nomex",
+    "Teflon",
+    "PMMA",
+    "wire insulation"
+   ],
+   "detector": "ISS scatter detector, STS ionization detector, CSP prototype, commercial detectors",
+   "finding_type": "followup_solution",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "1 g",
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "statement": "A 2020 ground study tested whether laboratory reference aerosols can serve as transfer standards for spacecraft smoke-detector testing, using smoke from six spacecraft-relevant materials.",
+   "technical_detail": "Wang et al. (2020, NTRS 20205003817): mineral oil and DOS reference aerosols together spanned the detector-response range of the six smokes in a mixed chamber at 1 g; smoke size distributions were not measured during the smoke tests.",
+   "limitations": [
+    "Ground (1 g) tests; no alarm evaluation; no microgravity."
+   ],
+   "keywords": [
+    "transfer standard",
+    "reference aerosol",
+    "ground test",
+    "PMMA",
+    "Nomex",
+    "2020"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-002",
+   "extraction_item": "ntrs_followup-11",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "NASA GRC GASP laboratory (1 g ground)",
+   "material": "Lampwick, Kapton, Nomex, Teflon, PMMA, wire insulation",
+   "materials": [
+    "Lampwick",
+    "Kapton",
+    "Nomex",
+    "Teflon",
+    "PMMA",
+    "wire insulation"
+   ],
+   "detector": "ISS smoke detector (scatter)",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": 35,
+   "value_unit": "% coefficient of variation of response slope across aerosols",
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "1 g",
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "statement": "In 2020 ground tests, the ISS scatter detector's response per unit smoke mass varied more across aerosol types than the other instruments (coefficient of variation 35%, versus 13% for a newer prototype).",
+   "technical_detail": "Wang et al. (2020), p. 9: slopes of detector signal versus PM2.5 mass for reference and smoke aerosols; the authors attribute the ISS detector spread to its differing optics and plumbing. The ISS detector also saturated at higher concentrations.",
+   "limitations": [
+    "1 g ground chamber; response slope, not alarm decisions."
+   ],
+   "keywords": [
+    "ISS detector",
+    "variability",
+    "COV",
+    "ground test",
+    "2020"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-003",
+   "extraction_item": "ntrs_followup-06",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "NASA GRC GASP laboratory (1 g ground)",
+   "material": "PMMA",
+   "materials": [
+    "Lampwick",
+    "Kapton",
+    "Nomex",
+    "Teflon",
+    "PMMA",
+    "wire insulation"
+   ],
+   "detector": "ISS scatter detector among others",
+   "finding_type": "context",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "experimental_conditions": {
+    "gravity": "1 g",
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 1,
+   "statement": "The 2020 ground study included a single PMMA pyrolysis test, so the ISS scatter detector has been exposed to PMMA smoke only once, at 1 g, without an alarm evaluation.",
+   "technical_detail": "Wang et al. (2020), p. 4: tube-furnace oxidative pyrolysis of lamp wick, Kapton, Nomex, Teflon, PMMA and wire insulation; one PMMA test with 2 g of sample.",
+   "limitations": [
+    "Single 1 g test; detector signal vs mass only."
+   ],
+   "keywords": [
+    "PMMA",
+    "ground test",
+    "single test",
+    "ISS detector"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-004",
+   "extraction_item": "ntrs_followup-26",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": null,
+   "finding_type": "research_question",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "partial"
+   },
+   "n_independent_tests": null,
+   "statement": "NASA's 2020 fire-safety technology plan calls partial-gravity flammability a major gap: low-gravity protocols may not carry over and no terrestrial facility can reproduce partial gravity for long tests.",
+   "technical_detail": "Spacecraft Fire Safety Technology Development Plan for Exploration Missions (2020, NTRS 20205000063), p. 7.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "partial gravity",
+    "flammability",
+    "gap",
+    "2020"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-005",
+   "extraction_item": "ntrs_followup-29",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": null,
+   "detector": "all spacecraft smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Because no common detector exists across spacecraft and testing every detector against every smoke is unrealistic, NASA's 2020 plan calls a reference-aerosol transfer standard essential for consistent alarm thresholds.",
+   "technical_detail": "Spacecraft Fire Safety Technology Development Plan (2020), p. 7; no database of reference spacecraft fires exists for qualifying detectors.",
+   "limitations": [
+    "Need statement."
+   ],
+   "keywords": [
+    "transfer standard",
+    "alarm threshold",
+    "no common detector"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-006",
+   "extraction_item": "ntrs_followup-22",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": "dust",
+   "detector": "concentration-only smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "NASA's 2020 plan notes that typical spacecraft smoke aerosols of roughly 100-500 nm are hard to distinguish from dust using aerosol concentration alone.",
+   "technical_detail": "Spacecraft Fire Safety Technology Development Plan (2020), p. 5, drawing on the space experiment results; HEPA filtration can also substantially delay detection.",
+   "limitations": [
+    "Need statement based on earlier results."
+   ],
+   "keywords": [
+    "smoke vs dust",
+    "100-500 nm",
+    "concentration"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-007",
+   "extraction_item": "ntrs_followup-35",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "COMSOL simulation (no experiment)",
+   "material": null,
+   "detector": "ceiling-mounted smoke detectors (modelled)",
+   "finding_type": "followup_solution",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "lunar (simulation)",
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null
+   },
+   "pressure_psia_model": 8.2,
+   "n_independent_tests": null,
+   "statement": "A 2023 NASA simulation of a lunar-gravity cabin found that even very low forced flows can break up the ceiling smoke layer, so ceiling-mounted detectors could detect earlier only if placed carefully relative to air supplies and returns.",
+   "technical_detail": "NTRS 20230013826 poster: COMSOL large-eddy simulation of a 2 m cube at 8.2 psia with lunar or Earth gravity; massless sub-micron particles assumed. A model result, not a measurement.",
+   "limitations": [
+    "Simulation only; simplified particle physics."
+   ],
+   "keywords": [
+    "lunar gravity",
+    "detector placement",
+    "simulation",
+    "2023"
+   ],
+   "model_volume": "2 m cube"
+  },
+  {
+   "evidence_id": "FU-EV-008",
+   "extraction_item": "ntrs_followup-42",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "NASA GRC GASP laboratory (1 g ground)",
+   "material": "lunar dust",
+   "detector": "photoelectric and ionization smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {
+    "gravity": "1 g"
+   },
+   "n_independent_tests": null,
+   "statement": "NASA Glenn's 2026 work on a partial-gravity fire detector names overlapping particle sizes of smoke and real lunar dust as the key false-alarm challenge, and a low-cost sensor that separates the two as a key need.",
+   "technical_detail": "NTRS 20260005612 (2026 abstract/poster): photoelectric and ionization detectors, an aerosol sensor and a combustion-product monitor exposed to fabric smoke in the GASP chamber; for the materials studied the ionization detector gave the earliest signal. Discrimination work is ongoing.",
+   "limitations": [
+    "Development status report; no discrimination performance reported yet."
+   ],
+   "keywords": [
+    "lunar dust",
+    "false alarm",
+    "partial gravity detector",
+    "2026"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-009",
+   "extraction_item": "ntrs_followup-51",
+   "investigation": "Saffire IV-VI",
+   "psi_id": null,
+   "hardware_family": "Cygnus cargo vehicle (Saffire Far Field Diagnostics)",
+   "material": "PMMA",
+   "materials": [
+    "PMMA",
+    "SIBAL",
+    "cotton"
+   ],
+   "detector": "assumed 2 mg/m3 alarm point applied to DustTrak DRX aerosol mass at the Far Field Diagnostics",
+   "finding_type": "measurement_limitation",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "saffire_vi_pmma": {
+    "pressure_mbar": [
+     544,
+     550
+    ],
+    "o2_mol_fraction": [
+     0.3,
+     0.29
+    ],
+    "time_to_alarm_s": [
+     1037,
+     1603
+    ],
+    "co_increase_ppm_at_alarm": [
+     105,
+     283
+    ],
+    "co_24h_smac_ppm": 100
+   },
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "atmosphere_o2_vol_pct": [
+     29,
+     30
+    ],
+    "pressure_kpa": [
+     54.4,
+     55.0
+    ],
+    "airflow_cm_s": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 2,
+   "statement": "In the 2026 Saffire VI results, an assumed 2 mg/m3 smoke alarm point would have been reached only after carbon monoxide had already exceeded the 24-hour exposure limit in both PMMA fires, which burned at about 30% oxygen and reduced pressure.",
+   "technical_detail": "Urban et al. (2026, NTRS 20260001992), Table 1 and alarm-threshold discussion: Saffire VI PMMA tests at 544 and 550 mbar with O2 mole fractions 0.30 and 0.29 reached 2 mg/m3 at 1037 s and 1603 s, when CO had risen 105 and 283 ppm (24-h SMAC 100 ppm). Flaming fires in an uncrewed Cygnus; the authors conclude a lower threshold or more detectors would be needed for that configuration.",
+   "limitations": [
+    "Assumed alarm threshold, not a spacecraft detector's actual alarm.",
+    "Flaming fires in one vehicle geometry; two tests.",
+    "Not pyrolysis smoke."
+   ],
+   "keywords": [
+    "Saffire",
+    "PMMA",
+    "elevated oxygen",
+    "reduced pressure",
+    "time to alarm",
+    "CO",
+    "2026"
+   ],
+   "source_location": "NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)"
+  },
+  {
+   "evidence_id": "FU-EV-010",
+   "extraction_item": "ntrs_followup-45",
+   "investigation": "Saffire IV-VI",
+   "psi_id": null,
+   "hardware_family": "Cygnus cargo vehicle (Saffire Far Field Diagnostics)",
+   "material": "PMMA, SIBAL, cotton",
+   "materials": [
+    "PMMA",
+    "SIBAL",
+    "cotton"
+   ],
+   "detector": "ionization sensor from a commercial smoke detector and DustTrak DRX (Far Field Diagnostics)",
+   "finding_type": "context",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "measured",
+   "o2_mol_fraction_range": [
+    0.22,
+    0.31
+   ],
+   "pressure_mbar_range": [
+    541,
+    1000
+   ],
+   "experimental_conditions": {
+    "gravity": "microgravity",
+    "atmosphere_o2_vol_pct": [
+     22,
+     31
+    ],
+    "pressure_kpa": [
+     54.1,
+     100.0
+    ],
+    "airflow_cm_s": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 7,
+   "statement": "Saffire IV-VI burned PMMA, SIBAL and cotton samples in seven large low-gravity fires with cabin oxygen and pressure moved toward exploration atmospheres, while measuring smoke aerosol and gases at the Far Field Diagnostics.",
+   "technical_detail": "Urban et al. (2026, NTRS 20260001992): O2 mole fraction 0.22-0.31, pressure 541-1000 mbar; the FFD held CO/CO2/O2 sensors, an ionization sensor from a commercial smoke detector and a DustTrak DRX. These are flaming fires; no spacecraft smoke detector (ISS or Shuttle type) was evaluated.",
+   "limitations": [
+    "Flaming fires; commercial ionization sensor and aerosol monitor only."
+   ],
+   "keywords": [
+    "Saffire IV-VI",
+    "Cygnus",
+    "exploration atmosphere",
+    "flaming",
+    "2026"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-011",
+   "extraction_item": "ntrs_followup-61",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": null,
+   "material": "dust",
+   "detector": "heritage spacecraft smoke detectors (Shuttle ionization, ISS photoelectric)",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "A 2025 NASA paper states that high sensitivity to the earliest smoke and immunity to dusty events cannot both be achieved with the smoke detectors currently used in space vehicles.",
+   "technical_detail": "ICES 2025 paper on dust-tolerant smoke detection: both heritage technologies are particle detectors that cannot tell smoke from dust, and the authors conclude that dust-tolerant detectors are needed for exploration.",
+   "limitations": [
+    "Review/position statement."
+   ],
+   "keywords": [
+    "dust tolerance",
+    "sensitivity",
+    "false alarm",
+    "2025"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-012",
+   "extraction_item": "ntrs_followup-68",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "spacecraft cabins (operational history)",
+   "material": "dust",
+   "detector": "spacecraft smoke detectors",
+   "finding_type": "false_alarm",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "The same 2025 paper states that historically most spacecraft smoke-alarm events have been caused by nuisance dust rather than smoke, but ISS incidents are not publicly tracked.",
+   "technical_detail": "ICES 2025 dust-tolerant detection paper: Shuttle reports total 14 events combining built-in-test failures and false alarms; ISS evidence is anecdotal. No rate can be derived from the examined sources.",
+   "limitations": [
+    "No public incident database; anecdotal for ISS."
+   ],
+   "keywords": [
+    "false alarm history",
+    "nuisance dust",
+    "Shuttle",
+    "ISS"
+   ],
+   "shuttle_reported_events": 14
+  },
+  {
+   "evidence_id": "FU-EV-013",
+   "extraction_item": "ntrs_followup-71",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "University of Duisburg-Essen laboratory prototypes",
+   "material": "lunar dust simulant",
+   "detector": "polarimetric smoke-detector prototype",
+   "finding_type": "followup_solution",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "gravity": "1 g"
+   },
+   "n_independent_tests": null,
+   "statement": "Polarimetric detector prototypes, which flag irregular dust by its depolarised scattered light, indicated smoke-versus-lunar-simulant discrimination in early tests reported in 2025.",
+   "technical_detail": "ICES 2025 dust-tolerant detection paper: University of Duisburg-Essen prototypes; a variant tested with smoke and the JSC-1AF lunar simulant. Terrestrial high-end detectors use two-wavelength comparison for the same purpose. Planned work includes many spacecraft pyrolysis smokes and newer simulants.",
+   "limitations": [
+    "Early laboratory results; not flight-qualified."
+   ],
+   "keywords": [
+    "polarimetric",
+    "dust discrimination",
+    "prototype",
+    "solution"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-014",
+   "extraction_item": "ntrs_followup-72",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "Gateway HALO module",
+   "material": null,
+   "detector": "photoelectric and ionization smoke detectors",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": 10.2,
+   "value_unit": "psi (HALO nominal pressure; 70.3 kPa)",
+   "value_kind": "source_reported",
+   "experimental_conditions": {
+    "pressure_kpa": 70.3
+   },
+   "n_independent_tests": null,
+   "statement": "Exploration habitats run below sea-level pressure (Gateway HALO nominally 10.2 psi); photoelectric detection is pressure-independent, but an ionization detector's baseline changes at low pressure and must be characterised.",
+   "technical_detail": "ICES 2025 dust-tolerant detection paper (HALO nominal 10.2 psi / 70.3 kPa); hardware must also survive vacuum.",
+   "limitations": [
+    "Need statement; no low-pressure detector test reported."
+   ],
+   "keywords": [
+    "10.2 psi",
+    "HALO",
+    "low pressure",
+    "ionization baseline"
+   ]
+  },
+  {
+   "evidence_id": "FU-EV-015",
+   "extraction_item": "ntrs_followup-76",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "Gateway HALO module",
+   "material": null,
+   "detector": "space smoke detectors (performance standard)",
+   "finding_type": "technology_need",
+   "observed_directly": false,
+   "value": null,
+   "value_kind": null,
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "As of 2025 no NASA standard governs smoke-detector performance for space use, so the Gateway HALO alarm threshold had to be derived from tabulated 2012 ground tests of spacecraft materials including Kapton and Teflon.",
+   "technical_detail": "ICES 2025 paper on the HALO smoke-detector threshold; the authors list data limitations (single 0.5 g samples, no time-resolved data, unrepeatable smoke generation) and recommend new campaigns with multiple low-pressure test points.",
+   "limitations": [
+    "Threshold analysis, not a detector test."
+   ],
+   "keywords": [
+    "standard",
+    "HALO",
+    "threshold",
+    "Kapton",
+    "Teflon",
+    "2025"
+   ],
+   "derived_from": "2012 GRC tests at WSTF with 0.5 g samples"
+  },
+  {
+   "evidence_id": "FU-EV-016",
+   "extraction_item": "ntrs_followup-53",
+   "investigation": null,
+   "psi_id": null,
+   "hardware_family": "ISS, Orion, HLS, Gateway",
+   "material": null,
+   "detector": "Anomaly Gas Analyzer (laser spectroscopy: CO, HCN, HF, HCl, CO2, O2 and others)",
+   "finding_type": "followup_solution",
+   "observed_directly": true,
+   "value": null,
+   "value_kind": "source_reported",
+   "experimental_conditions": {},
+   "n_independent_tests": null,
+   "statement": "Gas sensing has advanced: the Anomaly Gas Analyzer, which monitors combustion gases such as CO, HCN, HF and HCl, is deployed on the ISS, flew on Artemis 2 and is being built for the lunar lander.",
+   "technical_detail": "NTRS 20260003174 (2026): seven units on ISS, Orion units, HLS engineering units delivered in 2025, and a constituent-monitor subset for Gateway HALO. It is a contingency air monitor, not a smoke detector.",
+   "limitations": [
+    "Gas monitor; does not address particle-based smoke detection."
+   ],
+   "keywords": [
+    "gas sensing",
+    "AGA",
+    "CO",
+    "HCN",
+    "Artemis",
+    "2026"
+   ],
+   "hls_engineering_units_delivered": 2025
+  }
+ ]
+}

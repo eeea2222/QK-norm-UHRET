@@ -1,0 +1,231 @@
+{
+  "groups": [
+    {
+      "title": "Model A \u00b7 BASS-II PMMA flame spread",
+      "metric": "Experiment-macro MAE (mm/s) \u2193",
+      "direction": "lower",
+      "rows": [
+        {
+          "name": "Extra Trees",
+          "score": 0.01686205306048045,
+          "ours": false,
+          "sd": 0.005360034817169042,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Histogram gradient boosting",
+          "score": 0.019005539092419615,
+          "ours": false,
+          "sd": 0.003805402712841428,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Inverse-thickness ridge",
+          "score": 0.015537653661451383,
+          "ours": false,
+          "sd": 0.006264758573986759,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Training-mean predictor",
+          "score": 0.0215664594356261,
+          "ours": false,
+          "sd": 0.00780949946608692,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "QK norm Model A \u00b7 random forest",
+          "score": 0.014971439185932378,
+          "ours": true,
+          "sd": 0.0034291440291262516,
+          "winner": true,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "RBF support-vector regression",
+          "score": 0.016651123342489894,
+          "ours": false,
+          "sd": 0.0066135745860695415,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Ridge regression",
+          "score": 0.017332510434213456,
+          "ours": false,
+          "sd": 0.004978110610227182,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Median of six comparison methods",
+          "score": 0.017097281747346954,
+          "ours": false,
+          "sd": null,
+          "winner": false,
+          "note": "Derived reference statistic; not an additional fitted model.",
+          "value_kind": "derived"
+        }
+      ],
+      "protocol": "18 physical samples / 39 airflow segments; five grouped outer folds. Fixed-candidate results are retrospective diagnostics. No independent external test.",
+      "conclusion": "Recorded Model A MAE is 12.4% lower than the median of six comparison methods (derived descriptive difference).",
+      "caveat": "The selection-unbiased nested procedure has MAE 0.01856 mm/s and mean R\u00b2 -0.444. Fixed-candidate ranking does not replace that result.",
+      "source": "https://huggingface.co/efe-T/nasa-bass-ii-model-a/blob/0096ac5a4959c13e0f7d1561160844db5f873ba3/artifacts/model_a_v1/metrics.json"
+    },
+    {
+      "title": "Model B \u00b7 Saffire-I luminous ridge",
+      "metric": "Held-out MAE (mm) \u2193",
+      "direction": "lower",
+      "rows": [
+        {
+          "name": "QK norm Model B \u00b7 learned correction",
+          "score": 4.829083787865807,
+          "ours": true,
+          "sd": null,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Binary-median image baseline",
+          "score": 4.545454545454545,
+          "ours": false,
+          "sd": null,
+          "winner": true,
+          "note": "",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Constant-position baseline",
+          "score": 259.54545454545456,
+          "ours": false,
+          "sd": null,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        }
+      ],
+      "protocol": "Six correlated frames from a later time block of one burn; agent-annotated labels. These are frames, not six independent experiments.",
+      "conclusion": "Binary-median baseline wins; the learned correction does not improve MAE.",
+      "caveat": "No cross-burn validation. No meaningful population-average model can be inferred from these two baselines.",
+      "source": "https://huggingface.co/efe-T/nasa-saffire-i-model-b/blob/7ca05303bf350d300f98011528cb4e1c4d28b612/artifacts/metrics.json"
+    },
+    {
+      "title": "Model C \u00b7 SAME / SAME-R threshold label",
+      "metric": "Mean balanced accuracy \u2191",
+      "direction": "higher",
+      "rows": [
+        {
+          "name": "QK norm Model C \u00b7 fixed forest",
+          "score": 0.9004329004329005,
+          "ours": true,
+          "sd": 0.056571563314343654,
+          "winner": true,
+          "note": "Tie under the released one-fold-SD rule; highest numerical mean.",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Training-fold material-majority baseline",
+          "score": 0.8913419913419913,
+          "ours": false,
+          "sd": 0.04882349988519196,
+          "winner": true,
+          "note": "Tied with fixed forest under the released rule.",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Original nested model-selection procedure",
+          "score": 0.8701515151515151,
+          "ours": false,
+          "sd": 0.07636047973273727,
+          "winner": false,
+          "note": "",
+          "value_kind": "source_reported"
+        }
+      ],
+      "protocol": "84 primary heating runs / 81 conservative groups; same five saved outer folds. Fixed-forest and material-majority comparisons are post-hoc.",
+      "conclusion": "Tie: 0.00909 mean advantage for the forest is within the released variability rule; four of five paired differences are zero.",
+      "caveat": "Fold SD is not a confidence interval. The label is derived ISS scatter \u22652.0 V, not operational alarm truth. Kapton/Teflon positive recall remains weak.",
+      "source": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/reports/evaluation_followup.md"
+    },
+    {
+      "title": "WeightSeek-WT4 \u00b7 language model",
+      "metric": "Comparable task quality score",
+      "direction": null,
+      "rows": [
+        {
+          "name": "QK norm \u00b7 WeightSeek-WT4",
+          "score": null,
+          "ours": true,
+          "sd": null,
+          "winner": false,
+          "note": "No matched quality benchmark run.",
+          "value_kind": "source_reported"
+        },
+        {
+          "name": "Unpatched Qwen3.5-0.8B weight-space-programming base",
+          "score": null,
+          "ours": false,
+          "sd": null,
+          "winner": false,
+          "note": "No matched quality benchmark run.",
+          "value_kind": "source_reported"
+        }
+      ],
+      "protocol": "Existing smoke tests establish loading and generation only.",
+      "conclusion": "Unranked: no measured task-quality comparison is available.",
+      "caveat": "Successful loading, checksum integrity and generated tokens are not quality scores.",
+      "source": "https://huggingface.co/efe-T/WeightSeek-WT4"
+    }
+  ],
+  "related_work": [
+    {
+      "title": "CNN flame-front extraction (Str\u00e4ssle et al., 2024)",
+      "url": "https://link.springer.com/article/10.1007/s00348-024-03814-z",
+      "location": "Abstract; Sections 2\u20135",
+      "relevance": "Related to Model B: learned flame-front segmentation.",
+      "comparability": "OH-PLIF turbulent flames; segmentation IoU/recall, rather than Saffire luminous-ridge error in mm. Not ranked against ours."
+    },
+    {
+      "title": "Industrial burner flame segmentation comparison (2023)",
+      "url": "https://isprs-annals.copernicus.org/articles/X-1-W1-2023/953/2023/isprs-annals-X-1-W1-2023-953-2023.html",
+      "location": "Abstract / comparative study",
+      "relevance": "Related to Model B: traditional image processing, ML and deep learning.",
+      "comparability": "Industrial burner images and segmentation task; no shared Saffire split. Not ranked against ours."
+    },
+    {
+      "title": "Bayesian PMMA flame-spread parameter estimation",
+      "url": "https://doi.org/10.1016/j.combustflame.2024.113828",
+      "location": "Publisher abstract discovered in search; full text access blocked",
+      "relevance": "Related to Model A: parameter estimation over cylindrical PMMA across gravity conditions.",
+      "comparability": "Cylindrical samples and a different estimation task. No matched slab-regression MAE. Not ranked against ours."
+    }
+  ],
+  "selection_policy": "All eligible comparison methods in the frozen recorded evaluations are shown. Median uses all six Model A alternatives, excluding ours and the nested-selection procedure. No competitor was chosen to guarantee a win. There is no defensible global average across these different tasks.",
+  "evaluation_status": "EXISTING_RECORDED_RESULTS_ONLY",
+  "source_files": {
+    "a": {
+      "path": "external/model_a/artifacts/model_a_v1/metrics.json",
+      "sha256": "2ce6d2cb747ccd4522249e26c4111d85580330df45f4862af120c6759ec416de"
+    },
+    "b": {
+      "path": "external/model_b/artifacts/metrics.json",
+      "sha256": "a98f9ba7fe194a3c24b557e1696d1ec0387a842c4c1a5073d320c620500242a6"
+    },
+    "c": {
+      "path": "external/model_c/reports/followup_metrics.json",
+      "sha256": "0ae398270ddad4f89ba4d89d406d0e428cfe569f0c5430efa9b6ce8bde699af9"
+    }
+  }
+}

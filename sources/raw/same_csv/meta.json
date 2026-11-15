@@ -1,0 +1,25 @@
+{
+ "doc_id": "same_csv",
+ "title": "PSI-102 Experimental table_SAME.csv (planned test conditions)",
+ "year": null,
+ "authors": [
+  "NASA PSI repository (SAME team)"
+ ],
+ "url": "https://psi.nasa.gov/geode-py/ws/studies/PSI-102/download?file=PSI-102_Experimental%20table_SAME.csv&version=4&redirect=false",
+ "retrieved_utc": "2026-11-15T10:33:45Z",
+ "sha256": "268d1e121d2f211b124407dd32b9475617bd269ede2c2d1749441da3e949a2af",
+ "bytes": 331,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.60555/gd4k-8h62 (investigation)",
+  "ntrs": null,
+  "psi": "PSI-102",
+  "pmc": null
+ },
+ "license_note": "PSI investigation metadata reports licenseIdentifier CC0-1.0 (Creative Commons Zero v1.0).",
+ "accessible": true,
+ "access_note": "331-byte CSV from the audited Model C snapshot; text copy in sources/text/same_csv.txt. Location = file + row. Manifest sha256 check: MATCH.",
+ "local_path": "external/model_c/data/raw/PSI-102_Experimental table_SAME.csv",
+ "text_path": "sources/text/same_csv.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}

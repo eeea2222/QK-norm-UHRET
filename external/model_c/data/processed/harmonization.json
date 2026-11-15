@@ -1,0 +1,23 @@
+{
+  "campaigns": [
+    "SAME",
+    "SAME-R"
+  ],
+  "source": "author-combined workbook",
+  "controls": {
+    "N": "airflow_cm_s",
+    "O": "resistance_ratio",
+    "P": "heating_s",
+    "Q": "aging_s",
+    "R": "mixing_s"
+  },
+  "units": "identity; no recalibration",
+  "target": "AW volts; common ISS sensor alarm reference",
+  "not_harmonized": [
+    "STS AX requires AY baseline and device-use flags",
+    "MPASS not common",
+    "ground experiments excluded",
+    "DBP calibration excluded",
+    "moment concentrations retain author calibration; never model inputs"
+  ]
+}

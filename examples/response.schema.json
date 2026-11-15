@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "analyze_blindspots response",
+  "type": "object",
+  "required": [
+    "question",
+    "verified_findings",
+    "detection_blindspots",
+    "research_priorities",
+    "evidence_references",
+    "model_outputs",
+    "limitations",
+    "generation_status",
+    "analysis_status"
+  ],
+  "properties": {
+    "question": {
+      "type": "string"
+    },
+    "filters_applied": {
+      "type": "object"
+    },
+    "answer": {
+      "type": "object",
+      "description": "Three-layer answer: summary (one sentence), technical_detail, sources. Every sentence carries evidence_ids.",
+      "properties": {
+        "summary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sentence"
+          }
+        },
+        "technical_detail": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/sentence"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "verified_findings": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "detection_blindspots": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "research_priorities": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "scientific_comparisons": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_references": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "model_outputs": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generation_status": {
+      "enum": [
+        "LLM_VALIDATED",
+        "FALLBACK_TEMPLATE"
+      ]
+    },
+    "analysis_status": {
+      "enum": [
+        "COMPLETED",
+        "PARTIAL",
+        "NO_EVIDENCE"
+      ]
+    },
+    "validation": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "sentence": {
+      "type": "object",
+      "required": [
+        "text",
+        "evidence_ids"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

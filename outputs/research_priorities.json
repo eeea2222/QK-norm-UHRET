@@ -1,0 +1,641 @@
+{
+  "schema_version": "1.0.0",
+  "generated_utc": "2026-11-15T11:21:58Z",
+  "project": "QK norm - Agent 5 BlindSpot Evidence Agent",
+  "scope_note": "All gap statements are limited to the examined sources ('within the examined sources').",
+  "ranking_method": "lexicographic over criteria levels in this order",
+  "criteria": [
+    {
+      "name": "crewed_mission_relevance",
+      "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+    },
+    {
+      "name": "documented_limitation",
+      "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+    },
+    {
+      "name": "evidence_thinness",
+      "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+    },
+    {
+      "name": "unexplored_condition_space",
+      "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+    },
+    {
+      "name": "comparability",
+      "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+    },
+    {
+      "name": "information_gain",
+      "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+    }
+  ],
+  "priorities": [
+    {
+      "priority_id": "PRI-EXPLORATION-ATMOSPHERE",
+      "rank": 1,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 2,
+        "evidence_thinness": 1,
+        "unexplored_condition_space": 2,
+        "comparability": 2,
+        "information_gain": 2
+      },
+      "research_question": "How do elevated oxygen (30-34% O2) and reduced pressure (8.2-10.2 psi) change pre-fire smoke particles and the response of heritage and candidate detectors?",
+      "why_it_matters": "Planned lunar habitats and Gateway run at reduced pressure with elevated oxygen, which raises material flammability and is expected to change smoke emission and detector behaviour.",
+      "existing_evidence": [
+        "WP21-EV-006",
+        "WP21-EV-009",
+        "SBIR25-EV-006",
+        "SBIR25-EV-008",
+        "FU-EV-014",
+        "FU-EV-009",
+        "FU-EV-010",
+        "WP21-EV-011",
+        "WP21-EV-012"
+      ],
+      "gap_ids": [
+        "GAP-O2-PYROLYSIS",
+        "GAP-PRESSURE-PYROLYSIS"
+      ],
+      "evidence_gap": "Within the examined sources, pyrolysis smoke and spacecraft smoke detectors were tested only in ordinary air at 14.7 psi; Saffire IV-VI covered flaming fires at exploration-like atmospheres with an assumed alarm threshold.",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "Lunar surface habitat",
+            "Gateway HALO"
+          ],
+          "evidence_ids": [
+            "FU-EV-014",
+            "SBIR25-EV-008",
+            "WP21-EV-006"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 2,
+          "evidence_ids": [
+            "FU-EV-009"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 1,
+          "known_independent_tests_summed": 2,
+          "evidence_ids": [
+            "FU-EV-009"
+          ],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 2,
+          "gap_ids": [
+            "GAP-O2-PYROLYSIS",
+            "GAP-PRESSURE-PYROLYSIS"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 2,
+          "investigations": [
+            "Saffire IV-VI",
+            "SAME"
+          ],
+          "with_detector_data": [
+            "Saffire IV-VI",
+            "SAME"
+          ],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 2,
+          "fills_zero_coverage": [
+            "GAP-O2-PYROLYSIS",
+            "GAP-PRESSURE-PYROLYSIS"
+          ],
+          "adds_to_thin": [],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "WP21-EV-006: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 4, Section C",
+        "WP21-EV-009: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 5, Section C",
+        "SBIR25-EV-006: NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended (2025), PDF p. 258, S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > Scope Description",
+        "SBIR25-EV-008: NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended (2025), PDF p. 105, H3.13 > Subtopic Introduction",
+        "FU-EV-014: Towards Dust-tolerant Smoke Detection in Future Space Missions (2025), Sec. IV.A Environment",
+        "FU-EV-009: Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+        "FU-EV-010: Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), PDF p. 1, Abstract (continues p.2)",
+        "WP21-EV-011: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 6, Table 1, row 'MSG (ISS)'",
+        "WP21-EV-012: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 6, Table 1, row 'CIR (ISS)'"
+      ],
+      "uncertainty": "The SAME/SAME-R atmosphere is inferred from the glovebox facility description; Saffire results are for flaming fires in one vehicle geometry.",
+      "statement": "How do elevated oxygen (30-34% O2) and reduced pressure (8.2-10.2 psi) change pre-fire smoke particles and the response of heritage and candidate detectors?",
+      "not_an_operational_instruction": true
+    },
+    {
+      "priority_id": "PRI-UNDERSTUDIED-FUELS",
+      "rank": 2,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 2,
+        "evidence_thinness": 1,
+        "unexplored_condition_space": 2,
+        "comparability": 2,
+        "information_gain": 1
+      },
+      "research_question": "What smoke do understudied spacecraft fuels (lithium-ion batteries, Artemis crew fabrics, PMMA, Nomex) produce, and which detectors sense it in microgravity?",
+      "why_it_matters": "Laptop battery fires are among the most likely long-mission fire scenarios, and new lunar fabrics and common polymers were never part of the microgravity detector tests.",
+      "existing_evidence": [
+        "WP21-EV-013",
+        "FU-EV-003",
+        "FU-EV-001",
+        "FU-EV-009",
+        "M18-EV-012",
+        "M18-EV-007"
+      ],
+      "gap_ids": [
+        "GAP-MATERIAL-PMMA",
+        "GAP-MATERIAL-LIB"
+      ],
+      "evidence_gap": "Within the examined sources, the heritage detectors were tested in microgravity with five pyrolysis smokes only; PMMA has one 1 g exposure and battery smoke none.",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "ISS",
+            "Artemis lunar missions"
+          ],
+          "evidence_ids": [
+            "M18-EV-007",
+            "WP21-EV-013"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 2,
+          "evidence_ids": [
+            "FU-EV-009"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 1,
+          "known_independent_tests_summed": 2,
+          "evidence_ids": [
+            "FU-EV-009"
+          ],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 2,
+          "gap_ids": [
+            "GAP-MATERIAL-PMMA",
+            "GAP-MATERIAL-LIB"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 2,
+          "investigations": [
+            "SAME",
+            "GASP-2020 ground detector characterisation"
+          ],
+          "with_detector_data": [
+            "SAME",
+            "GASP-2020 ground detector characterisation"
+          ],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 1,
+          "fills_zero_coverage": [],
+          "adds_to_thin": [
+            "GAP-MATERIAL-PMMA",
+            "GAP-MATERIAL-LIB"
+          ],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "WP21-EV-013: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 3, Section A",
+        "FU-EV-003: Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols (2020), PDF p. 4, Sec. II.C Smoke Aerosol Materials (continues p.5)",
+        "FU-EV-001: Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols (2020), PDF p. 1, Abstract",
+        "FU-EV-009: Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+        "M18-EV-012: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), 4.0. Conclusions",
+        "M18-EV-007: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), Abstract"
+      ],
+      "uncertainty": "Material lists in the examined sources may not be exhaustive.",
+      "statement": "What smoke do understudied spacecraft fuels (lithium-ion batteries, Artemis crew fabrics, PMMA, Nomex) produce, and which detectors sense it in microgravity?",
+      "not_an_operational_instruction": true
+    },
+    {
+      "priority_id": "PRI-FLAMING-THRESHOLD",
+      "rank": 3,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 2,
+        "evidence_thinness": 1,
+        "unexplored_condition_space": 1,
+        "comparability": 2,
+        "information_gain": 2
+      },
+      "research_question": "How do heritage and candidate detectors respond to flaming-fire smoke in microgravity, and can an alarm threshold be set low enough to alarm before carbon monoxide becomes hazardous?",
+      "why_it_matters": "In Saffire VI an assumed 2 mg/m3 threshold alarmed only after CO exceeded the 24-hour exposure limit in both PMMA fires, and cabin filtration can keep smoke from building up while toxic gases accumulate.",
+      "existing_evidence": [
+        "FU-EV-009",
+        "FU-EV-010",
+        "M18-EV-004",
+        "WP21-EV-003",
+        "FU-EV-015"
+      ],
+      "gap_ids": [
+        "GAP-FLAMING-HERITAGE"
+      ],
+      "evidence_gap": "Within the examined sources, the ISS and Shuttle detectors were never exposed to flaming-fire smoke in microgravity, and the Saffire threshold analysis used an assumed alarm point.",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "Gateway HALO",
+            "ISS-class cabins"
+          ],
+          "evidence_ids": [
+            "FU-EV-015",
+            "M18-EV-004"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 2,
+          "evidence_ids": [
+            "FU-EV-009"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 1,
+          "known_independent_tests_summed": 2,
+          "evidence_ids": [
+            "FU-EV-009",
+            "M18-EV-004"
+          ],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 1,
+          "gap_ids": [
+            "GAP-FLAMING-HERITAGE"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 2,
+          "investigations": [
+            "Saffire IV-VI"
+          ],
+          "with_detector_data": [
+            "Saffire IV-VI"
+          ],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 2,
+          "fills_zero_coverage": [
+            "GAP-FLAMING-HERITAGE"
+          ],
+          "adds_to_thin": [],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "FU-EV-009: Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), NTRS 20260001992, Table 1 (p. 7) and alarm-threshold discussion (PDF p. 9)",
+        "FU-EV-010: Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment) (2026), PDF p. 1, Abstract (continues p.2)",
+        "M18-EV-004: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), Abstract",
+        "WP21-EV-003: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 2, Introduction, para 2",
+        "FU-EV-015: Approach for Defining an Acceptable Threshold Range for Smoke Detection in the HALO Environment (2025), Sec. I Introduction"
+      ],
+      "uncertainty": "Two Saffire VI PMMA tests in one uncrewed vehicle; vehicle-specific mixing strongly affects time to alarm.",
+      "statement": "How do heritage and candidate detectors respond to flaming-fire smoke in microgravity, and can an alarm threshold be set low enough to alarm before carbon monoxide becomes hazardous?",
+      "not_an_operational_instruction": true
+    },
+    {
+      "priority_id": "PRI-KAPTON-TEFLON",
+      "rank": 4,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 2,
+        "evidence_thinness": 1,
+        "unexplored_condition_space": 1,
+        "comparability": 2,
+        "information_gain": 1
+      },
+      "research_question": "Why does the ISS-type light-scattering detector miss many Kapton and Teflon pyrolysis smokes, why did its response change between SAME and SAME-R, and do multi-property detectors close this gap under spacecraft flow and aging conditions?",
+      "why_it_matters": "Kapton and Teflon are abundant in spacecraft electrical systems, where fires are likely to begin; the ISS detector is the state of the art for spacecraft fire detection, and the Gateway HALO threshold was derived from tests that include these materials.",
+      "existing_evidence": [
+        "M18-EV-001",
+        "M18-EV-002",
+        "WP21-EV-001",
+        "WP21-EV-002",
+        "MODELC-EV-KAPTON",
+        "MODELC-EV-TEFLON",
+        "MODELC-EV-KAPTON-BASELINE",
+        "MODELC-EV-TEFLON-BASELINE",
+        "MODELC-EV-KAPTON-CAMPAIGNS",
+        "MODELC-EV-TEFLON-CAMPAIGNS",
+        "M18-EV-005",
+        "SAMER-EV-004",
+        "FU-EV-002"
+      ],
+      "gap_ids": [
+        "GAP-CONFLICT-CAMPAIGNS"
+      ],
+      "evidence_gap": "Within the examined sources, the cause of the SAME/SAME-R difference is unexplained, and no next-generation detector has been evaluated for alarm performance against Kapton and Teflon smoke in microgravity (the MPASS prototype estimated concentration only).",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "ISS",
+            "Gateway HALO"
+          ],
+          "evidence_ids": [
+            "FU-EV-015",
+            "M18-EV-001"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 2,
+          "evidence_ids": [
+            "MODELC-EV-KAPTON",
+            "MODELC-EV-TEFLON",
+            "MODELC-EV-KAPTON-BASELINE",
+            "MODELC-EV-TEFLON-BASELINE",
+            "FU-EV-002"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 1,
+          "known_independent_tests_summed": 42,
+          "evidence_ids": [
+            "M18-EV-001",
+            "M18-EV-002",
+            "WP21-EV-001",
+            "WP21-EV-002",
+            "MODELC-EV-KAPTON",
+            "MODELC-EV-TEFLON",
+            "MODELC-EV-KAPTON-BASELINE",
+            "MODELC-EV-TEFLON-BASELINE",
+            "MODELC-EV-KAPTON-CAMPAIGNS",
+            "MODELC-EV-TEFLON-CAMPAIGNS",
+            "M18-EV-005",
+            "FU-EV-002"
+          ],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 1,
+          "gap_ids": [
+            "GAP-CONFLICT-CAMPAIGNS"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 2,
+          "investigations": [
+            "SAME",
+            "SAME-R",
+            "GASP-2020 ground detector characterisation"
+          ],
+          "with_detector_data": [
+            "SAME",
+            "SAME-R",
+            "GASP-2020 ground detector characterisation"
+          ],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 1,
+          "fills_zero_coverage": [],
+          "adds_to_thin": [
+            "GAP-CONFLICT-CAMPAIGNS"
+          ],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "M18-EV-001: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), 3.2. Spacecraft Smoke Detector Results",
+        "M18-EV-002: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), 3.2. Spacecraft Smoke Detector Results",
+        "WP21-EV-001: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 2, Introduction, para 2",
+        "WP21-EV-002: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 2, Introduction, para 2",
+        "MODELC-EV-KAPTON: Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions) (2026), external/model_c/data/processed/dashboard_measured_only.csv, row material=Kapton",
+        "MODELC-EV-TEFLON: Model C measured-only dashboard table (SAME + SAME-R primary runs, derived 2.0 V fractions) (2026), external/model_c/data/processed/dashboard_measured_only.csv, row material=Teflon",
+        "MODELC-EV-KAPTON-BASELINE: Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label) (2026), external/model_c/data/processed/dashboard_table.csv, rows SAME-R:51, SAME-R:61, SAME-R:73, SAME-R:92 (unaged baseline runs averaged in the 2012 Table 1)",
+        "MODELC-EV-TEFLON-BASELINE: Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label) (2026), external/model_c/data/processed/dashboard_table.csv, rows SAME-R:56, SAME-R:58, SAME-R:79, SAME-R:89 (unaged baseline runs averaged in the 2012 Table 1)",
+        "MODELC-EV-KAPTON-CAMPAIGNS: Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label) (2026), external/model_c/data/processed/dashboard_table.csv, primary rows material=Kapton grouped by campaign",
+        "MODELC-EV-TEFLON-CAMPAIGNS: Model C observation table (134 SAME/SAME-R smoke observations; measured ISS scatter, derived 2.0 V label) (2026), external/model_c/data/processed/dashboard_table.csv, primary rows material=Teflon grouped by campaign",
+        "M18-EV-005: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), 3.2. Spacecraft Smoke Detector Results",
+        "SAMER-EV-004: Smoke Aerosol Measurement Experiment Re-flight (SAMER) - Final Report, June 2, 2014 (with Appendices A-F) (2014), PDF p. 7, B. MPASS Results (p.7)",
+        "FU-EV-002: Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols (2020), PDF p. 9, Sec. III.C, Fig. 8"
+      ],
+      "uncertainty": "Few runs per campaign; the 2.0 V threshold is derived from a figure line; Figure 9 per-run values are not digitised; denominators of the published 'over half' / 'two thirds' are unknown.",
+      "statement": "Why does the ISS-type light-scattering detector miss many Kapton and Teflon pyrolysis smokes, why did its response change between SAME and SAME-R, and do multi-property detectors close this gap under spacecraft flow and aging conditions?",
+      "not_an_operational_instruction": true
+    },
+    {
+      "priority_id": "PRI-DUST-DISCRIMINATION",
+      "rank": 5,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 1,
+        "evidence_thinness": 2,
+        "unexplored_condition_space": 1,
+        "comparability": 2,
+        "information_gain": 2
+      },
+      "research_question": "Can a detector separate fire smoke from cabin and lunar dust, and what is the actual false-alarm behaviour of heritage detectors under controlled dust exposure?",
+      "why_it_matters": "Dust false alarms lead crews to switch detectors off during cleaning, and lunar dust overlaps smoke in size and may be far more concentrated than ISS dust, so detection could be lost for long periods on the Moon.",
+      "existing_evidence": [
+        "WP21-EV-004",
+        "SBIR25-EV-001",
+        "FU-EV-012",
+        "FU-EV-011",
+        "FU-EV-013",
+        "FU-EV-008",
+        "SAME-EV-005",
+        "SAME-EV-007",
+        "M18-EV-009",
+        "WP21-EV-010",
+        "SBIR25-EV-003"
+      ],
+      "gap_ids": [
+        "GAP-DUST-DISCRIMINATION"
+      ],
+      "evidence_gap": "Within the examined sources, false alarms are known only from operational reports and no controlled dust test of the heritage detectors was found; discriminating detectors are early prototypes.",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "ISS",
+            "Lunar surface habitat"
+          ],
+          "evidence_ids": [
+            "FU-EV-008",
+            "SAME-EV-005",
+            "WP21-EV-004"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 1,
+          "evidence_ids": [
+            "FU-EV-011",
+            "FU-EV-008",
+            "SAME-EV-005"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 2,
+          "known_independent_tests_summed": null,
+          "evidence_ids": [],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 1,
+          "gap_ids": [
+            "GAP-DUST-DISCRIMINATION"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 2,
+          "investigations": [
+            "GASP-2020 ground detector characterisation"
+          ],
+          "with_detector_data": [
+            "GASP-2020 ground detector characterisation"
+          ],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 2,
+          "fills_zero_coverage": [
+            "GAP-DUST-DISCRIMINATION"
+          ],
+          "adds_to_thin": [],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "WP21-EV-004: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 2, Introduction, para 2",
+        "SBIR25-EV-001: NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended (2025), PDF p. 259, S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)",
+        "FU-EV-012: Towards Dust-tolerant Smoke Detection in Future Space Missions (2025), Sec. II.E Smoke Detector False Alarms",
+        "FU-EV-011: Towards Dust-tolerant Smoke Detection in Future Space Missions (2025), Sec. I Introduction",
+        "FU-EV-013: Towards Dust-tolerant Smoke Detection in Future Space Missions (2025), Sec. III.A Polarimetric Approach",
+        "FU-EV-008: Early Fire Detection System for Partial and Low Gravity Environments (2026), PDF p. 1, Poster: Preliminary Results",
+        "SAME-EV-005: Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E) (2010), PDF p. 11, Section 1 Introduction",
+        "SAME-EV-007: Smoke Aerosol Measurement Experiment (SAME) - Final Report (Nov 1, 2000 - Apr 14, 2009), dated March 15, 2010, with appended papers (Appendices B-E) (2010), PDF p. 14, Section 2 (p.4)",
+        "M18-EV-009: Evaluation of Spacecraft Smoke Detector Performance in the Low-Gravity Environment (2018), 3.1. Moment Instrument Results",
+        "WP21-EV-010: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 5, Section D",
+        "SBIR25-EV-003: NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended (2025), PDF p. 259, S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 2)"
+      ],
+      "uncertainty": "No public ISS false-alarm database; lunar dust loads in NASA-STD-1008 are conservative estimates.",
+      "statement": "Can a detector separate fire smoke from cabin and lunar dust, and what is the actual false-alarm behaviour of heritage detectors under controlled dust exposure?",
+      "not_an_operational_instruction": true
+    },
+    {
+      "priority_id": "PRI-LUNAR-GRAVITY",
+      "rank": 6,
+      "criteria_levels": {
+        "crewed_mission_relevance": 2,
+        "documented_limitation": 1,
+        "evidence_thinness": 2,
+        "unexplored_condition_space": 1,
+        "comparability": 0,
+        "information_gain": 2
+      },
+      "research_question": "How does lunar gravity change smoke particle growth, plume transport and the best detector placement in a habitat whose airflow is also designed for dust control?",
+      "why_it_matters": "Buoyancy returns at lunar gravity, so smoke transport and the best detector location differ from both the ISS and Earth; this drives detector placement and alarm timing for Artemis surface systems.",
+      "existing_evidence": [
+        "WP21-EV-007",
+        "WP21-EV-008",
+        "WP21-EV-014",
+        "FU-EV-004",
+        "FU-EV-007",
+        "SBIR25-EV-007"
+      ],
+      "gap_ids": [
+        "GAP-PARTIAL-GRAVITY"
+      ],
+      "evidence_gap": "Within the examined sources, no smoke or detector measurement exists in partial gravity; detector placement has been studied only by simulation.",
+      "priority_rationale": {
+        "crewed_mission_relevance": {
+          "level": 2,
+          "basis": [
+            "Lunar surface habitat",
+            "Lunar-gravity combustion experiments"
+          ],
+          "evidence_ids": [
+            "SBIR25-EV-007",
+            "WP21-EV-006"
+          ],
+          "rule": "number of distinct crewed-mission contexts (ISS, lunar habitat, pressurized rover, ...) backed by a cited record: 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "documented_limitation": {
+          "level": 1,
+          "evidence_ids": [
+            "FU-EV-004"
+          ],
+          "rule": "2 if any linked record is VERIFIED_LIMITATION; 1 if only NASA-stated needs (EVIDENCE_GAP via rule R4) are linked; 0 otherwise"
+        },
+        "evidence_thinness": {
+          "level": 2,
+          "known_independent_tests_summed": null,
+          "evidence_ids": [],
+          "note": "sum over linked records; records may share tests, so this is an upper bound",
+          "rule": "amount/quality of existing experimental evidence on the question (higher = thinner = more to gain): 2 if no linked experimental record with a known independent-test count; 1 if the summed known independent tests < 50; 0 otherwise"
+        },
+        "unexplored_condition_space": {
+          "level": 1,
+          "gap_ids": [
+            "GAP-PARTIAL-GRAVITY"
+          ],
+          "rule": "number of linked gap probes that fired (EVIDENCE_GAP / INSUFFICIENT_INFORMATION / CONFLICTING_EVIDENCE): 0 -> 0, 1 -> 1, >=2 -> 2"
+        },
+        "comparability": {
+          "level": 0,
+          "investigations": [],
+          "with_detector_data": [],
+          "rule": "2 if a study could reuse a hardware family that already produced detector data (SAME/SAME-R protocol); 1 if only a related hardware family without detector data is available; 0 if none is documented"
+        },
+        "information_gain": {
+          "level": 2,
+          "fills_zero_coverage": [
+            "GAP-PARTIAL-GRAVITY"
+          ],
+          "adds_to_thin": [],
+          "rule": "2 if the new study would supply data for a condition with zero coverage in the examined sources; 1 if it would add data to a covered but thin condition; 0 otherwise"
+        }
+      },
+      "source_references": [
+        "WP21-EV-007: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 4, Section B",
+        "WP21-EV-008: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 4, Section B",
+        "WP21-EV-014: Research Questions and Challenges for Improved Spacecraft Fire Detection (2021), PDF p. 5, Capabilities",
+        "FU-EV-004: Spacecraft Fire Safety Technology Development Plan For Exploration Missions (2020), PDF p. 7, Sec. III.B Partial-Gravity Flammability",
+        "FU-EV-007: The Influence of Smoke Particle Properties and Cabin Characteristics on Smoke Detection in Lunar Gravity (2023), PDF p. 1, Poster: Conclusions and Future Work",
+        "SBIR25-EV-007: NASA Small Business Innovation Research (SBIR) Phase I Fiscal Year 2025 Solicitation (80NSSCFY25SBIRPhaseI), with signed Amendment P00004 (SF-30) prepended (2025), PDF p. 259, S15.03 > Scope 2 \"Fire Detection Sensing for Space Research\" > State of the Art and Critical Gaps (paragraph 1)"
+      ],
+      "uncertainty": "Extrapolating from microgravity and 1 g data to lunar gravity is a hypothesis for smoke transport and detection; planned lunar experiments are combustion-focused.",
+      "statement": "How does lunar gravity change smoke particle growth, plume transport and the best detector placement in a habitat whose airflow is also designed for dust control?",
+      "not_an_operational_instruction": true
+    }
+  ]
+}

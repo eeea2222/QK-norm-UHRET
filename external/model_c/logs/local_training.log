@@ -1,0 +1,21 @@
+{
+  "selected": "forest_depth3",
+  "headline": {
+    "metric": "balanced_accuracy",
+    "mean": 0.8701515151515151,
+    "std": 0.07636047973273727,
+    "baseline_mean": 0.5,
+    "baseline_std": 0.0,
+    "paired_mean": 0.3701515151515151,
+    "paired_std": 0.07636047973273727,
+    "paired_differences": [
+      0.33333333333333326,
+      0.375,
+      0.33333333333333326,
+      0.5,
+      0.3090909090909091
+    ]
+  },
+  "rows": 84,
+  "groups": 81
+}

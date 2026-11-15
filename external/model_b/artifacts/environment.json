@@ -1,0 +1,11 @@
+{
+  "python": "3.13.18 (main, Oct 26 2026, 15:28:15) [GCC 13.3.0]",
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "Pillow": "13.0.0",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2"
+  }
+}

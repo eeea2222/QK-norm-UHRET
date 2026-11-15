@@ -1,0 +1,39 @@
+{
+  "predicted_flame_spread_rate": 0.09521850347391446,
+  "unit": "mm/s",
+  "value_kind": "predicted",
+  "model_version": "model_a_v1",
+  "algorithm": "random_forest",
+  "applicable_domain": {
+    "thickness_mm": {
+      "type": "numeric",
+      "min": 1.0,
+      "max": 5.0
+    },
+    "width_cm": {
+      "type": "numeric",
+      "min": 1.2,
+      "max": 2.2
+    },
+    "velocity_cm_s": {
+      "type": "numeric",
+      "min": 2.0,
+      "max": 21.0
+    },
+    "initial_o2_vol_pct": {
+      "type": "numeric",
+      "min": 17.9,
+      "max": 22.2
+    }
+  },
+  "out_of_distribution": false,
+  "nearest_distance": 0.0,
+  "ood_threshold": 1.3291313857961067,
+  "nearest_experiment_id": "M1",
+  "ood_check": "standardized_nearest_condition_distance",
+  "warnings": [
+    "Exploratory BASS-II PMMA slab estimate from18 independent samples; not a spacecraft fire-safety certification.",
+    "Initial oxygen is a pre-burn proxy; oxygen and thermal history change within each burn. Uncertainty intervals are not calibrated.",
+    "Burning-side count is excluded because its pre-run availability is not established; unmodeled geometry may confound predictions."
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "test": "Teflon selection changes actual rendered pixels while animation is paused",
+    "passed": true
+  },
+  {
+    "test": "Model A preset changes visual and airflow label",
+    "passed": true
+  },
+  {
+    "test": "Edited prompt reaches visual",
+    "passed": true
+  },
+  {
+    "test": "Real B image requested",
+    "passed": true
+  }
+]

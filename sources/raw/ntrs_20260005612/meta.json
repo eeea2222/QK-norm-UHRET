@@ -1,0 +1,31 @@
+{
+ "doc_id": "ntrs_20260005612",
+ "title": "Early Fire Detection System for Partial and Low Gravity Environments",
+ "year": 2026,
+ "authors": [
+  "Francisco J. Guzman",
+  "Timothy Krause",
+  "Mona Matar",
+  "Matthew Prelich",
+  "David Urban"
+ ],
+ "url": "https://ntrs.nasa.gov/api/citations/20260005612/downloads/Guzman_GRC2026_FireDetection_v1bREV.pdf",
+ "retrieved_utc": "2026-11-15T10:49:28Z",
+ "sha256": "adeb00eb16455ddf56ebedc8d49b0afe07c709a1bc6a2cf66f692acb780040ef",
+ "bytes": 2134014,
+ "page_count": 1,
+ "identifiers": {
+  "doi": null,
+  "ntrs": "20260005612",
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "GRC 2026 poster"
+  ]
+ },
+ "license_note": "NTRS public distribution; NASA GRC poster (funded by NASA Fire Detection System Project under ESDMD).",
+ "accessible": true,
+ "access_note": "One-page poster PDF from NTRS; time-series plots are images and were not digitised; only text-layer statements are used.",
+ "source_key": "ntrs_followup",
+ "raw_file": "Guzman_GRC2026_FireDetection_v1bREV.pdf"
+}

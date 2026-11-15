@@ -1,0 +1,13 @@
+{
+  "thickness_mm": 1.0,
+  "width_cm": 2.2,
+  "velocity_cm_s": 9.0,
+  "initial_o2_vol_pct": 22.2,
+  "material": "PMMA_slab",
+  "units": {
+    "thickness_mm": "mm",
+    "width_cm": "cm",
+    "velocity_cm_s": "cm/s",
+    "initial_o2_vol_pct": "vol%"
+  }
+}

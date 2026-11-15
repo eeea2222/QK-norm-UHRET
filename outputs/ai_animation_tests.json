@@ -1,0 +1,10 @@
+[
+  {
+    "test": "visible animation changes pixels",
+    "passed": true
+  },
+  {
+    "test": "pause freezes animation",
+    "passed": true
+  }
+]

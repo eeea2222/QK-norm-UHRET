@@ -1,0 +1,4548 @@
+{
+ "source_key": "ntrs_followup",
+ "documents": [
+  {
+   "doc_id": "ntrs_20205003817",
+   "title": "Spacecraft Smoke Detector Characterization with Reference and Smoke Aerosols",
+   "year": 2020,
+   "authors": [
+    "Xiaoliang Wang",
+    "Judith C. Chow",
+    "John G. Watson",
+    "Marit E. Meyer",
+    "Gary Ruff",
+    "John Easton",
+    "Gordon Berger",
+    "Paul D. Mudgett"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20205003817/downloads/ICES_Final_340.pdf",
+   "local_path": "sources/raw/ntrs_20205003817/ICES_Final_340.pdf",
+   "text_path": "sources/text/ntrs_20205003817.txt",
+   "sha256": "0ed83648af8ec6d53ff9de978c08b37f22e58f003e2556e20fd89e8cfc57db9a",
+   "page_count": 12,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20205003817",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES-2020-340",
+     "hdl:2346/86366"
+    ]
+   },
+   "accessible": true,
+   "access_note": "Full PDF downloaded from NTRS; text via plain pdftotext.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 recomputed and matches meta.json; 12 pages; pdftotext regenerated identical; title/authors/year match the NTRS API record."
+   }
+  },
+  {
+   "doc_id": "ntrs_20205000063",
+   "title": "Spacecraft Fire Safety Technology Development Plan For Exploration Missions",
+   "year": 2020,
+   "authors": [
+    "Gary A. Ruff",
+    "David L. Urban",
+    "Daniel L. Dietrich"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20205000063/downloads/ICES-2020_173%20Fire%20Safety%20revised%20final%20manuscript%20-%202020%2007%2020.pdf",
+   "local_path": "sources/raw/ntrs_20205000063/ICES-2020_173 Fire Safety revised final manuscript - 2020 07 20.pdf",
+   "text_path": "sources/text/ntrs_20205000063.txt",
+   "sha256": "92245ee1d042fabebfc295ee8cc1c41197c66b41db5cbbc3db59e14b7cf63fea",
+   "page_count": 12,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20205000063",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES-2020-173"
+    ]
+   },
+   "accessible": true,
+   "access_note": "Full PDF from NTRS. Roadmap Figs. 1-4 (pp. 8-9) are images; their content is not in the text layer and was not extracted.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 matches; 12 pages; pdftotext identical; title/authors match NTRS (ICES-2020-173)."
+   }
+  },
+  {
+   "doc_id": "ntrs_20230013826",
+   "title": "The Influence of Smoke Particle Properties and Cabin Characteristics on Smoke Detection in Lunar Gravity",
+   "year": 2023,
+   "authors": [
+    "Claire Fortenberry",
+    "Ramaswamy Balasubramaniam",
+    "David Urban"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20230013826/downloads/AAAR%202023%20v1.pdf",
+   "local_path": "sources/raw/ntrs_20230013826/AAAR 2023 v1.pdf",
+   "text_path": "sources/text/ntrs_20230013826.txt",
+   "sha256": "ed2312bdba4230de00df69ee908bf64f086f860b6e901a93701ee013cb1d625a",
+   "page_count": 1,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20230013826",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "AAAR 2023 poster"
+    ]
+   },
+   "accessible": true,
+   "access_note": "One-page poster PDF from NTRS; plot contents (images) were not quantitatively extracted, only text-layer statements are used.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 matches; 1 page; pdftotext identical; title/authors match NTRS; NTRS abstract checked."
+   }
+  },
+  {
+   "doc_id": "ntrs_20260005612",
+   "title": "Early Fire Detection System for Partial and Low Gravity Environments",
+   "year": 2026,
+   "authors": [
+    "Francisco J. Guzman",
+    "Timothy Krause",
+    "Mona Matar",
+    "Matthew Prelich",
+    "David Urban"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20260005612/downloads/Guzman_GRC2026_FireDetection_v1bREV.pdf",
+   "local_path": "sources/raw/ntrs_20260005612/Guzman_GRC2026_FireDetection_v1bREV.pdf",
+   "text_path": "sources/text/ntrs_20260005612.txt",
+   "sha256": "adeb00eb16455ddf56ebedc8d49b0afe07c709a1bc6a2cf66f692acb780040ef",
+   "page_count": 1,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20260005612",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "GRC 2026 poster"
+    ]
+   },
+   "accessible": true,
+   "access_note": "One-page poster PDF from NTRS; time-series plots are images and were not digitised; only text-layer statements are used.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 matches; 1 page; pdftotext identical; title/authors match NTRS; poster rendered and inspected visually."
+   }
+  },
+  {
+   "doc_id": "ntrs_20260001992",
+   "title": "Heat and Smoke Emission from Tests on the SAFFIRE IV-VI Experiments (NTRS record title: Heat and Smoke Emission from Tests on the Saffire VI Experiment)",
+   "year": 2026,
+   "authors": [
+    "David L. Urban",
+    "Gary A. Ruff",
+    "Paul Ferkul",
+    "John Easton",
+    "Jay Owens",
+    "Sandra Olson",
+    "Claire Fortenberry",
+    "John Graf",
+    "Oageng George",
+    "Balazs Toth",
+    "Florian Meyer",
+    "Christian Eigenbrod",
+    "James S. T'ien",
+    "Ya-Ting T. Liao",
+    "A. Carlos Fernandez-Pello",
+    "Guillaume Legros",
+    "Augustin Guibaud",
+    "Nickolay Smirnov",
+    "Osamu Fujita",
+    "Ulises Rojas Alva",
+    "Grunde Jomaas"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20260001992/downloads/ICES%20Saffire%202026%2005%2004%20b.pdf",
+   "local_path": "sources/raw/ntrs_20260001992/ICES Saffire 2026 05 04 b.pdf",
+   "text_path": "sources/text/ntrs_20260001992.txt",
+   "sha256": "59315478dbf26b833238df7166cf2a4649f4731f51fc01f8fc0eef602966d80d",
+   "page_count": 10,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20260001992",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES-2026-577"
+    ]
+   },
+   "accessible": true,
+   "access_note": "Full PDF from NTRS; Table 1 parsed from text layer (column order verified against the PDF table layout).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 matches; 10 pages; pdftotext identical. NTRS record title says 'Saffire VI Experiment' while the PDF says 'SAFFIRE IV-VI'; both are noted in the title field. Authors match NTRS. Table 1 checked on a rendered image."
+   }
+  },
+  {
+   "doc_id": "ntrs_20260003174",
+   "title": "The Operational NASA Anomaly Gas Analyzer and Exploration Follow-Ons",
+   "year": 2026,
+   "authors": [
+    "Nicholas R. Wymore",
+    "Brian P. Rodrigue",
+    "Jeffrey S. Pilgrim"
+   ],
+   "url": "https://ntrs.nasa.gov/api/citations/20260003174/downloads/AGA%20Paper%20with%20ICES%20Header%20post%20Review.pdf",
+   "local_path": "sources/raw/ntrs_20260003174/AGA Paper with ICES Header post Review.pdf",
+   "text_path": "sources/text/ntrs_20260003174.txt",
+   "sha256": "a9c1df2b9f71127a2eadd0feeef20052f711826818178dfe5c21ca37f97326e5",
+   "page_count": 12,
+   "identifiers": {
+    "doi": null,
+    "ntrs": "20260003174",
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES-2026-266"
+    ]
+   },
+   "accessible": true,
+   "access_note": "Full PDF from NTRS. Table 1 limit-of-quantitation column is scrambled in the text layer; only accuracy and range columns are used.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "sha256 matches; 12 pages; pdftotext identical; title/authors match NTRS (ICES-2026-266)."
+   }
+  },
+  {
+   "doc_id": "ices2025_361_dusttolerant",
+   "title": "Towards Dust-tolerant Smoke Detection in Future Space Missions",
+   "year": 2025,
+   "authors": [
+    "Marit E. Meyer",
+    "Thorsten R. P. Schultze",
+    "Jan C. Balzer"
+   ],
+   "url": "https://doi.org/10.32865/2346/102771",
+   "local_path": "sources/raw/ices2025_361_dusttolerant/exa_render_excerpt.txt",
+   "text_path": "sources/text/ices2025_361_dusttolerant.txt",
+   "sha256": "b286ff4e0f8c06d969fbc9808c306bbe544fc91c61f5e547541a2180d366ba4a",
+   "page_count": null,
+   "identifiers": {
+    "doi": "10.32865/2346/102771",
+    "ntrs": null,
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES-2025-361",
+     "hdl:2346/102771"
+    ]
+   },
+   "accessible": true,
+   "access_note": "PDF not retrievable with curl (TTU repository returned HTTP 403/202 bot challenge). Text obtained via Exa web_fetch rendering of the DOI landing page; raw file and text file are a verbatim EXCERPT of that rendering ([...] marks omissions; nomenclature, figures and references omitted). sha256/bytes refer to the excerpt file, not the original PDF; no PDF page numbers available.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Stored file is an excerpt. Its sha256 matches meta.json. The verifier re-fetched doi 10.32865/2346/102771 with Exa; every stored passage appears verbatim in the fresh render. There is no PDF checksum or page numbers."
+   }
+  },
+  {
+   "doc_id": "ices2025_halo_sd_threshold",
+   "title": "Approach for Defining an Acceptable Threshold Range for Smoke Detection in the HALO Environment",
+   "year": 2025,
+   "authors": [
+    "Robert Van Hassel",
+    "Marit E. Meyer",
+    "Catherine Keen"
+   ],
+   "url": "https://ttu-ir.tdl.org/server/api/core/bitstreams/068487fa-2e03-415d-8151-9326f18ab653/content",
+   "local_path": "sources/raw/ices2025_halo_sd_threshold/exa_render_excerpt.txt",
+   "text_path": "sources/text/ices2025_halo_sd_threshold.txt",
+   "sha256": "a5b0494f66b504f2eb33080a9a959d3c5935a52043a08495cbfb4d0ead30b012",
+   "page_count": null,
+   "identifiers": {
+    "doi": null,
+    "ntrs": null,
+    "psi": null,
+    "pmc": null,
+    "other": [
+     "ICES 2025 (paper number not shown in rendering)",
+     "Approved for Public Release NG25-0826"
+    ]
+   },
+   "accessible": true,
+   "access_note": "PDF bitstream blocked for curl (HTTP 202 bot challenge). Text via Exa web_fetch of the bitstream URL; raw/text files are a verbatim EXCERPT ([...] marks omissions; most tables and appendix omitted). sha256/bytes refer to the excerpt file; no PDF page numbers available.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Stored file is an excerpt. Its sha256 matches meta.json. The verifier re-fetched the TTU bitstream with Exa; the stored passages appear verbatim. The fresh render also contains Tables 2-13 and an Appendix that are not stored locally."
+   }
+  }
+ ],
+ "items": [
+  {
+   "item_id": "ntrs_followup-01",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "Although no single reference aerosol can be used to simulate the response",
+   "summary": "Ground study testing whether laboratory reference aerosols can act as transfer standards for spacecraft smoke detector testing. Mineral oil (Gemini 501B tester) and DOS (atomizer, 1.5-100% solutions) together spanned the detector-response range of six smokes from oxidative pyrolysis of spacecraft-relevant materials, but no single reference aerosol reproduced the response of the different detection technologies to the different smokes within +/-10%; the derived reference-to-smoke relationships are proposed as conversion factors.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [
+    "mineral oil",
+    "DOS",
+    "PSL",
+    "lamp wick (cotton)",
+    "Kapton",
+    "Nomex",
+    "Teflon (PTFE)",
+    "PMMA",
+    "fluoropolymer/polyimide wire insulation"
+   ],
+   "detector": "CSP light-scattering prototype; IonZG ionization; ISS scatter detector; STS ionization detector; obscuration meter (plus Kidde consumer alarms)",
+   "numbers": [
+    {
+     "value": 10,
+     "unit": "%",
+     "meaning": "accuracy target that no single reference aerosol met across detectors and smokes",
+     "verbatim": "±10%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to ground tube-furnace oxidative pyrolysis smokes in a 326-L chamber, not flaming fires, not low gravity. Concentration reference is the DustTrak DRX PM2.5 reading, itself size/composition dependent.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.1. Summary, +/-10% and test scope match the abstract and conclusion (p.11).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-02",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 2,
+   "printed_page": "2",
+   "location": "Sec. I Introduction",
+   "anchor_quote": "Although there is no established standard for spacecraft smoke detectors",
+   "summary": "The authors note that, unlike consumer alarms regulated by UL 217, there is no established performance standard for spacecraft smoke detectors; they are tested with methods similar to UL 217 but using fuels representative of spacecraft materials.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Statement about the standards landscape as of 2020; see HALO 2025 paper for a later restatement.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.2; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-03",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. II.A Experimental Setup (pp.2-3; 326-L chamber and tube furnace on p.2, detectors/DRX/4.4 L/min on p.3)",
+   "anchor_quote": "A Commercial Space Prototype (CSP) smoke detector based on light scattering was co-located",
+   "summary": "Experiments in the GASP laboratory at NASA GRC: reference or smoke aerosols were injected into a 326-L mixed chamber. A light-scattering Commercial Space Prototype (CSP) detector and a commercial ionization detector (IonZG) were logged at 10 Hz; two Kidde consumer alarms (ionization and photoelectric) were logged only as alarm state; a second sample line fed the ISS light-scattering detector and the STS ionization detector, which have no pump and were drawn by a fan. A DustTrak DRX (655 nm laser scattering) served as concentration reference, plus an ASTM E662 obscuration meter; smoke came from a tube furnace flushed with 4.4 L/min filtered air.",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [],
+   "detector": "CSP; IonZG; Kidde I12010S (ionization); Kidde P3010H (photoelectric); ISS scattering smoke detector; STS ionization smoke detector",
+   "numbers": [
+    {
+     "value": 326,
+     "unit": "L",
+     "meaning": "smoke chamber volume",
+     "verbatim": "326-L"
+    },
+    {
+     "value": 10,
+     "unit": "Hz",
+     "meaning": "logging rate of CSP and IonZG analog outputs",
+     "verbatim": "10 Hz"
+    },
+    {
+     "value": 4.4,
+     "unit": "L/min",
+     "meaning": "filtered air flow through tube furnace",
+     "verbatim": "4.4 L/min"
+    },
+    {
+     "value": 655,
+     "unit": "nm",
+     "meaning": "DRX laser wavelength",
+     "verbatim": "655 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Ground laboratory; detectors were exposed through different sampling lines, so time series were aligned by correlation with the DRX.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor confirmed on p.3, but the 326-L chamber and the tube furnace are described on p.2. Location now names both pages. Numbers verified.",
+    "original": {
+     "location": "Sec. II.A Experimental Setup"
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-04",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. II.A Experimental Setup (instrument limitation)",
+   "anchor_quote": "Due to fast changing particle size distributions, the SMPS was not used during smoke tests.",
+   "summary": "Particle size distributions (SMPS, about 0.01-0.7 um) were measured only for reference aerosols; during smoke tests size distributions were not measured, so detector comparisons for smoke rely on the DRX PM2.5 mass reading, which the authors note is less sensitive to particles below about 300 nm and may underestimate PM2.5 for small particles.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "SMPS (TSI 3938); DustTrak DRX",
+   "numbers": [
+    {
+     "value": 0.01,
+     "unit": "um",
+     "meaning": "SMPS lower size limit",
+     "verbatim": "~0.01–0.7 µm"
+    },
+    {
+     "value": 0.7,
+     "unit": "um",
+     "meaning": "SMPS upper size limit",
+     "verbatim": "~0.01–0.7 µm"
+    },
+    {
+     "value": 300,
+     "unit": "nm",
+     "meaning": "size below which DRX is less sensitive (stated on p.7)",
+     "verbatim": "≲300 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) particle-size coverage: no size-resolved smoke data in this study. DRX statement is on PDF p.7.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.3 (SMPS 0.01-0.7 um); the DRX <=300 nm statement is on p.7 as scope_notes says. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-05",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 4,
+   "printed_page": "4",
+   "location": "Sec. II.B Reference Aerosol Materials",
+   "anchor_quote": "it was difficult to generate high concentrations of <500 nm monodisperse particles",
+   "summary": "Monodisperse DOS particles below about 500 nm, and PSL spheres (300, 500, 900 nm), could not be generated at the concentrations needed to produce reliable smoke detector signals; PSL results were therefore excluded. Larger monodisperse DOS (500 and 700 nm) was feasible.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "DOS",
+    "PSL"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 500,
+     "unit": "nm",
+     "meaning": "size below which high-concentration monodisperse DOS was difficult",
+     "verbatim": "<500 nm"
+    },
+    {
+     "value": 300,
+     "unit": "nm",
+     "meaning": "PSL size attempted",
+     "verbatim": "300 nm"
+    },
+    {
+     "value": 900,
+     "unit": "nm",
+     "meaning": "PSL size attempted",
+     "verbatim": "900 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) limits size-resolved (monodisperse) detector characterization for the small-particle range; reference aerosols only, not smoke.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.4. The 500/700 nm feasibility statement is in the Conclusion (p.11). Numbers verified.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-06",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 4,
+   "printed_page": "4",
+   "location": "Sec. II.C Smoke Aerosol Materials (continues p.5)",
+   "anchor_quote": "Six types of materials relevant to spacecraft safety were tested",
+   "summary": "Smoke was generated by oxidative pyrolysis of six spacecraft-relevant materials in a tube furnace: cotton lamp wick (3 tests, 0.75-1 g, 200-240 C), Kapton (3 tests, 1-2 g, 450-500 C), Nomex (3 tests, 0.5-1 g, 350-400 C), Teflon/PTFE (3 tests, about 8 g, 400-500 C), PMMA (1 test, 2 g, 200 C) and fluoropolymer/polyimide wire insulation (1 test, 2 g, 450 C).",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [
+    "lamp wick (cotton)",
+    "Kapton",
+    "Nomex",
+    "Teflon (PTFE)",
+    "PMMA",
+    "fluoropolymer/polyimide wire insulation"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "tests",
+     "meaning": "Kapton tests",
+     "verbatim": "Three Kapton tests"
+    },
+    {
+     "value": 450,
+     "unit": "°C",
+     "meaning": "Kapton furnace setpoint lower",
+     "verbatim": "450–500 °C"
+    },
+    {
+     "value": 500,
+     "unit": "°C",
+     "meaning": "Kapton furnace setpoint upper",
+     "verbatim": "450–500 °C"
+    },
+    {
+     "value": 3,
+     "unit": "tests",
+     "meaning": "Teflon tests",
+     "verbatim": "Three Teflon tests"
+    },
+    {
+     "value": 8,
+     "unit": "g",
+     "meaning": "Teflon sample mass (approx.)",
+     "verbatim": "~8 g"
+    },
+    {
+     "value": 400,
+     "unit": "°C",
+     "meaning": "Teflon furnace setpoint lower",
+     "verbatim": "400–500 °C"
+    },
+    {
+     "value": 500,
+     "unit": "°C",
+     "meaning": "Teflon furnace setpoint upper",
+     "verbatim": "400–500 °C"
+    },
+    {
+     "value": 3,
+     "unit": "tests",
+     "meaning": "lamp wick tests",
+     "verbatim": "Three lamp wick tests"
+    },
+    {
+     "value": 3,
+     "unit": "tests",
+     "meaning": "Nomex tests",
+     "verbatim": "Three Nomex tests"
+    },
+    {
+     "value": 1,
+     "unit": "tests",
+     "meaning": "PMMA tests",
+     "verbatim": "One PMMA test"
+    },
+    {
+     "value": 1,
+     "unit": "tests",
+     "meaning": "wire insulation tests",
+     "verbatim": "One wire insulation test"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 14,
+   "scope_notes": "(i) Kapton and Teflon smokes are included. Smoldering/oxidative pyrolysis only (no flaming); 1-3 tests per material, PMMA and wire insulation single tests.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.4. All masses, temperatures and test counts (3+3+3+3+1+1=14) verified on pp.4-5.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-07",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.A, Fig. 4d",
+   "anchor_quote": "saturated at ~6 V with higher PM2.5 concentrations",
+   "summary": "With mineral-oil reference aerosol, the ISS light-scattering detector signal rose linearly to about 4 V at about 50 mg/m3 (DRX PM2.5) and saturated at about 6 V above roughly 70 mg/m3; its data from one of the three test days were invalidated by a transfer-line leak.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "mineral oil"
+   ],
+   "detector": "ISS scatter detector",
+   "numbers": [
+    {
+     "value": 4,
+     "unit": "V",
+     "meaning": "approximate end of linear range",
+     "verbatim": "~4 V"
+    },
+    {
+     "value": 50,
+     "unit": "mg/m3",
+     "meaning": "DRX PM2.5 at end of linear range",
+     "verbatim": "~50 mg/m3"
+    },
+    {
+     "value": 6,
+     "unit": "V",
+     "meaning": "saturation voltage",
+     "verbatim": "~6 V"
+    },
+    {
+     "value": 70,
+     "unit": "mg/m3",
+     "meaning": "DRX PM2.5 above which saturation observed",
+     "verbatim": "≳70 mg/m3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 2,
+   "scope_notes": "Reference aerosol (mineral oil), two valid test days; saturation also seen with DOS (p.7) and smoke (Fig. 7). Not a statement about alarm-threshold behaviour.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and all numbers verified on p.7; the 5/14/2019 leak invalidation is on p.7; two valid test days.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-08",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.B, Fig. 6e",
+   "anchor_quote": "probably due to the extra plumbing and lack of a pump causing non-uniform concentrations",
+   "summary": "For DOS aerosols the ISS scatter detector was approximately linear only between about 1 and 15 mg/m3, showed more scatter than other detectors (attributed by the authors probably to extra plumbing and no pump), and its signal rose faster for larger particles than for smaller ones at equal DRX PM2.5.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "DOS"
+   ],
+   "detector": "ISS scatter detector",
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "mg/m3",
+     "meaning": "lower end of approximately linear range",
+     "verbatim": "~1-15 mg/m3"
+    },
+    {
+     "value": 15,
+     "unit": "mg/m3",
+     "meaning": "upper end of approximately linear range",
+     "verbatim": "~1-15 mg/m3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) size-dependent response of the ISS forward-scatter detector; reference aerosol (DOS), ground test.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and the 1-15 mg/m3 range verified on p.7; the authors' 'probably' hedge is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-09",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.B, Fig. 6c-d",
+   "anchor_quote": "this detector had low signal-to-noise ratio for concentration ≲5 mg/m3",
+   "summary": "The STS ionization detector signal decreased roughly linearly with DRX PM2.5 up to about 80 mg/m3, became nonlinear above about 200 mg/m3, had low signal-to-noise below about 5 mg/m3, and, like the commercial IonZG, responded more per unit mass to smaller particles.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "DOS"
+   ],
+   "detector": "STS ionization detector",
+   "numbers": [
+    {
+     "value": 80,
+     "unit": "mg/m3",
+     "meaning": "approximate upper end of linear decrease",
+     "verbatim": "~80 mg/m3"
+    },
+    {
+     "value": 200,
+     "unit": "mg/m3",
+     "meaning": "level above which signal nonlinear",
+     "verbatim": "~200 mg/m3"
+    },
+    {
+     "value": 5,
+     "unit": "mg/m3",
+     "meaning": "level below which SNR was low",
+     "verbatim": "≲5 mg/m3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) ionization detectors favour small particles; DOS reference aerosol, ground test.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and the 80/200/5 mg/m3 values verified on p.7.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-10",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 8,
+   "printed_page": "8",
+   "location": "Sec. III.C, Fig. 7",
+   "anchor_quote": "The light scattering smoke alarm (Kidde P3010H) was triggered earlier and ended later",
+   "summary": "In the example smoldering lamp-wick test, all instruments responded; light-scattering instruments rose linearly with smoke while ionization instruments decreased nonlinearly, the STS ion and ISS scatter detectors saturated at higher concentrations, and the photoelectric consumer alarm triggered earlier and cleared later than the ionization consumer alarm.",
+   "category": "context",
+   "investigation": null,
+   "materials": [
+    "lamp wick (cotton)"
+   ],
+   "detector": "Kidde P3010H; Kidde I12010S; STS ion; ISS scatter",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 1,
+   "scope_notes": "Single illustrative smoldering lamp-wick run with consumer alarms; not a general ranking of detector technologies.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.8; a single illustrative lamp-wick run, as stated.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-11",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. III.C, Fig. 8",
+   "anchor_quote": "it uses a near infrared laser and measures forward light scattering (30°)",
+   "summary": "Across reference and smoke aerosols the slope of detector response vs DRX PM2.5 varied least for the CSP detector (COV 13%) and more for the obscuration meter (26%) and the ISS scatter detector (35%); the authors attribute the ISS detector spread to its different optics (near-infrared laser, 30 degree forward scatter) and earlier saturation. ISS scatter responses to smoke differed from reference aerosols by more than 10% except for PMMA, and mineral oil would underestimate its smoke response by more than a factor of three. Per Table 1c (p.11), the ISS-scatter smoke/mineral-oil slope ratios range from 1.70 (Kapton) to 3.26 (Teflon), so the 'more than a factor of three' statement applies to lamp wick (3.03) and Teflon only.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "lamp wick (cotton)",
+    "Kapton",
+    "Nomex",
+    "Teflon (PTFE)",
+    "PMMA",
+    "wire insulation"
+   ],
+   "detector": "ISS scatter detector; CSP; obscuration meter",
+   "numbers": [
+    {
+     "value": 13,
+     "unit": "%",
+     "meaning": "COV of CSP-vs-DRX slopes across aerosols",
+     "verbatim": "COV = 13%"
+    },
+    {
+     "value": 26,
+     "unit": "%",
+     "meaning": "COV for obscuration meter",
+     "verbatim": "COV = 26%"
+    },
+    {
+     "value": 35,
+     "unit": "%",
+     "meaning": "COV for ISS scatter detector",
+     "verbatim": "COV = 35%"
+    },
+    {
+     "value": 30,
+     "unit": "deg",
+     "meaning": "ISS detector forward scattering angle",
+     "verbatim": "(30°)"
+    },
+    {
+     "value": 3,
+     "unit": "factor",
+     "meaning": "underestimate of ISS scatter smoke response if mineral oil used",
+     "verbatim": "a factor of over three"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) detector-specific particle-size/optical sensitivity; ground smoldering smokes; slopes relative to DRX PM2.5, not alarm times. The COV is across aerosol types (5 reference + 6 smoke), not across independent tests.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and COV values confirmed on p.9. n_independent_tests=14 removed: the COV is computed across aerosol types (reference and smoke), not across 14 independent tests. Table 1c (p.11) shows the authors' 'factor of over three' mineral-oil statement holds only for lamp wick (3.03) and Teflon (3.26); Kapton is 1.70. That caveat is now in the summary.",
+    "original": {
+     "n_independent_tests": 14,
+     "summary": "Across reference and smoke aerosols the slope of detector response vs DRX PM2.5 varied least for the CSP detector (COV 13%) and more for the obscuration meter (26%) and the ISS scatter detector (35%); the authors attribute the ISS detector spread to its different optics (near-infrared laser, 30 degree forward scatter) and earlier saturation. ISS scatter responses to smoke differed from reference aerosols by more than 10% except for PMMA, and mineral oil would underestimate its smoke response by more than a factor of three.",
+     "scope_notes": "(iii) detector-specific particle-size/optical sensitivity; ground smoldering smokes; slopes relative to DRX, not alarm times."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-12",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. III.C, Table 1 discussion",
+   "anchor_quote": "Teflon particles generated the highest slope among all tested materials",
+   "summary": "For the obscuration meter, Teflon smoke gave the highest response slope of all materials (16% above 100% DOS); for the CSP detector, 5% DOS predicted smoke responses within +/-10% except an approximately 20% overestimate for Teflon, while mineral oil represented Teflon well but underestimated most other smokes by 20-35%.",
+   "category": "particle_property",
+   "investigation": null,
+   "materials": [
+    "Teflon (PTFE)",
+    "Kapton",
+    "mineral oil",
+    "DOS"
+   ],
+   "detector": "obscuration meter; CSP",
+   "numbers": [
+    {
+     "value": 16,
+     "unit": "%",
+     "meaning": "Teflon obscuration slope above 100% DOS",
+     "verbatim": "16% higher"
+    },
+    {
+     "value": 20,
+     "unit": "%",
+     "meaning": "overestimate of Teflon response by 5% DOS (CSP)",
+     "verbatim": "~20% overestimation"
+    },
+    {
+     "value": 20,
+     "unit": "%",
+     "meaning": "lower bound of mineral-oil underestimate (CSP)",
+     "verbatim": "20–35%"
+    },
+    {
+     "value": 35,
+     "unit": "%",
+     "meaning": "upper bound of mineral-oil underestimate (CSP)",
+     "verbatim": "20–35%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 3,
+   "scope_notes": "(i) Teflon/Kapton smokes: shows smoke-type-dependent detector response; based on 3 Teflon furnace tests; not a missed-alarm result.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.9. 16%, ~20% and 20-35% verified on p.9 and consistent with Table 1a/1b (p.11): Teflon 5% DOS ratio 0.81, obscuration 100% DOS ratio 1.16.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-13",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 11,
+   "printed_page": "11",
+   "location": "Sec. IV Conclusion",
+   "anchor_quote": "which should be increased to improve the signal resolution and reliability",
+   "summary": "The CSP prototype was linear from below 1 to about 200 mg/m3 DRX PM2.5, depending on aerosol material, and sensitive at low smoke levels (signal-to-noise about 73-110 at 1%/m obscuration for mineral oil, p.7), but used only a narrow voltage band (about 0.96 V baseline, up to about 3 V at 30%/m obscuration); the authors recommend widening this range.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "mineral oil",
+    "DOS"
+   ],
+   "detector": "CSP (Commercial Space Prototype) light-scattering detector",
+   "numbers": [
+    {
+     "value": 0.96,
+     "unit": "V",
+     "meaning": "baseline at 0%/m obscuration",
+     "verbatim": "~0.96 V"
+    },
+    {
+     "value": 3,
+     "unit": "V",
+     "meaning": "signal at 30%/m obscuration (upper bound)",
+     "verbatim": "≲ 3 V"
+    },
+    {
+     "value": 200,
+     "unit": "mg/m3",
+     "meaning": "upper end of linear range",
+     "verbatim": "200 mg/m3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Prototype detector design recommendation; reference aerosols mainly.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor confirmed on p.11. Added the source's hedge that the linear range depends on aerosol material. The SNR 73-110 at 1%/m comes from p.7 (verified).",
+    "original": {
+     "summary": "The CSP prototype was linear from below 1 to about 200 mg/m3 and sensitive at low smoke levels (signal-to-noise about 73-110 at 1%/m obscuration for mineral oil), but used only a narrow voltage band (about 0.96 V baseline, up to about 3 V at 30%/m obscuration); the authors recommend widening this range."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-14",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 11,
+   "printed_page": "11",
+   "location": "Sec. IV Conclusion (future work, continues p.12)",
+   "anchor_quote": "Future work should experimentally verify the applicability of the derived conversion factors.",
+   "summary": "The authors call for experimental verification of the reference-to-smoke conversion factors and for measuring smoke size distributions and optical properties, combined with light scattering and absorption modelling, to explain detector differences and guide detector optimisation.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Forward-looking statement; (iii) size/optical characterization of smoke identified as a need.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.11; continues on p.12. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-15",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "increased oxygen concentrations, partial gravity conditions and the presence of surface dust",
+   "summary": "Missions beyond low Earth orbit will extend fire-safety conditions beyond NASA's five-decade experience to include long durations, dormancy, elevated oxygen, partial gravity and surface dust, all of which can affect fire safety system design.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) frames elevated O2 / partial gravity / dust as new conditions; programmatic statement, not test data.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.1; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-16",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 2,
+   "printed_page": "2",
+   "location": "Sec. I.A.2 Prior Detection and Suppression Systems",
+   "anchor_quote": "both systems were adapted from terrestrial systems for spacecraft applications without verification",
+   "summary": "Because no data existed on smoke particle sizes in low gravity or on reference fire sizes, Shuttle-era and later detection and suppression systems were adapted from terrestrial practice without verifying their effectiveness in low gravity; detectors were placed where ventilation ensures sampling, but the effect of the well-mixed cabin on detection threshold was not considered.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": "spacecraft smoke detection systems (Shuttle, ISS)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Historical design-basis statement.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.2; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-17",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 2,
+   "printed_page": "2",
+   "location": "Sec. I.A.2",
+   "anchor_quote": "with the ISS detectors more sensitive to larger particles while the Shuttle detectors",
+   "summary": "The Shuttle and ISS smoke detectors had quite different particle-size sensitivities: the ISS detectors were more sensitive to larger particles, whereas the Shuttle detectors were designed to reject larger particles; the change followed available terrestrial technology rather than data on target fires.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "STS (Shuttle) and ISS smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) particle-size coverage differs by detector; qualitative.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.2; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-18",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. I.B.1 Fire Detection Issues (p.2-3)",
+   "anchor_quote": "accumulation of hazardous compounds while alarm triggering is delayed",
+   "summary": "In well-mixed spacecraft cabins smoke is diluted so roughly the whole volume must reach alarm level, and HEPA filtration removes smoke particles so concentration builds more slowly; filters may not remove hazardous gases, so toxic products can accumulate while the smoke alarm is delayed. Earlier modelling found that in many cases hazardous levels of products from multiple materials accumulated before the alarm threshold.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "ISS and STS smoke detectors (modelled)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Based on cited modelling (Urban et al. ICES-2016-318), not on a measured missed alarm. Applies to microgravity, well-mixed, HEPA-filtered cabins.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.3. Modelling basis confirmed (ref. 11 = Urban et al. ICES-2016-318). Correctly not labelled a missed alarm.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-19",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. I.B.1",
+   "anchor_quote": "the detection time could vary by over 2 minutes",
+   "summary": "A cited ISS Destiny laboratory smoke-detection model (Brooker et al., 2007) showed that, for moderate smoke production rates, detection time could vary by more than two minutes; this paper does not state which parameter caused the variation.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 2,
+     "unit": "min",
+     "meaning": "variation in detection time in ISS Destiny model",
+     "verbatim": "over 2 minutes"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (model)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Model result cited from 2007 work (ref. 10, 07ICES-113); the driver of the variation is not stated in this paper.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and the 'over 2 minutes' value confirmed on p.3. The original summary attributed the variation to 'configuration' and the scope note to 'location'; this paper names neither. Both statements are now neutral.",
+    "original": {
+     "summary": "A cited ISS Destiny laboratory model (Brooker et al.) showed that, for moderate smoke production rates, detection time could vary by more than two minutes depending on configuration.",
+     "scope_notes": "Model result cited from 2007 work; location dependence of detection."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-20",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. I.B.1",
+   "anchor_quote": "spacecraft fire detection thresholds should not be based on terrestrial levels or on other spacecraft",
+   "summary": "The authors conclude that detection thresholds must be chosen for each vehicle volume and its air filtration and ventilation, with the interacting systems usually modelled in detail, rather than copied from terrestrial practice or other spacecraft.",
+   "category": "recommendation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design recommendation derived from modelling studies.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.3; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-21",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 4,
+   "printed_page": "4",
+   "location": "Sec. I.C Future mission changes",
+   "anchor_quote": "the presence of buoyant flow will dominate the smoke transport even at Lunar g-levels",
+   "summary": "Designing for reliable detection in both low gravity and on planetary surfaces is described as particularly challenging because buoyancy will dominate smoke transport even at lunar gravity, so detection design choices are expected to differ substantially between environments; more EVAs also bring more cabin dust and higher-oxygen environments.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar / partial gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial gravity; expectation statement, no test data.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.4; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-22",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 5,
+   "printed_page": "5",
+   "location": "Sec. II.C Fire Detection: Validation and Vehicle Scale Transport",
+   "anchor_quote": "makes discrimination of smoke from dust particles difficult based simply on the aerosol concentration",
+   "summary": "A space experiment found typical spacecraft smoke aerosols range roughly 100-500 nm (diameter of average mass); this size range makes it hard to distinguish smoke from dust using aerosol concentration alone. HEPA filtration by the ECLSS can substantially delay detection and allow hazardous products to build up, so detection design and alarm levels depend on the specific vehicle.",
+   "category": "measurement_limitation",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 100,
+     "unit": "nm",
+     "meaning": "lower size of typical smoke (diameter of average mass)",
+     "verbatim": "100 to 500 nm"
+    },
+    {
+     "value": 500,
+     "unit": "nm",
+     "meaning": "upper size of typical smoke (diameter of average mass)",
+     "verbatim": "100 to 500 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) dust vs smoke discrimination difficulty and (iii) size range; cites SAME results (Meyer et al. 2018). Not an observed false alarm.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.5. 100-500 nm 'diameters of average mass' verified. Ref. 24 is Meyer et al. 2018 FSJ (SAME), so investigation=SAME is correct.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-23",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 5,
+   "printed_page": "5",
+   "location": "Sec. II.D Fire Detection: Transfer Standard",
+   "anchor_quote": "to characterize other expected smoke and nuisance aerosol sizes",
+   "summary": "No database of reference spacecraft fires exists for qualifying detectors as terrestrial standards do; the authors propose transfer standards for manufacturers, which require more modelling and characterization of other expected smoke and nuisance aerosol sizes.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii)/(iii) nuisance-aerosol and smoke size characterization identified as open work (as of 2020).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.5; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-24",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 5,
+   "printed_page": "5",
+   "location": "Sec. II.E Contingency Monitor",
+   "anchor_quote": "HF HCl transport in a spacecraft needs further study",
+   "summary": "Overheated-polymer tests gave initial estimates of HF, HCl and HCN yields and allowed evaluation of candidate gas instruments, but HF/HCl transport (adsorption onto spacecraft materials) needs further study, and more materials and fire sources must be characterized to decide which compounds to monitor.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": "candidate combustion product gas instruments",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Gas monitoring for contingency response, not primary smoke detection.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.5; faithful (WSTF Li-ion laptop tests continue on p.6).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-25",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 6,
+   "printed_page": "6",
+   "location": "Sec. II.H Characterization of Lithium-ion Battery Fires",
+   "anchor_quote": "The full impact of a Li-ion fire on a spacecraft cannot be reliably predicted",
+   "summary": "Heat and hazardous-product release from a burning laptop in low gravity is too poorly known to predict the impact of a Li-ion battery fire; specific tests of heat release, product composition and spread risk, and of containment and extinguishment in low gravity, are needed.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [
+    "lithium-ion batteries / laptops"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Need statement; no detector performance data.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.6; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-26",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.B Partial-Gravity Flammability",
+   "anchor_quote": "shutting off the spacecraft ventilation upon detecting a fire, are questionable or ineffective in partial-gravity",
+   "summary": "Partial-gravity flammability is called a major gap: current low-gravity protocols such as NASA-STD-6001 Test 1 screening and shutting off ventilation upon fire detection may be questionable or ineffective in partial gravity, and no terrestrial facility exists for such experiments (a drop-tower, centrifuge rig and lunar-lander payload were being planned).",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "partial gravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial gravity; mainly flammability, with an implication for post-detection response.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.7; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-27",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.C Fire Detection: Validation and Vehicle-Scale Transport",
+   "anchor_quote": "There is no common fire detector used on existing spacecraft.",
+   "summary": "No common fire detector is used across existing spacecraft and this is expected to continue with commercial crew vehicles; different detector technologies respond differently to the range of smoke aerosol sizes and types.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) motivation for vehicle-specific validation.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.7; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-28",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.C",
+   "anchor_quote": "measure the size distribution of the smokes produced by the experiment in low-g",
+   "summary": "The plan (as of 2020) was for Saffire IV-VI diagnostics to measure low-gravity smoke size distribution and transport through the vehicle and filters, for post-flight comparison with particulate and combustion product transport models to support future detection system definition.",
+   "category": "technology_need",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Planned measurement; the later Saffire IV-VI paper in this source group reports DRX mass concentration and an ionization signal, not full size distributions (see open_questions).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.7; this is the 2020 plan, not a result. The scope note is consistent with ICES-2026-577 (DRX and ionization only).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-29",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.D Fire Detection: Transfer Standard",
+   "anchor_quote": "detection technologies for use in Gateway/HALO and Human Landing Systems (HLS) will be evaluated",
+   "summary": "Because no common detector exists and testing every candidate against every spacecraft smoke is unrealistic, a transfer standard based on reference aerosols is called essential for consistent alarm thresholds; detection technologies for Gateway/HALO and HLS were to be evaluated for those applications.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Programmatic plan as of 2020 (Gateway/HALO, HLS).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.7; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-30",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. III.E Contingency Air Monitor",
+   "anchor_quote": "The Anomaly Gas Analyzer has been under development for use on ISS and Orion",
+   "summary": "The Anomaly Gas Analyzer was being developed for ISS and Orion as the contingency air monitor; its suitability for Gateway/HALO or HLS was to be assessed, smaller laser-based instruments might be developed, and further testing including burning Li-ion batteries was planned.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "Anomaly Gas Analyzer (AGA)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Gas-based contingency monitoring (post-fire), not smoke detection; see ntrs_20260003174 for 2026 status.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.9; continues on p.10. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-31",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Background and Motivation",
+   "anchor_quote": "How will lunar dust mitigation strategy affect smoke transport?",
+   "summary": "The poster poses open questions for lunar habitats: how the lunar-dust mitigation strategy will affect smoke transport, where smoke detectors should be placed, and what alarm settings and times to alarm should be; it notes that in lunar gravity some buoyant plume flow is expected and that buoyant and forced flow may be of similar magnitude.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar (0.165 g)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) dust mitigation interplay and (iv) partial gravity; questions, not results.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor confirmed. Removed the parenthetical '(air flow/filtration)', which the poster does not say.",
+    "original": {
+     "summary": "The poster poses open questions for lunar habitats: how lunar-dust mitigation (air flow/filtration) will affect smoke transport, where smoke detectors should be placed, and what alarm settings and times to alarm should be; it notes that in lunar gravity some buoyant plume flow is expected and that buoyant and forced flow may be of similar magnitude."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-32",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Modeling Strategy (Study 1)",
+   "anchor_quote": "Overheating 2 cm circular patch on wall",
+   "summary": "COMSOL large-eddy-simulation model of a 2 m cubic volume at 8.2 psia and 293.15 K with lunar or Earth gravity, an overheating 2 cm wall patch at 600-1000 K, and forced flow from a supply at or near the ceiling to a floor return; particle trajectories used a massless formulation assuming particles below 1 um, spherical, density about 1-2 g/cm3.",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 8.2,
+     "unit": "psia",
+     "meaning": "ambient pressure in model",
+     "verbatim": "8.2 psia"
+    },
+    {
+     "value": 293.15,
+     "unit": "K",
+     "meaning": "ambient temperature",
+     "verbatim": "293.15 K"
+    },
+    {
+     "value": 2,
+     "unit": "m",
+     "meaning": "domain edge length",
+     "verbatim": "2m"
+    },
+    {
+     "value": 600,
+     "unit": "K",
+     "meaning": "fuel patch temperature lower bound",
+     "verbatim": "600-1000K"
+    },
+    {
+     "value": 1000,
+     "unit": "K",
+     "meaning": "fuel patch temperature upper bound",
+     "verbatim": "600-1000K"
+    },
+    {
+     "value": 0.165,
+     "unit": "g",
+     "meaning": "lunar gravity used",
+     "verbatim": "0.165g"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": 56.5,
+    "airflow_cm_s": null,
+    "gravity": "lunar (0.165 g) and Earth (1 g), CFD model",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Computational model only (no experiment). pressure_kpa=56.5 is a unit conversion of 8.2 psia (x6.89476), not a printed value.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and all numbers on the poster. pressure_kpa 56.5 is a labelled conversion of 8.2 psia (56.54), not a printed value.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-33",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Results and Discussion",
+   "anchor_quote": "particles are mixed into volume at 5 minutes",
+   "summary": "In the lunar-gravity simulations a stratified plume layer near the ceiling was partly retained at 1 cm/s forced flow before the forced-flow path developed, whereas at 5 cm/s particles were mixed into the volume by about 5 minutes; for an early fire near the vent flow path even low forced flow (5 cm/s) can impede formation of a ceiling smoke layer.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "cm/s",
+     "meaning": "forced flow with partly retained layer",
+     "verbatim": "uforced = 1 cm/s"
+    },
+    {
+     "value": 5,
+     "unit": "cm/s",
+     "meaning": "forced flow at which particles mixed into volume",
+     "verbatim": "5 cm/s"
+    },
+    {
+     "value": 5,
+     "unit": "min",
+     "meaning": "time by which particles were mixed into volume at 5 cm/s",
+     "verbatim": "5 minutes"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 5,
+    "gravity": "lunar (0.165 g), CFD model",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial-gravity smoke transport; model result for one geometry and supply/return layout.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and the 1 and 5 cm/s / 5 min values confirmed; CFD result.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-34",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Results and Discussion",
+   "anchor_quote": "US ECLSS velocity requirements for intramodule circulation: 5.1-20 cm/s",
+   "summary": "The poster cites US ECLSS intramodule circulation velocity requirements of 5.1-20 cm/s (3.6-102 cm/s as lower/upper limits), i.e. at or above the flow at which the model showed the ceiling smoke layer being disrupted.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 5.1,
+     "unit": "cm/s",
+     "meaning": "ECLSS requirement lower",
+     "verbatim": "5.1-20 cm/s"
+    },
+    {
+     "value": 20,
+     "unit": "cm/s",
+     "meaning": "ECLSS requirement upper",
+     "verbatim": "5.1-20 cm/s"
+    },
+    {
+     "value": 3.6,
+     "unit": "cm/s",
+     "meaning": "lower limit",
+     "verbatim": "3.6-102 cm/s"
+    },
+    {
+     "value": 102,
+     "unit": "cm/s",
+     "meaning": "upper limit",
+     "verbatim": "3.6-102 cm/s"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Comparison to model flows is the poster's framing; the requirement values are cited, not derived here.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor and all four velocity values confirmed.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-35",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Conclusions and Future Work",
+   "anchor_quote": "In Lunar gravity, even very low forced flow velocities can disrupt smoke layer formation",
+   "summary": "Conclusion: in lunar gravity even very low forced flows can disrupt smoke-layer formation; ceiling-mounted detectors could allow earlier detection but their placement relative to air supplies and returns must be carefully considered. Next steps: other supply/return placements and flow velocities, alternatives to ceiling/floor placement, and more realistic early-fire scenarios.",
+   "category": "recommendation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar (0.165 g), CFD model",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial gravity; detector placement guidance is tentative (\"could\").",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; the tentative 'could' is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-36",
+   "doc_id": "ntrs_20230013826",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Conclusions and Future Work",
+   "anchor_quote": "Simplifying assumptions about particle transport must be considered with each scenario",
+   "summary": "The authors caution that the simplifying particle-transport assumptions (massless particles, sub-micron spherical particles of fixed density) must be reconsidered for each scenario; Kapton and Teflon smoke micrographs from earlier work are shown as context for particle morphology.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "um",
+     "meaning": "assumed maximum particle diameter",
+     "verbatim": "d < 1 um"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "CFD modelling simplification (not Model C). (i) Kapton/Teflon only shown as reference images, not modelled specifically. Lunar dust transport differences mentioned in the NTRS abstract are not shown quantitatively on the poster.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. The NTRS record abstract (fetched by the verifier) mentions smoke-vs-lunar-dust transport differences, as scope_notes says.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-37",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Overview",
+   "anchor_quote": "A significant challenge is the design of a system with a low false alarm rate.",
+   "summary": "NASA GRC is developing a fire detection system for partial and low gravity; a key design challenge is a low false-alarm rate, which requires discriminating combustion particles from cabin aerosol and lunar dust. Aerosol properties are measured in the GASP laboratory and cross-referenced to target detectors, and a CFD plume model is used for habitat smoke transport.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": "fire detection system under development (photoelectric and ionization detectors, aerosol sensor)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) false alarms / dust; development status, preliminary.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-38",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results / GASP Schematic",
+   "anchor_quote": "a lunar highlands regolith (LHS) simulant was used",
+   "summary": "Tests in the GASP chamber exposed photoelectric and ionization detectors, an aerosol sensor and a combustion product monitor, with ELPI+ and TEOM reference instruments, to smoke from Synergy Pro (SGY) heat-resistant fabric (tube furnace / White Sands smoke generator), to lunar highlands regolith simulant (LHS) dispersed by a TOPAS generator, and to the two combined (panels: SGY only, LHS + SGY, LHS only).",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [
+    "Synergy Pro (SGY) fabric",
+    "lunar highlands regolith simulant (LHS)"
+   ],
+   "detector": "photoelectric detector; ionization detector; aerosol sensor; Combustion Product Monitor",
+   "numbers": [
+    {
+     "value": 15.6,
+     "unit": "cm/s",
+     "meaning": "velocity label annotated on White Sands smoke generator photo (meaning not explained in text)",
+     "verbatim": "v=15.6 cm/s"
+    },
+    {
+     "value": 3.7,
+     "unit": "cm/s",
+     "meaning": "velocity label annotated on White Sands smoke generator photo (meaning not explained in text)",
+     "verbatim": "v=3.7 cm/s"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Number of runs per condition is not stated; plots are images and were not digitised. Single fabric material reported.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. The verifier rendered the poster: the v=15.6 and v=3.7 cm/s labels sit on the White Sands smoke generator photo, as stated.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-39",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results",
+   "anchor_quote": "For the materials studied, the ionization detector produces the earliest detectable signal.",
+   "summary": "For the materials studied, the ionization detector gave the earliest detectable signal.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [
+    "Synergy Pro (SGY) fabric"
+   ],
+   "detector": "ionization detector (vs photoelectric)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Preliminary; scoped by the authors to the materials studied (SGY shown). No numeric lead time given in text.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; the scope 'for the materials studied' is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-40",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results",
+   "anchor_quote": "Trace gases are important, but are not considered an early signal.",
+   "summary": "The authors state that trace gases, though important, are not considered an early fire signal in these tests.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "Synergy Pro (SGY) fabric"
+   ],
+   "detector": "Combustion Product Monitor / gas reference",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Relevant to gas-based detection: within this poster gases are not treated as the early indicator. Preliminary, material-specific.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-41",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results",
+   "anchor_quote": "the smoldering aerosols are likely volatile organic compounds or monomers emitted",
+   "summary": "Based on reference particle size measurements, the smoldering aerosols are interpreted as likely volatile organic compounds or monomers emitted from the material.",
+   "category": "particle_property",
+   "investigation": null,
+   "materials": [
+    "Synergy Pro (SGY) fabric"
+   ],
+   "detector": "ELPI+ / reference instruments",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Authors' interpretation (\"likely\"); one material.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; the 'likely' hedge is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-42",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results",
+   "anchor_quote": "smoke and real lunar dust have overlapping particle sizes that set off the detector",
+   "summary": "The key challenge identified is that smoke and real lunar dust have overlapping particle sizes, so dust also sets off the detector; Apollo 11 and 17 lunar dust size distributions (Park et al. 2008) are shown for comparison.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "lunar highlands regolith simulant (LHS)",
+    "Apollo 11/17 lunar dust (literature)"
+   ],
+   "detector": "smoke detector (photoelectric/ionization)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) dust-triggered response (false-alarm mechanism) observed with simulant in ground tests; the poster does not quantify alarm counts. Distinct from missed alarms.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. The poster text gives no alarm counts. The rendered 'LHS only' panel shows ionization and photometric signals responding to dust simulant alone, so a dust-driven response is visible, though no alarm-threshold crossing is stated. Category false_alarm (mechanism) accepted.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-43",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Preliminary Results",
+   "anchor_quote": "A key need is a low-cost sensor to discriminate between small pre-pyrolysis particles",
+   "summary": "A low-cost sensor able to discriminate small pre-pyrolysis particles from lunar dust is named as a key need; signal analysis and discrimination work is ongoing.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) smoke-dust discrimination; status ongoing as of 2026.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-44",
+   "doc_id": "ntrs_20260005612",
+   "pdf_page": 1,
+   "printed_page": null,
+   "location": "Poster: Fire Scenario Modeling",
+   "anchor_quote": "Partial gravity provides unique challenges due to decreased buoyant flow and reduced particle settling velocities.",
+   "summary": "Fire scenarios for a lunar habitat are being developed from the most probable fires; partial gravity is described as challenging because of weaker buoyant flow and slower particle settling, and the model (NIST FDS laptop-fire plume simulation) includes ECLSS effects on flow and smoke concentration over time.",
+   "category": "context",
+   "investigation": null,
+   "materials": [
+    "laptop (fire scenario)"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "partial gravity (model)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial gravity; modelling in progress, no results quantified in text.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-45",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 1,
+   "printed_page": "1",
+   "location": "Abstract (continues p.2)",
+   "anchor_quote": "The hazardous product release results from seven long-duration low-gravity fire tests are presented.",
+   "summary": "Seven long-duration low-gravity burns aboard uncrewed Cygnus vehicles (SAFFIRE IV-VI) with cabin pressure and oxygen varied toward exploration atmospheres: four 18-cm PMMA samples (two burning on both sides, two one-sided) and three 50-cm cotton or cotton/fiberglass (SIBAL) fabrics, all 40 cm wide in 20 cm/s opposed flow. CO, CO2 and aerosol (light-scattering DustTrak DRX) were measured continuously at a Far Field Diagnostics unit near the cabin air inlet that also carried an ionization sensor from a commercial smoke detector.",
+   "category": "test_condition",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA",
+    "cotton fabric",
+    "SIBAL cotton/fiberglass fabric"
+   ],
+   "detector": "TSI DustTrak DRX 8533; ionization sensor from a commercial smoke detector (FFD)",
+   "numbers": [
+    {
+     "value": 7,
+     "unit": "tests",
+     "meaning": "burn tests reported",
+     "verbatim": "seven long-duration low-gravity fire tests"
+    },
+    {
+     "value": 40,
+     "unit": "cm",
+     "meaning": "sample width",
+     "verbatim": "40 cm wide"
+    },
+    {
+     "value": 20,
+     "unit": "cm/s",
+     "meaning": "opposed flow velocity (Table 1 note)",
+     "verbatim": "20 cm/s opposed flow"
+    },
+    {
+     "value": 1000,
+     "unit": "mbar",
+     "meaning": "highest test pressure (IV-2)",
+     "verbatim": "1000"
+    },
+    {
+     "value": 541,
+     "unit": "mbar",
+     "meaning": "lowest test pressure (VI-2)",
+     "verbatim": "541"
+    },
+    {
+     "value": 0.22,
+     "unit": "mol fraction",
+     "meaning": "lowest O2 (IV-2)",
+     "verbatim": "0.22"
+    },
+    {
+     "value": 0.31,
+     "unit": "mol fraction",
+     "meaning": "highest O2 (VI-2)",
+     "verbatim": "0.31"
+    },
+    {
+     "value": 16.7,
+     "unit": "m3",
+     "meaning": "smallest free volume",
+     "verbatim": "16.7"
+    },
+    {
+     "value": 19,
+     "unit": "m3",
+     "meaning": "largest free volume",
+     "verbatim": "19"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 20,
+    "gravity": "microgravity (Cygnus, low Earth orbit)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 7,
+   "scope_notes": "(iv) elevated O2 and reduced pressure covered; flaming fires, not smoldering. Per-test pressure/O2 in Table 1 (p.6).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.1. Pressure/O2/volume extremes verified against Table 1 (p.6, checked on a rendered image): 1000/541 mbar, 0.22/0.31, 16.7/19 m3. 'Uncrewed' is not in the text but agrees with operation after Cygnus left ISS (p.2).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-46",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 2,
+   "printed_page": "2",
+   "location": "Abstract end",
+   "anchor_quote": "pressure rise and temperature change were small but the smoke particulate rose to substantial levels",
+   "summary": "Overall the fires caused small pressure and temperature rises in the spacecraft, but smoke particulate reached substantial levels and gaseous products reached hazardous levels; the paper argues smoke products can be more hazardous than the heat.",
+   "category": "context",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA",
+    "cotton fabric",
+    "SIBAL cotton/fiberglass fabric"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 7,
+   "scope_notes": "Vehicle-scale observation for the SAFFIRE IV-VI configuration.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.2; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-47",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 2,
+   "printed_page": "2",
+   "location": "Sec. I Introduction",
+   "anchor_quote": "the fire heat release rate (HRR) was not successfully determined for SAFFIRE IV and V",
+   "summary": "For SAFFIRE IV and V the heat release rate was not successfully determined, making it hard to relate measured products to fire size; HRR was measured for SAFFIRE VI.",
+   "category": "measurement_limitation",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Limits product-vs-fire-size correlation for 4 of the 7 burns (IV and V).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.2. IV and V make up 4 of the 7 burns (IV-1, IV-2, V-2, V-3), consistent with Table 1.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-48",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III Results, Fig. 7 discussion",
+   "anchor_quote": "the detection scenario tested here is likely to be quicker than in many spacecraft",
+   "summary": "Smoke aerosol at the FFD tracked flame length with little delay because most flow went directly from the flow unit to the FFD without the extensive mixing of geometries like ISS; the authors therefore judge the tested detection scenario likely quicker than in many spacecraft.",
+   "category": "test_condition",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA"
+   ],
+   "detector": "DustTrak DRX; FFD ionization chamber",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Caveat limiting generalisation of time-to-alarm results to other vehicles (likely optimistic).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.7; the 'likely' hedge is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-49",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 8,
+   "printed_page": "8",
+   "location": "Sec. III Results p.8 (CO/CO2 vs SMAC); values from Table 1 on p.6; SMAC and CO2 limits stated on p.2",
+   "anchor_quote": "were likely due to the higher oxygen concentrations for those tests",
+   "summary": "Peak CO increases exceeded the 24-h CO SMAC (100 ppm) for both SAFFIRE VI PMMA tests, the SAFFIRE IV PMMA test and the SAFFIRE VI SIBAL test, and the 1-h CO2 limit was exceeded in both SAFFIRE VI PMMA tests; the authors attribute the high SAFFIRE VI levels likely to the higher oxygen concentrations.",
+   "category": "context",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA",
+    "SIBAL cotton/fiberglass fabric"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 338,
+     "unit": "ppm",
+     "meaning": "max CO increase VI-3 (2-sided PMMA)",
+     "verbatim": "338"
+    },
+    {
+     "value": 309,
+     "unit": "ppm",
+     "meaning": "max CO increase VI-4 (1-sided PMMA)",
+     "verbatim": "309"
+    },
+    {
+     "value": 100,
+     "unit": "ppm",
+     "meaning": "24-hour CO SMAC",
+     "verbatim": "100 ppm"
+    },
+    {
+     "value": 425,
+     "unit": "ppm",
+     "meaning": "1-hour CO SMAC",
+     "verbatim": "425 ppm"
+    },
+    {
+     "value": 3,
+     "unit": "mm Hg",
+     "meaning": "CO2 1-hour limit (partial pressure)",
+     "verbatim": "3 mm Hg"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) elevated O2 (0.29-0.31 mol fraction) at about 541-550 mbar in SAFFIRE VI; peak values, not values at alarm; attribution to O2 is the authors' hedged interpretation.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and statements confirmed on p.8. The CO values 338/309 come from Table 1 on p.6, and the SMAC/CO2 limits (100, 425 ppm, 3 mm Hg) come from p.2. Location now names those pages. Values were checked against a rendered image of Table 1 (red cells match).",
+    "original": {
+     "location": "Sec. III Results (CO/CO2 vs SMAC)"
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-50",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 8,
+   "printed_page": "8",
+   "location": "Sec. III Results",
+   "anchor_quote": "The SAFFIRE configuration in the spacecraft had no method to remove CO",
+   "summary": "There was no CO removal and limited CO2 removal, so after the first test a baseline of these gases remained; CO and CO2 are therefore reported as increases per test rather than absolute values.",
+   "category": "measurement_limitation",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Data-reporting caveat for Table 1 gas values.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.8; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-51",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. IV Conclusion (Table 1 on p.6, threshold analysis p.8-9)",
+   "anchor_quote": "a 2 mg/m3 detection threshold was not low enough to detect the fires before",
+   "summary": "Applying an assumed alarm point of 2 mg/m3 total particulate (DRX at the FFD) to the data: it was reached before hazardous CO for the SAFFIRE IV PMMA and SAFFIRE VI SIBAL tests, but in both SAFFIRE VI PMMA tests CO had already risen above the 24-h SMAC (105 and 283 ppm increases), with the one-sided sample approaching the 1-h SMAC; for that one-sided test the CO2 increase at the alarm point (3.09 mm Hg) also exceeded the 3 mm Hg 1-h limit (marked red in Table 1). Tabulated times to this alarm point were 1037-1603 s for PMMA and 92-201 s for the thin fabrics.",
+   "category": "measurement_limitation",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA",
+    "SIBAL cotton/fiberglass fabric",
+    "cotton fabric"
+   ],
+   "detector": "DustTrak DRX total PM (surrogate alarm at 2 mg/m3); no flight smoke detector alarm evaluated",
+   "numbers": [
+    {
+     "value": 2,
+     "unit": "mg/m3",
+     "meaning": "assumed alarm threshold, DRX total PM",
+     "verbatim": "2 mg/m3"
+    },
+    {
+     "value": 105,
+     "unit": "ppm",
+     "meaning": "CO increase at alarm, VI-3 2-sided PMMA (544 mbar, O2 0.30)",
+     "verbatim": "105"
+    },
+    {
+     "value": 283,
+     "unit": "ppm",
+     "meaning": "CO increase at alarm, VI-4 1-sided PMMA (550 mbar, O2 0.29)",
+     "verbatim": "283"
+    },
+    {
+     "value": 1037,
+     "unit": "s",
+     "meaning": "time to alarm VI-3 (reference time point of Table 1 not explicitly stated)",
+     "verbatim": "1037"
+    },
+    {
+     "value": 1603,
+     "unit": "s",
+     "meaning": "time to alarm VI-4",
+     "verbatim": "1603"
+    },
+    {
+     "value": 1083,
+     "unit": "s",
+     "meaning": "time to alarm IV-2 PMMA",
+     "verbatim": "1083"
+    },
+    {
+     "value": 1117,
+     "unit": "s",
+     "meaning": "time to alarm V-3 PMMA",
+     "verbatim": "1117"
+    },
+    {
+     "value": 92,
+     "unit": "s",
+     "meaning": "time to alarm IV-1 SIBAL",
+     "verbatim": "92"
+    },
+    {
+     "value": 146,
+     "unit": "s",
+     "meaning": "time to alarm V-2 cotton",
+     "verbatim": "146"
+    },
+    {
+     "value": 201,
+     "unit": "s",
+     "meaning": "time to alarm VI-2 SIBAL",
+     "verbatim": "201"
+    },
+    {
+     "value": 544,
+     "unit": "mbar",
+     "meaning": "VI-3 pressure",
+     "verbatim": "544"
+    },
+    {
+     "value": 550,
+     "unit": "mbar",
+     "meaning": "VI-4 pressure",
+     "verbatim": "550"
+    },
+    {
+     "value": 3.09,
+     "unit": "mm Hg",
+     "meaning": "CO2 increase at alarm, VI-4 (exceeds 3 mm Hg 1-h limit)",
+     "verbatim": "3.09"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 7,
+   "scope_notes": "Post-hoc surrogate threshold on a reference aerosol monitor, NOT an observed missed alarm of a smoke detector. Detection was late relative to CO hazard in 2 of 7 tests (both elevated-O2, reduced-pressure SAFFIRE VI PMMA). Flaming fires; transport path was direct (likely optimistic).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.9. Every Table 1 value (p.6) verified on the rendered table: 105/283 ppm and 3.09 mm Hg are red; times 1083/1117/1037/1603/92/146/201 s. Correctly scoped as a surrogate DRX threshold, not a detector missed alarm.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-52",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. IV Conclusion",
+   "anchor_quote": "would require either a lower threshold or additional smoke detectors to reduce the transport time",
+   "summary": "The authors conclude that smoke detection for these design fires in this spacecraft would need a lower threshold or more detectors to cut transport time, and that judging whether a detector finds a fire before the cabin becomes uninhabitable requires vehicle-specific analysis using heat and smoke production data in a model of the planned spacecraft.",
+   "category": "recommendation",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Applies to the Cygnus/SAFFIRE configuration and design fires tested.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.9; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-53",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 1,
+   "printed_page": "1",
+   "location": "Abstract",
+   "anchor_quote": "Seven AGA instruments are currently deployed on the International Space Station",
+   "summary": "The Anomaly Gas Analyzer is a portable, battery-powered laser-spectroscopy instrument monitoring H2O, CO2, O2, CO, NH3, HCN, HF and HCl at 1 Hz; seven units are deployed on ISS, Orion-specific units were manifested for (and two flew aboard) Artemis 2, an HLS variant is in development, and a three-gas subset forms the Primary Constituent Monitor for Gateway HALO.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "Anomaly Gas Analyzer (AGA)",
+   "numbers": [
+    {
+     "value": 7,
+     "unit": "units",
+     "meaning": "AGA instruments deployed on ISS",
+     "verbatim": "Seven AGA instruments"
+    },
+    {
+     "value": 1,
+     "unit": "Hz",
+     "meaning": "data rate",
+     "verbatim": "1 Hz"
+    },
+    {
+     "value": 2,
+     "unit": "units",
+     "meaning": "AGA units flown aboard Artemis 2 (p.7)",
+     "verbatim": "Two of those instruments flew aboard Artemis 2"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Combustion-product gas monitoring; the paper presents instrument development/calibration, not fire-detection timing tests.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.1. 'Two flew aboard Artemis 2' verified on p.7. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-54",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 8,
+   "printed_page": "8",
+   "location": "Table 1 (flight AGA characteristics)",
+   "anchor_quote": "Table 1. Physical and analytical characteristics of the flight AGA",
+   "summary": "Flight AGA: 4.3 kg, 6.0 L, 6.5 W; required accuracy and ranges include CO 5 ppm over 5-1,000 ppm, HF, HCl and HCN each 1 ppm over 2-50 ppm, O2 1% over 14-50%, CO2 0.2 mmHg over 0.3-21 mmHg.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "Anomaly Gas Analyzer (AGA)",
+   "numbers": [
+    {
+     "value": 4.3,
+     "unit": "kg",
+     "meaning": "mass",
+     "verbatim": "4.3 kg"
+    },
+    {
+     "value": 6.5,
+     "unit": "W",
+     "meaning": "power",
+     "verbatim": "6.5 W"
+    },
+    {
+     "value": 5,
+     "unit": "ppm",
+     "meaning": "CO accuracy",
+     "verbatim": "5 ppm"
+    },
+    {
+     "value": 1000,
+     "unit": "ppm",
+     "meaning": "CO range upper",
+     "verbatim": "5 – 1,000 ppm"
+    },
+    {
+     "value": 2,
+     "unit": "ppm",
+     "meaning": "HF/HCl/HCN range lower",
+     "verbatim": "2 – 50 ppm"
+    },
+    {
+     "value": 50,
+     "unit": "ppm",
+     "meaning": "HF/HCl/HCN range upper",
+     "verbatim": "2 – 50 ppm"
+    },
+    {
+     "value": 14,
+     "unit": "%",
+     "meaning": "O2 range lower",
+     "verbatim": "14 – 50 %"
+    },
+    {
+     "value": 50,
+     "unit": "%",
+     "meaning": "O2 range upper",
+     "verbatim": "14 – 50 %"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Limit-of-quantitation column not used (text-layer order ambiguous).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.8. Mass, volume, power, accuracy and range values verified against the Table 1 text layer.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-55",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.A AGA (calibration)",
+   "anchor_quote": "one has to accommodate gross changes to the bulk speed of sound",
+   "summary": "Because CO and HCN are sensed by photoacoustic spectroscopy, calibration must correct for speed-of-sound changes caused by varying cabin O2 and CO2, plus empirical corrections for absolute pressure and spectroscopic temperature corrections; the final calibration campaign, in which nine AGAs were calibrated together, required about three weeks.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "AGA photoacoustic CO and HCN channels",
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "weeks",
+     "meaning": "duration of final calibration activity",
+     "verbatim": "about three weeks"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) relevant to elevated-O2 / reduced-pressure exploration atmospheres: gas readings depend on composition- and pressure-specific corrections.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor confirmed on p.7. The source says the FINAL calibration activity (nine AGAs in one campaign) took about three weeks; 'per campaign' overgeneralised this.",
+    "original": {
+     "summary": "Because CO and HCN are sensed by photoacoustic spectroscopy, calibration must correct for speed-of-sound changes caused by varying cabin O2 and CO2, plus empirical corrections for absolute pressure and spectroscopic temperature corrections; calibrating the 8-gas instrument took about three weeks per campaign."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-56",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 1,
+   "printed_page": "1",
+   "location": "Abstract; Sec. III.B HLS-AGA (p.8-9)",
+   "anchor_quote": "A wider calibrated operating pressure envelope is required in this application.",
+   "summary": "The lunar Human Landing System variant (HLS AGA) needs a wider calibrated operating pressure envelope; two HLS AGA engineering units were delivered in mid-2025 and four flight units were scheduled for 2026, with some maximum concentration ranges (O2, CO2, NH3) reduced for the HLS cabin.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": "HLS AGA (AGA 1.5)",
+   "numbers": [
+    {
+     "value": 4,
+     "unit": "units",
+     "meaning": "HLS AGA flight units scheduled for 2026",
+     "verbatim": "Four flight units"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) reduced/variable pressure for lunar lander; development status as of 2026.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.1. EDU/flight-unit status and reduced ranges verified on pp.8-9.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-57",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. III.C PCM",
+   "anchor_quote": "Two PCMs will be installed in HALO as part of the environmental control loop",
+   "summary": "For Gateway HALO the Primary Constituent Monitor uses only the H2O, CO2 and O2 subset of AGA sensing. It is radiation-hardened to survive many years (HALO target lifetime fifteen years, although the PCM is not designed to run continuously for the whole program duration), has redundant O2 channels and has a 9.5-15.2 psia operating range (Table 2, p.10).",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "Primary Constituent Monitor (PCM)",
+   "numbers": [
+    {
+     "value": 9.5,
+     "unit": "psia",
+     "meaning": "PCM pressure range lower",
+     "verbatim": "9.5–15.2 psia"
+    },
+    {
+     "value": 15.2,
+     "unit": "psia",
+     "meaning": "PCM pressure range upper",
+     "verbatim": "9.5–15.2 psia"
+    },
+    {
+     "value": 15,
+     "unit": "years",
+     "meaning": "HALO target lifetime",
+     "verbatim": "fifteen years"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Within this paper the PCM lists no combustion-product (CO/HCN/HF/HCl) channels, so it is not described as a fire-detection device.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor confirmed on p.9 (also on p.1). The original said 'radiation-hardened for a 15-year target life'. The source says hardened 'to survive for many years', that the HALO target lifetime is fifteen years, and that the PCM is not designed to run continuously for the whole program.",
+    "original": {
+     "summary": "For Gateway HALO the Primary Constituent Monitor uses only the H2O, CO2 and O2 subset of AGA sensing, radiation-hardened for a 15-year target life, with redundant O2 channels and a 9.5-15.2 psia operating range."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-58",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 11,
+   "printed_page": "11",
+   "location": "Sec. V Conclusion",
+   "anchor_quote": "now-operational Anomaly Gas Analyzer for ISS and Orion contingency monitoring",
+   "summary": "The conclusion frames the AGA as an operational contingency-monitoring instrument for ISS and Orion (three Orion units, four HLS units in build, PCMs for Gateway HALO).",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": "Anomaly Gas Analyzer (AGA)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Role is contingency (post-event) atmosphere monitoring; within the examined sources no AGA fire-detection-time data were found.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor on p.11; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-59",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Abstract",
+   "anchor_quote": "causing false alarms and requiring operational controls, such as turning off smoke detectors during housekeeping",
+   "summary": "Airborne cabin dust in low Earth orbit has caused smoke-detector false alarms and led to operational controls such as switching detectors off during housekeeping; the authors argue this practice should not become the norm at dusty destinations (Moon, Mars).",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "spacecraft cabin dust"
+   ],
+   "detector": "heritage spacecraft smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) Industry/academic paper (Northrop Grumman, Univ. Duisburg-Essen), summarising ISS practice; not a NASA test report. No false-alarm counts given here.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor in the stored excerpt, which matches a fresh Exa render of doi 10.32865/2346/102771 made by the verifier. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-60",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. I Introduction",
+   "anchor_quote": "the immediate automated response is shutting down ventilation and other systems",
+   "summary": "On ISS a smoke alarm automatically shuts down ventilation and other systems, requiring hours of ground work to restore and document; frequent false alarms also risk crews taking alarms less seriously.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [],
+   "detector": "ISS smoke detection system",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) operational consequence of false alarms; qualitative.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed (excerpt matches the fresh render); faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-61",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. I Introduction",
+   "anchor_quote": "these two goals are mutually exclusive and cannot be achieved simultaneously",
+   "summary": "Raising detector sensitivity to catch the earliest smoke increases false alarms from cabin dust; the authors state that high early-smoke sensitivity and immunity to dusty events cannot both be achieved with smoke detectors currently in space vehicles.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "current spacecraft smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) sensitivity vs false-alarm trade-off; authors' assessment.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-62",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II Background",
+   "anchor_quote": "spacecraft smoke detectors have never been proven in an emergency scenario",
+   "summary": "No fire has occurred aboard a NASA vehicle in flight, so spacecraft smoke detectors have never been proven in a real emergency; flight detectors derive from the terrestrial aircraft industry.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Explains why limitation evidence comes from experiments, not flight fires.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-63",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.A Current Spacecraft Smoke Detectors",
+   "anchor_quote": "there is no mechanism to distinguish the particle type in either technology",
+   "summary": "Both heritage technologies (Shuttle ionization, ISS photoelectric) are particle detectors with no means to tell smoke from dust; dust entering the chamber removes ions or scatters light exactly as smoke does, which is the mechanism of false alarms.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "Space Shuttle ionization detector; ISS photoelectric detector",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) mechanism statement.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-64",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.B Spacecraft Smoke Particle Characterization",
+   "anchor_quote": "The most likely spacecraft smoke particles range from 100 nm to 1000 nm",
+   "summary": "Summarising the ISS smoke experiment, matching ground tests and WSTF tests (ten smoke types), the authors state that the most likely spacecraft smoke particles are about 100-1000 nm and mostly round and compact, with some particles outside this range and some agglomerates.",
+   "category": "particle_property",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 100,
+     "unit": "nm",
+     "meaning": "lower bound of most likely smoke size",
+     "verbatim": "100 nm"
+    },
+    {
+     "value": 1000,
+     "unit": "nm",
+     "meaning": "upper bound of most likely smoke size",
+     "verbatim": "1000 nm (1 µm)"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii) secondary summary of NASA results; oxidative pyrolysis smokes at ISS-like flow.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. Ref. 4 (Mulholland et al. 2015, low-gravity pyrolysis smoke) is SAME, so investigation=SAME is correct.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-65",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.C Airborne Particles on ISS",
+   "anchor_quote": "larger concentration spikes, mostly occurring on weekends when the crew was performing vacuuming",
+   "summary": "Real-time ISS particle data showed intermittent spikes of about 500-1500 particles/cm3 during the day, near-zero levels during crew sleep, and larger spikes mostly during weekend vacuuming. Another analysis (Fortenberry and Meyer 2023) reported baselines of 10-100 particles/cm3 with spikes up to 80,000 particles/cm3 during crew activities such as pre-sleep and lab work. The authors state that the spikes coinciding with vacuuming would have caused false alarms had smoke detectors not been switched off during vacuuming.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "ISS cabin dust"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 500,
+     "unit": "particles/cm3",
+     "meaning": "intermittent spike lower",
+     "verbatim": "500 and 1500 particles/cm 3"
+    },
+    {
+     "value": 1500,
+     "unit": "particles/cm3",
+     "meaning": "intermittent spike upper",
+     "verbatim": "500 and 1500 particles/cm 3"
+    },
+    {
+     "value": 80000,
+     "unit": "particles/cm3",
+     "meaning": "maximum spike (Fortenberry and Meyer 2023)",
+     "verbatim": "80,000 particles/cm 3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (ISS)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) potential false-alarm conditions asserted by the authors from particle-number data (not mass); because detectors are turned off during vacuuming these are not recorded alarms.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and numbers confirmed. The source attributes would-be false alarms only to spikes coinciding with crew vacuuming. The 80,000 particles/cm3 spikes are linked to pre-sleep and lab work, not vacuuming. The summary no longer generalises to all spikes.",
+    "original": {
+     "summary": "Real-time ISS particle data showed intermittent spikes of about 500-1500 particles/cm3 during the day, near-zero levels during crew sleep, and larger spikes mostly on weekend vacuuming; another analysis reported baselines of 10-100 particles/cm3 with spikes up to 80,000 particles/cm3 during crew activities. These spikes would have caused false alarms had detectors not been switched off during vacuuming.",
+     "scope_notes": "(ii) potential false-alarm conditions inferred from particle data; because detectors are turned off during vacuuming, these are not recorded alarms."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-66",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.D Lunar and Planetary Dust",
+   "anchor_quote": "These sizes will interfere with smoke detection in the same manner that the typical ISS",
+   "summary": "A significant fraction of lunar dust (Apollo samples) is smaller than 1 um, overlapping smoke sizes, and may be present at much higher concentrations than ISS dust; switching detectors off while cleaning suits and air would leave much longer undetected periods than on ISS.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "lunar dust"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 1,
+     "unit": "um",
+     "meaning": "size below which a significant fraction of lunar dust lies",
+     "verbatim": "1 µm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "lunar",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) projected false-alarm risk for lunar missions; not an observed event.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-67",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.E Smoke Detector False Alarms",
+   "anchor_quote": "with a total of 14 events (note that this total combines built-in test",
+   "summary": "False-alarm reports date back to Skylab UV fire detectors; Shuttle reports total 14 events, combining built-in-test failures and false alarms; ISS incidents are known but not publicly tracked, with anecdotal reports from the US Lab, the Russian service module and SpaceX Crew Dragon.",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [],
+   "detector": "Skylab UV fire detectors; Shuttle smoke detectors",
+   "numbers": [
+    {
+     "value": 14,
+     "unit": "events",
+     "meaning": "Shuttle smoke detector events (BIT failures and false alarms combined)",
+     "verbatim": "14 events"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) the 14 is not a pure false-alarm count. ISS frequency not published (stated by authors).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; correctly flags that 14 mixes BIT failures and false alarms.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-68",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.E Smoke Detector False Alarms",
+   "anchor_quote": "smoke alarm events in spacecraft smoke detection have occurred due to interference from nuisance dust",
+   "summary": "The authors state that historically most spacecraft smoke-alarm events have been caused by nuisance dust rather than smoke, since target smoke sizes sit in the middle of ISS airborne particle sizes (5 nm-3 um measured in real time).",
+   "category": "false_alarm",
+   "investigation": null,
+   "materials": [
+    "spacecraft cabin dust"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) qualitative claim; the paper notes quantitative false-alarm frequency is not typically published.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; the claim is qualitative, as scope_notes says.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-69",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.F Smoke Detector Inlet Features",
+   "anchor_quote": "A filter will capture smoke particles by multiple mechanisms",
+   "summary": "Putting a filter ahead of a detector to block dust would also capture smoke and delay alarm; any barrier or long tubing to the cabin air prolongs time to alarm, though coarse screens for microgravity debris can be optimised by modelling.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design caution; no test data in excerpt.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-70",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. III Smoke Detector Design to Avoid False Alarms",
+   "anchor_quote": "evaluation of scattered light measurements at two different colors / wavelengths",
+   "summary": "High-end terrestrial detectors reduce false alarms by comparing scattered light at two wavelengths (blue and infrared), exploiting that small smoke particles scatter blue light more strongly while larger dust shows little difference.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "dual-wavelength scattering detectors (terrestrial)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) description of a terrestrial technique; this paper presents no test of the dual-wavelength method with spacecraft smokes or lunar dust.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and summary confirmed. Removed the speculative inference in scope_notes, which the extractor itself flagged as not made by the authors, so it cannot be read downstream as evidence.",
+    "original": {
+     "scope_notes": "(ii) technique description; this paper presents no test with spacecraft smokes or lunar dust for the dual-wavelength method, and lunar dust overlapping smoke sizes may limit a purely size-based contrast (inference not made by the authors)."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-71",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. III.A Polarimetric Approach",
+   "anchor_quote": "Results show that the discrimination of lunar dust should be possible based on the assumption",
+   "summary": "Univ. Duisburg-Essen polarimetric detector prototypes identify irregular dust by depolarized scattered light (about 0.2 depolarization for Dolomite D90 at 90 degrees, about 650 nm); a variant tested with smoke and lunar simulant JSC-1AF indicated discrimination should be possible if the simulant matches real lunar dust morphology, and prototypes still detected smoke added to air already containing dust.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [
+    "lunar dust simulant JSC-1AF",
+    "Dolomite D90 dust",
+    "smoldering cotton wick"
+   ],
+   "detector": "UDE polarimetric light-scattering smoke detector prototype",
+   "numbers": [
+    {
+     "value": 0.2,
+     "unit": "ratio",
+     "meaning": "degree of depolarization for Dolomite D90",
+     "verbatim": "approx. 0.2"
+    },
+    {
+     "value": 90,
+     "unit": "deg",
+     "meaning": "scattering angle",
+     "verbatim": "90°"
+    },
+    {
+     "value": 650,
+     "unit": "nm",
+     "meaning": "wavelength",
+     "verbatim": "approx. 650 nm"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) prototype-level evidence (proof of principle); hedged (\"should be possible\"); depends on simulant representativeness; not yet tested with a wide range of spacecraft-material smokes.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; 0.2 / 90 deg / 650 nm verified; the 'should be possible' hedge is kept.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-72",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. IV.A Environment",
+   "anchor_quote": "ionization smoke detectors must ionize air molecules, which will be less abundant at low pressures",
+   "summary": "Exploration hardware must work at low pressure (HALO nominal 10.2 psi / 70.3 kPa) and survive vacuum; photoelectric detection is pressure-independent, but ionization detectors' baseline current changes at low pressure, so baseline operation must be characterised across the vehicle pressure range. Multi-year dormancy may challenge COTS aviation detectors.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "ionization smoke detectors; photoelectric smoke detectors",
+   "numbers": [
+    {
+     "value": 70.3,
+     "unit": "kPa",
+     "meaning": "HALO nominal cabin pressure",
+     "verbatim": "10.2 psi (70.3 kPa)"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": 70.3,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) reduced pressure; engineering statement, no measured pressure-response data in the excerpt.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; 10.2 psi (70.3 kPa) printed.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-73",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. IV.C Features and Requirements",
+   "anchor_quote": "the ability to reprogram smoke detector parameters while deployed during a mission",
+   "summary": "Predicted post-EVA lunar dust loads in NASA-STD-1008 are conservative estimates with values still to be resolved, so the authors recommend detectors whose alarm thresholds and parameters can be reprogrammed in flight as real dust data become available.",
+   "category": "recommendation",
+   "investigation": null,
+   "materials": [
+    "lunar dust"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) acknowledges lunar dust load uncertainty.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-74",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. V Conclusion",
+   "anchor_quote": "COTS detectors from the aviation industry will not suffice as they have in LEO missions",
+   "summary": "The authors conclude that overlapping sizes of target smoke and spacecraft/lunar dust make false alarms inevitable with heritage detector designs and that COTS aviation detectors will not suffice for exploration missions; dust-tolerant detectors engineered for space are needed.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": "COTS aviation smoke detectors",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) conclusion by industry/academic authors.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-75",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. V Conclusion",
+   "anchor_quote": "Future tests with a revised and improved prototype are planned",
+   "summary": "Planned work: test a revised polarimetric prototype against various dusts, pyrolysis smoke from many common spacecraft materials and EN 54 standard test fires, using a newer lunar simulant and an ISS-vacuum-bag-based cabin dust simulant, plus months-long dust exposure tests.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [
+    "lunar simulant",
+    "ISS cabin dust simulant"
+   ],
+   "detector": "UDE polarimetric prototype",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Planned, not completed, as of 2025.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-76",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. I Introduction",
+   "anchor_quote": "there is no National Aeronautics and Space Administration (NASA) standard governing",
+   "summary": "The authors state that, as of 2025, no NASA standard governs smoke detector performance (particularly for mass-concentration detectors) for space use; terrestrial detectors adapted to LEO become less viable with higher radiation and longer missions beyond Earth's magnetic field.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Industry paper (Northrop Grumman, Paragon) with NASA GRC input.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor in the stored excerpt, which matches a fresh Exa render of the TTU bitstream made by the verifier. Faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-77",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. I-II Method Approach",
+   "anchor_quote": "requirements development for smoke detectors, ionization style in this case",
+   "summary": "One input to the HALO smoke-detector alarm-threshold requirements (ionization-style detector), used together with heritage guidance, other analyses and development testing, was an analysis of tabulated 2012 GRC tests at WSTF. In those tests, 0.5 g samples of spacecraft materials (FR-4 circuit board, Nomex, wire insulation, Kapton, Teflon) were overheated, gases were measured by commercial and prototype sensors and smoke mass by a reference aerosol instrument; the results were scaled to HALO and compared with 1-h SMACs (CO 425, HCN 8, HF 3 ppm).",
+   "category": "test_condition",
+   "investigation": null,
+   "materials": [
+    "FR-4 circuit board",
+    "Nomex",
+    "wire insulation",
+    "Kapton",
+    "Teflon"
+   ],
+   "detector": "HALO smoke detector (ionization style)",
+   "numbers": [
+    {
+     "value": 0.5,
+     "unit": "g",
+     "meaning": "sample mass in WSTF tests",
+     "verbatim": "0.5 g"
+    },
+    {
+     "value": 425,
+     "unit": "ppm",
+     "meaning": "1-h SMAC CO",
+     "verbatim": "425"
+    },
+    {
+     "value": 8,
+     "unit": "ppm",
+     "meaning": "1-h SMAC HCN",
+     "verbatim": "8"
+    },
+    {
+     "value": 3,
+     "unit": "ppm",
+     "meaning": "1-h SMAC HF",
+     "verbatim": "3"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(i) Kapton/Teflon included. Analysis/extrapolation, not a detector test; the final HALO threshold value is not given in the examined excerpt.",
+   "verification": {
+    "verdict": "CORRECTED",
+    "note": "Anchor and numbers confirmed. The summary overstated the role of the WSTF-based analysis: the source says it was used together with heritage guidance, other analyses and development testing to derive the HALO threshold requirements.",
+    "original": {
+     "summary": "The HALO smoke detector alarm threshold (ionization-style detector) was derived from tabulated 2012 GRC tests at WSTF in which 0.5 g samples of spacecraft materials (FR-4 circuit board, Nomex, wire insulation, Kapton, Teflon) were overheated, gases were measured by commercial and prototype sensors and smoke mass by a reference aerosol instrument, with results scaled to HALO and compared with 1-h SMACs (CO 425, HCN 8, HF 3 ppm)."
+    }
+   }
+  },
+  {
+   "item_id": "ntrs_followup-78",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. III Assumptions",
+   "anchor_quote": "If the generation rate does not exceed air filtration, the SD will not alarm",
+   "summary": "The authors note that smoke generation competes with cabin filtration: if generation does not exceed filtration the detector will never alarm, while toxic gases keep accumulating unless removed; their analysis assumes instantaneous release and detection and ignores transport time.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "smoke detector (generic, HALO)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Analytical statement of a missed-alarm condition, not an observed missed alarm; consistent with earlier NASA modelling (Urban et al. 2016).",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. Refs 3-5 in the full render include Urban et al. ICES-2016-318. Correctly labelled analytical, not an observed missed alarm.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-79",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. III Assumptions",
+   "anchor_quote": "spacecraft Kapton is present in thin sheets or tape rather than ground or cut",
+   "summary": "Data-set limitations listed: assumed equal smoke/gas generation for all fuels and linear scaling with mass (only 0.5 g samples, no time-resolved data), notoriously unrepeatable smoke generation (runs averaged), large gas-sensor variation (TDLS and PAS most reliable), and unrealistic sample preparation (e.g. ground or cut Kapton, granulated PTFE) compared with spacecraft use.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "Kapton",
+    "PTFE",
+    "printed circuit board"
+   ],
+   "detector": "TDLS and PAS gas sensors (2012 WSTF data)",
+   "numbers": [
+    {
+     "value": 0.5,
+     "unit": "g",
+     "meaning": "only sample size used in analysed campaigns",
+     "verbatim": "0.5 g"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(i) Kapton/Teflon representativeness limitation.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. The '0.5 g exclusively' and 'absence of time-based data' details sit in a [...] gap of the stored excerpt but appear verbatim in the verifier's fresh full render.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-80",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. V Results",
+   "anchor_quote": "SMAC exceedances were observed for the wire insulation at 540 °C and Kapton squares",
+   "summary": "Scaled to HALO, a 3 mg/m3 threshold gave few 1-h SMAC exceedances (HF for wire insulation at 540 C, HCN for Kapton squares); at 5 mg/m3 HF exceedances grew (all wire insulation sets, worst-case 100% TFE); at 7 mg/m3 further exceedances appeared (100% Kapton for HCN, PTFE/TFE for HF) and CO exceeded for Kapton squares.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [
+    "wire insulation",
+    "Kapton",
+    "PTFE/TFE"
+   ],
+   "detector": "HALO smoke detector threshold analysis",
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "mg/m3",
+     "meaning": "threshold with few exceedances",
+     "verbatim": "3 mg/m 3"
+    },
+    {
+     "value": 5,
+     "unit": "mg/m3",
+     "meaning": "threshold with more HF exceedances",
+     "verbatim": "5 mg/m 3"
+    },
+    {
+     "value": 7,
+     "unit": "mg/m3",
+     "meaning": "threshold with first CO exceedance",
+     "verbatim": "7 mg/m"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(i) Kapton/Teflon smokes: hazard at alarm is material dependent; extrapolated analysis, not measured in HALO.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed. The 3/5/7 mg/m3 exceedance pattern matches Results text and Tables 8-10 in the fresh full render (the tables are not in the stored excerpt).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-81",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. VI Conclusion",
+   "anchor_quote": "A large gap in the currently available data is the absence of space vehicle filtration",
+   "summary": "Recommended future smoke campaigns: newer spacecraft materials and finishes, multiple low-pressure test points, time-resolved smoke and gas data, and larger-scale tests with filtration as a variable, to support models of airflow, filtration, thresholds and detector placement.",
+   "category": "technology_need",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) low pressure and filtration named as data gaps; industry authors.",
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Anchor confirmed; faithful.",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-82",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 11,
+   "printed_page": "11",
+   "location": "Table 1 (smoke/reference slope ratios), rows 'Mineral Oil'",
+   "anchor_quote": "Linear regression slope ratios of smoke over reference aerosols.",
+   "summary": "Table 1 gives smoke-to-reference slope ratios versus DRX PM2.5. Against mineral oil, the ratios for lamp wick / Kapton / Nomex / Teflon / PMMA / wire insulation are: ISS scatter detector 3.03 / 1.70 / 1.97 / 3.26 / 2.16 / 2.55; obscuration meter 2.06 / 1.29 / 1.34 / 2.50 / 1.90 / 1.53; CSP 1.35 / 1.19 / 1.29 / 1.00 / 1.17 / 1.29. Per unit DRX PM2.5, Kapton smoke gave the smallest ISS-scatter and obscuration responses of the six smokes, and Teflon the largest. For the CSP, Teflon gave the smallest.",
+   "category": "particle_property",
+   "investigation": null,
+   "materials": [
+    "lamp wick (cotton)",
+    "Kapton",
+    "Nomex",
+    "Teflon (PTFE)",
+    "PMMA",
+    "wire insulation",
+    "mineral oil"
+   ],
+   "detector": "ISS scatter detector; obscuration meter; CSP",
+   "numbers": [
+    {
+     "value": 1.7,
+     "unit": "ratio",
+     "meaning": "ISS scatter slope, Kapton smoke / mineral oil",
+     "verbatim": "1.70"
+    },
+    {
+     "value": 3.26,
+     "unit": "ratio",
+     "meaning": "ISS scatter slope, Teflon smoke / mineral oil",
+     "verbatim": "3.26"
+    },
+    {
+     "value": 3.03,
+     "unit": "ratio",
+     "meaning": "ISS scatter slope, lamp wick smoke / mineral oil",
+     "verbatim": "3.03"
+    },
+    {
+     "value": 1.29,
+     "unit": "ratio",
+     "meaning": "obscuration slope, Kapton smoke / mineral oil",
+     "verbatim": "1.29"
+    },
+    {
+     "value": 2.5,
+     "unit": "ratio",
+     "meaning": "obscuration slope, Teflon smoke / mineral oil",
+     "verbatim": "2.50"
+    },
+    {
+     "value": 1.0,
+     "unit": "ratio",
+     "meaning": "CSP slope, Teflon smoke / mineral oil",
+     "verbatim": "1.00"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(i) Kapton/Teflon. The verifier read these values from the Table 1 text layer; column order was cross-checked against every textual statement on pp.9-10. Ratios are signal per unit DRX PM2.5, and the DRX is itself less sensitive below about 300 nm. Slopes are not alarm times and are not missed alarms; 3 Kapton and 3 Teflon furnace tests, ground only. The paper does not draw the Kapton-lowest conclusion itself.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-83",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 9,
+   "printed_page": "9",
+   "location": "Sec. III.C (obscuration meter); also p.6",
+   "anchor_quote": "it had low signal-to-noise ratios for PM2.5 concentration",
+   "summary": "The ASTM E662-type obscuration meter was linear with DRX PM2.5 from about 5 to 200 mg/m3, but its signal-to-noise ratio was low below about 5 mg/m3 (about 1%/m obscuration). The authors therefore used the DRX rather than obscuration as the concentration reference.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "obscuration meter (ASTM E662-17A based)",
+   "numbers": [
+    {
+     "value": 5,
+     "unit": "mg/m3",
+     "meaning": "DRX PM2.5 below which obscuration SNR was low",
+     "verbatim": "≲5 mg/m3"
+    },
+    {
+     "value": 1,
+     "unit": "%/m",
+     "meaning": "approximate obscuration at that concentration",
+     "verbatim": "~1%/m obscuration"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Limits obscuration-based characterisation at low smoke levels in this ground set-up; not a flight detector result.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-84",
+   "doc_id": "ntrs_20205003817",
+   "pdf_page": 10,
+   "printed_page": "10",
+   "location": "Sec. III.C closing paragraph",
+   "anchor_quote": "multiple reference aerosols can be used for different smoke detectors and different smoke particles",
+   "summary": "Because no single reference aerosol reproduced all detector-smoke combinations within +/-10%, the authors propose either using the Table 1 slope ratios as conversion factors or using different reference aerosols for different detectors and smoke types. They note that 5% DOS predicted CSP smoke responses within +/-20%.",
+   "category": "recommendation",
+   "investigation": null,
+   "materials": [
+    "DOS",
+    "mineral oil"
+   ],
+   "detector": "CSP; obscuration meter; ISS scatter detector",
+   "numbers": [
+    {
+     "value": 20,
+     "unit": "%",
+     "meaning": "error within which 5% DOS predicted CSP smoke responses",
+     "verbatim": "±20%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "1g (ground laboratory)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Transfer-standard recommendation for ground testing; the conversion factors were not yet experimentally verified (see item 14).",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-85",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. I.B.1 Fire Detection Issues",
+   "anchor_quote": "detection of a fire against nuisance aerosol sources is much simplified",
+   "summary": "On Earth, buoyancy creates a concentrated, stratified smoke layer at the ceiling, which makes it much easier to detect a fire against nuisance aerosol sources. In a well-mixed spacecraft cabin the smoke is diluted instead, so the whole volume must reach the alarm threshold.",
+   "category": "context",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity vs 1g (qualitative)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) explains why the nuisance-aerosol discrimination margin is smaller in microgravity; qualitative design argument, no test data.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-86",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 3,
+   "printed_page": "3",
+   "location": "Sec. I.B.3 Vehicle Scale Fire Modeling",
+   "anchor_quote": "there is no simple fire detection and suppression approach that will work for all",
+   "summary": "Prior studies led the authors to conclude that, where flammable materials are present, no single fire detection and suppression approach works for all vehicle designs. Each vehicle must be modelled with its air circulation and filtration, avionics cooling and enclosures, stowage, volume, atmosphere composition and relief valves before detection and suppression requirements can be examined quantitatively.",
+   "category": "recommendation",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Design-process recommendation from modelling studies (Dietrich et al., Urban et al.).",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-87",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.A Material Flammability, Ignition and Fire Growth",
+   "anchor_quote": "conduct tests at elevated oxygen and reduced pressures that could be used on exploration",
+   "summary": "As of 2020, Saffire IV-VI was planned to test larger samples for longer at the elevated-oxygen, reduced-pressure atmospheres proposed for exploration. The authors note that Saffire on Cygnus allows very limited changes to test conditions or samples between tests.",
+   "category": "test_condition",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (planned, Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) elevated O2 / reduced pressure; plan statement. Executed conditions are in ICES-2026-577 Table 1 (items 45, 51).",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-88",
+   "doc_id": "ntrs_20205000063",
+   "pdf_page": 5,
+   "printed_page": "5",
+   "location": "Sec. II.B Partial-Gravity Material Flammability",
+   "anchor_quote": "results suggest that flammability limits determined in normal gravity may not be conservative",
+   "summary": "Partial-gravity flammability data come only from thin fuels on low-gravity aircraft and from a centrifuge in the GRC 5.2 s drop tower. Both showed materials flammable at lower oxygen near lunar gravity than at 1 g or in microgravity, which suggests 1-g limits may not be conservative. The authors stress that the data set is very limited and that g-level effects on smoldering and deep-seated fires are an important area for future study.",
+   "category": "research_question",
+   "investigation": null,
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "partial (near lunar)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iv) partial gravity; flammability rather than detection, but relevant to which fires a lunar-habitat detector must see.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-89",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 6,
+   "printed_page": "6",
+   "location": "Sec. III text after Table 1",
+   "anchor_quote": "2-sided samples show a 73% increase in the spread rate from an oxygen concentration increase",
+   "summary": "Flame growth on PMMA in low gravity stayed linear rather than accelerating, even in high oxygen. For the two 2-sided samples, growth rate rose 73% for a 0.08 mol-fraction O2 increase despite a 45% pressure decrease (IV-2 to VI-3). For the two 1-sided samples, growth rate was unchanged for a 0.03 O2 increase with a 27% pressure decrease.",
+   "category": "context",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 73,
+     "unit": "%",
+     "meaning": "increase in 2-sided PMMA growth rate",
+     "verbatim": "73% increase"
+    },
+    {
+     "value": 0.08,
+     "unit": "mol fraction",
+     "meaning": "O2 increase (2-sided comparison)",
+     "verbatim": "0.08 mol fraction"
+    },
+    {
+     "value": 45,
+     "unit": "%",
+     "meaning": "pressure decrease (2-sided comparison)",
+     "verbatim": "45%"
+    },
+    {
+     "value": 0.03,
+     "unit": "mol fraction",
+     "meaning": "O2 increase (1-sided comparison)",
+     "verbatim": "0.03 mol fraction"
+    },
+    {
+     "value": 27,
+     "unit": "%",
+     "meaning": "pressure decrease (1-sided comparison)",
+     "verbatim": "27%"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": 20,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": 4,
+   "scope_notes": "(iv) elevated O2 / reduced pressure. Based on four PMMA burns (two per comparison); fire growth, not detector response.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-90",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III, Fig. 8 discussion",
+   "anchor_quote": "The peak HRR hit 3 kW which is substantial for a small spacecraft.",
+   "summary": "In SAFFIRE VI-3 the peak heat release rate reached about 3 kW, yet the temperature rise at the far-field diagnostics was only 0.5 °C. A peak of 77 °C was seen at the flow-unit outlet but dropped quickly through mixing and heat loss. Table 1 lists maximum temperature rises of 0.04-0.50 °C and pressure rises of 0.25-1.31 mbar at the FFD across the seven tests.",
+   "category": "context",
+   "investigation": "Saffire",
+   "materials": [
+    "PMMA"
+   ],
+   "detector": null,
+   "numbers": [
+    {
+     "value": 3,
+     "unit": "kW",
+     "meaning": "peak HRR, SAFFIRE VI 2-sided PMMA (Table 1: 3240 W)",
+     "verbatim": "3 kW"
+    },
+    {
+     "value": 0.5,
+     "unit": "°C",
+     "meaning": "temperature rise at FFD",
+     "verbatim": "0.5 °C"
+    },
+    {
+     "value": 77,
+     "unit": "°C",
+     "meaning": "peak temperature at SFU outlet",
+     "verbatim": "77 °C"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Vehicle-scale observation in this Cygnus configuration. The paper evaluates no heat or temperature detector; any implication for thermal detection is not drawn by the authors.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-91",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 4,
+   "printed_page": "4",
+   "location": "Sec. II, FFD description",
+   "anchor_quote": "the ISS where the smoke detectors are in front of air intakes",
+   "summary": "The far-field diagnostics unit sat near the inlet of the Cygnus air circulation system, so it could stand in for where a smoke detector would trigger as circulation swept air to the intake. The authors liken this to ISS, where smoke detectors sit in front of air intakes.",
+   "category": "test_condition",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": "FFD (DustTrak DRX 8533; ionization sensor from a commercial smoke detector)",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (Cygnus)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Explains the basis of the 2 mg/m3 surrogate-alarm analysis (item 51); a single sampling location, not a distributed detector network.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-92",
+   "doc_id": "ntrs_20260001992",
+   "pdf_page": 8,
+   "printed_page": "8",
+   "location": "Sec. III Results (end of p.8)",
+   "anchor_quote": "the more important measure is the concentration of hazardous products at the time the fire",
+   "summary": "The authors argue that hazardous-product concentration at the moment of detection matters more than peak values. Ideally the detection threshold should be set so that, for the expected fires in that spacecraft, detection comes early enough for the crew to respond effectively.",
+   "category": "recommendation",
+   "investigation": "Saffire",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Framing for the time-to-alarm analysis; a general principle, not a specific threshold value.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-93",
+   "doc_id": "ntrs_20260003174",
+   "pdf_page": 7,
+   "printed_page": "7",
+   "location": "Sec. III.A AGA (flight units); also p.6 EDU feature list",
+   "anchor_quote": "implement gas alarm limit values unique to the spacecraft",
+   "summary": "Of the fifteen flight AGAs, three are designated for Orion and use Orion-specific gas alarm limits. The EDU stage added audible and visible alarms and the ability to set separate ISS and Orion alarm limits (p.6), so the AGA alarms on gas concentration thresholds set per vehicle.",
+   "category": "followup_solution",
+   "investigation": null,
+   "materials": [],
+   "detector": "Anomaly Gas Analyzer (AGA)",
+   "numbers": [
+    {
+     "value": 15,
+     "unit": "units",
+     "meaning": "flight AGAs built and calibrated 2020-2022",
+     "verbatim": "Fifteen flight AGAs"
+    },
+    {
+     "value": 3,
+     "unit": "units",
+     "meaning": "AGAs designated for Orion",
+     "verbatim": "Three of the AGAs"
+    }
+   ],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Gas-concentration alarms for contingency monitoring. The paper gives no alarm limit values and no fire-detection timing.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-94",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.C Airborne Particles on ISS",
+   "anchor_quote": "however there is no monitoring to verify whether they are met",
+   "summary": "NASA sets maximum allowable concentrations for typical cabin dust on ISS, but the authors state that no monitoring verifies whether these limits are met. Knowledge of the cabin particle background comes from sample-return and real-time payload experiments.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [
+    "ISS cabin dust"
+   ],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": "microgravity (ISS)",
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(ii) background-aerosol knowledge gap relevant to false-alarm thresholds. Industry/academic authors.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-95",
+   "doc_id": "ices2025_361_dusttolerant",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. II.B Spacecraft Smoke Particle Characterization",
+   "anchor_quote": "All experiments incorporated the typical air velocity of the ventilation system on ISS",
+   "summary": "The smoke-characterisation experiments behind the 100-1000 nm size range (the ISS experiment, matched ground tests and WSTF tests) all used the typical ISS ventilation air velocity. The authors expect this velocity to be similar in future vehicles.",
+   "category": "test_condition",
+   "investigation": "SAME",
+   "materials": [],
+   "detector": null,
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "(iii)/(iv) scope limitation: the size data come from ISS-like forced flow, oxidative pyrolysis only; partial-gravity or different-flow smoke is not covered by these data within the examined sources.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  },
+  {
+   "item_id": "ntrs_followup-96",
+   "doc_id": "ices2025_halo_sd_threshold",
+   "pdf_page": null,
+   "printed_page": null,
+   "location": "Sec. VI Conclusion",
+   "anchor_quote": "based on many assumptions that cannot be substantiated",
+   "summary": "The authors concede that their HALO alarm-threshold method rests on many assumptions that cannot be substantiated. They still consider it a reasonable way to tailor a threshold to HALO until a NASA standard exists.",
+   "category": "measurement_limitation",
+   "investigation": null,
+   "materials": [],
+   "detector": "HALO smoke detector threshold analysis",
+   "numbers": [],
+   "conditions": {
+    "atmosphere_o2_vol_pct": null,
+    "pressure_kpa": null,
+    "airflow_cm_s": null,
+    "gravity": null,
+    "heating_s": null,
+    "aging_s": null
+   },
+   "n_independent_tests": null,
+   "scope_notes": "Hedge on items 77-80. The approach is presented as interim guidance, not validated detection performance.",
+   "added_by_verifier": true,
+   "verification": {
+    "verdict": "CONFIRMED",
+    "note": "Added by verifier; anchor checked on the cited page (whitespace-normalised).",
+    "original": {}
+   }
+  }
+ ],
+ "inaccessible": [
+  {
+   "what": "Wang X. et al. (2020) 'Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions', Fire Safety Journal 113:102977, doi 10.1016/j.firesaf.2020.102977 (NTRS record 77766245676546)",
+   "why": "NTRS record has no downloadable file; publisher full text not retrieved and open-access status could not be verified (Unpaywall query returned no usable result). Highly relevant (gas vs particle sensors on spacecraft-relevant smokes) - content NOT reconstructed."
+  },
+  {
+   "what": "Fortenberry C. et al. ICES-2021-244 'Evaluation of Combustion Products from Large-Scale Spacecraft Fires during the Saffire-IV and Saffire-V Experiments' (full paper)",
+   "why": "Only the slide deck (NTRS 20210017343) is on NTRS; the paper was not located there and the TTU repository blocks scripted download. Slides not downloaded because of the 8-document cap."
+  },
+  {
+   "what": "Original PDFs of ICES-2025-361 (dust-tolerant smoke detection) and the HALO smoke-detection threshold paper (TTU repository)",
+   "why": "ttu-ir.tdl.org returned HTTP 403/202 bot challenges to curl; only Exa-rendered text was obtainable, stored as verbatim excerpts without PDF page numbers or PDF checksums."
+  },
+  {
+   "what": "ICES-2020-125 (Schultze, Sichma, Meyer) smoke detector to prevent false alarms in lunar missions; ICES-2026 multi-angle scattering smoke sensor (Dohi et al.)",
+   "why": "Hosted on the TTU repository (scripted download blocked); only search-result abstracts were seen; not fetched because of the 8-document cap. No items extracted from them."
+  },
+  {
+   "what": "NTRS 20210012108 (2019) 'The Combustion Product Monitor instrument for the spacecraft fire safety demonstration project'",
+   "why": "Metadata-only NTRS record (no download)."
+  },
+  {
+   "what": "ICES-2020-173 roadmap Figures 1-4 (Oct 2019 Spacecraft Fire Safety Roadmap)",
+   "why": "Image-only in the PDF; not OCR'd, so roadmap swim-lane dates/entries were not extracted."
+  },
+  {
+   "what": "Plot data on the two posters (20230013826, 20260005612)",
+   "why": "Figures are raster images; values were not digitised. Only text-layer statements are used."
+  }
+ ],
+ "search_log": [
+  {
+   "query": "spacecraft smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 18,
+   "notes": "Selected 20205003817 (ICES-2020-340) and 20230013826 (AAAR 2023 poster). Other hits pre-2018 (SAME-era papers covered by other source groups)."
+  },
+  {
+   "query": "smoke detection microgravity",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 21,
+   "notes": "No new 2018-2026 document beyond those already selected; mostly 1993-2016 records."
+  },
+  {
+   "query": "spacecraft fire detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 115,
+   "notes": "Top 25 of 115 reviewed. 20210022143 (2021 fire detection white paper) exists but is handled by another source group (wp2021); not duplicated."
+  },
+  {
+   "query": "aerosol monitor ISS",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 52,
+   "notes": "Mostly SAGE III/ISS atmospheric science (irrelevant). 20220004427 (APM lessons learned, 2022) and 20190032657 noted as cabin-aerosol context, not selected (8-document cap)."
+  },
+  {
+   "query": "Saffire combustion products",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 6,
+   "notes": "Selected none here directly; found 20210017343 (Saffire IV/V combustion-products slides, 2021), 20250002675/20240008602/20260001600 (vehicle modelling) - not selected (cap). Saffire smoke covered by 20260001992."
+  },
+  {
+   "query": "smoke particle size spacecraft",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 18,
+   "notes": "All relevant hits 2007-2015 (SAME/WSTF era) except 20230013826."
+  },
+  {
+   "query": "next generation smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 2,
+   "notes": "Only a 2007 presentation (20070031686); no 2018-2026 next-generation detector document in NTRS for this query."
+  },
+  {
+   "query": "dust smoke discrimination",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 6,
+   "notes": "All hits are Earth remote sensing (dust vs smoke aerosol), none on spacecraft detectors."
+  },
+  {
+   "query": "Gateway fire detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits."
+  },
+  {
+   "query": "Orion smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "Only 20090020655 (2009, metadata only, no download; outside 2018-2026 window)."
+  },
+  {
+   "query": "lunar fire safety",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 50,
+   "notes": "Found 20260008630 (Urban 2026 lunar fire safety challenges slides), 20210022403 (partial-g white paper), 20240015018 (crew cabin compartment fire model 1g vs lunar g) - not selected (cap); 20230013826 selected."
+  },
+  {
+   "query": "partial gravity smoke",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 5,
+   "notes": "Selected 20260005612 (2026 GRC early fire detection poster) and 20230013826."
+  },
+  {
+   "query": "smoke detector lunar dust",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "Single hit 20230013826 (selected)."
+  },
+  {
+   "query": "fire detection lunar habitat",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 3,
+   "notes": "20260005379 HabSim (habitat disruption modelling) not fire-detection specific; 20230013826 selected."
+  },
+  {
+   "query": "combustion product monitor spacecraft",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 7,
+   "notes": "Selected 20260003174 (AGA, ICES-2026-266). 20210012108 (CPM instrument for Saffire, 2019) has no downloadable file."
+  },
+  {
+   "query": "light scattering smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 4,
+   "notes": "Only pre-2005 hits."
+  },
+  {
+   "query": "spacecraft fire safety smoke",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 41,
+   "notes": "Selected 20260001992 (Saffire IV-VI heat and smoke). 20205008167 (AAAR 2020 overview slides) not selected (cap)."
+  },
+  {
+   "query": "smoke detector false alarm",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 7,
+   "notes": "All 7 hits 1985-2016 (e.g. 20100011173 multi-parameter low-false-alarm detection, 2007; 20170000248 tradeoffs 2016); none 2018-2026."
+  },
+  {
+   "query": "smoke detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 128,
+   "notes": "Mostly wildfire/satellite smoke; spacecraft-relevant hits already selected."
+  },
+  {
+   "query": "Saffire smoke",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 2,
+   "notes": "Selected 20260001992."
+  },
+  {
+   "query": "Saffire aerosol",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 5,
+   "notes": "Found 20210011521 (ICES-2021-266 Saffire IV/V fire-safety implications, 6.5 MB) - not selected (cap); 20200000365 (Li-ion hazardous products, 2019) noted."
+  },
+  {
+   "query": "fire safety Artemis",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 6,
+   "notes": "20260002050 surface vehicle atmosphere considerations (ICES-2026-324) noted, not detection-specific."
+  },
+  {
+   "query": "Gateway fire safety",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 3,
+   "notes": "Only ECLSS overview papers (2021); not selected."
+  },
+  {
+   "query": "Orion fire detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 3,
+   "notes": "Only 20200000365 (2019 Li-ion hazardous product detection slides) in window; not selected."
+  },
+  {
+   "query": "airborne particulate ISS",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 26,
+   "notes": "Cabin aerosol characterization (2018-2026) found: 20180004817, 20190027326, 20240015359, 20220004427; context only, not selected (cap)."
+  },
+  {
+   "query": "fire detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 418,
+   "notes": "Selected 20260005612; other hits terrestrial wildfire/flashover."
+  },
+  {
+   "query": "smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 41,
+   "notes": "Found 20205007907 (AAAR 2020 transfer-standard poster; same study as ICES-2020-340) - not selected as duplicate."
+  },
+  {
+   "query": "Marit Meyer",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 48,
+   "notes": "Author query: cabin aerosol and lunar dust papers 2018-2026 listed; 77766245676546 = Fire Safety Journal 2020 sensor-evaluation paper (metadata only, no NTRS download)."
+  },
+  {
+   "query": "David Urban fire",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 87,
+   "notes": "Author query: found 20205000063 (selected), 20260003546 (depress as suppression), 20240015018, 20260001600."
+  },
+  {
+   "query": "fire signature gas sensor",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "Single irrelevant hit (LPSC 2003 proceedings)."
+  },
+  {
+   "query": "carbon monoxide fire spacecraft",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 20,
+   "notes": "Found 20240002981 (Saffire VI preliminary results, ICES-2024-365) - superseded by 20260001992 for smoke/CO at alarm."
+  },
+  {
+   "query": "smoke detector testing aerosol",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 2,
+   "notes": "Selected 20205003817."
+  },
+  {
+   "query": "spacecraft aerosol knowledge gaps",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "20240015359 (ASGSR 2024 poster) - context, not selected."
+  },
+  {
+   "query": "exploration fire detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 53,
+   "notes": "Only 20210022143 in window (other source group)."
+  },
+  {
+   "query": "multi-wavelength light scattering aerosol",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 7,
+   "notes": "Only atmospheric/remote-sensing hits; no spacecraft detector document."
+  },
+  {
+   "query": "multi-angle light scattering",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 36,
+   "notes": "Only atmospheric remote sensing; no spacecraft detector document in NTRS. (A 2026 ICES multi-angle smoke/lunar-dust sensor paper was found on the open web; see web search entries.)"
+  },
+  {
+   "query": "commercial off-the-shelf smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits. 20200001645 (GRC particulate sensor technology, 2020) states COTS devices did not meet requirements; it was downloaded, reviewed and then dropped to respect the 8-document cap (no items extracted)."
+  },
+  {
+   "query": "Claire Fortenberry",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 17,
+   "notes": "Author query: 20220009167 (2022 'Progress and Challenges in Spacecraft Fire Detection' slides) was downloaded, reviewed and then dropped for the 8-document cap (no items extracted); 20250005133 Li-ion thermal runaway aerosol/gas (ICES-2025-426) noted."
+  },
+  {
+   "query": "Gases and Aerosols from Smoldering Polymers",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 2,
+   "notes": "Selected 20260005612."
+  },
+  {
+   "query": "aerosol monitors payload",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 2,
+   "notes": "Cabin aerosol payload context only."
+  },
+  {
+   "query": "smoke transport lunar habitat",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "Selected 20230013826."
+  },
+  {
+   "query": "spacecraft fire safety technology development",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 45,
+   "notes": "Selected 20205000063; 20210021318 (2021 roadmap slides listing Orion/Gateway/lunar lander smoke detector lines) noted, not selected (cap)."
+  },
+  {
+   "query": "Kapton smoke",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 6,
+   "notes": "All hits 2012-2015 (SAME-era/WSTF); no 2018-2026 NTRS document specifically on Kapton smoke detection."
+  },
+  {
+   "query": "Teflon smoke",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 7,
+   "notes": "All hits 1988-2015; no 2018-2026 NTRS document specifically on Teflon smoke detection."
+  },
+  {
+   "query": "Evaluation of Combustion Products Saffire",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "Only slides 20210017343; the ICES-2021-244 paper itself not found on NTRS."
+  },
+  {
+   "query": "lithium ion battery thermal runaway aerosol",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 3,
+   "notes": "20250005133 (ICES-2025-426) noted; not selected."
+  },
+  {
+   "query": "particulate sensor technology",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 23,
+   "notes": "20200001645 (see 'commercial off-the-shelf smoke detector' note)."
+  },
+  {
+   "query": "ISS smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 9,
+   "notes": "All hits 1997-2016."
+  },
+  {
+   "query": "dust-tolerant smoke detection",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 1,
+   "notes": "No relevant NTRS hit (paper exists on open web, ICES-2025-361)."
+  },
+  {
+   "query": "smoke dust discrimination lunar",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits."
+  },
+  {
+   "query": "smoke detector false alarms lunar missions",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits (ICES-2020-125 exists on open web)."
+  },
+  {
+   "query": "polarimetric smoke detector",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits."
+  },
+  {
+   "query": "Towards Dust-tolerant Smoke Detection in Future Space Missions",
+   "where": "NTRS API https://ntrs.nasa.gov/api/citations/search (page.size=25, relevance order)",
+   "hits": 0,
+   "notes": "Zero NTRS hits for exact title."
+  },
+  {
+   "query": "Evaluation of gas and particle sensors for detecting spacecraft-relevant fire emissions Fire Safety Journal 2020 Wang Meyer",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 6,
+   "notes": "Located the Fire Safety Journal 2020 article (doi 10.1016/j.firesaf.2020.102977) on ScienceDirect; full text not retrieved (see inaccessible)."
+  },
+  {
+   "query": "NASA next generation spacecraft smoke detector lunar habitat dust discrimination fire detection system project",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 8,
+   "notes": "Found ICES-2025-361 dust-tolerant smoke detection (selected), ICES-2026 multi-angle (40/130 deg) smoke vs lunar dust sensor (Dohi et al., doi 10.32865/2346/109003; abstract only seen), ICES-2020-125 smoke-dust discrimination (Schultze, Sichma, Meyer; abstract only seen), an SBIR award for optical CO fire sensing (Vista Photonics), and the 2013 FPDS final report (pre-window)."
+  },
+  {
+   "query": "Orion spacecraft smoke detector Artemis fire detection system design HALO Gateway smoke detection",
+   "where": "open web (Exa web_search_exa)",
+   "hits": 8,
+   "notes": "Found the HALO smoke detection threshold paper (selected), HALO ECLSS ConOps ICES-2025 (Stepanyuk et al., doi 10.32865/2346/102786; abstract/highlights only: smoke detector needs forced airflow during dormant transit), NTRS 20210021318 roadmap slides, and the 2009 Orion smoke detector abstract (adapted commercial aircraft design)."
+  },
+  {
+   "query": "https://doi.org/10.32865/2346/102771",
+   "where": "Exa web_fetch_exa (after curl got HTTP 403 / 202 bot challenge)",
+   "hits": 1,
+   "notes": "Full rendered text obtained; stored as verbatim excerpt (ices2025_361_dusttolerant)."
+  },
+  {
+   "query": "https://ttu-ir.tdl.org/server/api/core/bitstreams/068487fa-2e03-415d-8151-9326f18ab653/content",
+   "where": "Exa web_fetch_exa (curl got HTTP 202 empty)",
+   "hits": 1,
+   "notes": "Full rendered text obtained; stored as verbatim excerpt (ices2025_halo_sd_threshold)."
+  },
+  {
+   "query": "NTRS API spot-check: 'spacecraft smoke detector', 'Gateway fire detection', 'next generation smoke detector', 'partial gravity smoke', 'Saffire smoke'",
+   "where": "NTRS API (verifier)",
+   "hits": 27,
+   "notes": "Verifier re-ran 5 queries; totals 18/0/2/5/2 match the extractor's search_log (sum 27)."
+  },
+  {
+   "query": "https://ntrs.nasa.gov/api/citations/<id> for the 6 NTRS documents",
+   "where": "NTRS API (verifier)",
+   "hits": 6,
+   "notes": "Titles, authors and dates confirmed for all six NTRS documents."
+  },
+  {
+   "query": "https://doi.org/10.32865/2346/102771 and TTU bitstream 068487fa-...",
+   "where": "Exa web_fetch_exa (verifier)",
+   "hits": 2,
+   "notes": "Fresh renders confirm that both stored excerpts are verbatim."
+  }
+ ],
+ "open_questions": [
+  "SAFFIRE IV-VI: the 2020 plan (ICES-2020-173) promised low-g smoke size-distribution and transport measurements, but within the examined sources only DustTrak DRX mass concentration (PM fractions) and an ionization-chamber signal are reported; whether size distributions were published (e.g. ICES-2021-244) was not verified.",
+  "ICES-2026-577 Table 1 'time to alarm' values (92-1603 s) do not state the reference time point explicitly (the text says figures use a timeline starting ~10 min before ignition, and PMMA ignition durations differ); these values should not be compared across tests without clarifying the reference.",
+  "The 2 mg/m3 'alarm' in ICES-2026-577 is a surrogate threshold applied to a reference aerosol monitor, not a flight smoke detector; how a real ionization or photoelectric spacecraft detector would have responded in SAFFIRE IV-VI is not reported in the examined sources (the FFD ionization chamber signal is shown only as a figure).",
+  "HALO uses an ionization-style smoke detector (HALO threshold paper), while ICES-2025-361 notes ionization baseline current changes at low pressure; whether the HALO detector baseline was characterised across 9.5-10.2 psia (or at proposed lunar-surface ~8.2 psia atmospheres) is not documented in the examined sources.",
+  "Kapton/Teflon: post-SAME ground work (ICES-2020-340) quantified response slopes of ISS/STS/CSP detectors to Kapton and Teflon smoke but reported no alarm-time or missed-alarm outcomes; no post-2018 flight test of detectors with these smokes was found within the search log.",
+  "Smoke-vs-dust discrimination remains at prototype/preliminary stage within the examined sources (GRC 2026 poster with one fabric and LHS simulant; UDE polarimetric proof-of-principle with JSC-1AF; multi-angle 40/130 deg concept only seen as an abstract). No flight-qualified discriminating detector was found.",
+  "Partial-gravity smoke transport evidence found is computational only (COMSOL LES 2023 poster; NIST FDS laptop-fire plume 2026 poster); no partial-gravity smoke transport or detector experiment was found within the search log.",
+  "Role of gas sensing in early detection is unresolved across sources: the AGA is fielded as a contingency monitor, the GRC 2026 poster says trace gases are not considered an early signal, while modelling-based papers stress toxic gas accumulation before smoke alarm (ICES-2020-173, HALO paper).",
+  "The final HALO smoke-detector alarm threshold value is not stated in the examined excerpt; only the 3/5/7 mg/m3 exceedance analysis is shown.",
+  "Operational false-alarm frequency: the Shuttle figure (14 events) mixes BIT failures and false alarms, and ISS counts are stated to be unpublished; a quantitative false-alarm rate could not be established within the examined sources.",
+  "ICES-2020-340 Table 1: per unit DRX PM2.5, Kapton smoke gave the lowest ISS-scatter and obscuration response of six smokes (item 82). Whether this means later alarm for Kapton in a flight ISS detector is not tested in this paper. The DRX reference is itself size-dependent.",
+  "HALO threshold paper: the fresh full render has per-material extrapolated gas values (Tables 2-13, Appendix A) that are not in the stored excerpt, so they are not used as items. Storing the full text would allow quantitative Kapton/PTFE items.",
+  "ICES-2020-340: the authors' 'factor of over three' mineral-oil underestimate for the ISS scatter detector holds only for lamp wick and Teflon in their own Table 1c (Kapton 1.70, Nomex 1.97). Downstream text should not quote it as applying to all smokes."
+ ],
+ "items_verified_by": "adversarial verifier (ntrs_followup)",
+ "verification_summary": {
+  "n_items_original": 81,
+  "n_confirmed": 70,
+  "n_corrected": 11,
+  "n_rejected": 0,
+  "n_added": 15,
+  "method": "Every anchor checked on its cited page with whitespace normalisation (all 81 found). Every number checked against the page or table. Raw sha256 recomputed. pdftotext output regenerated and compared. NTRS metadata fetched. Posters and Saffire Table 1 rendered and inspected. TTU excerpts re-fetched with Exa."
+ }
+}

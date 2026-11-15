@@ -1,0 +1,3295 @@
+{
+  "status": "TESTED_LOCALLY",
+  "seed": 2026,
+  "baseline_comparison": {
+    "folds": [
+      {
+        "fold": 0,
+        "train_groups": [
+          "group-000",
+          "group-001",
+          "group-003",
+          "group-005",
+          "group-007",
+          "group-008",
+          "group-009",
+          "group-012",
+          "group-013",
+          "group-015",
+          "group-016",
+          "group-019",
+          "group-021",
+          "group-023",
+          "group-025",
+          "group-027",
+          "group-028",
+          "group-030",
+          "group-031",
+          "group-032",
+          "group-035",
+          "group-037",
+          "group-039",
+          "group-041",
+          "group-045",
+          "group-049",
+          "group-051",
+          "group-053",
+          "group-055",
+          "group-056",
+          "group-057",
+          "group-058",
+          "group-060",
+          "group-061",
+          "group-063",
+          "group-065",
+          "group-069",
+          "group-071",
+          "group-073",
+          "group-075",
+          "group-077",
+          "group-081",
+          "group-083",
+          "group-087",
+          "group-090",
+          "group-091",
+          "group-094",
+          "group-096",
+          "group-100",
+          "group-102",
+          "group-104",
+          "group-108",
+          "group-110",
+          "group-112",
+          "group-116",
+          "group-118",
+          "group-120",
+          "group-122",
+          "group-124",
+          "group-126",
+          "group-128",
+          "group-129",
+          "group-131",
+          "group-132",
+          "group-133"
+        ],
+        "test_groups": [
+          "group-004",
+          "group-011",
+          "group-017",
+          "group-026",
+          "group-033",
+          "group-047",
+          "group-059",
+          "group-067",
+          "group-079",
+          "group-085",
+          "group-089",
+          "group-095",
+          "group-098",
+          "group-106",
+          "group-114",
+          "group-130"
+        ],
+        "train_material_majorities": {
+          "Kapton": 0,
+          "Lampwick": 1,
+          "Pyrell": 1,
+          "Silicone": 1,
+          "Teflon": 0
+        },
+        "fallback_global_majority": 1,
+        "material_majority": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.875,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9264705882352942
+        },
+        "fixed_forest": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.875,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9935897435897437
+        },
+        "original_nested_selection": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "balanced_accuracy": 0.8333333333333333,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "pr_auc_average_precision": 0.9358288770053476
+        },
+        "forest_minus_material_majority": 0.0,
+        "nested_selection_minus_material_majority": -0.04166666666666674,
+        "inner_material_majority_comparison_only": [
+          {
+            "fold": 0,
+            "scores": {
+              "n": 17,
+              "positive": 12,
+              "negative": 5,
+              "precision": 0.8,
+              "recall": 1.0,
+              "f1": 0.8888888888888888,
+              "balanced_accuracy": 0.7,
+              "confusion_matrix": [
+                [
+                  2,
+                  3
+                ],
+                [
+                  0,
+                  12
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-005",
+              "group-007",
+              "group-008",
+              "group-012",
+              "group-013",
+              "group-015",
+              "group-019",
+              "group-021",
+              "group-023",
+              "group-027",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-035",
+              "group-039",
+              "group-041",
+              "group-045",
+              "group-053",
+              "group-055",
+              "group-056",
+              "group-057",
+              "group-058",
+              "group-060",
+              "group-065",
+              "group-069",
+              "group-071",
+              "group-075",
+              "group-077",
+              "group-081",
+              "group-087",
+              "group-090",
+              "group-091",
+              "group-096",
+              "group-100",
+              "group-102",
+              "group-108",
+              "group-110",
+              "group-112",
+              "group-118",
+              "group-120",
+              "group-122",
+              "group-126",
+              "group-128",
+              "group-129",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-003",
+              "group-009",
+              "group-016",
+              "group-025",
+              "group-028",
+              "group-037",
+              "group-049",
+              "group-051",
+              "group-061",
+              "group-063",
+              "group-073",
+              "group-083",
+              "group-094",
+              "group-104",
+              "group-116",
+              "group-124"
+            ]
+          },
+          {
+            "fold": 1,
+            "scores": {
+              "n": 17,
+              "positive": 13,
+              "negative": 4,
+              "precision": 1.0,
+              "recall": 0.7692307692307693,
+              "f1": 0.8695652173913043,
+              "balanced_accuracy": 0.8846153846153846,
+              "confusion_matrix": [
+                [
+                  4,
+                  0
+                ],
+                [
+                  3,
+                  10
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-003",
+              "group-005",
+              "group-007",
+              "group-009",
+              "group-012",
+              "group-013",
+              "group-016",
+              "group-019",
+              "group-021",
+              "group-025",
+              "group-027",
+              "group-028",
+              "group-030",
+              "group-035",
+              "group-037",
+              "group-039",
+              "group-045",
+              "group-049",
+              "group-051",
+              "group-053",
+              "group-055",
+              "group-057",
+              "group-060",
+              "group-061",
+              "group-063",
+              "group-065",
+              "group-069",
+              "group-073",
+              "group-075",
+              "group-077",
+              "group-083",
+              "group-087",
+              "group-090",
+              "group-094",
+              "group-096",
+              "group-100",
+              "group-104",
+              "group-108",
+              "group-110",
+              "group-116",
+              "group-118",
+              "group-120",
+              "group-124",
+              "group-126",
+              "group-128",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-001",
+              "group-008",
+              "group-015",
+              "group-023",
+              "group-031",
+              "group-032",
+              "group-041",
+              "group-056",
+              "group-058",
+              "group-071",
+              "group-081",
+              "group-091",
+              "group-102",
+              "group-112",
+              "group-122",
+              "group-129"
+            ]
+          },
+          {
+            "fold": 2,
+            "scores": {
+              "n": 17,
+              "positive": 13,
+              "negative": 4,
+              "precision": 1.0,
+              "recall": 0.7692307692307693,
+              "f1": 0.8695652173913043,
+              "balanced_accuracy": 0.8846153846153846,
+              "confusion_matrix": [
+                [
+                  4,
+                  0
+                ],
+                [
+                  3,
+                  10
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-003",
+              "group-005",
+              "group-008",
+              "group-009",
+              "group-012",
+              "group-015",
+              "group-016",
+              "group-019",
+              "group-023",
+              "group-025",
+              "group-027",
+              "group-028",
+              "group-031",
+              "group-032",
+              "group-035",
+              "group-037",
+              "group-041",
+              "group-045",
+              "group-049",
+              "group-051",
+              "group-053",
+              "group-056",
+              "group-058",
+              "group-060",
+              "group-061",
+              "group-063",
+              "group-065",
+              "group-071",
+              "group-073",
+              "group-075",
+              "group-081",
+              "group-083",
+              "group-087",
+              "group-091",
+              "group-094",
+              "group-096",
+              "group-102",
+              "group-104",
+              "group-108",
+              "group-112",
+              "group-116",
+              "group-118",
+              "group-122",
+              "group-124",
+              "group-126",
+              "group-129",
+              "group-132"
+            ],
+            "test_groups": [
+              "group-000",
+              "group-007",
+              "group-013",
+              "group-021",
+              "group-030",
+              "group-039",
+              "group-055",
+              "group-057",
+              "group-069",
+              "group-077",
+              "group-090",
+              "group-100",
+              "group-110",
+              "group-120",
+              "group-128",
+              "group-131",
+              "group-133"
+            ]
+          },
+          {
+            "fold": 3,
+            "scores": {
+              "n": 16,
+              "positive": 11,
+              "negative": 5,
+              "precision": 1.0,
+              "recall": 0.7272727272727273,
+              "f1": 0.8421052631578947,
+              "balanced_accuracy": 0.8636363636363636,
+              "confusion_matrix": [
+                [
+                  5,
+                  0
+                ],
+                [
+                  3,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-003",
+              "group-007",
+              "group-008",
+              "group-009",
+              "group-013",
+              "group-015",
+              "group-016",
+              "group-021",
+              "group-023",
+              "group-025",
+              "group-028",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-037",
+              "group-039",
+              "group-041",
+              "group-049",
+              "group-051",
+              "group-055",
+              "group-056",
+              "group-057",
+              "group-058",
+              "group-061",
+              "group-063",
+              "group-069",
+              "group-071",
+              "group-073",
+              "group-077",
+              "group-081",
+              "group-083",
+              "group-090",
+              "group-091",
+              "group-094",
+              "group-100",
+              "group-102",
+              "group-104",
+              "group-110",
+              "group-112",
+              "group-116",
+              "group-120",
+              "group-122",
+              "group-124",
+              "group-128",
+              "group-129",
+              "group-131",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-005",
+              "group-012",
+              "group-019",
+              "group-027",
+              "group-035",
+              "group-045",
+              "group-053",
+              "group-060",
+              "group-065",
+              "group-075",
+              "group-087",
+              "group-096",
+              "group-108",
+              "group-118",
+              "group-126",
+              "group-132"
+            ]
+          }
+        ]
+      },
+      {
+        "fold": 1,
+        "train_groups": [
+          "group-000",
+          "group-001",
+          "group-004",
+          "group-005",
+          "group-007",
+          "group-008",
+          "group-011",
+          "group-012",
+          "group-013",
+          "group-015",
+          "group-017",
+          "group-019",
+          "group-021",
+          "group-023",
+          "group-026",
+          "group-027",
+          "group-030",
+          "group-031",
+          "group-032",
+          "group-033",
+          "group-037",
+          "group-041",
+          "group-045",
+          "group-047",
+          "group-049",
+          "group-051",
+          "group-053",
+          "group-055",
+          "group-056",
+          "group-057",
+          "group-059",
+          "group-060",
+          "group-061",
+          "group-063",
+          "group-067",
+          "group-069",
+          "group-071",
+          "group-073",
+          "group-079",
+          "group-081",
+          "group-083",
+          "group-085",
+          "group-089",
+          "group-090",
+          "group-091",
+          "group-094",
+          "group-095",
+          "group-096",
+          "group-098",
+          "group-102",
+          "group-104",
+          "group-106",
+          "group-110",
+          "group-114",
+          "group-116",
+          "group-118",
+          "group-120",
+          "group-124",
+          "group-126",
+          "group-128",
+          "group-129",
+          "group-130",
+          "group-131",
+          "group-132",
+          "group-133"
+        ],
+        "test_groups": [
+          "group-003",
+          "group-009",
+          "group-016",
+          "group-025",
+          "group-028",
+          "group-035",
+          "group-039",
+          "group-058",
+          "group-065",
+          "group-075",
+          "group-077",
+          "group-087",
+          "group-100",
+          "group-108",
+          "group-112",
+          "group-122"
+        ],
+        "train_material_majorities": {
+          "Kapton": 0,
+          "Lampwick": 1,
+          "Pyrell": 1,
+          "Silicone": 1,
+          "Teflon": 0
+        },
+        "fallback_global_majority": 1,
+        "material_majority": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.875,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9264705882352942
+        },
+        "fixed_forest": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.875,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9791666666666669
+        },
+        "original_nested_selection": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.875,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              3,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9791666666666669
+        },
+        "forest_minus_material_majority": 0.0,
+        "nested_selection_minus_material_majority": 0.0,
+        "inner_material_majority_comparison_only": [
+          {
+            "fold": 0,
+            "scores": {
+              "n": 17,
+              "positive": 13,
+              "negative": 4,
+              "precision": 1.0,
+              "recall": 0.8461538461538461,
+              "f1": 0.9166666666666666,
+              "balanced_accuracy": 0.9230769230769231,
+              "confusion_matrix": [
+                [
+                  4,
+                  0
+                ],
+                [
+                  2,
+                  11
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-005",
+              "group-007",
+              "group-008",
+              "group-012",
+              "group-013",
+              "group-015",
+              "group-019",
+              "group-021",
+              "group-023",
+              "group-027",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-037",
+              "group-041",
+              "group-045",
+              "group-049",
+              "group-051",
+              "group-055",
+              "group-056",
+              "group-057",
+              "group-059",
+              "group-061",
+              "group-063",
+              "group-069",
+              "group-071",
+              "group-073",
+              "group-081",
+              "group-083",
+              "group-089",
+              "group-091",
+              "group-094",
+              "group-095",
+              "group-098",
+              "group-102",
+              "group-106",
+              "group-110",
+              "group-114",
+              "group-118",
+              "group-120",
+              "group-124",
+              "group-128",
+              "group-129",
+              "group-130",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-004",
+              "group-011",
+              "group-017",
+              "group-026",
+              "group-033",
+              "group-047",
+              "group-053",
+              "group-060",
+              "group-067",
+              "group-079",
+              "group-085",
+              "group-090",
+              "group-096",
+              "group-104",
+              "group-116",
+              "group-126"
+            ]
+          },
+          {
+            "fold": 1,
+            "scores": {
+              "n": 17,
+              "positive": 15,
+              "negative": 2,
+              "precision": 1.0,
+              "recall": 0.7333333333333333,
+              "f1": 0.8461538461538461,
+              "balanced_accuracy": 0.8666666666666667,
+              "confusion_matrix": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  4,
+                  11
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-004",
+              "group-005",
+              "group-007",
+              "group-011",
+              "group-012",
+              "group-013",
+              "group-017",
+              "group-019",
+              "group-021",
+              "group-026",
+              "group-027",
+              "group-030",
+              "group-033",
+              "group-037",
+              "group-045",
+              "group-047",
+              "group-049",
+              "group-053",
+              "group-055",
+              "group-056",
+              "group-059",
+              "group-060",
+              "group-061",
+              "group-067",
+              "group-069",
+              "group-071",
+              "group-079",
+              "group-081",
+              "group-083",
+              "group-085",
+              "group-090",
+              "group-091",
+              "group-095",
+              "group-096",
+              "group-098",
+              "group-104",
+              "group-106",
+              "group-110",
+              "group-116",
+              "group-118",
+              "group-120",
+              "group-126",
+              "group-128",
+              "group-129",
+              "group-130",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-001",
+              "group-008",
+              "group-015",
+              "group-023",
+              "group-031",
+              "group-032",
+              "group-041",
+              "group-051",
+              "group-057",
+              "group-063",
+              "group-073",
+              "group-089",
+              "group-094",
+              "group-102",
+              "group-114",
+              "group-124"
+            ]
+          },
+          {
+            "fold": 2,
+            "scores": {
+              "n": 17,
+              "positive": 13,
+              "negative": 4,
+              "precision": 1.0,
+              "recall": 0.8461538461538461,
+              "f1": 0.9166666666666666,
+              "balanced_accuracy": 0.9230769230769231,
+              "confusion_matrix": [
+                [
+                  4,
+                  0
+                ],
+                [
+                  2,
+                  11
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-004",
+              "group-005",
+              "group-008",
+              "group-011",
+              "group-012",
+              "group-015",
+              "group-017",
+              "group-019",
+              "group-023",
+              "group-026",
+              "group-027",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-037",
+              "group-041",
+              "group-047",
+              "group-049",
+              "group-051",
+              "group-053",
+              "group-055",
+              "group-057",
+              "group-060",
+              "group-061",
+              "group-063",
+              "group-067",
+              "group-069",
+              "group-073",
+              "group-079",
+              "group-081",
+              "group-085",
+              "group-089",
+              "group-090",
+              "group-091",
+              "group-094",
+              "group-096",
+              "group-098",
+              "group-102",
+              "group-104",
+              "group-106",
+              "group-114",
+              "group-116",
+              "group-118",
+              "group-124",
+              "group-126",
+              "group-128",
+              "group-130"
+            ],
+            "test_groups": [
+              "group-000",
+              "group-007",
+              "group-013",
+              "group-021",
+              "group-030",
+              "group-045",
+              "group-056",
+              "group-059",
+              "group-071",
+              "group-083",
+              "group-095",
+              "group-110",
+              "group-120",
+              "group-129",
+              "group-131",
+              "group-132",
+              "group-133"
+            ]
+          },
+          {
+            "fold": 3,
+            "scores": {
+              "n": 16,
+              "positive": 8,
+              "negative": 8,
+              "precision": 0.6666666666666666,
+              "recall": 0.75,
+              "f1": 0.7058823529411765,
+              "balanced_accuracy": 0.6875,
+              "confusion_matrix": [
+                [
+                  5,
+                  3
+                ],
+                [
+                  2,
+                  6
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-004",
+              "group-007",
+              "group-008",
+              "group-011",
+              "group-013",
+              "group-015",
+              "group-017",
+              "group-021",
+              "group-023",
+              "group-026",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-041",
+              "group-045",
+              "group-047",
+              "group-051",
+              "group-053",
+              "group-056",
+              "group-057",
+              "group-059",
+              "group-060",
+              "group-063",
+              "group-067",
+              "group-071",
+              "group-073",
+              "group-079",
+              "group-083",
+              "group-085",
+              "group-089",
+              "group-090",
+              "group-094",
+              "group-095",
+              "group-096",
+              "group-102",
+              "group-104",
+              "group-110",
+              "group-114",
+              "group-116",
+              "group-120",
+              "group-124",
+              "group-126",
+              "group-129",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-005",
+              "group-012",
+              "group-019",
+              "group-027",
+              "group-037",
+              "group-049",
+              "group-055",
+              "group-061",
+              "group-069",
+              "group-081",
+              "group-091",
+              "group-098",
+              "group-106",
+              "group-118",
+              "group-128",
+              "group-130"
+            ]
+          }
+        ]
+      },
+      {
+        "fold": 2,
+        "train_groups": [
+          "group-000",
+          "group-003",
+          "group-004",
+          "group-005",
+          "group-007",
+          "group-009",
+          "group-011",
+          "group-012",
+          "group-013",
+          "group-016",
+          "group-017",
+          "group-019",
+          "group-021",
+          "group-025",
+          "group-026",
+          "group-027",
+          "group-028",
+          "group-030",
+          "group-033",
+          "group-035",
+          "group-039",
+          "group-041",
+          "group-045",
+          "group-047",
+          "group-049",
+          "group-053",
+          "group-055",
+          "group-056",
+          "group-058",
+          "group-059",
+          "group-060",
+          "group-061",
+          "group-065",
+          "group-067",
+          "group-069",
+          "group-071",
+          "group-075",
+          "group-077",
+          "group-079",
+          "group-081",
+          "group-085",
+          "group-087",
+          "group-089",
+          "group-090",
+          "group-091",
+          "group-094",
+          "group-095",
+          "group-096",
+          "group-098",
+          "group-100",
+          "group-104",
+          "group-106",
+          "group-108",
+          "group-112",
+          "group-114",
+          "group-116",
+          "group-118",
+          "group-122",
+          "group-124",
+          "group-128",
+          "group-129",
+          "group-130",
+          "group-131",
+          "group-132",
+          "group-133"
+        ],
+        "test_groups": [
+          "group-001",
+          "group-008",
+          "group-015",
+          "group-023",
+          "group-031",
+          "group-032",
+          "group-037",
+          "group-051",
+          "group-057",
+          "group-063",
+          "group-073",
+          "group-083",
+          "group-102",
+          "group-110",
+          "group-120",
+          "group-126"
+        ],
+        "train_material_majorities": {
+          "Kapton": 0,
+          "Lampwick": 1,
+          "Pyrell": 1,
+          "Silicone": 1,
+          "Teflon": 0
+        },
+        "fallback_global_majority": 1,
+        "material_majority": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "balanced_accuracy": 0.8333333333333333,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "pr_auc_average_precision": 0.9019607843137255
+        },
+        "fixed_forest": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "balanced_accuracy": 0.8333333333333333,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "pr_auc_average_precision": 0.9613858363858364
+        },
+        "original_nested_selection": {
+          "n": 17,
+          "positive": 12,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "balanced_accuracy": 0.8333333333333333,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          "pr_auc_average_precision": 0.9370286576168929
+        },
+        "forest_minus_material_majority": 0.0,
+        "nested_selection_minus_material_majority": 0.0,
+        "inner_material_majority_comparison_only": [
+          {
+            "fold": 0,
+            "scores": {
+              "n": 17,
+              "positive": 10,
+              "negative": 7,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "balanced_accuracy": 0.9,
+              "confusion_matrix": [
+                [
+                  7,
+                  0
+                ],
+                [
+                  2,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-003",
+              "group-005",
+              "group-007",
+              "group-009",
+              "group-012",
+              "group-013",
+              "group-016",
+              "group-019",
+              "group-021",
+              "group-025",
+              "group-027",
+              "group-028",
+              "group-030",
+              "group-033",
+              "group-039",
+              "group-041",
+              "group-045",
+              "group-049",
+              "group-053",
+              "group-056",
+              "group-058",
+              "group-059",
+              "group-060",
+              "group-065",
+              "group-067",
+              "group-071",
+              "group-075",
+              "group-077",
+              "group-081",
+              "group-087",
+              "group-089",
+              "group-091",
+              "group-094",
+              "group-095",
+              "group-098",
+              "group-100",
+              "group-106",
+              "group-108",
+              "group-112",
+              "group-116",
+              "group-118",
+              "group-122",
+              "group-128",
+              "group-129",
+              "group-130",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-004",
+              "group-011",
+              "group-017",
+              "group-026",
+              "group-035",
+              "group-047",
+              "group-055",
+              "group-061",
+              "group-069",
+              "group-079",
+              "group-085",
+              "group-090",
+              "group-096",
+              "group-104",
+              "group-114",
+              "group-124"
+            ]
+          },
+          {
+            "fold": 1,
+            "scores": {
+              "n": 17,
+              "positive": 15,
+              "negative": 2,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "balanced_accuracy": 0.9,
+              "confusion_matrix": [
+                [
+                  2,
+                  0
+                ],
+                [
+                  3,
+                  12
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-004",
+              "group-005",
+              "group-007",
+              "group-011",
+              "group-012",
+              "group-013",
+              "group-017",
+              "group-019",
+              "group-021",
+              "group-026",
+              "group-027",
+              "group-030",
+              "group-035",
+              "group-039",
+              "group-045",
+              "group-047",
+              "group-049",
+              "group-055",
+              "group-056",
+              "group-058",
+              "group-060",
+              "group-061",
+              "group-065",
+              "group-069",
+              "group-071",
+              "group-075",
+              "group-079",
+              "group-081",
+              "group-085",
+              "group-087",
+              "group-090",
+              "group-091",
+              "group-095",
+              "group-096",
+              "group-098",
+              "group-104",
+              "group-106",
+              "group-108",
+              "group-114",
+              "group-116",
+              "group-118",
+              "group-124",
+              "group-128",
+              "group-129",
+              "group-130",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-003",
+              "group-009",
+              "group-016",
+              "group-025",
+              "group-028",
+              "group-033",
+              "group-041",
+              "group-053",
+              "group-059",
+              "group-067",
+              "group-077",
+              "group-089",
+              "group-094",
+              "group-100",
+              "group-112",
+              "group-122"
+            ]
+          },
+          {
+            "fold": 2,
+            "scores": {
+              "n": 17,
+              "positive": 14,
+              "negative": 3,
+              "precision": 1.0,
+              "recall": 0.8571428571428571,
+              "f1": 0.9230769230769231,
+              "balanced_accuracy": 0.9285714285714286,
+              "confusion_matrix": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  12
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-003",
+              "group-004",
+              "group-005",
+              "group-009",
+              "group-011",
+              "group-012",
+              "group-016",
+              "group-017",
+              "group-019",
+              "group-025",
+              "group-026",
+              "group-027",
+              "group-028",
+              "group-033",
+              "group-035",
+              "group-039",
+              "group-041",
+              "group-047",
+              "group-049",
+              "group-053",
+              "group-055",
+              "group-056",
+              "group-059",
+              "group-061",
+              "group-065",
+              "group-067",
+              "group-069",
+              "group-071",
+              "group-077",
+              "group-079",
+              "group-081",
+              "group-085",
+              "group-089",
+              "group-090",
+              "group-091",
+              "group-094",
+              "group-096",
+              "group-098",
+              "group-100",
+              "group-104",
+              "group-106",
+              "group-112",
+              "group-114",
+              "group-116",
+              "group-122",
+              "group-124",
+              "group-128",
+              "group-130"
+            ],
+            "test_groups": [
+              "group-000",
+              "group-007",
+              "group-013",
+              "group-021",
+              "group-030",
+              "group-045",
+              "group-058",
+              "group-060",
+              "group-075",
+              "group-087",
+              "group-095",
+              "group-108",
+              "group-118",
+              "group-129",
+              "group-131",
+              "group-132",
+              "group-133"
+            ]
+          },
+          {
+            "fold": 3,
+            "scores": {
+              "n": 16,
+              "positive": 10,
+              "negative": 6,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.8888888888888888,
+              "balanced_accuracy": 0.9,
+              "confusion_matrix": [
+                [
+                  6,
+                  0
+                ],
+                [
+                  2,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-003",
+              "group-004",
+              "group-007",
+              "group-009",
+              "group-011",
+              "group-013",
+              "group-016",
+              "group-017",
+              "group-021",
+              "group-025",
+              "group-026",
+              "group-028",
+              "group-030",
+              "group-033",
+              "group-035",
+              "group-041",
+              "group-045",
+              "group-047",
+              "group-053",
+              "group-055",
+              "group-058",
+              "group-059",
+              "group-060",
+              "group-061",
+              "group-067",
+              "group-069",
+              "group-075",
+              "group-077",
+              "group-079",
+              "group-085",
+              "group-087",
+              "group-089",
+              "group-090",
+              "group-094",
+              "group-095",
+              "group-096",
+              "group-100",
+              "group-104",
+              "group-108",
+              "group-112",
+              "group-114",
+              "group-118",
+              "group-122",
+              "group-124",
+              "group-129",
+              "group-131",
+              "group-132",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-005",
+              "group-012",
+              "group-019",
+              "group-027",
+              "group-039",
+              "group-049",
+              "group-056",
+              "group-065",
+              "group-071",
+              "group-081",
+              "group-091",
+              "group-098",
+              "group-106",
+              "group-116",
+              "group-128",
+              "group-130"
+            ]
+          }
+        ]
+      },
+      {
+        "fold": 3,
+        "train_groups": [
+          "group-001",
+          "group-003",
+          "group-004",
+          "group-005",
+          "group-008",
+          "group-009",
+          "group-011",
+          "group-012",
+          "group-015",
+          "group-016",
+          "group-017",
+          "group-019",
+          "group-023",
+          "group-025",
+          "group-026",
+          "group-027",
+          "group-028",
+          "group-031",
+          "group-032",
+          "group-033",
+          "group-035",
+          "group-037",
+          "group-039",
+          "group-041",
+          "group-047",
+          "group-049",
+          "group-051",
+          "group-055",
+          "group-057",
+          "group-058",
+          "group-059",
+          "group-060",
+          "group-063",
+          "group-065",
+          "group-067",
+          "group-069",
+          "group-073",
+          "group-075",
+          "group-077",
+          "group-079",
+          "group-083",
+          "group-085",
+          "group-087",
+          "group-089",
+          "group-090",
+          "group-094",
+          "group-095",
+          "group-096",
+          "group-098",
+          "group-100",
+          "group-102",
+          "group-106",
+          "group-108",
+          "group-110",
+          "group-112",
+          "group-114",
+          "group-116",
+          "group-120",
+          "group-122",
+          "group-126",
+          "group-129",
+          "group-130",
+          "group-131",
+          "group-133"
+        ],
+        "test_groups": [
+          "group-000",
+          "group-007",
+          "group-013",
+          "group-021",
+          "group-030",
+          "group-045",
+          "group-053",
+          "group-056",
+          "group-061",
+          "group-071",
+          "group-081",
+          "group-091",
+          "group-104",
+          "group-118",
+          "group-124",
+          "group-128",
+          "group-132"
+        ],
+        "train_material_majorities": {
+          "Kapton": 0,
+          "Lampwick": 1,
+          "Pyrell": 1,
+          "Silicone": 1,
+          "Teflon": 0
+        },
+        "fallback_global_majority": 1,
+        "material_majority": {
+          "n": 17,
+          "positive": 14,
+          "negative": 3,
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1": 0.9629629629629629,
+          "balanced_accuracy": 0.9642857142857143,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              13
+            ]
+          ],
+          "pr_auc_average_precision": 0.9873949579831933
+        },
+        "fixed_forest": {
+          "n": 17,
+          "positive": 14,
+          "negative": 3,
+          "precision": 1.0,
+          "recall": 0.9285714285714286,
+          "f1": 0.9629629629629629,
+          "balanced_accuracy": 0.9642857142857143,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              1,
+              13
+            ]
+          ],
+          "pr_auc_average_precision": 0.9952380952380953
+        },
+        "original_nested_selection": {
+          "n": 17,
+          "positive": 14,
+          "negative": 3,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "balanced_accuracy": 1.0,
+          "confusion_matrix": [
+            [
+              3,
+              0
+            ],
+            [
+              0,
+              14
+            ]
+          ],
+          "pr_auc_average_precision": 1.0
+        },
+        "forest_minus_material_majority": 0.0,
+        "nested_selection_minus_material_majority": 0.0357142857142857,
+        "inner_material_majority_comparison_only": [
+          {
+            "fold": 0,
+            "scores": {
+              "n": 17,
+              "positive": 11,
+              "negative": 6,
+              "precision": 1.0,
+              "recall": 0.7272727272727273,
+              "f1": 0.8421052631578947,
+              "balanced_accuracy": 0.8636363636363636,
+              "confusion_matrix": [
+                [
+                  6,
+                  0
+                ],
+                [
+                  3,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-003",
+              "group-005",
+              "group-008",
+              "group-009",
+              "group-012",
+              "group-015",
+              "group-016",
+              "group-019",
+              "group-023",
+              "group-025",
+              "group-027",
+              "group-028",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-035",
+              "group-039",
+              "group-041",
+              "group-047",
+              "group-055",
+              "group-057",
+              "group-058",
+              "group-059",
+              "group-060",
+              "group-063",
+              "group-069",
+              "group-073",
+              "group-075",
+              "group-079",
+              "group-083",
+              "group-087",
+              "group-090",
+              "group-094",
+              "group-095",
+              "group-098",
+              "group-100",
+              "group-106",
+              "group-108",
+              "group-110",
+              "group-114",
+              "group-116",
+              "group-120",
+              "group-126",
+              "group-129",
+              "group-130",
+              "group-131",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-004",
+              "group-011",
+              "group-017",
+              "group-026",
+              "group-037",
+              "group-049",
+              "group-051",
+              "group-065",
+              "group-067",
+              "group-077",
+              "group-085",
+              "group-089",
+              "group-096",
+              "group-102",
+              "group-112",
+              "group-122"
+            ]
+          },
+          {
+            "fold": 1,
+            "scores": {
+              "n": 17,
+              "positive": 14,
+              "negative": 3,
+              "precision": 1.0,
+              "recall": 0.8571428571428571,
+              "f1": 0.9230769230769231,
+              "balanced_accuracy": 0.9285714285714286,
+              "confusion_matrix": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  12
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-004",
+              "group-005",
+              "group-008",
+              "group-011",
+              "group-012",
+              "group-015",
+              "group-017",
+              "group-019",
+              "group-023",
+              "group-026",
+              "group-027",
+              "group-028",
+              "group-031",
+              "group-035",
+              "group-037",
+              "group-039",
+              "group-047",
+              "group-049",
+              "group-051",
+              "group-055",
+              "group-057",
+              "group-059",
+              "group-063",
+              "group-065",
+              "group-067",
+              "group-069",
+              "group-073",
+              "group-077",
+              "group-079",
+              "group-083",
+              "group-085",
+              "group-089",
+              "group-090",
+              "group-095",
+              "group-096",
+              "group-098",
+              "group-102",
+              "group-106",
+              "group-108",
+              "group-112",
+              "group-114",
+              "group-116",
+              "group-122",
+              "group-126",
+              "group-129",
+              "group-131",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-003",
+              "group-009",
+              "group-016",
+              "group-025",
+              "group-032",
+              "group-033",
+              "group-041",
+              "group-058",
+              "group-060",
+              "group-075",
+              "group-087",
+              "group-094",
+              "group-100",
+              "group-110",
+              "group-120",
+              "group-130"
+            ]
+          },
+          {
+            "fold": 2,
+            "scores": {
+              "n": 17,
+              "positive": 12,
+              "negative": 5,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "balanced_accuracy": 0.8333333333333333,
+              "confusion_matrix": [
+                [
+                  5,
+                  0
+                ],
+                [
+                  4,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-003",
+              "group-004",
+              "group-005",
+              "group-009",
+              "group-011",
+              "group-012",
+              "group-016",
+              "group-017",
+              "group-019",
+              "group-025",
+              "group-026",
+              "group-027",
+              "group-032",
+              "group-033",
+              "group-035",
+              "group-037",
+              "group-041",
+              "group-047",
+              "group-049",
+              "group-051",
+              "group-055",
+              "group-058",
+              "group-060",
+              "group-063",
+              "group-065",
+              "group-067",
+              "group-069",
+              "group-075",
+              "group-077",
+              "group-079",
+              "group-085",
+              "group-087",
+              "group-089",
+              "group-090",
+              "group-094",
+              "group-096",
+              "group-098",
+              "group-100",
+              "group-102",
+              "group-106",
+              "group-110",
+              "group-112",
+              "group-114",
+              "group-120",
+              "group-122",
+              "group-126",
+              "group-130",
+              "group-133"
+            ],
+            "test_groups": [
+              "group-001",
+              "group-008",
+              "group-015",
+              "group-023",
+              "group-028",
+              "group-031",
+              "group-039",
+              "group-057",
+              "group-059",
+              "group-073",
+              "group-083",
+              "group-095",
+              "group-108",
+              "group-116",
+              "group-129",
+              "group-131"
+            ]
+          },
+          {
+            "fold": 3,
+            "scores": {
+              "n": 16,
+              "positive": 10,
+              "negative": 6,
+              "precision": 1.0,
+              "recall": 0.7,
+              "f1": 0.8235294117647058,
+              "balanced_accuracy": 0.85,
+              "confusion_matrix": [
+                [
+                  6,
+                  0
+                ],
+                [
+                  3,
+                  7
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-003",
+              "group-004",
+              "group-008",
+              "group-009",
+              "group-011",
+              "group-015",
+              "group-016",
+              "group-017",
+              "group-023",
+              "group-025",
+              "group-026",
+              "group-028",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-037",
+              "group-039",
+              "group-041",
+              "group-049",
+              "group-051",
+              "group-057",
+              "group-058",
+              "group-059",
+              "group-060",
+              "group-065",
+              "group-067",
+              "group-073",
+              "group-075",
+              "group-077",
+              "group-083",
+              "group-085",
+              "group-087",
+              "group-089",
+              "group-094",
+              "group-095",
+              "group-096",
+              "group-100",
+              "group-102",
+              "group-108",
+              "group-110",
+              "group-112",
+              "group-116",
+              "group-120",
+              "group-122",
+              "group-129",
+              "group-130",
+              "group-131"
+            ],
+            "test_groups": [
+              "group-005",
+              "group-012",
+              "group-019",
+              "group-027",
+              "group-035",
+              "group-047",
+              "group-055",
+              "group-063",
+              "group-069",
+              "group-079",
+              "group-090",
+              "group-098",
+              "group-106",
+              "group-114",
+              "group-126",
+              "group-133"
+            ]
+          }
+        ]
+      },
+      {
+        "fold": 4,
+        "train_groups": [
+          "group-000",
+          "group-001",
+          "group-003",
+          "group-004",
+          "group-007",
+          "group-008",
+          "group-009",
+          "group-011",
+          "group-013",
+          "group-015",
+          "group-016",
+          "group-017",
+          "group-021",
+          "group-023",
+          "group-025",
+          "group-026",
+          "group-028",
+          "group-030",
+          "group-031",
+          "group-032",
+          "group-033",
+          "group-035",
+          "group-037",
+          "group-039",
+          "group-045",
+          "group-047",
+          "group-051",
+          "group-053",
+          "group-056",
+          "group-057",
+          "group-058",
+          "group-059",
+          "group-061",
+          "group-063",
+          "group-065",
+          "group-067",
+          "group-071",
+          "group-073",
+          "group-075",
+          "group-077",
+          "group-079",
+          "group-081",
+          "group-083",
+          "group-085",
+          "group-087",
+          "group-089",
+          "group-091",
+          "group-095",
+          "group-098",
+          "group-100",
+          "group-102",
+          "group-104",
+          "group-106",
+          "group-108",
+          "group-110",
+          "group-112",
+          "group-114",
+          "group-118",
+          "group-120",
+          "group-122",
+          "group-124",
+          "group-126",
+          "group-128",
+          "group-130",
+          "group-132"
+        ],
+        "test_groups": [
+          "group-005",
+          "group-012",
+          "group-019",
+          "group-027",
+          "group-041",
+          "group-049",
+          "group-055",
+          "group-060",
+          "group-069",
+          "group-090",
+          "group-094",
+          "group-096",
+          "group-116",
+          "group-129",
+          "group-131",
+          "group-133"
+        ],
+        "train_material_majorities": {
+          "Kapton": 0,
+          "Lampwick": 1,
+          "Pyrell": 1,
+          "Silicone": 1,
+          "Teflon": 0
+        },
+        "fallback_global_majority": 1,
+        "material_majority": {
+          "n": 16,
+          "positive": 11,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.8181818181818182,
+          "f1": 0.9,
+          "balanced_accuracy": 0.9090909090909092,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              2,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9431818181818182
+        },
+        "fixed_forest": {
+          "n": 16,
+          "positive": 11,
+          "negative": 5,
+          "precision": 1.0,
+          "recall": 0.9090909090909091,
+          "f1": 0.9523809523809523,
+          "balanced_accuracy": 0.9545454545454546,
+          "confusion_matrix": [
+            [
+              5,
+              0
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "pr_auc_average_precision": 0.986013986013986
+        },
+        "original_nested_selection": {
+          "n": 16,
+          "positive": 11,
+          "negative": 5,
+          "precision": 0.9,
+          "recall": 0.8181818181818182,
+          "f1": 0.8571428571428571,
+          "balanced_accuracy": 0.8090909090909091,
+          "confusion_matrix": [
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              9
+            ]
+          ],
+          "pr_auc_average_precision": 0.9633264462809918
+        },
+        "forest_minus_material_majority": 0.045454545454545414,
+        "nested_selection_minus_material_majority": -0.10000000000000009,
+        "inner_material_majority_comparison_only": [
+          {
+            "fold": 0,
+            "scores": {
+              "n": 17,
+              "positive": 12,
+              "negative": 5,
+              "precision": 1.0,
+              "recall": 0.6666666666666666,
+              "f1": 0.8,
+              "balanced_accuracy": 0.8333333333333333,
+              "confusion_matrix": [
+                [
+                  5,
+                  0
+                ],
+                [
+                  4,
+                  8
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-003",
+              "group-007",
+              "group-008",
+              "group-009",
+              "group-013",
+              "group-015",
+              "group-016",
+              "group-021",
+              "group-023",
+              "group-025",
+              "group-028",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-035",
+              "group-037",
+              "group-039",
+              "group-047",
+              "group-051",
+              "group-056",
+              "group-057",
+              "group-058",
+              "group-059",
+              "group-063",
+              "group-065",
+              "group-071",
+              "group-073",
+              "group-075",
+              "group-079",
+              "group-081",
+              "group-083",
+              "group-089",
+              "group-091",
+              "group-095",
+              "group-100",
+              "group-102",
+              "group-106",
+              "group-108",
+              "group-110",
+              "group-114",
+              "group-118",
+              "group-120",
+              "group-124",
+              "group-126",
+              "group-128",
+              "group-130",
+              "group-132"
+            ],
+            "test_groups": [
+              "group-004",
+              "group-011",
+              "group-017",
+              "group-026",
+              "group-033",
+              "group-045",
+              "group-053",
+              "group-061",
+              "group-067",
+              "group-077",
+              "group-085",
+              "group-087",
+              "group-098",
+              "group-104",
+              "group-112",
+              "group-122"
+            ]
+          },
+          {
+            "fold": 1,
+            "scores": {
+              "n": 17,
+              "positive": 10,
+              "negative": 7,
+              "precision": 0.7142857142857143,
+              "recall": 1.0,
+              "f1": 0.8333333333333334,
+              "balanced_accuracy": 0.7142857142857143,
+              "confusion_matrix": [
+                [
+                  3,
+                  4
+                ],
+                [
+                  0,
+                  10
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-001",
+              "group-004",
+              "group-007",
+              "group-008",
+              "group-011",
+              "group-013",
+              "group-015",
+              "group-017",
+              "group-021",
+              "group-023",
+              "group-026",
+              "group-030",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-037",
+              "group-039",
+              "group-045",
+              "group-053",
+              "group-056",
+              "group-057",
+              "group-058",
+              "group-059",
+              "group-061",
+              "group-067",
+              "group-071",
+              "group-073",
+              "group-077",
+              "group-079",
+              "group-081",
+              "group-085",
+              "group-087",
+              "group-089",
+              "group-091",
+              "group-098",
+              "group-100",
+              "group-104",
+              "group-106",
+              "group-108",
+              "group-112",
+              "group-114",
+              "group-118",
+              "group-122",
+              "group-124",
+              "group-126",
+              "group-128",
+              "group-130",
+              "group-132"
+            ],
+            "test_groups": [
+              "group-003",
+              "group-009",
+              "group-016",
+              "group-025",
+              "group-028",
+              "group-035",
+              "group-047",
+              "group-051",
+              "group-063",
+              "group-065",
+              "group-075",
+              "group-083",
+              "group-095",
+              "group-102",
+              "group-110",
+              "group-120"
+            ]
+          },
+          {
+            "fold": 2,
+            "scores": {
+              "n": 17,
+              "positive": 14,
+              "negative": 3,
+              "precision": 1.0,
+              "recall": 0.7142857142857143,
+              "f1": 0.8333333333333334,
+              "balanced_accuracy": 0.8571428571428572,
+              "confusion_matrix": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  4,
+                  10
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-000",
+              "group-003",
+              "group-004",
+              "group-007",
+              "group-009",
+              "group-011",
+              "group-013",
+              "group-016",
+              "group-017",
+              "group-021",
+              "group-025",
+              "group-026",
+              "group-028",
+              "group-030",
+              "group-033",
+              "group-035",
+              "group-037",
+              "group-045",
+              "group-047",
+              "group-051",
+              "group-053",
+              "group-056",
+              "group-058",
+              "group-061",
+              "group-063",
+              "group-065",
+              "group-067",
+              "group-071",
+              "group-075",
+              "group-077",
+              "group-079",
+              "group-083",
+              "group-085",
+              "group-087",
+              "group-091",
+              "group-095",
+              "group-098",
+              "group-102",
+              "group-104",
+              "group-106",
+              "group-110",
+              "group-112",
+              "group-114",
+              "group-120",
+              "group-122",
+              "group-124",
+              "group-128",
+              "group-130",
+              "group-132"
+            ],
+            "test_groups": [
+              "group-001",
+              "group-008",
+              "group-015",
+              "group-023",
+              "group-031",
+              "group-032",
+              "group-039",
+              "group-057",
+              "group-059",
+              "group-073",
+              "group-081",
+              "group-089",
+              "group-100",
+              "group-108",
+              "group-118",
+              "group-126"
+            ]
+          },
+          {
+            "fold": 3,
+            "scores": {
+              "n": 17,
+              "positive": 14,
+              "negative": 3,
+              "precision": 1.0,
+              "recall": 0.8571428571428571,
+              "f1": 0.9230769230769231,
+              "balanced_accuracy": 0.9285714285714286,
+              "confusion_matrix": [
+                [
+                  3,
+                  0
+                ],
+                [
+                  2,
+                  12
+                ]
+              ],
+              "pr_auc_average_precision": null
+            },
+            "train_groups": [
+              "group-001",
+              "group-003",
+              "group-004",
+              "group-008",
+              "group-009",
+              "group-011",
+              "group-015",
+              "group-016",
+              "group-017",
+              "group-023",
+              "group-025",
+              "group-026",
+              "group-028",
+              "group-031",
+              "group-032",
+              "group-033",
+              "group-035",
+              "group-039",
+              "group-045",
+              "group-047",
+              "group-051",
+              "group-053",
+              "group-057",
+              "group-059",
+              "group-061",
+              "group-063",
+              "group-065",
+              "group-067",
+              "group-073",
+              "group-075",
+              "group-077",
+              "group-081",
+              "group-083",
+              "group-085",
+              "group-087",
+              "group-089",
+              "group-095",
+              "group-098",
+              "group-100",
+              "group-102",
+              "group-104",
+              "group-108",
+              "group-110",
+              "group-112",
+              "group-118",
+              "group-120",
+              "group-122",
+              "group-126"
+            ],
+            "test_groups": [
+              "group-000",
+              "group-007",
+              "group-013",
+              "group-021",
+              "group-030",
+              "group-037",
+              "group-056",
+              "group-058",
+              "group-071",
+              "group-079",
+              "group-091",
+              "group-106",
+              "group-114",
+              "group-124",
+              "group-128",
+              "group-130",
+              "group-132"
+            ]
+          }
+        ]
+      }
+    ],
+    "majority_tie_rule": "Class0 on equal training counts; unseen material uses training-global majority",
+    "scope": "Post-hoc diagnostic on the original frozen outer folds. Fixed-forest score is not a new selection-unbiased headline. Original nested choices and deployed weights remain unchanged.",
+    "material_majority": {
+      "values": [
+        0.875,
+        0.875,
+        0.8333333333333333,
+        0.9642857142857143,
+        0.9090909090909092
+      ],
+      "mean": 0.8913419913419913,
+      "std": 0.04882349988519196
+    },
+    "fixed_forest": {
+      "values": [
+        0.875,
+        0.875,
+        0.8333333333333333,
+        0.9642857142857143,
+        0.9545454545454546
+      ],
+      "mean": 0.9004329004329005,
+      "std": 0.056571563314343654
+    },
+    "original_nested_selection": {
+      "values": [
+        0.8333333333333333,
+        0.875,
+        0.8333333333333333,
+        1.0,
+        0.8090909090909091
+      ],
+      "mean": 0.8701515151515151,
+      "std": 0.07636047973273727
+    },
+    "forest_minus_material_majority": {
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.045454545454545414
+      ],
+      "mean": 0.009090909090909084,
+      "std": 0.020327890704543525
+    },
+    "nested_selection_minus_material_majority": {
+      "values": [
+        -0.04166666666666674,
+        0.0,
+        0.0,
+        0.0357142857142857,
+        -0.10000000000000009
+      ],
+      "mean": -0.021190476190476225,
+      "std": 0.0518807283808185
+    },
+    "pooled_material_majority": {
+      "n": 84,
+      "positive": 61,
+      "negative": 23,
+      "precision": 1.0,
+      "recall": 0.7868852459016393,
+      "f1": 0.8807339449541285,
+      "balanced_accuracy": 0.8934426229508197,
+      "confusion_matrix": [
+        [
+          23,
+          0
+        ],
+        [
+          13,
+          48
+        ]
+      ],
+      "pr_auc_average_precision": null
+    },
+    "pooled_fixed_forest": {
+      "n": 84,
+      "positive": 61,
+      "negative": 23,
+      "precision": 1.0,
+      "recall": 0.8032786885245902,
+      "f1": 0.8909090909090909,
+      "balanced_accuracy": 0.9016393442622951,
+      "confusion_matrix": [
+        [
+          23,
+          0
+        ],
+        [
+          12,
+          49
+        ]
+      ],
+      "pr_auc_average_precision": 0.9834806027722292
+    },
+    "forest_beats_material_majority_mean": true,
+    "forest_exceeds_original_one_fold_sd_tie_band": false,
+    "nested_selection_beats_material_majority_mean": false
+  },
+  "within_material": {
+    "Kapton": {
+      "n_runs": 21,
+      "n_groups": 19,
+      "class_balance": {
+        "0": {
+          "runs": 12,
+          "groups": 10
+        },
+        "1": {
+          "runs": 9,
+          "groups": 9
+        }
+      },
+      "class_definition": "0=ISS scatter below2V,1=atleast2V",
+      "features": [
+        "airflow_cm_s",
+        "resistance_ratio",
+        "heating_s",
+        "aging_s",
+        "mixing_s"
+      ],
+      "scope": "Post-hoc within-material diagnostic; fixed C1 balanced logistic; no model export or deployment claim",
+      "status": "TESTED_LOCALLY",
+      "folds": [
+        {
+          "fold": 0,
+          "train_groups": [
+            "group-009",
+            "group-011",
+            "group-015",
+            "group-028",
+            "group-058",
+            "group-065",
+            "group-085",
+            "group-095",
+            "group-098",
+            "group-112",
+            "group-114",
+            "group-126",
+            "group-131"
+          ],
+          "test_groups": [
+            "group-023",
+            "group-045",
+            "group-061",
+            "group-069",
+            "group-096",
+            "group-133"
+          ],
+          "model": {
+            "n": 6,
+            "positive": 2,
+            "negative": 4,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": 0.375,
+            "confusion_matrix": [
+              [
+                3,
+                1
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": 0.26666666666666666
+          },
+          "majority": {
+            "n": 6,
+            "positive": 2,
+            "negative": 4,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": 0.5,
+            "confusion_matrix": [
+              [
+                4,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        },
+        {
+          "fold": 1,
+          "train_groups": [
+            "group-009",
+            "group-011",
+            "group-015",
+            "group-023",
+            "group-045",
+            "group-058",
+            "group-061",
+            "group-069",
+            "group-095",
+            "group-096",
+            "group-114",
+            "group-131",
+            "group-133"
+          ],
+          "test_groups": [
+            "group-028",
+            "group-065",
+            "group-085",
+            "group-098",
+            "group-112",
+            "group-126"
+          ],
+          "model": {
+            "n": 8,
+            "positive": 2,
+            "negative": 6,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "balanced_accuracy": 1.0,
+            "confusion_matrix": [
+              [
+                6,
+                0
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "pr_auc_average_precision": 1.0
+          },
+          "majority": {
+            "n": 8,
+            "positive": 2,
+            "negative": 6,
+            "precision": 0.25,
+            "recall": 1.0,
+            "f1": 0.4,
+            "balanced_accuracy": 0.5,
+            "confusion_matrix": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        },
+        {
+          "fold": 2,
+          "train_groups": [
+            "group-023",
+            "group-028",
+            "group-045",
+            "group-061",
+            "group-065",
+            "group-069",
+            "group-085",
+            "group-096",
+            "group-098",
+            "group-112",
+            "group-126",
+            "group-133"
+          ],
+          "test_groups": [
+            "group-009",
+            "group-011",
+            "group-015",
+            "group-058",
+            "group-095",
+            "group-114",
+            "group-131"
+          ],
+          "model": {
+            "n": 7,
+            "positive": 5,
+            "negative": 2,
+            "precision": 0.5,
+            "recall": 0.2,
+            "f1": 0.2857142857142857,
+            "balanced_accuracy": 0.35,
+            "confusion_matrix": [
+              [
+                1,
+                1
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "pr_auc_average_precision": 0.81
+          },
+          "majority": {
+            "n": 7,
+            "positive": 5,
+            "negative": 2,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": 0.5,
+            "confusion_matrix": [
+              [
+                2,
+                0
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        }
+      ],
+      "pooled_oof": {
+        "n": 21,
+        "positive": 9,
+        "negative": 12,
+        "precision": 0.6,
+        "recall": 0.3333333333333333,
+        "f1": 0.42857142857142855,
+        "balanced_accuracy": 0.5833333333333334,
+        "confusion_matrix": [
+          [
+            10,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ],
+        "pr_auc_average_precision": 0.4586404054799308
+      },
+      "pooled_majority": {
+        "n": 21,
+        "positive": 9,
+        "negative": 12,
+        "precision": 0.25,
+        "recall": 0.2222222222222222,
+        "f1": 0.23529411764705882,
+        "balanced_accuracy": 0.3611111111111111,
+        "confusion_matrix": [
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "pr_auc_average_precision": null
+      },
+      "fold_balanced_accuracy": {
+        "values": [
+          0.375,
+          1.0,
+          0.35
+        ],
+        "mean": 0.5750000000000001,
+        "std": 0.36827299656640594
+      },
+      "undefined_fold_policy": "Single-class test folds have null balanced accuracy; excluded from fold mean, included in pooled OOF."
+    },
+    "Teflon": {
+      "n_runs": 15,
+      "n_groups": 15,
+      "class_balance": {
+        "0": {
+          "runs": 11,
+          "groups": 11
+        },
+        "1": {
+          "runs": 4,
+          "groups": 4
+        }
+      },
+      "class_definition": "0=ISS scatter below2V,1=atleast2V",
+      "features": [
+        "airflow_cm_s",
+        "resistance_ratio",
+        "heating_s",
+        "aging_s",
+        "mixing_s"
+      ],
+      "scope": "Post-hoc within-material diagnostic; fixed C1 balanced logistic; no model export or deployment claim",
+      "status": "TESTED_LOCALLY",
+      "folds": [
+        {
+          "fold": 0,
+          "train_groups": [
+            "group-004",
+            "group-008",
+            "group-019",
+            "group-035",
+            "group-037",
+            "group-073",
+            "group-077",
+            "group-091",
+            "group-120",
+            "group-130"
+          ],
+          "test_groups": [
+            "group-005",
+            "group-027",
+            "group-057",
+            "group-081",
+            "group-110"
+          ],
+          "model": {
+            "n": 5,
+            "positive": 2,
+            "negative": 3,
+            "precision": 0.5,
+            "recall": 1.0,
+            "f1": 0.6666666666666666,
+            "balanced_accuracy": 0.6666666666666666,
+            "confusion_matrix": [
+              [
+                1,
+                2
+              ],
+              [
+                0,
+                2
+              ]
+            ],
+            "pr_auc_average_precision": 1.0
+          },
+          "majority": {
+            "n": 5,
+            "positive": 2,
+            "negative": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": 0.5,
+            "confusion_matrix": [
+              [
+                3,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        },
+        {
+          "fold": 1,
+          "train_groups": [
+            "group-004",
+            "group-005",
+            "group-027",
+            "group-035",
+            "group-037",
+            "group-057",
+            "group-077",
+            "group-081",
+            "group-110",
+            "group-130"
+          ],
+          "test_groups": [
+            "group-008",
+            "group-019",
+            "group-073",
+            "group-091",
+            "group-120"
+          ],
+          "model": {
+            "n": 5,
+            "positive": 0,
+            "negative": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": null,
+            "confusion_matrix": [
+              [
+                4,
+                1
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          },
+          "majority": {
+            "n": 5,
+            "positive": 0,
+            "negative": 5,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": null,
+            "confusion_matrix": [
+              [
+                5,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        },
+        {
+          "fold": 2,
+          "train_groups": [
+            "group-005",
+            "group-008",
+            "group-019",
+            "group-027",
+            "group-057",
+            "group-073",
+            "group-081",
+            "group-091",
+            "group-110",
+            "group-120"
+          ],
+          "test_groups": [
+            "group-004",
+            "group-035",
+            "group-037",
+            "group-077",
+            "group-130"
+          ],
+          "model": {
+            "n": 5,
+            "positive": 2,
+            "negative": 3,
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1": 0.6666666666666666,
+            "balanced_accuracy": 0.75,
+            "confusion_matrix": [
+              [
+                3,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "pr_auc_average_precision": 1.0
+          },
+          "majority": {
+            "n": 5,
+            "positive": 2,
+            "negative": 3,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "balanced_accuracy": 0.5,
+            "confusion_matrix": [
+              [
+                3,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "pr_auc_average_precision": null
+          }
+        }
+      ],
+      "pooled_oof": {
+        "n": 15,
+        "positive": 4,
+        "negative": 11,
+        "precision": 0.5,
+        "recall": 0.75,
+        "f1": 0.6,
+        "balanced_accuracy": 0.7386363636363636,
+        "confusion_matrix": [
+          [
+            8,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "pr_auc_average_precision": 0.775
+      },
+      "pooled_majority": {
+        "n": 15,
+        "positive": 4,
+        "negative": 11,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "balanced_accuracy": 0.5,
+        "confusion_matrix": [
+          [
+            11,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "pr_auc_average_precision": null
+      },
+      "fold_balanced_accuracy": {
+        "values": [
+          0.6666666666666666,
+          0.75
+        ],
+        "mean": 0.7083333333333333,
+        "std": 0.05892556509887899
+      },
+      "undefined_fold_policy": "Single-class test folds have null balanced accuracy; excluded from fold mean, included in pooled OOF."
+    }
+  },
+  "protected_artifact_sha256": {
+    "artifacts/model_c/checksums.json": "a6c06d988c3cc1e8d0943c6eb5d4a9d11fa6ac858298299b502300da775c9eea",
+    "artifacts/model_c/data_dictionary.json": "23a8779a9b1293ccf1b7d58c45f5463413e76a14d2ba6c9304ca1b5bb813d1ef",
+    "artifacts/model_c/domain.json": "9b9127bed7d48a4f09b0a002df6e0554a03dbff8bc5f41f4dfe2fda6d865b69d",
+    "artifacts/model_c/harmonization.json": "fb9efdca5d7eefcc2b8af6ae7d6c4ae7886cc65fcba9388dbcc41a6c9e900924",
+    "artifacts/model_c/inference.py": "ead5685567eab8b3695140347e49561dd7c453087a271059c2fc20351fcc6282",
+    "artifacts/model_c/model.joblib": "1d0a63fe5f51b89df6710e5d2c49632964af7457d67204337dbc3e4eb02f6e01",
+    "artifacts/model_c/requirements.txt": "c0b0890ee7c2f6e3a2d488c747bd71b51beee984f98bec987fa6ff7ba0eae182"
+  },
+  "input_sha256": {
+    "data/processed/training.csv": "b3f34b600372e217125bfc80eb5fea714fb287bae26764e3e5c2f4d19bc1d36b",
+    "reports/metrics.json": "a08564d7eb324757089deb69a2d464d339127a9725abb4ece696ac2e3129d24a",
+    "reports/out_of_fold_predictions.csv": "82fce1f577e4f3f3f8bddd27ddbc27603580ec4de7774a374781719d65e5063a"
+  }
+}

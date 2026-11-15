@@ -1,0 +1,364 @@
+{
+  "stress_test": "Fit concurrent I-1, apply frozen selection to opposed I-2 acquisition record C1",
+  "n": 16,
+  "rejected": 16,
+  "independent_samples": 1,
+  "localization_metric": null,
+  "label_provenance": "agent_annotated",
+  "interpretation": "Availability check only. This uniformly sampled opposed acquisition record includes pre/post-burn frames; no center-band ridge is localizable in the inspected C1 subset. It does not yield a leave-one-independent-burn-out accuracy estimate. C2 is unsupported. Do not pool these records with the primary test block.",
+  "results": [
+    {
+      "frame_id": 0,
+      "filename": "Mapped_S2C1-1465937796510.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937796510.jpeg",
+      "timestamp_ms": 1465937796510,
+      "time_s": 0.0,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "169ddbe1a9c586a76a55877b03d1734ccc4057895e38cec096270b248a88be27",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 1,
+      "filename": "Mapped_S2C1-1465937806809.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937806809.jpeg",
+      "timestamp_ms": 1465937806809,
+      "time_s": 10.299,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "14e0c61dd89b65a98de53d6f87ab2a4932c545b60dce49765cd8332efface9fa",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 2,
+      "filename": "Mapped_S2C1-1465937817008.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937817008.jpeg",
+      "timestamp_ms": 1465937817008,
+      "time_s": 20.498,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "7d5b60c17b221b3c48ec4838c5d5486d9eba5f2ab75cc80b64396943614e61d9",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 3,
+      "filename": "Mapped_S2C1-1465937827215.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937827215.jpeg",
+      "timestamp_ms": 1465937827215,
+      "time_s": 30.705,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "b2db0eb928de6891fa516b8e3c9a2c31854c0c8ed5b53b3e0788526f4d469bce",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 4,
+      "filename": "Mapped_S2C1-1465937837510.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937837510.jpeg",
+      "timestamp_ms": 1465937837510,
+      "time_s": 41.0,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "b02bd1bf62bbcd17c8ce431946e37a364dd689514e0865476630562e4be2406f",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Backlight-on image outside dark-frame validation domain",
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 5,
+      "filename": "Mapped_S2C1-1465937847739.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937847739.jpeg",
+      "timestamp_ms": 1465937847739,
+      "time_s": 51.229,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "3599a2550256fff8e5bc64f89a0a7cea64d1ba0f5a0a056ada9a42418ea4f945",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 6,
+      "filename": "Mapped_S2C1-1465937857971.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937857971.jpeg",
+      "timestamp_ms": 1465937857971,
+      "time_s": 61.461,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "98a184a66a4608795de3375b881240877db53dbdd1220d131fe3bbdc0e0c777f",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 7,
+      "filename": "Mapped_S2C1-1465937868141.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937868141.jpeg",
+      "timestamp_ms": 1465937868141,
+      "time_s": 71.631,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "6e935d7f40ead7b3985ccee52d660fb918bc8893340f77577b35e41f23e15e95",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 8,
+      "filename": "Mapped_S2C1-1465937878470.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937878470.jpeg",
+      "timestamp_ms": 1465937878470,
+      "time_s": 81.96,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "c5f6fbe23ba2d6e109140e4777a31524f77d8f4d0e4f69688c8d35757432866e",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 9,
+      "filename": "Mapped_S2C1-1465937888603.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937888603.jpeg",
+      "timestamp_ms": 1465937888603,
+      "time_s": 92.093,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "83be4dafa277fb4716dac7dc32c8fbf3b660da5616e9148c40536a3c2e590211",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 10,
+      "filename": "Mapped_S2C1-1465937898868.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937898868.jpeg",
+      "timestamp_ms": 1465937898868,
+      "time_s": 102.358,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "2227351423602b6fc1a6058c4fc3e25ab3c014180c651eaf859cd1bbf792ec84",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 11,
+      "filename": "Mapped_S2C1-1465937909200.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937909200.jpeg",
+      "timestamp_ms": 1465937909200,
+      "time_s": 112.69,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "7f1fad944bbdac90a6b8fe32caf6686e83ec7adfb3306e779751ea51840cea02",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 12,
+      "filename": "Mapped_S2C1-1465937947563.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465937947563.jpeg",
+      "timestamp_ms": 1465937947563,
+      "time_s": 151.053,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "5ab45af89d92dd5e49194d3af77f181076238e01df9f1f93ccf5bbb0c9555811",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 13,
+      "filename": "Mapped_S2C1-1465938097787.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465938097787.jpeg",
+      "timestamp_ms": 1465938097787,
+      "time_s": 301.277,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "54748b102d3536b4290797fee5f5e8c8997d998b4609a5c5261075e3f9137a84",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 14,
+      "filename": "Mapped_S2C1-1465938248139.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465938248139.jpeg",
+      "timestamp_ms": 1465938248139,
+      "time_s": 451.629,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "be63e46b64bae4e00220d7bf7fc387e629b7ac20e2f8b5ed56fa060cfa98596d",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    },
+    {
+      "frame_id": 15,
+      "filename": "Mapped_S2C1-1465938398293.jpeg",
+      "source_archive": "PSI-98_Raw Data_SAFFIRE_I_S2C1_JPEG_Mapped.zip",
+      "source_member": "Mapped_S2C1-1465938398293.jpeg",
+      "timestamp_ms": 1465938398293,
+      "time_s": 601.783,
+      "burn_id": "I-2",
+      "sample_id": "Saffire-I-SIBAL-1",
+      "sha256": "4fea1bc809ba1c0341064b46dbb2f1301ac680854d736661df3dd30c55d13822",
+      "agent_visible_ridge_annotation": false,
+      "label_provenance": "agent_annotated",
+      "annotation_note": "Original uniformly sampled camera1 contact sheet inspected; no localizable center-band luminous ridge; green backlight in some frames.",
+      "ood": {
+        "flag": true,
+        "reasons": [
+          "Luminous-pixel count outside development-frame statistics envelope",
+          "No measurable luminous ridge in the specified center band"
+        ]
+      },
+      "output_value": null
+    }
+  ]
+}

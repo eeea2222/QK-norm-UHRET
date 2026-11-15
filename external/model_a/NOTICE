@@ -1,0 +1,11 @@
+NASA BASS-II model_a
+Copyright 2026 efe-T and project contributors.
+
+Original project code, notebooks, documentation, and trained model artifacts
+are licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project uses NASA source materials identified in the model card and
+source manifests. NASA datasets, images, publications, and third-party
+materials retain their original terms and attribution. No ownership of
+those materials or NASA endorsement is claimed. Dependencies remain
+subject to their respective licenses.

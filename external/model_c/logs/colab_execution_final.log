@@ -1,0 +1,598 @@
+[colab] Parsing notebook 'notebooks/model_c.ipynb'...
+[colab] Executing cell 1/8 - Setup pinned environment and importable project...
+Project: /content/model_c_project
+[colab] Executing cell 2/8 - Acquire both investigations and verify original checksums...
+data/raw/PSI-101_Analyzed Data_SAME, SAME-R_Results.xlsx
+| study | path | sha256                                                         
+---|---|---|---                                                                 
+0 | PSI-102 | data/raw/PSI-102-metadata.json |                                  
+fe221f1380ad3317f70b559a3213c4e00ef3676b40838a...                               
+1 | PSI-101 | data/raw/PSI-101-metadata.json |                                  
+e0aa75d015705a5943b51dbb4a8ba52751a35e4cafc230...                               
+2 | PSI-101 | data/raw/PSI-101_Analyzed Data_SAME, SAME-R_Re... |               
+6d3a539ccf425b1fa8edc19cc75d828f57d650c7ce734d...                               
+3 | PSI-102 | data/raw/PSI-102_Experimental table_SAME.csv |                    
+268d1e121d2f211b124407dd32b9475617bd269ede2c2d...                               
+4 | PSI-101 | data/raw/PSI-101_Experimental table_SAME-R.csv |                  
+87164b7dc9168a4273c159f7a9f23699afbd06ad97b779...                               
+5 | PSI-102 | data/raw/PSI-102_Reports_SAME_Final Science Re... |               
+af91c96d22d93bbefbc0f2c5e1cc06e24813f532e5379b...                               
+6 | PSI-101 | data/raw/PSI-101_Reports_SAME-R_Final Report.pdf |                
+65381e2715eb7379113dd1b9c550baaa5fa5a247dba004...                               
+No missing signal or detection-limit value is encoded as a new zero.
+[colab] Executing cell 3/8 - EDA, independent units, eligibility and labels...
+          rows  groups  primary
+campaign                       
+SAME        25      17       17
+SAME-R     109      64       67
+campaign  material  training_eligible
+SAME      Kapton    False                 2
+                    True                  4
+          Lampwick  False                 2
+                    True                  4
+          Silicone  False                 2
+                    True                  5
+          Teflon    False                 2
+                    True                  4
+SAME-R    Kapton    False                13
+                    True                 17
+          Lampwick  False                 7
+                    True                 13
+          Pyrell    False                 8
+                    True                 12
+          Silicone  False                 8
+                    True                 14
+          Teflon    False                 6
+                    True                 11
+dtype: int64
+exclusion_reasons
+secondary_aging_reading;followup_or_missing_heating_configuration                    44
+secondary_aging_reading                                                               5
+secondary_aging_reading;missing_control;followup_or_missing_heating_configuration     1
+Name: count, dtype: int64
+Derived label: ISS scatter >=2.0 V; Meyer et al. 2018 Figure 9
+AW saturation per observation is unresolved; finite high voltages are used only as threshold evidence.
+| material | campaign | airflow_cm_s | resistance_ratio | heating_s | aging_s | 
+mixing_s | iss_scatter_v | alarm_level_reached                                  
+---|---|---|---|---|---|---|---|---|---                                         
+0 | Silicone | SAME | 8.0 | 1.327 | 45.0 | 720.0 | 0.0 | 6.293900 | 1           
+1 | Silicone | SAME | 8.0 | 1.327 | 45.0 | 11.0 | 8.0 | 6.241760 | 1            
+2 | Silicone | SAME | 8.0 | 1.327 | 0.0 | 720.0 | 8.0 | 6.243881 | 1            
+3 | Silicone | SAME | 4.0 | 1.327 | 38.0 | 8.0 | 8.0 | 6.249208 | 1             
+4 | Teflon | SAME | 4.0 | 1.445 | 60.0 | 11.0 | 8.0 | 1.640366 | 0              
+[colab] Executing cell 4/8 - Nested grouped baseline, candidate selection, final training and export...
+{
+  "selected": "forest_depth3",
+  "headline": {
+    "metric": "balanced_accuracy",
+    "mean": 0.8701515151515151,
+    "std": 0.07636047973273727,
+    "baseline_mean": 0.5,
+    "baseline_std": 0.0,
+    "paired_mean": 0.3701515151515151,
+    "paired_std": 0.07636047973273727,
+    "paired_differences": [
+      0.33333333333333326,
+      0.375,
+      0.33333333333333326,
+      0.5,
+      0.3090909090909091
+    ]
+  },
+  "rows": 84,
+  "groups": 81
+}
+{
+  "metric": "balanced_accuracy",
+  "mean": 0.8701515151515151,
+  "std": 0.07636047973273727,
+  "baseline_mean": 0.5,
+  "baseline_std": 0.0,
+  "paired_mean": 0.3701515151515151,
+  "paired_std": 0.07636047973273727,
+  "paired_differences": [
+    0.33333333333333326,
+    0.375,
+    0.33333333333333326,
+    0.5,
+    0.3090909090909091
+  ]
+}
+Pooled out-of-fold: {'n': 84, 'positive': 61, 'negative': 23, 'precision': 0.9795918367346939, 'recall': 0.7868852459016393, 'f1': 0.8727272727272727, 'balanced_accuracy': 0.8717034925160371, 'confusion_matrix': [[22, 1], [13, 48]], 'pr_auc_average_precision': 0.9726305651119029}
+Per-material: {
+  "Kapton": {
+    "n": 21,
+    "positive": 9,
+    "negative": 12,
+    "precision": 0.5,
+    "recall": 0.1111111111111111,
+    "f1": 0.18181818181818182,
+    "balanced_accuracy": 0.5138888888888888,
+    "confusion_matrix": [
+      [
+        11,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ],
+    "pr_auc_average_precision": 0.6922346716464363
+  },
+  "Lampwick": {
+    "n": 17,
+    "positive": 17,
+    "negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "balanced_accuracy": null,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        17
+      ]
+    ],
+    "pr_auc_average_precision": null
+  },
+  "Pyrell": {
+    "n": 12,
+    "positive": 12,
+    "negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "balanced_accuracy": null,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "pr_auc_average_precision": null
+  },
+  "Silicone": {
+    "n": 19,
+    "positive": 19,
+    "negative": 0,
+    "precision": 1.0,
+    "recall": 0.9473684210526315,
+    "f1": 0.972972972972973,
+    "balanced_accuracy": null,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        18
+      ]
+    ],
+    "pr_auc_average_precision": null
+  },
+  "Teflon": {
+    "n": 15,
+    "positive": 4,
+    "negative": 11,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "balanced_accuracy": 0.5,
+    "confusion_matrix": [
+      [
+        11,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "pr_auc_average_precision": 0.42424242424242425
+  }
+}
+Cross-campaign: {
+  "SAME -> other": {
+    "selected": "tree_depth2",
+    "n_train": 17,
+    "n_test_supported_materials": 55,
+    "excluded_unseen_material_rows": 12,
+    "scores": {
+      "n": 55,
+      "positive": 36,
+      "negative": 19,
+      "precision": 0.7272727272727273,
+      "recall": 0.8888888888888888,
+      "f1": 0.8,
+      "balanced_accuracy": 0.6286549707602339,
+      "confusion_matrix": [
+        [
+          7,
+          12
+        ],
+        [
+          4,
+          32
+        ]
+      ],
+      "pr_auc_average_precision": 0.7191919191919192
+    },
+    "scope": "Domain-shift stress test only; material intersection; not final model performance."
+  },
+  "SAME-R -> other": {
+    "selected": "forest_depth3",
+    "n_train": 67,
+    "n_test_supported_materials": 17,
+    "excluded_unseen_material_rows": 0,
+    "scores": {
+      "n": 17,
+      "positive": 13,
+      "negative": 4,
+      "precision": 1.0,
+      "recall": 0.6923076923076923,
+      "f1": 0.8181818181818182,
+      "balanced_accuracy": 0.8461538461538461,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          9
+        ]
+      ],
+      "pr_auc_average_precision": 0.9819004524886878
+    },
+    "scope": "Domain-shift stress test only; material intersection; not final model performance."
+  }
+}
+[colab] Executing cell 5/8 - Validation, failure cases, external formula checks...
+<IPython.core.display.Image object>
+
+[Image saved to: /tmp/tmpltp4awn1.png]
+| test_id | material | campaign | iss_scatter_v | reference | oof_predicted     
+---|---|---|---|---|---|---                                                     
+0 | SAME:29 | Kapton | SAME | 3.663712 | 1 | 0                                  
+1 | SAME:30 | Kapton | SAME | 4.203158 | 1 | 0                                  
+2 | SAME:33 | Kapton | SAME | 5.083939 | 1 | 0                                  
+3 | SAME:35 | Silicone | SAME | 6.212056 | 1 | 0                                
+4 | SAME:47 | Kapton | SAME | 5.641144 | 1 | 0                                  
+5 | SAME-R:50 | Teflon | SAME-R | 3.416000 | 1 | 0                              
+6 | SAME-R:69 | Teflon | SAME-R | 5.041519 | 1 | 0                              
+7 | SAME-R:81 | Teflon | SAME-R | 2.162568 | 1 | 0                              
+8 | SAME-R:101 | Kapton | SAME-R | 2.768400 | 1 | 0                             
+9 | SAME-R:102 | Kapton | SAME-R | 5.469621 | 1 | 0                             
+10 | SAME-R:108 | Kapton | SAME-R | 4.602142 | 1 | 0                            
+11 | SAME-R:111 | Teflon | SAME-R | 4.024094 | 1 | 0                            
+12 | SAME-R:112 | Kapton | SAME-R | 5.415985 | 1 | 0                            
+13 | SAME-R:114 | Kapton | SAME-R | 0.765244 | 0 | 1                            
+| material | state | source_count_um | calculated_count_um | source_mass_um |   
+calculated_mass_um | absolute_count_error_um | absolute_mass_error_um |         
+count_rounding_lower_um | count_rounding_upper_um | count_rounding_overlap |    
+mass_rounding_lower_um | mass_rounding_upper_um | mass_rounding_overlap |       
+agreement_status | provenance | calculation_kind | assumptions | source         
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|--- 
+0 | Kapton | unaged | 0.056 | 0.056377 | 0.101 | 0.101581 | 0.000377 | 0.000581 
+| 0.055696 | 0.057059 | True | 0.100318 | 0.102845 | True |                     
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+1 | Kapton | 720s | 0.109 | 0.108333 | 0.161 | 0.160508 | 0.000667 | 0.000492 | 
+0.107706 | 0.108959 | True | 0.159526 | 0.161491 | True |                       
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+2 | Lampwick | unaged | 0.128 | 0.127872 | 0.258 | 0.258129 | 0.000128 |        
+0.000129 | 0.127138 | 0.128605 | True | 0.256555 | 0.259704 | True |            
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+3 | Lampwick | 720s | 0.276 | 0.275240 | 0.398 | 0.397615 | 0.000760 | 0.000385 
+| 0.274593 | 0.275886 | True | 0.396550 | 0.398681 | True |                     
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+4 | Silicone | unaged | 0.196 | 0.196926 | 0.465 | 0.466108 | 0.000926 |        
+0.001108 | 0.196120 | 0.197731 | True | 0.464032 | 0.468186 | True |            
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+5 | Silicone | 720s | 0.355 | 0.355233 | 0.619 | 0.619494 | 0.000233 | 0.000494 
+| 0.354510 | 0.355957 | True | 0.618014 | 0.620975 | True |                     
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+6 | Teflon | unaged | 0.101 | 0.110450 | 0.170 | 0.205367 | 0.009450 | 0.035367 
+| 0.109749 | 0.111152 | False | 0.203989 | 0.206745 | False |                   
+unresolved_source_table_inconsistency | source_reported | derived | lognormal   
+size distribution; each three-decima... | NTRS20130000422 Table1 PDFp7          
+7 | Teflon | 720s | 0.105 | 0.104278 | 0.232 | 0.231407 | 0.000722 | 0.000593 | 
+0.103514 | 0.105042 | True | 0.229628 | 0.233188 | True |                       
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+8 | Pyrell | unaged | 0.204 | 0.204123 | 0.384 | 0.383093 | 0.000123 | 0.000907 
+| 0.203402 | 0.204845 | True | 0.381602 | 0.384586 | True |                     
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+9 | Pyrell | 720s | 0.359 | 0.359050 | 0.539 | 0.539174 | 0.000050 | 0.000174 | 
+0.358377 | 0.359723 | True | 0.537982 | 0.540368 | True |                       
+consistent_with_source_rounding | source_reported | derived | lognormal size    
+distribution; each three-decima... | NTRS20130000422 Table1 PDFp7               
+                               Model C evaluation                               
+
+Executed environment: Google Colab CPU. Seed 2026. Versions: {"python":         
+"3.13.18", "sklearn": "1.6.1", "numpy": "2.2.6", "pandas": "2.2.3", "joblib":   
+"1.4.2"}.                                                                       
+
+84 primary rows; 81 conservative validation groups. Physical primary samples    
+total82, but ambiguous aged51a merges an additional group to prevent leakage.   
+
+Headline selection-unbiased estimate: grouped nested5-fold balanced accuracy    
+0.870152 ± 0.076360 (sample fold standard deviation). Baseline 0.500000 ±       
+0.000000. Paired difference 0.370152 ± 0.076360. This estimates the entire      
+selection procedure, not a separately held-out final fitted forest.             
+
+Outer folds remain untouched by candidate selection; inner4-fold GroupKFold     
+compares fixed majority, depth2 tree, C1 logistic and100-tree depth3 forest. No 
+post-error candidates were added. Equal fixed-configuration budget, zero        
+hyperparameter searches. Candidates within the best candidate's one-fold SD are 
+treated as tied; choose in simplicity order majority→tree→logistic→forest. The  
+architecture order was fixed before inspecting validation scores.               
+
+                                                                                
+                                    Model balanced                              
+ Outer fold  Selected                     accuracy  Baseline  Paired difference 
+ ────────────────────────────────────────────────────────────────────────────── 
+ 0           tree_depth2                  0.833333  0.500000           0.333333 
+ 1           forest_depth3                0.875000  0.500000           0.375000 
+ 2           tree_depth2                  0.833333  0.500000           0.333333 
+ 3           tree_depth2                  1.000000  0.500000           0.500000 
+ 4           logistic                     0.809091  0.500000           0.309091 
+                                                                                
+
+Candidate comparison only                                                       
+
+These full-data inner folds are selection results, not the headline validation  
+estimate.                                                                       
+
+                                                 
+ Candidate      Mean balanced accuracy   Fold SD 
+ ─────────────────────────────────────────────── 
+ majority                     0.500000  0.000000 
+ tree_depth2                  0.782344  0.071748 
+ logistic                     0.845365  0.099712 
+ forest_depth3                0.891719  0.045925 
+                                                 
+
+Final export: forest_depth3. Objective: predict a binary derived2V scatter      
+threshold using categorical material and five controlled settings. Logistic     
+minimizes regularized weighted log loss; trees/forest use weighted Gini splits. 
+Primary metric balanced accuracy.                                               
+
+Pooled outer predictions                                                        
+
+{"n": 84, "positive": 61, "negative": 23, "precision": 0.9795918367346939,      
+"recall": 0.7868852459016393, "f1": 0.8727272727272727, "balanced_accuracy":    
+0.8717034925160371, "confusion_matrix": [[22, 1], [13, 48]],                    
+"pr_auc_average_precision": 0.9726305651119029}                                 
+
+Per material                                                                    
+
+Single-class strata have undefined balanced accuracy and PR-AUC (null).         
+
+                                                                        
+ Material   n  Positives  Precision  Recall      F1   Balanced accuracy 
+ ────────────────────────────────────────────────────────────────────── 
+ Kapton    21          9     0.5000  0.1111  0.1818  0.5138888888888888 
+ Lampwick  17         17     1.0000  1.0000  1.0000                None 
+ Pyrell    12         12     1.0000  1.0000  1.0000                None 
+ Silicone  19         19     1.0000  0.9474  0.9730                None 
+ Teflon    15          4     0.0000  0.0000  0.0000                 0.5 
+                                                                        
+
+Campaign shift                                                                  
+
+Train-only selection repeated in each source campaign. Test uses only materials 
+seen in source. Pyrell is excluded from SAME→SAME-R. These are stress tests, not
+nested headline scores.                                                         
+
+ • SAME -> other: {"selected": "tree_depth2", "n_train": 17,                    
+   "n_test_supported_materials": 55, "excluded_unseen_material_rows": 12,       
+   "scores": {"n": 55, "positive": 36, "negative": 19, "precision":             
+   0.7272727272727273, "recall": 0.8888888888888888, "f1": 0.8,                 
+   "balanced_accuracy": 0.6286549707602339, "confusion_matrix": [[7, 12], [4,   
+   32]], "pr_auc_average_precision": 0.7191919191919192}, "scope": "Domain-shift
+   stress test only; material intersection; not final model performance."}      
+ • SAME-R -> other: {"selected": "forest_depth3", "n_train": 67,                
+   "n_test_supported_materials": 17, "excluded_unseen_material_rows": 0,        
+   "scores": {"n": 17, "positive": 13, "negative": 4, "precision": 1.0,         
+   "recall": 0.6923076923076923, "f1": 0.8181818181818182, "balanced_accuracy": 
+   0.8461538461538461, "confusion_matrix": [[4, 0], [4, 9]],                    
+   "pr_auc_average_precision": 0.9819004524886878}, "scope": "Domain-shift      
+   stress test only; material intersection; not final model performance."}      
+
+Leave-one-material-out fixed-logistic diagnostic results are in metrics.json.   
+Inference rejects unseen materials; this diagnostic does not support deployment 
+on held-out materials.                                                          
+
+External checks and errors                                                      
+
+Source-workbook moment check: n=131; max absolute diameter                      
+error=2.22044604925e-16 μm for1000*M1/M0. No lognormal assumption for this      
+ratio.                                                                          
+
+external_checks.csv compares all10 visually verified Table1 rows from           
+NTRS20130000422, p7. It recomputes count and mass-equivalent diameters from     
+rounded geometric mean and geometric SD, assuming lognormal sizes. This is      
+algebraic/rounding validation; those table rows cannot be treated as independent
+predictive validation or matched to exact raw run IDs.                          
+
+External check fails for unaged Teflon: printed Dg=0.081 μm and sigma=2.198     
+imply count0.110450225 μm and mass0.205366583 μm, versus source0.101 and0.170   
+μm. The discrepancy exceeds ±0.0005 rounding propagated through all inputs and  
+outputs. The original table was visually rechecked. No column-averaging         
+explanation is documented: unresolved source-table inconsistency, not repaired  
+data. This check is independent of the classifier labels. All numerical pairs   
+and rounding intervals are in external_checks.csv.                              
+
+failure_cases.csv contains every nested OOF error with source rows and controls.
+validation.png shows predicted vs derived reference classes and measured scatter
+vs airflow. The scatter plot is descriptive, not causal. No uncertainty interval
+or calibrated probability is claimed. Fold SD describes variability, not a      
+confidence interval.                                                            
+
+Limits                                                                          
+
+Only84 analyzed primary records, uneven material/condition/campaign coverage,81 
+conservative validation groups.82 primary physical samples collapse to81 because
+the ambiguous aged51aK02 record is conservatively connected to51K01/61K02.      
+Retaining reburns reflects experimental history that controls do not fully      
+capture. SAME-R source quality flags are blank/unknown. AW retains source       
+numeric voltages with unresolved per-row saturation and LOD; only threshold     
+exceedance is modeled. Rt/R0 does not uniquely determine actual sample          
+temperature. No ambient spacecraft generalization, time-to-alarm, flame/fatality
+risk, detector certification, or unseen-material prediction. Full raw instrument
+calibration reconstruction was not performed; source-reduced common channel is  
+used. No standalone2021 report verified; exact challenge page unavailable during
+audit.                                                                          
+[colab] Executing cell 6/8 - Notebook-free inference from the exported standalone module...
+{
+  "predicted_alarm_level_reached": true,
+  "value_kind": "predicted",
+  "target": "recorded ISS scatter >= 2.0 V",
+  "units": "boolean",
+  "model_version": "1.0.0",
+  "applicable_domain": {
+    "materials": [
+      "Kapton",
+      "Lampwick",
+      "Pyrell",
+      "Silicone",
+      "Teflon"
+    ],
+    "ranges": {
+      "airflow_cm_s": [
+        0.0,
+        8.1
+      ],
+      "resistance_ratio": [
+        1.22,
+        1.48
+      ],
+      "heating_s": [
+        10.0,
+        120.0
+      ],
+      "aging_s": [
+        1.0,
+        720.0
+      ],
+      "mixing_s": [
+        0.0,
+        8.0
+      ]
+    },
+    "campaigns": [
+      "SAME",
+      "SAME-R"
+    ]
+  },
+  "ood": false,
+  "ood_reason": "Within empirical condition-distance threshold",
+  "nearest_distance": 0.0,
+  "ood_threshold": 9.321957129180975,
+  "nearest_training_test_id": "SAME:5",
+  "uncertainty": null,
+  "interpretation": "Experimental response estimate; no alarm timing or operational safety guarantee."
+}
+Accepted OOD example: {
+  "request": {
+    "airflow_cm_s": 0.0,
+    "resistance_ratio": 1.22,
+    "heating_s": 10.0,
+    "aging_s": 1.0,
+    "mixing_s": 0.0,
+    "material": "Kapton",
+    "units": {
+      "airflow_cm_s": "cm/s",
+      "resistance_ratio": "1",
+      "heating_s": "s",
+      "aging_s": "s",
+      "mixing_s": "s"
+    }
+  },
+  "response": {
+    "predicted_alarm_level_reached": true,
+    "value_kind": "predicted",
+    "target": "recorded ISS scatter >= 2.0 V",
+    "units": "boolean",
+    "model_version": "1.0.0",
+    "applicable_domain": {
+      "materials": [
+        "Kapton",
+        "Lampwick",
+        "Pyrell",
+        "Silicone",
+        "Teflon"
+      ],
+      "ranges": {
+        "airflow_cm_s": [
+          0.0,
+          8.1
+        ],
+        "resistance_ratio": [
+          1.22,
+          1.48
+        ],
+        "heating_s": [
+          10.0,
+          120.0
+        ],
+        "aging_s": [
+          1.0,
+          720.0
+        ],
+        "mixing_s": [
+          0.0,
+          8.0
+        ]
+      },
+      "campaigns": [
+        "SAME",
+        "SAME-R"
+      ]
+    },
+    "ood": true,
+    "ood_reason": "Sparse same-material condition coverage",
+    "nearest_distance": 10.029008507411396,
+    "ood_threshold": 9.321957129180975,
+    "nearest_training_test_id": "SAME:47",
+    "uncertainty": null,
+    "interpretation": "Experimental response estimate; no alarm timing or operational safety guarantee."
+  }
+}
+[colab] Executing cell 7/8 - Precomputed dashboard and complete automated tests...
+Dashboard rows: 134
+| test_id | material | iss_scatter_v | alarm_level_reached |                    
+predicted_alarm_level_reached | oof_predicted | ood | prediction_scope          
+---|---|---|---|---|---|---|---|---                                             
+0 | SAME:5 | Silicone | 6.293900 | 1 | True | 1.0 | False |                     
+in_sample_final_model; use OOF columns for val...                               
+1 | SAME:23 | Silicone | 6.241760 | 1 | True | 1.0 | False |                    
+in_sample_final_model; use OOF columns for val...                               
+2 | SAME:23a | Silicone | 6.243881 | 1 | NaN | NaN | NaN | none                 
+3 | SAME:24 | Silicone | 6.249208 | 1 | True | 1.0 | False |                    
+in_sample_final_model; use OOF columns for val...                               
+4 | SAME:25 | Teflon | 1.640366 | 0 | False | 0.0 | False |                     
+in_sample_final_model; use OOF columns for val...                               
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                     [100%][0m
+[32m[32m[1m36 passed[0m[32m in 3.24s[0m[0m
+ 
+[colab] Executing cell 8/8 - Package verified outputs...
+Exported model_c_results.zip. Download this plus the notebook; inference needs only artifacts/model_c and its pinned dependencies.
+[colab] Saving notebook with outputs to 'notebooks/model_c_output.ipynb'...

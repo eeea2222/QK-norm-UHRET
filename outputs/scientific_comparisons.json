@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0.0",
+  "generated_utc": "2026-11-15T11:21:58Z",
+  "project": "QK norm - Agent 5 BlindSpot Evidence Agent",
+  "scope_note": "All gap statements are limited to the examined sources ('within the examined sources').",
+  "comparisons": [
+    {
+      "comparison_id": "CMP-DEF-WP-MODELC",
+      "kind": "definition_difference",
+      "combine_allowed": false,
+      "title": "Published no-alarm fractions vs Model C 2.0 V fractions",
+      "statement": "The published no-alarm statements and Model C's 2.0 V fractions must not be combined: the 2018 and 2021 documents describe ISS-detector alarm behaviour in the SAME tests without denominators, while Model C counts SAME plus SAME-R primary runs whose measured scatter reached a derived 2.0 V level.",
+      "detail": "Side by side, Kapton stayed below 2.0 V in 12 of 21 primary runs and Teflon in 11 of 15, but the definitions (alarm behaviour vs a threshold label), test sets (SAME vs SAME + SAME-R) and denominators differ, so neither result confirms or refutes the other numerically.",
+      "evidence_ids": [
+        "M18-EV-001",
+        "M18-EV-002",
+        "WP21-EV-001",
+        "WP21-EV-002",
+        "MODELC-EV-KAPTON",
+        "MODELC-EV-TEFLON"
+      ],
+      "differences": {
+        "definition": [
+          "detector would not have alarmed (Figure 9 threshold lines)",
+          "measured ISS scatter >= 2.0 V (derived label)"
+        ],
+        "test_set": [
+          "SAME flight tests analysed in 2018 (no denominators)",
+          "SAME + SAME-R primary heating runs (21 Kapton, 15 Teflon)"
+        ],
+        "value_kind": [
+          "source_reported",
+          "derived"
+        ]
+      },
+      "source_title": "QK norm cross-source comparison",
+      "source_year": null,
+      "source_location": "computed from M18-EV-001, M18-EV-002, WP21-EV-001, WP21-EV-002, MODELC-EV-KAPTON, MODELC-EV-TEFLON"
+    },
+    {
+      "comparison_id": "CMP-ROUNDING-2018-2021",
+      "kind": "definition_difference",
+      "combine_allowed": false,
+      "title": "2018 'over half' vs 2021 'half'",
+      "statement": "The 2021 white paper's 'half' (Kapton) and 'two-thirds' (Teflon) restate the 2018 paper's 'over half' and 'about two thirds'; they are the same result, not independent confirmation.",
+      "detail": "Counting both would double-count one experiment. The 2021 wording is slightly weaker for Kapton ('half' vs 'over half').",
+      "evidence_ids": [
+        "M18-EV-001",
+        "M18-EV-002",
+        "WP21-EV-001",
+        "WP21-EV-002"
+      ],
+      "source_title": "QK norm cross-source comparison",
+      "source_year": null,
+      "source_location": "computed from M18-EV-001, M18-EV-002, WP21-EV-001, WP21-EV-002"
+    },
+    {
+      "comparison_id": "CMP-CHRONOLOGY",
+      "kind": "chronology",
+      "title": "From experimental limitation to open technology need",
+      "statement": "The 2018 experiments showed that spacecraft detectors missed small-particle smokes; the 2021 white paper turned this into research questions on fuels, gravity, exploration atmospheres and multi-sensor detection; the 2025 SBIR call still lists selective, multi-property sensing as an open need and still reports frequent ISS false alarms.",
+      "detail": "2026 follow-up work (dust-tolerant prototypes, the Saffire IV-VI time-to-alarm analysis, gas analyzers) addresses parts of these needs, but within the examined sources none closes the Kapton/Teflon or partial-gravity questions. The 2026 status is limited to the documents found and is not exhaustive.",
+      "evidence_ids": [
+        "M18-EV-001",
+        "M18-EV-004",
+        "WP21-EV-005",
+        "WP21-EV-009",
+        "SBIR25-EV-001",
+        "SBIR25-EV-003",
+        "SBIR25-EV-004",
+        "FU-EV-009",
+        "FU-EV-013"
+      ],
+      "source_title": "QK norm cross-source comparison",
+      "source_year": null,
+      "source_location": "computed from M18-EV-001, M18-EV-004, WP21-EV-005, WP21-EV-009, SBIR25-EV-001, SBIR25-EV-003, SBIR25-EV-004, FU-EV-009, FU-EV-013"
+    }
+  ],
+  "chronology": {
+    "stages": [
+      {
+        "year": 2010,
+        "label": "Experiment reports (SAME 2010, SAME-R 2014)",
+        "summary": "Flight data show small Kapton/Teflon particles and erratic light-scattering response; the team already calls for dust-immune detection for lunar missions and demonstrates a two-moment prototype.",
+        "evidence_ids": [
+          "SAME-EV-001",
+          "SAME-EV-003",
+          "SAME-EV-005",
+          "SAMER-EV-004"
+        ]
+      },
+      {
+        "year": 2018,
+        "label": "Experimental limitation (NASA/NIST)",
+        "summary": "Neither spacecraft detector sensed every smoke; the ISS detector would not have alarmed for over half of Kapton and about two thirds of Teflon tests.",
+        "evidence_ids": [
+          "M18-EV-001",
+          "M18-EV-002",
+          "M18-EV-003",
+          "M18-EV-004",
+          "M18-EV-005"
+        ]
+      },
+      {
+        "year": 2021,
+        "label": "Research questions (decadal white paper)",
+        "summary": "Restates the SAME result and asks how fuels, lunar gravity and exploration atmospheres change fire signatures; proposes multi-sensor networks.",
+        "evidence_ids": [
+          "WP21-EV-001",
+          "WP21-EV-002",
+          "WP21-EV-005",
+          "WP21-EV-007",
+          "WP21-EV-009",
+          "WP21-EV-013"
+        ]
+      },
+      {
+        "year": 2025,
+        "label": "Open technology needs (SBIR, ICES)",
+        "summary": "Selective, multi-property, small-particle sensing for reduced-pressure, elevated-O2 habitats; frequent ISS false alarms; no NASA smoke-detector performance standard.",
+        "evidence_ids": [
+          "SBIR25-EV-001",
+          "SBIR25-EV-002",
+          "SBIR25-EV-003",
+          "SBIR25-EV-004",
+          "SBIR25-EV-006",
+          "FU-EV-011",
+          "FU-EV-015"
+        ]
+      },
+      {
+        "year": 2026,
+        "label": "Status in reachable sources",
+        "summary": "Partial-gravity detector development at NASA Glenn, Saffire IV-VI time-to-alarm results at exploration-like atmospheres, deployed gas analyzers; not an exhaustive survey.",
+        "evidence_ids": [
+          "FU-EV-008",
+          "FU-EV-009",
+          "FU-EV-010",
+          "FU-EV-016"
+        ]
+      }
+    ],
+    "links": [
+      {
+        "from": [
+          "M18-EV-001",
+          "M18-EV-002"
+        ],
+        "to": [
+          "WP21-EV-001",
+          "WP21-EV-002"
+        ],
+        "relation": "restated_2021",
+        "note": "Same experiment, rounded wording."
+      },
+      {
+        "from": [
+          "M18-EV-008",
+          "M18-EV-009"
+        ],
+        "to": [
+          "WP21-EV-005",
+          "SBIR25-EV-003"
+        ],
+        "relation": "still_open_2025",
+        "note": "Single-property detection limitation reappears as the 2025 multi-property sensing need."
+      },
+      {
+        "from": [
+          "M18-EV-005",
+          "SAME-EV-003"
+        ],
+        "to": [
+          "SBIR25-EV-004",
+          "SBIR25-EV-002"
+        ],
+        "relation": "still_open_2025",
+        "note": "Small-particle sensitivity reappears as the 2025 small-size-range and selective-detection need."
+      },
+      {
+        "from": [
+          "WP21-EV-004"
+        ],
+        "to": [
+          "SBIR25-EV-001",
+          "FU-EV-011",
+          "FU-EV-013"
+        ],
+        "relation": "still_open_2025",
+        "note": "Dust false alarms still reported in 2025; first discriminating prototypes."
+      },
+      {
+        "from": [
+          "WP21-EV-009",
+          "WP21-EV-006"
+        ],
+        "to": [
+          "SBIR25-EV-006",
+          "FU-EV-009"
+        ],
+        "relation": "partly_addressed_2026",
+        "note": "Exploration-atmosphere sensing is a 2025 need; Saffire IV-VI gives flaming-fire data in 2026."
+      },
+      {
+        "from": [
+          "WP21-EV-007",
+          "WP21-EV-008"
+        ],
+        "to": [
+          "FU-EV-007",
+          "SBIR25-EV-007"
+        ],
+        "relation": "still_open_2025",
+        "note": "Lunar-gravity smoke transport: simulation in 2023, still a measurement gap in 2025."
+      },
+      {
+        "from": [
+          "M18-EV-007"
+        ],
+        "to": [
+          "FU-EV-005",
+          "FU-EV-015"
+        ],
+        "relation": "still_open_2025",
+        "note": "Testing with real spacecraft-material smoke led to a transfer-standard need (2020); no NASA smoke-detector performance standard as of 2025."
+      }
+    ]
+  }
+}

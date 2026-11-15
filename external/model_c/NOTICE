@@ -1,0 +1,14 @@
+Model C — NASA SAME / SAME-R experimental detector-response pipeline
+Copyright 2026 Model C contributors
+
+Project code and model artifacts are distributed under the Apache License,
+Version 2.0, provided in LICENSE.
+
+NASA PSI-102 (SAME) and PSI-101 (SAME-R) source datasets are designated
+CC0-1.0 in the source investigation metadata. Their designation is preserved;
+the project license does not replace the datasets' original terms.
+
+Third-party scientific reference publications, figures and PDFs retain their
+original copyright and license terms. Their inclusion for provenance does not
+relicense them under Apache 2.0. Attribution and source URLs are recorded in
+the source manifests, reports and research notes.

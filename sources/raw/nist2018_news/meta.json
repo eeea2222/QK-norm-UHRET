@@ -1,0 +1,25 @@
+{
+ "doc_id": "nist2018_news",
+ "title": "NIST/NASA Study Shows One Detector Doesn't 'Fit All' for Smoke in Spacecraft (NIST news release)",
+ "year": 2018,
+ "authors": [
+  "NIST Public Affairs (no byline on page)"
+ ],
+ "url": "https://www.nist.gov/news-events/news/2018/05/nistnasa-study-shows-one-detector-doesnt-fit-all-smoke-spacecraft",
+ "retrieved_utc": "2026-11-15T10:42:46Z",
+ "sha256": "e3ff7b0adb920e5a3b2aafeaf3b78ecd01562d0219baa7808fcf8ff48b330ca8",
+ "bytes": 96508,
+ "page_count": null,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "NIST news release (released 2018-05-01, page updated 2025-02-03). Text generally a U.S. Government work; images carry their own credits (NASA, M.E. Newman/NIST, NASA JSC). Quotes kept <=15 words anyway.",
+ "accessible": true,
+ "access_note": "Fetched with curl (HTTP 200). Press release: secondary/interpretive source about the paper.",
+ "raw_file": "page.html",
+ "text_path": "/home/efeai/Desktop/NasaSpaceApps/sources/text/nist2018_news.txt",
+ "text_method": "sources/tools/html2txt_meyer2018.py (nist mode)"
+}

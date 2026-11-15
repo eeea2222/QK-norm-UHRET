@@ -1,0 +1,30 @@
+{
+ "doc_id": "ices2025_361_dusttolerant",
+ "title": "Towards Dust-tolerant Smoke Detection in Future Space Missions",
+ "year": 2025,
+ "authors": [
+  "Marit E. Meyer",
+  "Thorsten R. P. Schultze",
+  "Jan C. Balzer"
+ ],
+ "url": "https://doi.org/10.32865/2346/102771",
+ "retrieved_utc": "2026-11-15T10:55:00Z",
+ "sha256": "b286ff4e0f8c06d969fbc9808c306bbe544fc91c61f5e547541a2180d366ba4a",
+ "bytes": 15734,
+ "page_count": null,
+ "identifiers": {
+  "doi": "10.32865/2346/102771",
+  "ntrs": null,
+  "psi": null,
+  "pmc": null,
+  "other": [
+   "ICES-2025-361",
+   "hdl:2346/102771"
+  ]
+ },
+ "license_note": "(c) 2025 Northrop Grumman Systems Corporation and Univ. Duisburg-Essen; open repository (TTU ICES). Not a NASA-authored document: first author at Northrop Grumman (formerly NASA GRC). Stored only as verbatim excerpts for private evidence extraction.",
+ "accessible": true,
+ "access_note": "PDF not retrievable with curl (TTU repository returned HTTP 403/202 bot challenge). Text obtained via Exa web_fetch rendering of the DOI landing page; raw file and text file are a verbatim EXCERPT of that rendering ([...] marks omissions; nomenclature, figures and references omitted). sha256/bytes refer to the excerpt file, not the original PDF; no PDF page numbers available.",
+ "source_key": "ntrs_followup",
+ "raw_file": "exa_render_excerpt.txt"
+}

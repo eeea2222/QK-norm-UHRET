@@ -1,0 +1,25 @@
+{
+ "doc_id": "modelc_material_oof",
+ "title": "Model C output: reports/material_majority_oof.csv (per-run derived ISS >=2.0 V reference labels, 84 primary runs)",
+ "year": 2026,
+ "authors": [
+  "QK norm project, Model C"
+ ],
+ "url": "https://huggingface.co/efe-T/nasa-same-model-c/blob/91292a40886564d146dc9e9d496b74c2aefaab5c/reports/material_majority_oof.csv",
+ "retrieved_utc": "2026-11-15T10:34:02Z",
+ "sha256": "88f6567211132d94001d2aeb8877a1a51799e71a9403aa5d51ceccf19b5ca4fd",
+ "bytes": 4873,
+ "page_count": null,
+ "identifiers": {
+  "doi": null,
+  "ntrs": null,
+  "psi": null,
+  "pmc": null
+ },
+ "license_note": "Project-internal Model C artifact (see LICENSE/NOTICE in the Model C snapshot).",
+ "accessible": true,
+ "access_note": "Column 'reference' = Model C derived label (ISS scatter >= 2.0 V from the official combined workbook). Per-material counts in items were computed by this agent with pandas groupby. Text copy in sources/text/modelc_material_oof.txt. Not listed in source_manifest.json (project artifact).",
+ "local_path": "external/model_c/reports/material_majority_oof.csv",
+ "text_path": "sources/text/modelc_material_oof.txt",
+ "retrieved_note": "retrieved_utc is the mtime of the Model C snapshot file (download time of the snapshot), not a fresh fetch."
+}
